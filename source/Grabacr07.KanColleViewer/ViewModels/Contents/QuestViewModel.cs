@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models;
 using Livet;
+using Grabacr07.KanColleViewer.Models;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Contents
 {
@@ -91,7 +93,14 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
 		public string Title
 		{
-			get { return this._Title; }
+			get
+            {
+                string title = this._Title;
+                string stripped = KanColleWrapper.TranslationHelper.StripInvalidCharacters(title);
+                string translated = (string.IsNullOrEmpty(stripped) ? null : Grabacr07.KanColleViewer.Properties.Resources.ResourceManager.GetString(stripped, Grabacr07.KanColleViewer.Properties.Resources.Culture));
+
+                return (string.IsNullOrEmpty(translated) ? title : translated);
+            }
 			set
 			{
 				if (this._Title != value)
@@ -110,7 +119,14 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
 		public string Detail
 		{
-			get { return this._Detail; }
+			get
+            {
+                string title = this._Title;
+                string stripped = KanColleWrapper.TranslationHelper.StripInvalidCharacters(title) + "_Detail";
+                string translated = (string.IsNullOrEmpty(stripped) ? null : Grabacr07.KanColleViewer.Properties.Resources.ResourceManager.GetString(stripped, Grabacr07.KanColleViewer.Properties.Resources.Culture));
+
+                return (string.IsNullOrEmpty(translated) ? this._Detail : translated);
+            }
 			set
 			{
 				if (this._Detail != value)
@@ -159,7 +175,15 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 				this.Title = quest.Title;
 				this.Detail = quest.Detail;
 			}
-			
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Title));
+                    this.RaisePropertyChanged(nameof(this.Detail));
+                    }
+            });
+
+        }
 	}
 }

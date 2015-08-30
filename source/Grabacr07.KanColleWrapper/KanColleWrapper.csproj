@@ -220,6 +220,7 @@
     <Compile Include="Repairyard.cs" />
     <Compile Include="IKanColleClientSettings.cs" />
     <Compile Include="TimerNotifier.cs" />
+    <Compile Include="TranslationHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

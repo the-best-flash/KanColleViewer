@@ -450,4 +450,13 @@
   <data name="Settings_Logging_Enable" xml:space="preserve">
     <value>Log drops and crafting results to file</value>
   </data>
+  <data name="敵艦隊を10回邀撃せよ" xml:space="preserve">
+    <value>Ambush the Enemy Fleet 10 Times</value>
+  </data>
+  <data name="敵艦隊を10回邀撃せよ_Detail" xml:space="preserve">
+    <value>Defeat 10 enemy fleets.</value>
+  </data>
+  <data name="西村艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 4th Cruiser Division</value>
+  </data>
 </root>
