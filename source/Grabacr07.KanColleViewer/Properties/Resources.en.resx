@@ -456,8 +456,299 @@
   <data name="敵艦隊を10回邀撃せよ_Detail" xml:space="preserve">
     <value>Defeat 10 enemy fleets.</value>
   </data>
-  <data name="西村艦隊_を編成せよ" xml:space="preserve">
+  <data name="6隻編成の艦隊を編成せよ" xml:space="preserve">
+    <value>Organize a Fleet of 6 Ships</value>
+  </data>
+  <data name="6隻編成の艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 6 ships in your flee</value>
+  </data>
+  <data name="はじめての_編成" xml:space="preserve">
+    <value>The First Organization</value>
+  </data>
+  <data name="はじめての_編成_Detail" xml:space="preserve">
+    <value>Have 2 ships in your main fleet</value>
+  </data>
+  <data name="三川艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Mikawa Fleet</value>
+  </data>
+  <data name="三川艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Choukai, Aoba, Kako, Furutaka, and Tenryuu in your main fleet, with one additional FAST ship</value>
+  </data>
+  <data name="中規模潜水艦隊を編成せよ" xml:space="preserve">
+    <value>Organize a Medium-sized Submarine Fleet</value>
+  </data>
+  <data name="中規模潜水艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 3 Submarines in any one of your fleets</value>
+  </data>
+  <data name="主力戦艦部隊_第二戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Main Battleship Force: "The 2nd Squadron"</value>
+  </data>
+  <data name="主力戦艦部隊_第二戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Nagato, Mutsu, Fusou, and Yamashiro in your main fleet</value>
+  </data>
+  <data name="伊勢_型戦艦姉妹の全2隻を編成せよ" xml:space="preserve">
+    <value>Organize Both Sisters of the Ise-class Battleships</value>
+  </data>
+  <data name="伊勢_型戦艦姉妹の全2隻を編成せよ_Detail" xml:space="preserve">
+    <value>Have Ise and Hyuuga in your main fleet</value>
+  </data>
+  <data name="再編成_第二航空戦隊_を強化せよ" xml:space="preserve">
+    <value>Strengthen the Reorganized 2nd Carrier Division</value>
+  </data>
+  <data name="再編成_第二航空戦隊_を強化せよ_Detail" xml:space="preserve">
+    <value>Have Souryuu(Kai-2) as flagship with Hiryuu(Kai-2) and 2 Destroyers in your main fleet</value>
+  </data>
+  <data name="南雲機動部隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Nagumo Carrier Task Force</value>
+  </data>
+  <data name="南雲機動部隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Akagi, Kaga, Hiryuu, and Souryuu in your main fleet</value>
+  </data>
+  <data name="天龍_型軽巡姉妹の全2艦を編成せよ" xml:space="preserve">
+    <value>Organize both Sisters of the Tenryuu-class Light Cruisers</value>
+  </data>
+  <data name="天龍_型軽巡姉妹の全2艦を編成せよ_Detail" xml:space="preserve">
+    <value>Have Tenryuu and Tatsuta in your main fleet</value>
+  </data>
+  <data name="妙高_型重巡姉妹の全4隻を編成せよ" xml:space="preserve">
+    <value>Organize All 4 Sisters of the Myoukou-class Heavy Cruisers</value>
+  </data>
+  <data name="妙高_型重巡姉妹の全4隻を編成せよ_Detail" xml:space="preserve">
+    <value>Have Myoukou, Nachi, Ashigara, and Haguro in your main fleet</value>
+  </data>
+  <data name="川内_型軽巡姉妹の全3艦を編成せよ" xml:space="preserve">
+    <value>Organize All 3 Sisters of the Sendai-class Light Cruisers</value>
+  </data>
+  <data name="川内_型軽巡姉妹の全3艦を編成せよ_Detail" xml:space="preserve">
+    <value>Have Sendai, Jintsuu, and Naka in your main fleet</value>
+  </data>
+  <data name="戦艦と重巡による主力艦隊を編成せよ" xml:space="preserve">
+    <value>Organize the Main Fleet with a Battleship and Heavy Cruisers</value>
+  </data>
+  <data name="戦艦と重巡による主力艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have a Battleship and 2 Heavy Cruisers in your main fleet</value>
+  </data>
+  <data name="戦艦を主力とした水上打撃部隊を編成せよ" xml:space="preserve">
+    <value>Organize a Surface Attack Fleet with Battleships Comprising the Main Force</value>
+  </data>
+  <data name="戦艦を主力とした水上打撃部隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 3 of any ship from either the Nagato, Ise, Fusou, or Yamato classes and 1 Light Cruiser in your main fleet</value>
+  </data>
+  <data name="扶桑_型戦艦姉妹の全2隻を編成せよ" xml:space="preserve">
+    <value>Organize Both Sisters of the Fusou-class Battleships</value>
+  </data>
+  <data name="扶桑_型戦艦姉妹の全2隻を編成せよ_Detail" xml:space="preserve">
+    <value>Have Fusou and Yamashiro in your main fleet</value>
+  </data>
+  <data name="改修工廠を準備せよ" xml:space="preserve">
+    <value>Prepare the Improvement Arsenal</value>
+  </data>
+  <data name="改修工廠を準備せよ_Detail" xml:space="preserve">
+    <value>Have Akashi as flagship in your main fleet</value>
+  </data>
+  <data name="新_三川艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the New Mikawa Fleet</value>
+  </data>
+  <data name="新_三川艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Choukai, Aoba, Kinugasa, Kako, Furutaka, and Tenryuu in your main fleet</value>
+  </data>
+  <data name="新型正規空母_を配備せよ" xml:space="preserve">
+    <value>Deploy the New Standard Aircraft Carrier Class</value>
+  </data>
+  <data name="新型正規空母_を配備せよ_Detail" xml:space="preserve">
+    <value>Have Unryuu in your fleet as flagship</value>
+  </data>
+  <data name="新型電探を配備せよ" xml:space="preserve">
+    <value>Deploy the New Radar Type</value>
+  </data>
+  <data name="新型電探を配備せよ_Detail" xml:space="preserve">
+    <value>Have Myoukou(Kai-2) as flagship</value>
+  </data>
+  <data name="新編_第二航空戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the New 2nd Carrier Division</value>
+  </data>
+  <data name="新編_第二航空戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Hiryuu(Kai-2) as flagship, Souryuu and 2 Destroyers in your main fleet</value>
+  </data>
+  <data name="水上機母艦_を配備せよ" xml:space="preserve">
+    <value>Deploy a Seaplane Tender</value>
+  </data>
+  <data name="水上機母艦_を配備せよ_Detail" xml:space="preserve">
+    <value>Have a Seaplane Tender in your fleet</value>
+  </data>
+  <data name="水雷戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Torpedo Squadron</value>
+  </data>
+  <data name="水雷戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Consists of a Light Cruiser as your flagship and 3 Destroyers</value>
+  </data>
+  <data name="潜水艦隊_第六艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Submarine Fleet: "6th Fleet"</value>
+  </data>
+  <data name="潜水艦隊_第六艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have a Submarine Tender as flagship and 4 Submarines or more in your main fleet</value>
+  </data>
+  <data name="潜水艦隊を編成せよ" xml:space="preserve">
+    <value>Organize a Submarine Fleet</value>
+  </data>
+  <data name="潜水艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 2 Submarines in any one of your fleets</value>
+  </data>
+  <data name="空母機動部隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Carrier Task Force</value>
+  </data>
+  <data name="空母機動部隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have an Aircraft Carrier / Light Aircraft Carrier and 3 Destroyers in your main fleet</value>
+  </data>
+  <data name="第2艦隊で空母機動部隊を編成せよ" xml:space="preserve">
+    <value>Organize a Carrier Task Force in Your Second Fleet</value>
+  </data>
+  <data name="第2艦隊で空母機動部隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have an Aircraft Carrier / Light Aircraft Carrier and 3 Destroyers in your SECOND fleet</value>
+  </data>
+  <data name="第2艦隊を編成せよ" xml:space="preserve">
+    <value>Organize the Second Fleet</value>
+  </data>
+  <data name="第2艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have a flagship in your second fleet</value>
+  </data>
+  <data name="第一水雷戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 1st Torpedo Squadron</value>
+  </data>
+  <data name="第一水雷戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Abukuma, Akebono, Ushio, Kasumi, and Shiranui in your main fleet</value>
+  </data>
+  <data name="第三十駆逐隊_(第二次)_を編成せよ" xml:space="preserve">
+    <value>Organize the 30th Destroyer Division (Second Generation)</value>
+  </data>
+  <data name="第三十駆逐隊_(第二次)_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Mutsuki, Yayoi, Uzuki, and Mochizuki in your main fleet</value>
+  </data>
+  <data name="第三十駆逐隊_（第一次）_を編成せよ" xml:space="preserve">
+    <value>Organize the 30th Destroyer Division (First Generation)</value>
+  </data>
+  <data name="第三十駆逐隊_（第一次）_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Mutsuki, Kisaragi, Yayoi, and Mochizuki in your main fleet</value>
+  </data>
+  <data name="第二一駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 21st Destroyer Division</value>
+  </data>
+  <data name="第二一駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Hatsuharu, Hatsushimo, Nenohi, and Wakaba in your main fleet</value>
+  </data>
+  <data name="第二二駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 22nd Destroyer Division</value>
+  </data>
+  <data name="第二二駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Satsuki, Fumizuki, Nagatsuki, and 1 more Destroyer in your main fleet</value>
+  </data>
+  <data name="第五戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 5th Cruiser Division</value>
+  </data>
+  <data name="第五戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Myoukou, Nachi, and Haguro in your main fleet</value>
+  </data>
+  <data name="第五航空戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 5th Carrier Division</value>
+  </data>
+  <data name="第五航空戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have both Shoukaku, Zuikaku, and 2 Destroyers in your main fleet</value>
+  </data>
+  <data name="第五艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 5th Fleet</value>
+  </data>
+  <data name="第五艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Nachi, Ashigara, Tama, and Kiso in your main fleet</value>
+  </data>
+  <data name="第八駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 8th Destroyer Division</value>
+  </data>
+  <data name="第八駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Asashio, Michishio, Ooshio, and Arashio in your main fleet</value>
+  </data>
+  <data name="第六戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 6th Cruiser Division</value>
+  </data>
+  <data name="第六戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Furutaka, Kako, Kinugasa, and Aoba in your main fleet</value>
+  </data>
+  <data name="第六駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 6th Destroyer Division</value>
+  </data>
+  <data name="第六駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Akatsuki, Hibiki, Ikazuchi and Inazuma in your second fleet</value>
+  </data>
+  <data name="第十一駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 11th Destroyer Division</value>
+  </data>
+  <data name="第十一駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Fubuki, Shirayuki, Hatsuyuki, and Murakumo in your main fleet</value>
+  </data>
+  <data name="第十八駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 18th Destroyer Division</value>
+  </data>
+  <data name="第十八駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Kasumi, Arare, Kagerou, and Shiranui in your main fleet</value>
+  </data>
+  <data name="第四戦隊_を編成せよ" xml:space="preserve">
     <value>Organize the 4th Cruiser Division</value>
+  </data>
+  <data name="第四戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Takao, Atago, Choukai, and Maya in your main fleet</value>
+  </data>
+  <data name="精鋭_第三戦隊_全艦集結せよ" xml:space="preserve">
+    <value>Gather All of the Elite 3rd Battleship Division</value>
+  </data>
+  <data name="精鋭_第三戦隊_全艦集結せよ_Detail" xml:space="preserve">
+    <value>Have Kongou(Kai-2), Hiei(Kai-2), Haruna(Kai-2), and Kirishima(Kai-2) in your main fleet</value>
+  </data>
+  <data name="航空水上打撃艦隊を編成せよ" xml:space="preserve">
+    <value>Organize an Aviation Surface Attack Fleet</value>
+  </data>
+  <data name="航空水上打撃艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY 2 Aviation Battleships and 2 Aviation Cruisers in your main fleet</value>
+  </data>
+  <data name="西村艦隊_を再編成せよ" xml:space="preserve">
+    <value>Reorganize the Nishimura Fleet</value>
+  </data>
+  <data name="西村艦隊_を再編成せよ_Detail" xml:space="preserve">
+    <value>Have Fusou, Yamashiro, Mogami, Shigure, and Michishio in your main fleet</value>
+  </data>
+  <data name="西村艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Nishimura Fleet</value>
+  </data>
+  <data name="西村艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Fusou, Yamashiro, Mogami, and Shigure in your main fleet</value>
+  </data>
+  <data name="軽巡2隻を擁する隊を編成せよ" xml:space="preserve">
+    <value>Organize a Fleet of 2 Light Cruisers</value>
+  </data>
+  <data name="軽巡2隻を擁する隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 2 Light Cruisers in your fleet</value>
+  </data>
+  <data name="軽快な_水上反撃部隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Light Surface Counterattack Fleet</value>
+  </data>
+  <data name="軽快な_水上反撃部隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Kasumi as flagship, Ashigara, 1 Light Cruiser, and 3 Destroyers in your main fleet</value>
+  </data>
+  <data name="重巡戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Heavy Cruiser Division</value>
+  </data>
+  <data name="重巡戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have 2 Heavy Cruisers in your fleet</value>
+  </data>
+  <data name="金剛_型による高速戦艦部隊を編成せよ" xml:space="preserve">
+    <value>Organize a Fast Battleship Force with the Kongou-class</value>
+  </data>
+  <data name="金剛_型による高速戦艦部隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have Kongou, Hiei, Haruna, and Kirishima in your main fleet</value>
+  </data>
+  <data name="駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Destroyer Division</value>
+  </data>
+  <data name="駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have 4 Destroyers in your fleet</value>
   </data>
   <data name="Kai" xml:space="preserve">
     <value>Kai</value>
