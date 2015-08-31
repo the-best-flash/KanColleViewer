@@ -141,6 +141,7 @@
     <Compile Include="Composition\Plugin.cs" />
     <Compile Include="Composition\PluginHost.cs" />
     <Compile Include="Composition\PluginMetadata.cs" />
+    <Compile Include="ItemTranslationHelper.cs" />
     <Compile Include="Models\BrowserZoomFactor.cs" />
     <Compile Include="Models\ExitConfirmationType.cs" />
     <Compile Include="Models\IZoomFactor.cs" />
@@ -165,6 +166,7 @@
     <Compile Include="Models\Volume.cs" />
     <Compile Include="Models\Migration\_KanColleClientSettings.cs" />
     <Compile Include="ShipTranslationHelper.cs" />
+    <Compile Include="ViewModels\Catalogs\SlotItemInfoViewModel.cs" />
     <Compile Include="ViewModels\Composition\LoadFailedPluginViewModel.cs" />
     <Compile Include="ViewModels\InformationWindowViewModel.cs" />
     <Compile Include="ViewModels\KanColleWindowViewModel.cs" />
@@ -219,6 +221,8 @@
     <Compile Include="ViewModels\Contents\SlotItemsViewModel.cs" />
     <Compile Include="ViewModels\Settings\WindowSettingsViewModel.cs" />
     <Compile Include="ViewModels\ShipInfoViewModel.cs" />
+    <Compile Include="ViewModels\ShipSlotViewModel.cs" />
+    <Compile Include="ViewModels\SlotItemViewModel.cs" />
     <Compile Include="ViewModels\StatusBarViewModel.cs" />
     <Compile Include="ViewModels\TabItemViewModel.cs" />
     <Compile Include="ViewModels\Contents\ToolsViewModel.cs" />

@@ -450,4 +450,7 @@
   <data name="Ni" xml:space="preserve">
     <value>二</value>
   </data>
+  <data name="Skilled" xml:space="preserve">
+    <value>熟練度</value>
+  </data>
 </root>

@@ -138,7 +138,7 @@
 										<StackPanel Orientation="Horizontal">
 											<Border Padding="0,1,5,1">
 												<Viewbox Width="20">
-													<kcvc:SlotItemIcon Type="{Binding Target.IconType}" />
+                                                    <kcvc:SlotItemIcon Type="{Binding Target.SlotItemInfo.IconType}" />
 												</Viewbox>
 											</Border>
 											<TextBlock Text="{Binding Target.Name}"

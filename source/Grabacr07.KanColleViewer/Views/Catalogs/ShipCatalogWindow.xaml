@@ -832,7 +832,7 @@
 								<GridViewColumn.CellTemplate>
 									<DataTemplate DataType="{x:Type contentsVm:ShipViewModel}">
 										<DockPanel>
-											<ItemsControl ItemsSource="{Binding Ship.Slots}">
+											<ItemsControl ItemsSource="{Binding ShipInfo.Slots}">
 												<ItemsControl.Template>
 													<ControlTemplate TargetType="{x:Type ItemsControl}">
 														<StackPanel IsItemsHost="True"
@@ -862,15 +862,15 @@
 													</DataTemplate>
 												</ItemsControl.ItemTemplate>
 											</ItemsControl>
-											<DockPanel Visibility="{Binding Ship.ExSlot.Equipped, Converter={StaticResource BooleanToVisibilityConverter}}"
+											<DockPanel Visibility="{Binding ShipInfo.ExSlot.Equipped, Converter={StaticResource BooleanToVisibilityConverter}}"
 													   Height="20">
 												<Rectangle Width="1"
 														   Style="{DynamicResource SeparatorRectangleStyleKey}"
 														   Margin="12,1,0,1" />
-												<Border ToolTip="{Binding Ship.ExSlot.Item.NameWithLevel}"
+                                                <Border ToolTip="{Binding ShipInfo.ExSlot.Item.NameWithLevel}"
 														Padding="4,1">
 													<Viewbox>
-														<kcvc:SlotItemIcon Type="{Binding Ship.ExSlot.Item.Info.IconType}" />
+                                                        <kcvc:SlotItemIcon Type="{Binding ShipInfo.ExSlot.Item.Info.IconType}" />
 													</Viewbox>
 												</Border>
 											</DockPanel>

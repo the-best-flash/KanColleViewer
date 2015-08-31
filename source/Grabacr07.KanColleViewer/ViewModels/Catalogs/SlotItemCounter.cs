@@ -23,7 +23,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 		// Value: レベル別の装備数カウンター
 		private readonly Dictionary<SlotItemCounterKey, SlotItemCounterByLevel> itemsByLevel;
 
-		public SlotItemInfo Target { get; private set; }
+		public SlotItemInfoViewModel Target { get; private set; }
 
 		public IReadOnlyCollection<SlotItemCounterByLevel> Levels
 		{
@@ -42,7 +42,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 		public SlotItemCounter(SlotItemInfo target, IEnumerable<SlotItem> items)
 		{
-			this.Target = target;
+			this.Target = new SlotItemInfoViewModel(target);
 
 			this.itemsByLevel = items
 				.GroupBy(x => new SlotItemCounterKey(x.Level, x.Adept))
