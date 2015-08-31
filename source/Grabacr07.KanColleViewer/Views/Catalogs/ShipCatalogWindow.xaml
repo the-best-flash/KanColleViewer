@@ -600,7 +600,7 @@
 								</GridViewColumn.Header>
 								<GridViewColumn.CellTemplate>
 									<DataTemplate>
-										<TextBlock Text="{Binding Ship.Info.ShipType.Name, Mode=OneWay}"
+										<TextBlock Text="{Binding ShipInfo.ShipTypeName, Mode=OneWay}"
 												   Margin="0,3" />
 									</DataTemplate>
 								</GridViewColumn.CellTemplate>
@@ -615,7 +615,7 @@
 								</GridViewColumn.Header>
 								<GridViewColumn.CellTemplate>
 									<DataTemplate>
-										<TextBlock Text="{Binding Ship.Info.Name, Mode=OneWay}"
+										<TextBlock Text="{Binding ShipInfo.Name, Mode=OneWay}"
 												   Foreground="{DynamicResource ActiveForegroundBrushKey}"
 												   Margin="0,3" />
 									</DataTemplate>
@@ -656,7 +656,7 @@
 										<TextBlock FontSize="9"
 												   Margin="0,3">
 											<InlineUIContainer>
-												<kcvc:ConditionIcon ConditionType="{Binding Ship.ConditionType, Mode=OneWay}"
+												<kcvc:ConditionIcon ConditionType="{Binding ShipInfo.Ship.ConditionType, Mode=OneWay}"
 																	Width="9"
 																	Height="9" />
 											</InlineUIContainer>

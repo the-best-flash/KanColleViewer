@@ -112,11 +112,26 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 	public class SlotItemCounterByShip
 	{
-		public Ship Ship { get; set; }
+        public ShipInfoViewModel ShipInfo { get; private set; }
+
+        private Ship _ship;
+		public Ship Ship
+        {
+            get
+            {
+                return this._ship;
+            }
+
+            set
+            {
+                this._ship = value;
+                this.ShipInfo = new ShipInfoViewModel(this._ship);
+            }
+        }
 
 		public int Count { get; set; }
 
-		public string ShipName => this.Ship.Info.Name;
+		public string ShipName => this.ShipInfo.Name;
 
 		public string ShipLevel => "Lv." + this.Ship.Level;
 

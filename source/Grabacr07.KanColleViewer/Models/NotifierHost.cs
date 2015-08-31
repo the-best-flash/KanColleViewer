@@ -112,7 +112,7 @@ namespace Grabacr07.KanColleViewer.Models
 			if (!Settings.KanColleSettings.NotifyBuildingCompleted) return;
 
 			var shipName = Settings.KanColleSettings.CanDisplayBuildingShipName
-				? args.Ship.Name
+				? ShipTranslationHelper.TranslateShipName(args.Ship.Name)
 				: Resources.Common_ShipGirl;
 
 			var notification = Notification.Create(

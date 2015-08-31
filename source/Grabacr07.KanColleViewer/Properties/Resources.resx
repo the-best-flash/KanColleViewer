@@ -465,4 +465,10 @@
   <data name="MessageBar_ReSortie_Wounded" xml:space="preserve">
     <value>中破以上の艦娘</value>
   </data>
+  <data name="Kai" xml:space="preserve">
+    <value>改</value>
+  </data>
+  <data name="Ni" xml:space="preserve">
+    <value>二</value>
+  </data>
 </root>

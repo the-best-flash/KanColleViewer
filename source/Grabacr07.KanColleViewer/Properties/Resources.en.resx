@@ -459,4 +459,43 @@
   <data name="西村艦隊_を編成せよ" xml:space="preserve">
     <value>Organize the 4th Cruiser Division</value>
   </data>
+  <data name="Kai" xml:space="preserve">
+    <value>Kai</value>
+  </data>
+  <data name="Ni" xml:space="preserve">
+    <value>Ni</value>
+  </data>
+  <data name="伊168" xml:space="preserve">
+    <value>I-168</value>
+  </data>
+  <data name="古鷹" xml:space="preserve">
+    <value>Furutaka</value>
+  </data>
+  <data name="川内" xml:space="preserve">
+    <value>Sendai</value>
+  </data>
+  <data name="時雨" xml:space="preserve">
+    <value>Shigure</value>
+  </data>
+  <data name="榛名" xml:space="preserve">
+    <value>Haruna</value>
+  </data>
+  <data name="比叡" xml:space="preserve">
+    <value>HeiHei</value>
+  </data>
+  <data name="瑞鶴" xml:space="preserve">
+    <value>Zuikaku</value>
+  </data>
+  <data name="神通" xml:space="preserve">
+    <value>Jintsuu</value>
+  </data>
+  <data name="艦隊大整備" xml:space="preserve">
+    <value>The Fleet's Large Maintenance</value>
+  </data>
+  <data name="艦隊大整備_Detail" xml:space="preserve">
+    <value>Repair 5 ships</value>
+  </data>
+  <data name="響" xml:space="preserve">
+    <value>Hibiki</value>
+  </data>
 </root>

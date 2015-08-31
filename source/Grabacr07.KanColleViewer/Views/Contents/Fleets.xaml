@@ -135,11 +135,11 @@
 											</Grid.ColumnDefinitions>
 
 											<TextBlock Style="{DynamicResource DefaultTextStyleKey}">
-												<Run Text="{Binding Ship.Info.Name, Mode=OneWay}"
+												<Run Text="{Binding ShipInfo.Name, Mode=OneWay}"
 													 FontSize="18"
 													 Style="{DynamicResource EmphaticTextElementStyleKey}" />
 												<LineBreak />
-												<Run Text="{Binding Ship.Info.ShipType.Name, Mode=OneWay}"
+												<Run Text="{Binding ShipInfo.ShipTypeName, Mode=OneWay}"
 													 FontSize="14" />
 											</TextBlock>
 
@@ -147,13 +147,13 @@
 													   VerticalAlignment="Top"
 													   Style="{DynamicResource DefaultTextStyleKey}">
 												<Run Text="Lv." />
-												<Run Text="{Binding Ship.Level, Mode=OneWay}"
+												<Run Text="{Binding ShipInfo.Ship.Level, Mode=OneWay}"
 													 FontSize="18"
 													 Style="{DynamicResource EmphaticTextElementStyleKey}" />
 												<LineBreak />
 												<Run Text="Next:"
 													 FontSize="9" />
-												<Run Text="{Binding Ship.ExpForNextLevel, Mode=OneWay}"
+												<Run Text="{Binding ShipInfo.Ship.ExpForNextLevel, Mode=OneWay}"
 													 FontSize="9" />
 											</TextBlock>
 										</Grid>
@@ -171,15 +171,15 @@
 											<StackPanel>
 												<TextBlock x:Name="HPText">
 													<Run Text="HP:" />
-													<Run Text="{Binding Ship.HP.Current, Mode=OneWay}"
+													<Run Text="{Binding ShipInfo.Ship.HP.Current, Mode=OneWay}"
 														 Style="{DynamicResource EmphaticTextElementStyleKey}" />
 													<Run Text="/" />
-													<Run Text="{Binding Ship.HP.Maximum, Mode=OneWay}" />
+													<Run Text="{Binding ShipInfo.Ship.HP.Maximum, Mode=OneWay}" />
 												</TextBlock>
 												<kcvc:ColorIndicator x:Name="HPIndicator"
 																	 Height="7"
 																	 Margin="1,3,0,0"
-																	 LimitedValue="{Binding Ship.HP, Mode=OneWay}" />
+																	 LimitedValue="{Binding ShipInfo.Ship.HP, Mode=OneWay}" />
 											</StackPanel>
 										</Grid>
 
@@ -187,7 +187,7 @@
 													  Grid.RowSpan="3"
 													  Grid.Column="2"
 													  Grid.IsSharedSizeScope="True"
-													  ItemsSource="{Binding Slots}"
+													  ItemsSource="{Binding Ship.Slots}"
 													  Margin="8,0">
 											<ItemsControl.ItemTemplate>
 												<DataTemplate>
@@ -287,7 +287,7 @@
 											   Grid.RowSpan="2"
 											   HorizontalAlignment="Right"
 											   Margin="10,0,0,0">
-										<Run Text="{Binding Ship.Info.ShipType.Name, Mode=OneWay}"
+										<Run Text="{Binding ShipInfo.ShipTypeName, Mode=OneWay}"
 											 FontSize="14" />
 										<Run Text=""
 											 FontSize="22"
@@ -298,7 +298,7 @@
 											   Grid.Row="0"
 											   Grid.RowSpan="2"
 											   Margin="4,0,10,0">
-										<Run Text="{Binding Ship.Info.Name, Mode=OneWay}"
+										<Run Text="{Binding ShipInfo.Name, Mode=OneWay}"
 											 FontSize="22"
 											 Style="{DynamicResource EmphaticTextElementStyleKey}" />
 									</TextBlock>
@@ -308,7 +308,7 @@
 											   Margin="10,0,10,10"
 											   Grid.RowSpan="2">
 										<Run Text="Lv." />
-										<Run Text="{Binding Ship.Level, Mode=OneWay}"
+										<Run Text="{Binding ShipInfo.Ship.Level, Mode=OneWay}"
 											 Style="{DynamicResource EmphaticTextElementStyleKey}" />
 									</TextBlock>
 									<TextBlock Grid.Column="3"
@@ -316,7 +316,7 @@
 											   Margin="10,0,10,-1">
 										<Run Text="Next:"
 											 FontSize="9" />
-										<Run Text="{Binding Ship.ExpForNextLevel, Mode=OneWay}"
+										<Run Text="{Binding ShipInfo.Ship.ExpForNextLevel, Mode=OneWay}"
 											 FontSize="9" />
 										<!--<Run Text="&#x9;" />-->
 									</TextBlock>
@@ -327,10 +327,10 @@
 											   Margin="10,0,10,10"
 											   Grid.RowSpan="2">
 										<Run Text="HP:" />
-										<Run Text="{Binding Ship.HP.Current, Mode=OneWay}"
+										<Run Text="{Binding ShipInfo.Ship.HP.Current, Mode=OneWay}"
 											 Style="{DynamicResource EmphaticTextElementStyleKey}" />
 										<Run Text="/" />
-										<Run Text="{Binding Ship.HP.Maximum, Mode=OneWay}" />
+										<Run Text="{Binding ShipInfo.Ship.HP.Maximum, Mode=OneWay}" />
 									</TextBlock>
 									<kcvc:ColorIndicator x:Name="HPIndicator"
 														 Grid.Row="1"
@@ -338,7 +338,7 @@
 														 Height="6"
 														 VerticalAlignment="Bottom"
 														 Margin="10,0,10,2"
-														 LimitedValue="{Binding Ship.HP, Mode=OneWay}" />
+														 LimitedValue="{Binding ShipInfo.Ship.HP, Mode=OneWay}" />
 
 									<Grid x:Name="RepairIndicator"
 										  Grid.Column="4"
@@ -371,9 +371,9 @@
 											   Margin="10,0,10,10"
 											   Grid.RowSpan="2">
 										<InlineUIContainer>
-											<kcvc:ConditionIcon ConditionType="{Binding Ship.ConditionType, Mode=OneWay}" />
+											<kcvc:ConditionIcon ConditionType="{Binding ShipInfo.Ship.ConditionType, Mode=OneWay}" />
 										</InlineUIContainer>
-										<Run Text="{Binding Ship.Condition, Mode=OneWay}"
+										<Run Text="{Binding ShipInfo.Ship.Condition, Mode=OneWay}"
 											 Style="{DynamicResource EmphaticTextElementStyleKey}" />
 									</TextBlock>
 									<TextBlock Grid.Column="5"
@@ -386,20 +386,20 @@
 									<kcvc:ColorIndicator Grid.Column="6"
 														 Grid.Row="0"
 														 Width="55"
-														 LimitedValue="{Binding Ship.Fuel, Mode=OneWay}"
+														 LimitedValue="{Binding ShipInfo.Ship.Fuel, Mode=OneWay}"
 														 Height="6"
 														 Margin="0,6,0,7" />
 									<kcvc:ColorIndicator Grid.Column="6"
 														 Grid.Row="1"
 														 Width="55"
-														 LimitedValue="{Binding Ship.Bull, Mode=OneWay}"
+														 LimitedValue="{Binding ShipInfo.Ship.Bull, Mode=OneWay}"
 														 Height="6"
 														 VerticalAlignment="Top" />
 
 									<ItemsControl Grid.Column="7"
 												  Grid.Row="0"
 												  Grid.RowSpan="2"
-												  ItemsSource="{Binding Ship.Slots}"
+												  ItemsSource="{Binding ShipInfo.Ship.Slots}"
 												  Margin="7,0">
 										<ItemsControl.Template>
 											<ControlTemplate TargetType="{x:Type ItemsControl}">

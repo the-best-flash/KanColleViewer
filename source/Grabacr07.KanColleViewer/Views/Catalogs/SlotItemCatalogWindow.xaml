@@ -272,9 +272,9 @@
 																<ItemsControl.ItemTemplate>
 																	<DataTemplate>
 																		<TextBlock Margin="0,4,18,0">
-																			<Run Text="{Binding Ship.Info.Name, Mode=OneWay}"
+																			<Run Text="{Binding ShipInfo.Name, Mode=OneWay}"
 																				 Foreground="{DynamicResource ActiveForegroundBrushKey}" />
-																			<Run Text="{Binding Ship.Level, StringFormat=Lv.{0}, Mode=OneWay}"
+																			<Run Text="{Binding ShipInfo.Ship.Level, StringFormat=Lv.{0}, Mode=OneWay}"
 																				 FontSize="11" />
 																			<Run Text="{Binding CountString, Mode=OneWay}"
 																				 Background="{DynamicResource BackgroundBrushKey}"
