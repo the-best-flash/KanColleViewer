@@ -2,16 +2,23 @@
 {
     public static class ShipTranslationHelper
     {
-        public static string TranslateShipName(string name)
+        public static string TranslateShipName(int id, string name)
         {
-            string fullStrippedName = KanColleWrapper.TranslationHelper.StripInvalidCharacters(name);
-            string stripped = KanColleWrapper.TranslationHelper.StripKaiNi(fullStrippedName);
+            string translated = null;
 
-            string translated = (string.IsNullOrEmpty(stripped) ? null : Translation.Ships.Resources.ResourceManager.GetString(stripped, Translation.Ships.Resources.Culture));
+            translated = Translation.Ships.Resources.ResourceManager.GetString(string.Format("Ship{0}", id), Translation.Ships.Resources.Culture);
 
-            if (!string.IsNullOrWhiteSpace(translated))
+            if (string.IsNullOrWhiteSpace(translated))
             {
-                translated = KanColleWrapper.TranslationHelper.AppendKaiNi(fullStrippedName, translated, Properties.Resources.Kai, Properties.Resources.Ni);
+                string fullStrippedName = KanColleWrapper.TranslationHelper.StripInvalidCharacters(name);
+                string stripped = KanColleWrapper.TranslationHelper.StripKaiNi(fullStrippedName);
+
+                translated = (string.IsNullOrEmpty(stripped) ? null : Translation.Ships.Resources.ResourceManager.GetString(stripped, Translation.Ships.Resources.Culture));
+            
+                if (!string.IsNullOrWhiteSpace(translated))
+                {
+                    translated = KanColleWrapper.TranslationHelper.AppendKaiNi(fullStrippedName, translated, Properties.Resources.Kai, Properties.Resources.Ni);
+                }
             }
 
             return (string.IsNullOrEmpty(translated) ? name : translated);

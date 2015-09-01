@@ -14,7 +14,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
 		public int Id => this.source.Id;
 
-		public string Ship => this.source.Ship == null ? "----" : ShipTranslationHelper.TranslateShipName(this.source.Ship.Name);
+		public string Ship => this.source.Ship == null ? "----" : ShipTranslationHelper.TranslateShipName(this.source.Ship.Id, this.source.Ship.Name);
 
 		public string CompleteTime => this.source.CompleteTime?.LocalDateTime.ToString("MM/dd HH:mm") ?? "--/-- --:--:--";
 		

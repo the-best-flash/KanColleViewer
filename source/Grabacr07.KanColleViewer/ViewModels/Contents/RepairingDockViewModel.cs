@@ -19,7 +19,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
         {
             get
             {
-                return this.source.Ship == null ? "----" : ShipTranslationHelper.TranslateShipName(this.source.Ship.Info.Name);
+                return this.source.Ship == null ? "----" : ShipTranslationHelper.TranslateShipName(this.source.Ship.Info.Id, this.source.Ship.Info.Name);
             }
         }
 

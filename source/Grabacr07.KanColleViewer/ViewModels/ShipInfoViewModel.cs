@@ -16,7 +16,7 @@ namespace Grabacr07.KanColleViewer.ViewModels
         {
             get
             {
-                return ShipTranslationHelper.TranslateShipName(this.Ship.Info.Name);
+                return ShipTranslationHelper.TranslateShipName(this.Ship.Info.Id, this.Ship.Info.Name);
             }
         }
 
@@ -24,7 +24,7 @@ namespace Grabacr07.KanColleViewer.ViewModels
         {
             get
             {
-                return ShipTranslationHelper.TranslateShipName(this.Ship.Info.ShipType.Name);
+                return ShipTranslationHelper.TranslateShipTypeName(this.Ship.Info.ShipType.Name);
             }
         }
 
