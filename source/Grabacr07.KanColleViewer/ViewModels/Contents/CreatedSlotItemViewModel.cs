@@ -4,6 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models;
 using Livet;
+using Grabacr07.KanColleViewer.Models;  
+using Livet.EventListeners;
+
 
 namespace Grabacr07.KanColleViewer.ViewModels.Contents
 {
@@ -34,7 +37,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
 		public string Name
 		{
-			get { return this._Name; }
+			get { return ItemTranslationHelper.TranslateItemName(this._Name); }
 			set
 			{
 				if (this._Name != value)
@@ -51,9 +54,17 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 		{
 			this.Succeed = null;
 			this.Name = "-----";
-		}
 
-		public void Update(CreatedSlotItem item)
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Name));
+                }
+            });
+
+        }
+
+        public void Update(CreatedSlotItem item)
 		{
 			this.Succeed = item.Succeed;
 			this.Name = item.SlotItemInfo.Name;

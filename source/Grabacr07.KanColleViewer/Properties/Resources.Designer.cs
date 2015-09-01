@@ -1033,6 +1033,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 熟練度.
+        /// </summary>
+        public static string Skilled {
+            get {
+                return ResourceManager.GetString("Skilled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to キャッシュの削除.
         /// </summary>
         public static string StartContent_ClearCacheButton {

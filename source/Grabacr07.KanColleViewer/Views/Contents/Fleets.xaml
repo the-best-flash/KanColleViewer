@@ -399,7 +399,7 @@
 									<ItemsControl Grid.Column="7"
 												  Grid.Row="0"
 												  Grid.RowSpan="2"
-												  ItemsSource="{Binding ShipInfo.Ship.Slots}"
+												  ItemsSource="{Binding ShipInfo.Slots}"
 												  Margin="7,0">
 										<ItemsControl.Template>
 											<ControlTemplate TargetType="{x:Type ItemsControl}">
