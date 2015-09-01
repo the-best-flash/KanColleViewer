@@ -66,7 +66,12 @@ namespace Grabacr07.KanColleViewer.Models
 		/// <param name="name">カルチャの名前。</param>
 		public void ChangeCulture(string name)
 		{
-			Resources.Culture = this.SupportedCultures.SingleOrDefault(x => x.Name == name);
+            CultureInfo cultureInfo = this.SupportedCultures.SingleOrDefault(x => x.Name == name);
+
+			Resources.Culture = cultureInfo;
+            Translation.Equipment.Resources.Culture = cultureInfo;
+            Translation.Quests.Resources.Culture = cultureInfo;
+            Translation.Ships.Resources.Culture = cultureInfo;
 			
 			GeneralSettings.Culture.Value = Resources.Culture?.Name;
 

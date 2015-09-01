@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Grabacr07.KanColleViewer
+﻿namespace Grabacr07.KanColleViewer
 {
     public static class ShipTranslationHelper
     {
@@ -13,7 +7,7 @@ namespace Grabacr07.KanColleViewer
             string fullStrippedName = KanColleWrapper.TranslationHelper.StripInvalidCharacters(name);
             string stripped = KanColleWrapper.TranslationHelper.StripKaiNi(fullStrippedName);
 
-            string translated = (string.IsNullOrEmpty(stripped) ? null : Grabacr07.KanColleViewer.Properties.Resources.ResourceManager.GetString(stripped, Grabacr07.KanColleViewer.Properties.Resources.Culture));
+            string translated = (string.IsNullOrEmpty(stripped) ? null : Translation.Ships.Resources.ResourceManager.GetString(stripped, Translation.Ships.Resources.Culture));
 
             if (!string.IsNullOrWhiteSpace(translated))
             {
@@ -26,7 +20,7 @@ namespace Grabacr07.KanColleViewer
         public static string TranslateShipTypeName(string name)
         {
             string stripped = KanColleWrapper.TranslationHelper.StripInvalidCharacters(name);
-            string translated = (string.IsNullOrEmpty(stripped) ? null : Grabacr07.KanColleViewer.Properties.Resources.ResourceManager.GetString(stripped, Grabacr07.KanColleViewer.Properties.Resources.Culture));
+            string translated = (string.IsNullOrEmpty(stripped) ? null : Translation.Ships.Resources.ResourceManager.GetString(stripped, Translation.Ships.Resources.Culture));
 
             return (string.IsNullOrEmpty(translated) ? name : translated);
         }

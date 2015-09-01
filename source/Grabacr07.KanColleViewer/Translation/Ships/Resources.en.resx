@@ -98,4 +98,104 @@
 	<resheader name="writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
+  <data name="工作艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="戦艦" xml:space="preserve">
+    <value>BB</value>
+  </data>
+  <data name="揚陸艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="正規空母" xml:space="preserve">
+    <value>CV</value>
+  </data>
+  <data name="水上機母艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="海防艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="潜水母艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="潜水空母" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="潜水艦" xml:space="preserve">
+    <value>SS</value>
+  </data>
+  <data name="練習巡洋艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="航空巡洋艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="航空戦艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="装甲空母" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="補給艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="超弩級戦艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="軽巡洋艦" xml:space="preserve">
+    <value>CL</value>
+  </data>
+  <data name="軽空母" xml:space="preserve">
+    <value>CVL</value>
+  </data>
+  <data name="重巡洋艦" xml:space="preserve">
+    <value>CA</value>
+  </data>
+  <data name="重雷装巡洋艦" xml:space="preserve">
+    <value />
+    <comment>TODO: Ship Type</comment>
+  </data>
+  <data name="駆逐艦" xml:space="preserve">
+    <value>DD</value>
+  </data>  	
+  <data name="伊168" xml:space="preserve">
+    <value>I-168</value>
+  </data>
+  <data name="古鷹" xml:space="preserve">
+    <value>Furutaka</value>
+  </data>
+  <data name="川内" xml:space="preserve">
+    <value>Sendai</value>
+  </data>
+  <data name="時雨" xml:space="preserve">
+    <value>Shigure</value>
+  </data>
+  <data name="榛名" xml:space="preserve">
+    <value>Haruna</value>
+  </data>
+  <data name="比叡" xml:space="preserve">
+    <value>HeiHei</value>
+  </data>
+  <data name="瑞鶴" xml:space="preserve">
+    <value>Zuikaku</value>
+  </data>
+  <data name="神通" xml:space="preserve">
+    <value>Jintsuu</value>
+  </data>
+  <data name="響" xml:space="preserve">
+    <value>Hibiki</value>
+  </data>  
 </root>

@@ -97,7 +97,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
             {
                 string title = this._Title;
                 string stripped = KanColleWrapper.TranslationHelper.StripInvalidCharacters(title);
-                string translated = (string.IsNullOrEmpty(stripped) ? null : Grabacr07.KanColleViewer.Properties.Resources.ResourceManager.GetString(stripped, Grabacr07.KanColleViewer.Properties.Resources.Culture));
+                string translated = (string.IsNullOrEmpty(stripped) ? null : Translation.Quests.Resources.ResourceManager.GetString(stripped, Translation.Quests.Resources.Culture));
 
                 return (string.IsNullOrEmpty(translated) ? title : translated);
             }
@@ -123,7 +123,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
             {
                 string title = this._Title;
                 string stripped = KanColleWrapper.TranslationHelper.StripInvalidCharacters(title) + "_Detail";
-                string translated = (string.IsNullOrEmpty(stripped) ? null : Grabacr07.KanColleViewer.Properties.Resources.ResourceManager.GetString(stripped, Grabacr07.KanColleViewer.Properties.Resources.Culture));
+                string translated = (string.IsNullOrEmpty(stripped) ? null : Translation.Quests.Resources.ResourceManager.GetString(stripped, Translation.Quests.Resources.Culture));
 
                 return (string.IsNullOrEmpty(translated) ? this._Detail : translated);
             }
