@@ -85,7 +85,7 @@ namespace Grabacr07.KanColleWrapper
         {
             if (!string.IsNullOrEmpty(str))
             {
-                return str.Replace("「", "").Replace("」", "").Replace("" + (char)65281, "").Replace(" ", "_");
+                return str.Replace("「", " ").Replace("」", " ").Replace("" + (char)65281, "").Trim().Replace(" ", "_").Replace("__", "_");
             }
             else
             {
