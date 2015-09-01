@@ -165,6 +165,7 @@
     <Compile Include="Models\SupportedImageFormat.cs" />
     <Compile Include="Models\Volume.cs" />
     <Compile Include="Models\Migration\_KanColleClientSettings.cs" />
+    <Compile Include="QuestTranslationHelper.cs" />
     <Compile Include="ShipTranslationHelper.cs" />
     <Compile Include="Translation\Equipment\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
