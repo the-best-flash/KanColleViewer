@@ -459,4 +459,184 @@
   <data name="Skilled" xml:space="preserve">
     <value>Skill</value>
   </data>
+  <data name="All" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="Battleships" xml:space="preserve">
+    <value>Battleships</value>
+  </data>
+  <data name="Destroyers" xml:space="preserve">
+    <value>Destroyers</value>
+  </data>
+  <data name="FilterSettings_Area1" xml:space="preserve">
+    <value>E1+E2</value>
+  </data>
+  <data name="FilterSettings_Area2" xml:space="preserve">
+    <value>E3+E6</value>
+  </data>
+  <data name="FilterSettings_Area3" xml:space="preserve">
+    <value>E4</value>
+  </data>
+  <data name="FilterSettings_Area4" xml:space="preserve">
+    <value>E5</value>
+  </data>
+  <data name="FilterSettings_Clear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="FilterSettings_ExcludeIfOnExpedition" xml:space="preserve">
+    <value>Exclude Ships on Expeditions</value>
+  </data>
+  <data name="FilterSettings_Fast" xml:space="preserve">
+    <value>Fast</value>
+  </data>
+  <data name="FilterSettings_FleetCarriers" xml:space="preserve">
+    <value>Fleet Carriers</value>
+  </data>
+  <data name="FilterSettings_HeavyCruisers" xml:space="preserve">
+    <value>Heavy Cruisers</value>
+  </data>
+  <data name="FilterSettings_IsRemodelled" xml:space="preserve">
+    <value>Remodelled</value>
+  </data>
+  <data name="FilterSettings_Level1" xml:space="preserve">
+    <value>Lv.1</value>
+  </data>
+  <data name="FilterSettings_Level2_And_Above" xml:space="preserve">
+    <value>Lv.2+</value>
+  </data>
+  <data name="FilterSettings_LightCruisers" xml:space="preserve">
+    <value>Light Cruisers</value>
+  </data>
+  <data name="FilterSettings_Locked" xml:space="preserve">
+    <value>Locked</value>
+  </data>
+  <data name="FilterSettings_Maxed" xml:space="preserve">
+    <value>Maxed</value>
+  </data>
+  <data name="FilterSettings_Modernization" xml:space="preserve">
+    <value>Modernization</value>
+  </data>
+  <data name="FilterSettings_NoSallyArea" xml:space="preserve">
+    <value>Not Locked</value>
+  </data>
+  <data name="FilterSettings_NotLocked" xml:space="preserve">
+    <value>Not Locked</value>
+  </data>
+  <data name="FilterSettings_NotMaxed" xml:space="preserve">
+    <value>Not Maxed</value>
+  </data>
+  <data name="FilterSettings_NotRemodelled" xml:space="preserve">
+    <value>Not Remodelled</value>
+  </data>
+  <data name="FilterSettings_Remodels" xml:space="preserve">
+    <value>Remodelled</value>
+  </data>
+  <data name="FilterSettings_SallyArea" xml:space="preserve">
+    <value>Ship Locking</value>
+  </data>
+  <data name="FilterSettings_Slow" xml:space="preserve">
+    <value>Slow</value>
+  </data>
+  <data name="FilterSettings_SortingSettings" xml:space="preserve">
+    <value>Sort Settings</value>
+  </data>
+  <data name="FilterSettings_Sorting_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="FilterSettings_Sorting_AscendingOrder" xml:space="preserve">
+    <value>Asc.</value>
+  </data>
+  <data name="FilterSettings_Sorting_DescendingOrder" xml:space="preserve">
+    <value>Desc.</value>
+  </data>
+  <data name="FilterSettings_Sorting_Title" xml:space="preserve">
+    <value>List Sort Settings:</value>
+  </data>
+  <data name="Filter_Settings" xml:space="preserve">
+    <value>Filter Settings</value>
+  </data>
+  <data name="FleetSettings_AviationShips" xml:space="preserve">
+    <value>Aviation Ships</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Lock" xml:space="preserve">
+    <value>Lock</value>
+  </data>
+  <data name="Overview_ShowShipList" xml:space="preserve">
+    <value>Ship List</value>
+  </data>
+  <data name="SallyAreaTag_Area1" xml:space="preserve">
+    <value>E1+E2</value>
+  </data>
+  <data name="SallyAreaTag_Area2" xml:space="preserve">
+    <value>E3+E6</value>
+  </data>
+  <data name="SallyAreaTag_Area3" xml:space="preserve">
+    <value>E4</value>
+  </data>
+  <data name="SallyAreaTag_Area4" xml:space="preserve">
+    <value>E5</value>
+  </data>
+  <data name="Select_All" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="ShipListHeader_AA" xml:space="preserve">
+    <value>AA</value>
+  </data>
+  <data name="ShipListHeader_Armor" xml:space="preserve">
+    <value>Armor</value>
+  </data>
+  <data name="ShipListHeader_Condition" xml:space="preserve">
+    <value>Cond.</value>
+  </data>
+  <data name="ShipListHeader_Equipment" xml:space="preserve">
+    <value>Equipment</value>
+  </data>
+  <data name="ShipListHeader_Firepower" xml:space="preserve">
+    <value>Firepower</value>
+  </data>
+  <data name="ShipListHeader_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ShipListHeader_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="ShipListHeader_LOS" xml:space="preserve">
+    <value>LOS</value>
+  </data>
+  <data name="ShipListHeader_LOS_Tooltip" xml:space="preserve">
+    <value>Includes Bonuses From Equipment</value>
+  </data>
+  <data name="ShipListHeader_Luck" xml:space="preserve">
+    <value>Luck</value>
+  </data>
+  <data name="ShipListHeader_SallyWaters" xml:space="preserve">
+    <value>Tag</value>
+  </data>
+  <data name="ShipListHeader_ShipName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="ShipListHeader_ShipType" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="ShipListHeader_Torpedo" xml:space="preserve">
+    <value>Torpedo</value>
+  </data>
+  <data name="ShipListWindow_Title" xml:space="preserve">
+    <value>Ship Girls</value>
+  </data>
+  <data name="ShipList_GeneratingList_Message" xml:space="preserve">
+    <value>Generating List...</value>
+  </data>
+  <data name="Ship_Classification" xml:space="preserve">
+    <value>Ship Type</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>Speed</value>
+  </data>
+  <data name="Submarines" xml:space="preserve">
+    <value>Submarines</value>
+  </data>
 </root>

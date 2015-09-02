@@ -453,4 +453,121 @@
   <data name="Skilled" xml:space="preserve">
     <value>熟練度</value>
   </data>
+  <data name="All" xml:space="preserve">
+    <value>すべて</value>
+  </data>
+  <data name="Battleships" xml:space="preserve">
+    <value>戦艦</value>
+  </data>
+  <data name="Destroyers" xml:space="preserve">
+    <value>駆逐艦</value>
+  </data>
+  <data name="FilterSettings_Area1" xml:space="preserve">
+    <value>初動作戦参加済み</value>
+  </data>
+  <data name="FilterSettings_Area2" xml:space="preserve">
+    <value>機動部隊参加済み</value>
+  </data>
+  <data name="FilterSettings_Area3" xml:space="preserve">
+    <value>挺身部隊参加済み</value>
+  </data>
+  <data name="FilterSettings_Area4" xml:space="preserve">
+    <value>西部方面参加済み</value>
+  </data>
+  <data name="FilterSettings_Clear" xml:space="preserve">
+    <value>クリア</value>
+  </data>
+  <data name="FilterSettings_ExcludeIfOnExpedition" xml:space="preserve">
+    <value>遠征中の艦を除外する</value>
+  </data>
+  <data name="FilterSettings_Fast" xml:space="preserve">
+    <value>高速</value>
+  </data>
+  <data name="FilterSettings_FleetCarriers" xml:space="preserve">
+    <value>航空母艦</value>
+  </data>
+  <data name="FilterSettings_HeavyCruisers" xml:space="preserve">
+    <value>重巡・航巡</value>
+  </data>
+  <data name="FilterSettings_IsRemodelled" xml:space="preserve">
+    <value>改造完了</value>
+  </data>
+  <data name="FilterSettings_Level1" xml:space="preserve">
+    <value>Lv.1</value>
+  </data>
+  <data name="FilterSettings_Level2_And_Above" xml:space="preserve">
+    <value>Lv.2 以上</value>
+  </data>
+  <data name="FilterSettings_LightCruisers" xml:space="preserve">
+    <value>軽巡・雷巡</value>
+  </data>
+  <data name="FilterSettings_Locked" xml:space="preserve">
+    <value>ロックしている</value>
+  </data>
+  <data name="FilterSettings_Maxed" xml:space="preserve">
+    <value>改修完了</value>
+  </data>
+  <data name="FilterSettings_Modernization" xml:space="preserve">
+    <value>近代化改修</value>
+  </data>
+  <data name="FilterSettings_NoSallyArea" xml:space="preserve">
+    <value>作戦出撃なし</value>
+  </data>
+  <data name="FilterSettings_NotLocked" xml:space="preserve">
+    <value>ロックしていない</value>
+  </data>
+  <data name="FilterSettings_NotMaxed" xml:space="preserve">
+    <value>改修未完</value>
+  </data>
+  <data name="FilterSettings_NotRemodelled" xml:space="preserve">
+    <value>改造未完</value>
+  </data>
+  <data name="FilterSettings_Remodels" xml:space="preserve">
+    <value>改造</value>
+  </data>
+  <data name="FilterSettings_SallyArea" xml:space="preserve">
+    <value>出撃海域</value>
+  </data>
+  <data name="FilterSettings_Slow" xml:space="preserve">
+    <value>低速</value>
+  </data>
+  <data name="FilterSettings_SortingSettings" xml:space="preserve">
+    <value>並べ替え設定</value>
+  </data>
+  <data name="FilterSettings_Sorting_Apply" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="FilterSettings_Sorting_AscendingOrder" xml:space="preserve">
+    <value>昇順</value>
+  </data>
+  <data name="FilterSettings_Sorting_DescendingOrder" xml:space="preserve">
+    <value>降順</value>
+  </data>
+  <data name="FilterSettings_Sorting_Title" xml:space="preserve">
+    <value>艦娘を以下の順序で並べ替えます。</value>
+  </data>
+  <data name="Filter_Settings" xml:space="preserve">
+    <value>フィルター設定</value>
+  </data>
+  <data name="FleetSettings_AviationShips" xml:space="preserve">
+    <value>航戦・航巡</value>
+  </data>
+  <data name="Level" xml:space="preserve">
+    <value>レベル</value>
+  </data>
+  <data name="Lock" xml:space="preserve">
+    <value>ロック</value>
+  </data>
+  <data name="Select_All" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="Ship_Classification" xml:space="preserve">
+    <value>艦種</value>
+  </data>
+  <data name="Speed" xml:space="preserve">
+    <value>速力</value>
+  </data>
+  <data name="Submarines" xml:space="preserve">
+    <value>潜水艦</value>
+  </data>
 </root>

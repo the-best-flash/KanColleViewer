@@ -116,7 +116,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 		public ShipCatalogWindowViewModel()
 		{
-			this.Title = "所属艦娘一覧";
 			this.IsOpenFilterSettings = true;
 			this.Settings = new ShipCatalogWindowSettings();
 
@@ -151,7 +150,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 			this.homeport.Organization
 				.Subscribe(nameof(Organization.Ships), this.Update)
 				.AddTo(this);
-		}
+        }
 
 
 		public void Update()

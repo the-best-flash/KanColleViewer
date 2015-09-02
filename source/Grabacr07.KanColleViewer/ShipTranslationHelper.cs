@@ -24,5 +24,17 @@
 
             return (string.IsNullOrEmpty(translated) ? name : translated);
         }
+
+        public static string TranslateShipTypeName(int id, string name)
+        {
+            string translated = TranslateShipTypeName((id == 8 && name == "戦艦") ? "巡洋戦艦" : name);
+
+            if(translated == "巡洋戦艦" && name == "戦艦")
+            {
+                translated = name;
+            }
+
+            return translated;
+        }
     }
 }

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models;
 using Livet;
+using Grabacr07.KanColleViewer.Models;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 {
@@ -36,7 +38,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 		public string DisplayName
 		{
-			get { return this._DisplayName; }
+			get { return ShipTranslationHelper.TranslateShipTypeName(this._DisplayName); }
 			set
 			{
 				if (this._DisplayName != value)
@@ -77,7 +79,14 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 			// [ID = 8 (金剛型戦艦)] と [ID = 9 (金剛型以外の戦艦)] がどちらも "戦艦" 表記で区別がつかないため、
 			// ID = 8 の方を "巡洋戦艦" に変更
 			this.DisplayName = (stype.Id == 8 && stype.Name == "戦艦") ? "巡洋戦艦" : stype.Name;
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.DisplayName));
+                    }
+            });
+        }
 
 		public void Set(bool selected)
 		{

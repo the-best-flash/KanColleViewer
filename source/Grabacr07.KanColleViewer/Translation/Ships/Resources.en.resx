@@ -133,7 +133,7 @@
     <value>AV</value>
   </data>
   <data name="海防艦" xml:space="preserve">
-    <value>Escort Ship</value>
+    <value>DE</value>
     <comment>Coastal defence ship?</comment>
   </data>
   <data name="潜水母艦" xml:space="preserve">
@@ -163,7 +163,8 @@
     <comment>Replenishment Oiler?</comment>
   </data>
   <data name="超弩級戦艦" xml:space="preserve">
-    <value>Super-Dreadnought Battleship</value>
+    <value>B</value>
+    <comment>Super-Dreadnought Battleship</comment>
   </data>
   <data name="軽巡洋艦" xml:space="preserve">
     <value>CL</value>
@@ -854,5 +855,9 @@
   </data>
   <data name="阿武隈" xml:space="preserve">
     <value>Abukuma</value>
+  </data>
+  <data name="巡洋戦艦" xml:space="preserve">
+    <value>FBB</value>
+    <comment>Fast BB</comment>
   </data>
 </root>
