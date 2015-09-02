@@ -133,8 +133,8 @@
     <value>AV</value>
   </data>
   <data name="海防艦" xml:space="preserve">
-    <value />
-    <comment>Coastal defence ship</comment>
+    <value>Escort Ship</value>
+    <comment>Coastal defence ship?</comment>
   </data>
   <data name="潜水母艦" xml:space="preserve">
     <value>AS</value>
@@ -146,7 +146,7 @@
     <value>SS</value>
   </data>
   <data name="練習巡洋艦" xml:space="preserve">
-    <value>CT</value>
+    <value>CLp</value>
     <comment>Training Crusier</comment>
   </data>
   <data name="航空巡洋艦" xml:space="preserve">
@@ -163,8 +163,7 @@
     <comment>Replenishment Oiler?</comment>
   </data>
   <data name="超弩級戦艦" xml:space="preserve">
-    <value />
-    <comment>IJN Super-Dreadnought battleship</comment>
+    <value>Super-Dreadnought Battleship</value>
   </data>
   <data name="軽巡洋艦" xml:space="preserve">
     <value>CL</value>
@@ -181,1596 +180,679 @@
   <data name="駆逐艦" xml:space="preserve">
     <value>DD</value>
   </data>
-  <data name="伊168" xml:space="preserve">
-    <value>I-168</value>
+  <data name="補給油艦" xml:space="preserve">
+    <value>AO</value>
   </data>
-  <data name="古鷹" xml:space="preserve">
-    <value>Furutaka</value>
+  <data name="睦月" xml:space="preserve">
+    <value>Mutsuki</value>
   </data>
-  <data name="川内" xml:space="preserve">
-    <value>Sendai</value>
+  <data name="如月" xml:space="preserve">
+    <value>Kisaragi</value>
   </data>
-  <data name="時雨" xml:space="preserve">
-    <value>Shigure</value>
+  <data name="長月" xml:space="preserve">
+    <value>Nagatsuki</value>
   </data>
-  <data name="榛名" xml:space="preserve">
-    <value>Haruna</value>
+  <data name="三日月" xml:space="preserve">
+    <value>Mikazuki</value>
   </data>
-  <data name="比叡" xml:space="preserve">
-    <value>HeiHei</value>
+  <data name="吹雪" xml:space="preserve">
+    <value>Fubuki</value>
   </data>
-  <data name="瑞鶴" xml:space="preserve">
-    <value>Zuikaku</value>
+  <data name="白雪" xml:space="preserve">
+    <value>Shirayuki</value>
   </data>
-  <data name="神通" xml:space="preserve">
-    <value>Jintsuu</value>
+  <data name="深雪" xml:space="preserve">
+    <value>Miyuki</value>
+  </data>
+  <data name="磯波" xml:space="preserve">
+    <value>Isonami</value>
+  </data>
+  <data name="綾波" xml:space="preserve">
+    <value>Ayanami</value>
+  </data>
+  <data name="敷波" xml:space="preserve">
+    <value>Shikinami</value>
+  </data>
+  <data name="曙" xml:space="preserve">
+    <value>Akebono</value>
+  </data>
+  <data name="潮" xml:space="preserve">
+    <value>Ushio</value>
+  </data>
+  <data name="陽炎" xml:space="preserve">
+    <value>Kagerou</value>
+  </data>
+  <data name="不知火" xml:space="preserve">
+    <value>Shiranui</value>
+  </data>
+  <data name="黒潮" xml:space="preserve">
+    <value>Kuroshio</value>
+  </data>
+  <data name="雪風" xml:space="preserve">
+    <value>Yukikaze</value>
+  </data>
+  <data name="長良" xml:space="preserve">
+    <value>Nagara</value>
+  </data>
+  <data name="五十鈴" xml:space="preserve">
+    <value>Isuzu</value>
+  </data>
+  <data name="由良" xml:space="preserve">
+    <value>Yura</value>
+  </data>
+  <data name="大井" xml:space="preserve">
+    <value>Ooi</value>
+  </data>
+  <data name="北上" xml:space="preserve">
+    <value>Kitakami</value>
+  </data>
+  <data name="扶桑" xml:space="preserve">
+    <value>Fuso</value>
+  </data>
+  <data name="山城" xml:space="preserve">
+    <value>Yamashiro</value>
+  </data>
+  <data name="皐月" xml:space="preserve">
+    <value>Satsuki</value>
+  </data>
+  <data name="文月" xml:space="preserve">
+    <value>Fumizuki</value>
+  </data>
+  <data name="菊月" xml:space="preserve">
+    <value>Kikuzuki</value>
+  </data>
+  <data name="望月" xml:space="preserve">
+    <value>Mochizuki</value>
+  </data>
+  <data name="初雪" xml:space="preserve">
+    <value>Hatsuyuki</value>
+  </data>
+  <data name="叢雲" xml:space="preserve">
+    <value>Murakumo</value>
+  </data>
+  <data name="暁" xml:space="preserve">
+    <value>Akatsuki</value>
   </data>
   <data name="響" xml:space="preserve">
     <value>Hibiki</value>
   </data>
-  <data name="補給油艦" xml:space="preserve">
-    <value>AO</value>
-  </data>
-  <data name="Ship1" xml:space="preserve">
-    <value>Mutsuki</value>
-  </data>
-  <data name="Ship2" xml:space="preserve">
-    <value>Kisaragi</value>
-  </data>
-  <data name="Ship6" xml:space="preserve">
-    <value>Nagatsuki</value>
-  </data>
-  <data name="Ship7" xml:space="preserve">
-    <value>Mikazuki</value>
-  </data>
-  <data name="Ship9" xml:space="preserve">
-    <value>Fubuki</value>
-  </data>
-  <data name="Ship10" xml:space="preserve">
-    <value>Shirayuki</value>
-  </data>
-  <data name="Ship11" xml:space="preserve">
-    <value>Miyuki</value>
-  </data>
-  <data name="Ship12" xml:space="preserve">
-    <value>Isonami</value>
-  </data>
-  <data name="Ship13" xml:space="preserve">
-    <value>Ayanami</value>
-  </data>
-  <data name="Ship14" xml:space="preserve">
-    <value>Shikinami</value>
-  </data>
-  <data name="Ship15" xml:space="preserve">
-    <value>Akebono</value>
-  </data>
-  <data name="Ship16" xml:space="preserve">
-    <value>Ushio</value>
-  </data>
-  <data name="Ship17" xml:space="preserve">
-    <value>Kagerou</value>
-  </data>
-  <data name="Ship18" xml:space="preserve">
-    <value>Shiranui</value>
-  </data>
-  <data name="Ship19" xml:space="preserve">
-    <value>Kuroshio</value>
-  </data>
-  <data name="Ship20" xml:space="preserve">
-    <value>Yukikaze</value>
-  </data>
-  <data name="Ship21" xml:space="preserve">
-    <value>Nagara</value>
-  </data>
-  <data name="Ship22" xml:space="preserve">
-    <value>Isuzu</value>
-  </data>
-  <data name="Ship23" xml:space="preserve">
-    <value>Yura</value>
-  </data>
-  <data name="Ship24" xml:space="preserve">
-    <value>Ooi</value>
-  </data>
-  <data name="Ship25" xml:space="preserve">
-    <value>Kitakami</value>
-  </data>
-  <data name="Ship26" xml:space="preserve">
-    <value>Fuso</value>
-  </data>
-  <data name="Ship27" xml:space="preserve">
-    <value>Yamashiro</value>
-  </data>
-  <data name="Ship28" xml:space="preserve">
-    <value>Satsuki</value>
-  </data>
-  <data name="Ship29" xml:space="preserve">
-    <value>Fumizuki</value>
-  </data>
-  <data name="Ship30" xml:space="preserve">
-    <value>Kikuzuki</value>
-  </data>
-  <data name="Ship31" xml:space="preserve">
-    <value>Mochizuki</value>
-  </data>
-  <data name="Ship32" xml:space="preserve">
-    <value>Hatsuyuki</value>
-  </data>
-  <data name="Ship33" xml:space="preserve">
-    <value>Murakumo</value>
-  </data>
-  <data name="Ship34" xml:space="preserve">
-    <value>Akatsuki</value>
-  </data>
-  <data name="Ship35" xml:space="preserve">
-    <value>Hibiki</value>
-  </data>
-  <data name="Ship36" xml:space="preserve">
+  <data name="雷" xml:space="preserve">
     <value>Ikazuchi</value>
   </data>
-  <data name="Ship37" xml:space="preserve">
+  <data name="電" xml:space="preserve">
     <value>Inazuma</value>
   </data>
-  <data name="Ship38" xml:space="preserve">
+  <data name="初春" xml:space="preserve">
     <value>Hatsuharu</value>
   </data>
-  <data name="Ship39" xml:space="preserve">
+  <data name="子日" xml:space="preserve">
     <value>Nenohi</value>
   </data>
-  <data name="Ship40" xml:space="preserve">
+  <data name="若葉" xml:space="preserve">
     <value>Wakaba</value>
   </data>
-  <data name="Ship41" xml:space="preserve">
+  <data name="初霜" xml:space="preserve">
     <value>Hatsushimo</value>
   </data>
-  <data name="Ship42" xml:space="preserve">
+  <data name="白露" xml:space="preserve">
     <value>Shiratsuyu</value>
   </data>
-  <data name="Ship43" xml:space="preserve">
+  <data name="時雨" xml:space="preserve">
     <value>Shigure</value>
   </data>
-  <data name="Ship44" xml:space="preserve">
+  <data name="村雨" xml:space="preserve">
     <value>Murasame</value>
   </data>
-  <data name="Ship45" xml:space="preserve">
+  <data name="夕立" xml:space="preserve">
     <value>Yuudachi</value>
   </data>
-  <data name="Ship46" xml:space="preserve">
+  <data name="五月雨" xml:space="preserve">
     <value>Samidare</value>
   </data>
-  <data name="Ship47" xml:space="preserve">
+  <data name="涼風" xml:space="preserve">
     <value>Suzukaze</value>
   </data>
-  <data name="Ship48" xml:space="preserve">
+  <data name="鬼怒" xml:space="preserve">
+    <value>Kinu</value>
+  </data>
+  <data name="夕張" xml:space="preserve">
+    <value>Yuubari</value>
+  </data>
+  <data name="霰" xml:space="preserve">
     <value>Arare</value>
   </data>
-  <data name="Ship49" xml:space="preserve">
+  <data name="霞" xml:space="preserve">
     <value>Kasumi</value>
   </data>
-  <data name="Ship50" xml:space="preserve">
+  <data name="島風" xml:space="preserve">
     <value>Shimakaze</value>
   </data>
-  <data name="Ship51" xml:space="preserve">
+  <data name="天龍" xml:space="preserve">
     <value>Tenryuu</value>
   </data>
-  <data name="Ship52" xml:space="preserve">
+  <data name="龍田" xml:space="preserve">
     <value>Tatsuta</value>
   </data>
-  <data name="Ship53" xml:space="preserve">
+  <data name="名取" xml:space="preserve">
     <value>Natori</value>
   </data>
-  <data name="Ship54" xml:space="preserve">
+  <data name="川内" xml:space="preserve">
     <value>Sendai</value>
   </data>
-  <data name="Ship55" xml:space="preserve">
+  <data name="神通" xml:space="preserve">
     <value>Jintsuu</value>
   </data>
-  <data name="Ship56" xml:space="preserve">
+  <data name="那珂" xml:space="preserve">
     <value>Naka</value>
   </data>
-  <data name="Ship57" xml:space="preserve">
-    <value>Ooi Kai</value>
-  </data>
-  <data name="Ship58" xml:space="preserve">
-    <value>Kitakami Kai</value>
-  </data>
-  <data name="Ship59" xml:space="preserve">
+  <data name="古鷹" xml:space="preserve">
     <value>Furutaka</value>
   </data>
-  <data name="Ship60" xml:space="preserve">
+  <data name="加古" xml:space="preserve">
     <value>Kako</value>
   </data>
-  <data name="Ship61" xml:space="preserve">
+  <data name="青葉" xml:space="preserve">
     <value>Aoba</value>
   </data>
-  <data name="Ship62" xml:space="preserve">
+  <data name="妙高" xml:space="preserve">
     <value>Myoukou</value>
   </data>
-  <data name="Ship63" xml:space="preserve">
+  <data name="那智" xml:space="preserve">
     <value>Nachi</value>
   </data>
-  <data name="Ship64" xml:space="preserve">
+  <data name="足柄" xml:space="preserve">
     <value>Ashigara</value>
-  </data>
-  <data name="Ship65" xml:space="preserve">
-    <value>Haguro</value>
-  </data>
-  <data name="Ship66" xml:space="preserve">
-    <value>Takao</value>
-  </data>
-  <data name="Ship67" xml:space="preserve">
-    <value>Atago</value>
-  </data>
-  <data name="Ship68" xml:space="preserve">
-    <value>Maya</value>
-  </data>
-  <data name="Ship69" xml:space="preserve">
-    <value>Choukai</value>
-  </data>
-  <data name="Ship70" xml:space="preserve">
-    <value>Mogami</value>
-  </data>
-  <data name="Ship71" xml:space="preserve">
-    <value>Tone</value>
-  </data>
-  <data name="Ship72" xml:space="preserve">
-    <value>Chikuma</value>
-  </data>
-  <data name="Ship73" xml:space="preserve">
-    <value>Mogami Kai</value>
-  </data>
-  <data name="Ship74" xml:space="preserve">
-    <value>Shouhou</value>
-  </data>
-  <data name="Ship75" xml:space="preserve">
-    <value>Hiyou</value>
-  </data>
-  <data name="Ship76" xml:space="preserve">
-    <value>Ryuujou</value>
-  </data>
-  <data name="Ship77" xml:space="preserve">
-    <value>Ise</value>
-  </data>
-  <data name="Ship78" xml:space="preserve">
-    <value>Kongou</value>
-  </data>
-  <data name="Ship79" xml:space="preserve">
-    <value>Haruna</value>
-  </data>
-  <data name="Ship80" xml:space="preserve">
-    <value>Nagato</value>
-  </data>
-  <data name="Ship81" xml:space="preserve">
-    <value>Mutsu</value>
-  </data>
-  <data name="Ship82" xml:space="preserve">
-    <value>Ise Kai</value>
-  </data>
-  <data name="Ship83" xml:space="preserve">
-    <value>Akagi</value>
-  </data>
-  <data name="Ship84" xml:space="preserve">
-    <value>Kaga</value>
-  </data>
-  <data name="Ship85" xml:space="preserve">
-    <value>Kirishima</value>
-  </data>
-  <data name="Ship86" xml:space="preserve">
-    <value>Hiei</value>
-  </data>
-  <data name="Ship87" xml:space="preserve">
-    <value>Hyuuga</value>
-  </data>
-  <data name="Ship88" xml:space="preserve">
-    <value>Hyuuga Kai</value>
-  </data>
-  <data name="Ship89" xml:space="preserve">
-    <value>Houshou</value>
-  </data>
-  <data name="Ship90" xml:space="preserve">
-    <value>Souryuu</value>
-  </data>
-  <data name="Ship91" xml:space="preserve">
-    <value>Hiryuu</value>
-  </data>
-  <data name="Ship92" xml:space="preserve">
-    <value>Junyou</value>
-  </data>
-  <data name="Ship93" xml:space="preserve">
-    <value>Oboro</value>
-  </data>
-  <data name="Ship94" xml:space="preserve">
-    <value>Sazanami</value>
-  </data>
-  <data name="Ship95" xml:space="preserve">
-    <value>Asashio</value>
-  </data>
-  <data name="Ship96" xml:space="preserve">
-    <value>Ooshio</value>
-  </data>
-  <data name="Ship97" xml:space="preserve">
-    <value>Michishio</value>
-  </data>
-  <data name="Ship98" xml:space="preserve">
-    <value>Arashio</value>
-  </data>
-  <data name="Ship99" xml:space="preserve">
-    <value>Kuma</value>
-  </data>
-  <data name="Ship100" xml:space="preserve">
-    <value>Tama</value>
-  </data>
-  <data name="Ship101" xml:space="preserve">
-    <value>Kiso</value>
-  </data>
-  <data name="Ship102" xml:space="preserve">
-    <value>Chitose</value>
-  </data>
-  <data name="Ship103" xml:space="preserve">
-    <value>Chiyoda</value>
-  </data>
-  <data name="Ship104" xml:space="preserve">
-    <value>Chitose Kai</value>
-  </data>
-  <data name="Ship105" xml:space="preserve">
-    <value>Chiyoda Kai</value>
-  </data>
-  <data name="Ship106" xml:space="preserve">
-    <value>Chitose A</value>
-  </data>
-  <data name="Ship107" xml:space="preserve">
-    <value>Chiyoda A</value>
-  </data>
-  <data name="Ship108" xml:space="preserve">
-    <value>Chitose</value>
-    <comment>Possible Duplicate: First was 千歳 this was 千歳航</comment>
-  </data>
-  <data name="Ship109" xml:space="preserve">
-    <value>Chiyoda</value>
-    <comment>Possible Duplicate: First was 千代田 this was 千代田航</comment>
-  </data>
-  <data name="Ship110" xml:space="preserve">
-    <value>Shoukaku</value>
-  </data>
-  <data name="Ship111" xml:space="preserve">
-    <value>Zuikaku</value>
-  </data>
-  <data name="Ship116" xml:space="preserve">
-    <value>Zuihou</value>
-  </data>
-  <data name="Ship117" xml:space="preserve">
-    <value>Zuihou Kai</value>
-  </data>
-  <data name="Ship118" xml:space="preserve">
-    <value>Ooi Kai Ni</value>
-  </data>
-  <data name="Ship119" xml:space="preserve">
-    <value>Kitakami Kai Ni</value>
-  </data>
-  <data name="Ship120" xml:space="preserve">
-    <value>Mikuma</value>
-  </data>
-  <data name="Ship121" xml:space="preserve">
-    <value>Mikuma Kai</value>
-  </data>
-  <data name="Ship122" xml:space="preserve">
-    <value>Maikaze</value>
-  </data>
-  <data name="Ship123" xml:space="preserve">
-    <value>Kinugasa</value>
-  </data>
-  <data name="Ship124" xml:space="preserve">
-    <value>Suzuya</value>
-  </data>
-  <data name="Ship125" xml:space="preserve">
-    <value>Kumano</value>
-  </data>
-  <data name="Ship126" xml:space="preserve">
-    <value>I-168</value>
-  </data>
-  <data name="Ship127" xml:space="preserve">
-    <value>I-58</value>
-  </data>
-  <data name="Ship128" xml:space="preserve">
-    <value>I-8</value>
-  </data>
-  <data name="Ship129" xml:space="preserve">
-    <value>Suzuya Kai</value>
-  </data>
-  <data name="Ship130" xml:space="preserve">
-    <value>Kumano Kai</value>
-  </data>
-  <data name="Ship131" xml:space="preserve">
-    <value>Yamato</value>
-  </data>
-  <data name="Ship132" xml:space="preserve">
-    <value>Akigumo</value>
-  </data>
-  <data name="Ship133" xml:space="preserve">
-    <value>Yuugumo</value>
-  </data>
-  <data name="Ship134" xml:space="preserve">
-    <value>Makigumo</value>
-  </data>
-  <data name="Ship135" xml:space="preserve">
-    <value>Naganami</value>
-  </data>
-  <data name="Ship136" xml:space="preserve">
-    <value>Yamato Kai</value>
-  </data>
-  <data name="Ship137" xml:space="preserve">
-    <value>Agano</value>
-  </data>
-  <data name="Ship138" xml:space="preserve">
-    <value>Noshiro</value>
-  </data>
-  <data name="Ship139" xml:space="preserve">
-    <value>Yahagi</value>
-  </data>
-  <data name="Ship140" xml:space="preserve">
-    <value>Sakawa</value>
-  </data>
-  <data name="Ship141" xml:space="preserve">
-    <value>Isuzu Kai Ni</value>
-  </data>
-  <data name="Ship142" xml:space="preserve">
-    <value>Kinugasa Kai Ni</value>
-  </data>
-  <data name="Ship143" xml:space="preserve">
-    <value>Musashi</value>
-  </data>
-  <data name="Ship144" xml:space="preserve">
-    <value>Yuudachi Kai Ni</value>
-  </data>
-  <data name="Ship145" xml:space="preserve">
-    <value>Shigure Kai Ni</value>
-  </data>
-  <data name="Ship146" xml:space="preserve">
-    <value>Kiso Kai Ni</value>
-  </data>
-  <data name="Ship147" xml:space="preserve">
-    <value>Verniy</value>
-  </data>
-  <data name="Ship148" xml:space="preserve">
-    <value>Musashi Kai</value>
-  </data>
-  <data name="Ship149" xml:space="preserve">
-    <value>Kongou Kai Ni</value>
-  </data>
-  <data name="Ship150" xml:space="preserve">
-    <value>Hiei Kai Ni</value>
-  </data>
-  <data name="Ship151" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship152" xml:space="preserve">
-    <value>Kirishima Kai Ni</value>
-  </data>
-  <data name="Ship153" xml:space="preserve">
-    <value>Taiho</value>
-  </data>
-  <data name="Ship154" xml:space="preserve">
-    <value>香取</value>
-  </data>
-  <data name="Ship155" xml:space="preserve">
-    <value>I-401</value>
-  </data>
-  <data name="Ship156" xml:space="preserve">
-    <value>Taiho Kai</value>
-  </data>
-  <data name="Ship157" xml:space="preserve">
-    <value>龍驤改二</value>
-  </data>
-  <data name="Ship158" xml:space="preserve">
-    <value>川内改二</value>
-  </data>
-  <data name="Ship159" xml:space="preserve">
-    <value>Jintsuu Kai Ni</value>
-  </data>
-  <data name="Ship160" xml:space="preserve">
-    <value>Naka Kai Ni</value>
-  </data>
-  <data name="Ship161" xml:space="preserve">
-    <value>Akitsumaru</value>
-  </data>
-  <data name="Ship163" xml:space="preserve">
-    <value>Maruyu</value>
-  </data>
-  <data name="Ship164" xml:space="preserve">
-    <value>Yayoi</value>
-  </data>
-  <data name="Ship165" xml:space="preserve">
-    <value>Uzuki</value>
-  </data>
-  <data name="Ship166" xml:space="preserve">
-    <value>Akitsumaru Kai</value>
-  </data>
-  <data name="Ship167" xml:space="preserve">
-    <value>磯風</value>
-  </data>
-  <data name="Ship168" xml:space="preserve">
-    <value>浦風</value>
-  </data>
-  <data name="Ship169" xml:space="preserve">
-    <value>Tanikaze</value>
-  </data>
-  <data name="Ship170" xml:space="preserve">
-    <value>Hamakaze</value>
-  </data>
-  <data name="Ship171" xml:space="preserve">
-    <value>Bismarck</value>
-  </data>
-  <data name="Ship172" xml:space="preserve">
-    <value>Bismarck Kai</value>
-  </data>
-  <data name="Ship173" xml:space="preserve">
-    <value>Bismarck zwei</value>
-  </data>
-  <data name="Ship174" xml:space="preserve">
-    <value>Z1</value>
-  </data>
-  <data name="Ship175" xml:space="preserve">
-    <value>Z3</value>
-  </data>
-  <data name="Ship176" xml:space="preserve">
-    <value>Prinz Eugen</value>
-  </data>
-  <data name="Ship177" xml:space="preserve">
-    <value>Prinz Eugen改</value>
-  </data>
-  <data name="Ship178" xml:space="preserve">
-    <value>Bismarck drei</value>
-  </data>
-  <data name="Ship179" xml:space="preserve">
-    <value>Z1 zwei</value>
-  </data>
-  <data name="Ship180" xml:space="preserve">
-    <value>Z3 zwei</value>
-  </data>
-  <data name="Ship181" xml:space="preserve">
-    <value>Amatsukaze</value>
-  </data>
-  <data name="Ship182" xml:space="preserve">
-    <value>Akashi</value>
-  </data>
-  <data name="Ship183" xml:space="preserve">
-    <value>Haruna (fog)</value>
-  </data>
-  <data name="Ship184" xml:space="preserve">
-    <value>大鯨</value>
-  </data>
-  <data name="Ship185" xml:space="preserve">
-    <value>龍鳳</value>
-  </data>
-  <data name="Ship186" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship187" xml:space="preserve">
-    <value>Akashi Kai</value>
-  </data>
-  <data name="Ship188" xml:space="preserve">
-    <value>Tone Kai Ni</value>
-  </data>
-  <data name="Ship189" xml:space="preserve">
-    <value>Chikuma Kai Ni</value>
-  </data>
-  <data name="Ship190" xml:space="preserve">
-    <value>Hatsukaze</value>
-  </data>
-  <data name="Ship191" xml:space="preserve">
-    <value>I-19</value>
-  </data>
-  <data name="Ship192" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship193" xml:space="preserve">
-    <value>足柄改二</value>
-  </data>
-  <data name="Ship194" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship195" xml:space="preserve">
-    <value>綾波改二</value>
-  </data>
-  <data name="Ship196" xml:space="preserve">
-    <value>飛龍改二</value>
-  </data>
-  <data name="Ship197" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship200" xml:space="preserve">
-    <value>阿武隈改二</value>
-  </data>
-  <data name="Ship201" xml:space="preserve">
-    <value>Fubuki Kai</value>
-  </data>
-  <data name="Ship202" xml:space="preserve">
-    <value>Shirayuki Kai</value>
-  </data>
-  <data name="Ship203" xml:space="preserve">
-    <value>Hatsuyuki Kai</value>
-  </data>
-  <data name="Ship204" xml:space="preserve">
-    <value>Miyuki Kai</value>
-  </data>
-  <data name="Ship205" xml:space="preserve">
-    <value>Murakumo Kai</value>
-  </data>
-  <data name="Ship206" xml:space="preserve">
-    <value>Isonami Kai</value>
-  </data>
-  <data name="Ship207" xml:space="preserve">
-    <value>Ayanami Kai</value>
-  </data>
-  <data name="Ship208" xml:space="preserve">
-    <value>Shikinami Kai</value>
-  </data>
-  <data name="Ship209" xml:space="preserve">
-    <value>Kongou Kai</value>
-  </data>
-  <data name="Ship210" xml:space="preserve">
-    <value>Hiei Kai</value>
-  </data>
-  <data name="Ship211" xml:space="preserve">
-    <value>Haruna Kai</value>
-  </data>
-  <data name="Ship212" xml:space="preserve">
-    <value>Kirishima Kai</value>
-  </data>
-  <data name="Ship213" xml:space="preserve">
-    <value>Tenryuu Kai</value>
-  </data>
-  <data name="Ship214" xml:space="preserve">
-    <value>Tatsuta Kai</value>
-  </data>
-  <data name="Ship215" xml:space="preserve">
-    <value>Kuma Kai</value>
-  </data>
-  <data name="Ship216" xml:space="preserve">
-    <value>Tama Kai</value>
-  </data>
-  <data name="Ship217" xml:space="preserve">
-    <value>Kiso Kai</value>
-  </data>
-  <data name="Ship218" xml:space="preserve">
-    <value>Nagara Kai</value>
-  </data>
-  <data name="Ship219" xml:space="preserve">
-    <value>Isuzu Kai</value>
-  </data>
-  <data name="Ship220" xml:space="preserve">
-    <value>Yura Kai</value>
-  </data>
-  <data name="Ship221" xml:space="preserve">
-    <value>Natori Kai</value>
-  </data>
-  <data name="Ship222" xml:space="preserve">
-    <value>Sendai Kai</value>
-  </data>
-  <data name="Ship223" xml:space="preserve">
-    <value>Jintsuu Kai</value>
-  </data>
-  <data name="Ship224" xml:space="preserve">
-    <value>Naka Kai</value>
-  </data>
-  <data name="Ship225" xml:space="preserve">
-    <value>Kagerou Kai</value>
-  </data>
-  <data name="Ship226" xml:space="preserve">
-    <value>Shiranui Kai</value>
-  </data>
-  <data name="Ship227" xml:space="preserve">
-    <value>Kuroshio Kai</value>
-  </data>
-  <data name="Ship228" xml:space="preserve">
-    <value>Yukikaze Kai</value>
-  </data>
-  <data name="Ship229" xml:space="preserve">
-    <value>Shimakaze Kai</value>
-  </data>
-  <data name="Ship230" xml:space="preserve">
-    <value>Oboro Kai</value>
-  </data>
-  <data name="Ship231" xml:space="preserve">
-    <value>Akebono Kai</value>
-  </data>
-  <data name="Ship232" xml:space="preserve">
-    <value>Sazanami Kai</value>
-  </data>
-  <data name="Ship233" xml:space="preserve">
-    <value>Ushio Kai</value>
-  </data>
-  <data name="Ship234" xml:space="preserve">
-    <value>Akatsuki Kai</value>
-  </data>
-  <data name="Ship235" xml:space="preserve">
-    <value>Hibiki Kai</value>
-  </data>
-  <data name="Ship236" xml:space="preserve">
-    <value>Ikazuchi Kai</value>
-  </data>
-  <data name="Ship237" xml:space="preserve">
-    <value>Inazuma Kai</value>
-  </data>
-  <data name="Ship238" xml:space="preserve">
-    <value>Hatsuharu Kai</value>
-  </data>
-  <data name="Ship239" xml:space="preserve">
-    <value>Nenohi Kai</value>
-  </data>
-  <data name="Ship240" xml:space="preserve">
-    <value>Wakaba Kai</value>
-  </data>
-  <data name="Ship241" xml:space="preserve">
-    <value>Hatsushimo Kai</value>
-  </data>
-  <data name="Ship242" xml:space="preserve">
-    <value>Shiratsuyu Kai</value>
-  </data>
-  <data name="Ship243" xml:space="preserve">
-    <value>Shigure Kai</value>
-  </data>
-  <data name="Ship244" xml:space="preserve">
-    <value>Murasame Kai</value>
-  </data>
-  <data name="Ship245" xml:space="preserve">
-    <value>Yuudachi Kai</value>
-  </data>
-  <data name="Ship246" xml:space="preserve">
-    <value>Samidare Kai</value>
-  </data>
-  <data name="Ship247" xml:space="preserve">
-    <value>Suzukaze Kai</value>
-  </data>
-  <data name="Ship248" xml:space="preserve">
-    <value>Asashio Kai</value>
-  </data>
-  <data name="Ship249" xml:space="preserve">
-    <value>Ooshio Kai</value>
-  </data>
-  <data name="Ship250" xml:space="preserve">
-    <value>Michishio Kai</value>
-  </data>
-  <data name="Ship251" xml:space="preserve">
-    <value>Arashio Kai</value>
-  </data>
-  <data name="Ship252" xml:space="preserve">
-    <value>Arare Kai</value>
-  </data>
-  <data name="Ship253" xml:space="preserve">
-    <value>Kasumi Kai</value>
-  </data>
-  <data name="Ship254" xml:space="preserve">
-    <value>Mutsuki Kai</value>
-  </data>
-  <data name="Ship255" xml:space="preserve">
-    <value>Kisaragi Kai</value>
-  </data>
-  <data name="Ship256" xml:space="preserve">
-    <value>Satsuki Kai</value>
-  </data>
-  <data name="Ship257" xml:space="preserve">
-    <value>Fumizuki Kai</value>
-  </data>
-  <data name="Ship258" xml:space="preserve">
-    <value>Nagatsuki Kai</value>
-  </data>
-  <data name="Ship259" xml:space="preserve">
-    <value>Kikuzuki Kai</value>
-  </data>
-  <data name="Ship260" xml:space="preserve">
-    <value>Mikazuki Kai</value>
-  </data>
-  <data name="Ship261" xml:space="preserve">
-    <value>Mochizuki Kai</value>
-  </data>
-  <data name="Ship262" xml:space="preserve">
-    <value>Furutaka Kai</value>
-  </data>
-  <data name="Ship263" xml:space="preserve">
-    <value>Kako Kai</value>
-  </data>
-  <data name="Ship264" xml:space="preserve">
-    <value>Aoba Kai</value>
-  </data>
-  <data name="Ship265" xml:space="preserve">
-    <value>Myoukou Kai</value>
-  </data>
-  <data name="Ship266" xml:space="preserve">
-    <value>Nachi Kai</value>
-  </data>
-  <data name="Ship267" xml:space="preserve">
-    <value>Ashigara Kai</value>
-  </data>
-  <data name="Ship268" xml:space="preserve">
-    <value>Haguro Kai</value>
-  </data>
-  <data name="Ship269" xml:space="preserve">
-    <value>Takao Kai</value>
-  </data>
-  <data name="Ship270" xml:space="preserve">
-    <value>Atago Kai</value>
-  </data>
-  <data name="Ship271" xml:space="preserve">
-    <value>Maya Kai</value>
-  </data>
-  <data name="Ship272" xml:space="preserve">
-    <value>Choukai Kai</value>
-  </data>
-  <data name="Ship273" xml:space="preserve">
-    <value>Tone Kai</value>
-  </data>
-  <data name="Ship274" xml:space="preserve">
-    <value>Chikuma Kai</value>
-  </data>
-  <data name="Ship275" xml:space="preserve">
-    <value>Nagato Kai</value>
-  </data>
-  <data name="Ship276" xml:space="preserve">
-    <value>Mutsu Kai</value>
-  </data>
-  <data name="Ship277" xml:space="preserve">
-    <value>Akagi Kai</value>
-  </data>
-  <data name="Ship278" xml:space="preserve">
-    <value>Kaga Kai</value>
-  </data>
-  <data name="Ship279" xml:space="preserve">
-    <value>Souryuu Kai</value>
-  </data>
-  <data name="Ship280" xml:space="preserve">
-    <value>Hiryuu Kai</value>
-  </data>
-  <data name="Ship281" xml:space="preserve">
-    <value>Ryuujou Kai</value>
-  </data>
-  <data name="Ship282" xml:space="preserve">
-    <value>Shouhou Kai</value>
-  </data>
-  <data name="Ship283" xml:space="preserve">
-    <value>Hiyou Kai</value>
-  </data>
-  <data name="Ship284" xml:space="preserve">
-    <value>Junyou Kai</value>
-  </data>
-  <data name="Ship285" xml:space="preserve">
-    <value>Houshou Kai</value>
-  </data>
-  <data name="Ship286" xml:space="preserve">
-    <value>Fuso Kai</value>
-  </data>
-  <data name="Ship287" xml:space="preserve">
-    <value>Yamashiro Kai</value>
-  </data>
-  <data name="Ship288" xml:space="preserve">
-    <value>Shoukaku Kai</value>
-  </data>
-  <data name="Ship289" xml:space="preserve">
-    <value>Kinu Kai</value>
-  </data>
-  <data name="Ship290" xml:space="preserve">
-    <value>Abukuma Kai</value>
-  </data>
-  <data name="Ship291" xml:space="preserve">
-    <value>Chitose Kai</value>
-    <comment>Possible Duplicate: First was 千歳改 this was 千歳航改</comment>
-  </data>
-  <data name="Ship292" xml:space="preserve">
-    <value>Chiyoda Kai</value>
-    <comment>Possible Duplicate: First was 千代田改 this was 千代田航改</comment>
-  </data>
-  <data name="Ship293" xml:space="preserve">
-    <value>Yuubari Kai</value>
-  </data>
-  <data name="Ship294" xml:space="preserve">
-    <value>Maikaze Kai</value>
-  </data>
-  <data name="Ship295" xml:space="preserve">
-    <value>Kinugasa Kai</value>
-  </data>
-  <data name="Ship296" xml:space="preserve">
-    <value>Chitose Kai Ni</value>
-  </data>
-  <data name="Ship297" xml:space="preserve">
-    <value>Chiyoda Kai Ni</value>
-  </data>
-  <data name="Ship300" xml:space="preserve">
-    <value>Hatsukaze Kai</value>
-  </data>
-  <data name="Ship301" xml:space="preserve">
-    <value>Akigumo Kai</value>
-  </data>
-  <data name="Ship302" xml:space="preserve">
-    <value>Yuugumo Kai</value>
-  </data>
-  <data name="Ship303" xml:space="preserve">
-    <value>Makigumo Kai</value>
-  </data>
-  <data name="Ship304" xml:space="preserve">
-    <value>Naganami Kai</value>
-  </data>
-  <data name="Ship305" xml:space="preserve">
-    <value>Agano Kai</value>
-  </data>
-  <data name="Ship306" xml:space="preserve">
-    <value>Noshiro Kai</value>
-  </data>
-  <data name="Ship307" xml:space="preserve">
-    <value>Yahagi Kai</value>
-  </data>
-  <data name="Ship308" xml:space="preserve">
-    <value>Yayoi Kai</value>
-  </data>
-  <data name="Ship309" xml:space="preserve">
-    <value>Uzuki Kai</value>
-  </data>
-  <data name="Ship310" xml:space="preserve">
-    <value>Z1 Kai</value>
-  </data>
-  <data name="Ship311" xml:space="preserve">
-    <value>Z3 Kai</value>
-  </data>
-  <data name="Ship312" xml:space="preserve">
-    <value>Hamakaze Kai</value>
-  </data>
-  <data name="Ship313" xml:space="preserve">
-    <value>Tanikaze Kai</value>
-  </data>
-  <data name="Ship314" xml:space="preserve">
-    <value>Sakawa Kai</value>
-  </data>
-  <data name="Ship316" xml:space="preserve">
-    <value>Amatsukaze Kai</value>
-  </data>
-  <data name="Ship317" xml:space="preserve">
-    <value>浦風改</value>
-  </data>
-  <data name="Ship318" xml:space="preserve">
-    <value>龍鳳改</value>
-  </data>
-  <data name="Ship319" xml:space="preserve">
-    <value>妙高改二</value>
-  </data>
-  <data name="Ship320" xml:space="preserve">
-    <value>磯風改</value>
-  </data>
-  <data name="Ship321" xml:space="preserve">
-    <value>大淀改</value>
-  </data>
-  <data name="Ship322" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship323" xml:space="preserve">
-    <value>春雨改</value>
-  </data>
-  <data name="Ship324" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship325" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship326" xml:space="preserve">
-    <value>初春改二</value>
-  </data>
-  <data name="Ship327" xml:space="preserve">
-    <value>朝雲改</value>
-  </data>
-  <data name="Ship328" xml:space="preserve">
-    <value>山雲改</value>
-  </data>
-  <data name="Ship329" xml:space="preserve">
-    <value>野分改</value>
-  </data>
-  <data name="Ship330" xml:space="preserve">
-    <value>秋月改</value>
-  </data>
-  <data name="Ship331" xml:space="preserve">
-    <value>天城</value>
-  </data>
-  <data name="Ship332" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship334" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship343" xml:space="preserve">
-    <value>香取改</value>
-  </data>
-  <data name="Ship344" xml:space="preserve">
-    <value>朝霜改</value>
-  </data>
-  <data name="Ship345" xml:space="preserve">
-    <value>高波改</value>
-  </data>
-  <data name="Ship346" xml:space="preserve">
-    <value>照月改</value>
-  </data>
-  <data name="Ship347" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship348" xml:space="preserve">
-    <value>瑞穂改</value>
-  </data>
-  <data name="Ship349" xml:space="preserve">
-    <value>風雲改</value>
-  </data>
-  <data name="Ship350" xml:space="preserve">
-    <value>海風改</value>
-  </data>
-  <data name="Ship351" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship352" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship398" xml:space="preserve">
-    <value>I-168 Kai</value>
-  </data>
-  <data name="Ship399" xml:space="preserve">
-    <value>I-58 Kai</value>
-  </data>
-  <data name="Ship400" xml:space="preserve">
-    <value>I-8 Kai</value>
-  </data>
-  <data name="Ship401" xml:space="preserve">
-    <value>I-19 Kai</value>
-  </data>
-  <data name="Ship402" xml:space="preserve">
-    <value>Maruyu Kai</value>
-  </data>
-  <data name="Ship403" xml:space="preserve">
-    <value>I-401 Kai</value>
-  </data>
-  <data name="Ship404" xml:space="preserve">
-    <value>雲龍</value>
-  </data>
-  <data name="Ship405" xml:space="preserve">
-    <value>春雨</value>
-  </data>
-  <data name="Ship406" xml:space="preserve">
-    <value>雲龍改</value>
-  </data>
-  <data name="Ship407" xml:space="preserve">
-    <value>潮改二</value>
-  </data>
-  <data name="Ship408" xml:space="preserve">
-    <value>隼鷹改二</value>
-  </data>
-  <data name="Ship409" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship410" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship411" xml:space="preserve">
-    <value>扶桑改二</value>
-  </data>
-  <data name="Ship412" xml:space="preserve">
-    <value>山城改二</value>
-  </data>
-  <data name="Ship413" xml:space="preserve">
-    <value>朝雲</value>
-  </data>
-  <data name="Ship414" xml:space="preserve">
-    <value>山雲</value>
-  </data>
-  <data name="Ship415" xml:space="preserve">
-    <value>野分</value>
-  </data>
-  <data name="Ship416" xml:space="preserve">
-    <value>古鷹改二</value>
-  </data>
-  <data name="Ship417" xml:space="preserve">
-    <value>加古改二</value>
-  </data>
-  <data name="Ship419" xml:space="preserve">
-    <value>初霜改二</value>
-  </data>
-  <data name="Ship420" xml:space="preserve">
-    <value>叢雲改二</value>
-  </data>
-  <data name="Ship421" xml:space="preserve">
-    <value>秋月</value>
-  </data>
-  <data name="Ship422" xml:space="preserve">
-    <value>照月</value>
-  </data>
-  <data name="Ship424" xml:space="preserve">
-    <value>高波</value>
-  </data>
-  <data name="Ship425" xml:space="preserve">
-    <value>朝霜</value>
-  </data>
-  <data name="Ship426" xml:space="preserve">
-    <value>吹雪改二</value>
-  </data>
-  <data name="Ship427" xml:space="preserve">
-    <value>鳥海改二</value>
-  </data>
-  <data name="Ship428" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship429" xml:space="preserve">
-    <value>天城改</value>
-  </data>
-  <data name="Ship430" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship431" xml:space="preserve">
-    <value>U-511</value>
-  </data>
-  <data name="Ship434" xml:space="preserve">
-    <value>睦月改二</value>
-  </data>
-  <data name="Ship435" xml:space="preserve">
-    <value>如月改二</value>
-  </data>
-  <data name="Ship436" xml:space="preserve">
-    <value>呂500</value>
-  </data>
-  <data name="Ship437" xml:space="preserve">
-    <value>暁改二</value>
-  </data>
-  <data name="Ship441" xml:space="preserve">
-    <value>Littorio</value>
-  </data>
-  <data name="Ship442" xml:space="preserve">
-    <value>Roma</value>
-  </data>
-  <data name="Ship443" xml:space="preserve">
-    <value>Libeccio</value>
-  </data>
-  <data name="Libeccio" xml:space="preserve">
-    <value>Libeccio</value>
-  </data>
-  <data name="Ship445" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship446" xml:space="preserve">
-    <value>Italia</value>
-  </data>
-  <data name="Roma" xml:space="preserve">
-    <value>Roma</value>
-  </data>
-  <data name="Ship450" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship451" xml:space="preserve">
-    <value>瑞穂</value>
-  </data>
-  <data name="Ship453" xml:space="preserve">
-    <value>風雲</value>
-  </data>
-  <data name="Ship458" xml:space="preserve">
-    <value>海風</value>
-  </data>
-  <data name="Ship459" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship460" xml:space="preserve">
-    <value />
-  </data>
-  <data name="Ship501" xml:space="preserve">
-    <value>DD-I</value>
-  </data>
-  <data name="Ship502" xml:space="preserve">
-    <value>DD-Ro</value>
-  </data>
-  <data name="Ship503" xml:space="preserve">
-    <value>DD-Ha</value>
-  </data>
-  <data name="Ship504" xml:space="preserve">
-    <value>DD-Ni</value>
-  </data>
-  <data name="Ship505" xml:space="preserve">
-    <value>CL-Ho</value>
-  </data>
-  <data name="Ship506" xml:space="preserve">
-    <value>CL-He</value>
-  </data>
-  <data name="Ship507" xml:space="preserve">
-    <value>CL-To</value>
-  </data>
-  <data name="Ship508" xml:space="preserve">
-    <value>CLT-Chi</value>
-  </data>
-  <data name="Ship509" xml:space="preserve">
-    <value>CA-Ri</value>
-  </data>
-  <data name="Ship510" xml:space="preserve">
-    <value>CVL-Nu</value>
-  </data>
-  <data name="Ship511" xml:space="preserve">
-    <value>BB-Ru</value>
-  </data>
-  <data name="Ship512" xml:space="preserve">
-    <value>CV-Wo</value>
-  </data>
-  <data name="Ship513" xml:space="preserve">
-    <value>AP-Wa</value>
-  </data>
-  <data name="Ship514" xml:space="preserve">
-    <value>DD-I</value>
-  </data>
-  <data name="Ship515" xml:space="preserve">
-    <value>DD-Ro</value>
-  </data>
-  <data name="Ship516" xml:space="preserve">
-    <value>DD-Ha</value>
-  </data>
-  <data name="Ship517" xml:space="preserve">
-    <value>DD-Ni</value>
-  </data>
-  <data name="Ship518" xml:space="preserve">
-    <value>CL-Ho</value>
-  </data>
-  <data name="Ship519" xml:space="preserve">
-    <value>CL-He</value>
-  </data>
-  <data name="Ship520" xml:space="preserve">
-    <value>CL-To</value>
-  </data>
-  <data name="Ship521" xml:space="preserve">
-    <value>CLT-Chi</value>
-  </data>
-  <data name="Ship522" xml:space="preserve">
-    <value>CA-Ri</value>
-  </data>
-  <data name="Ship523" xml:space="preserve">
-    <value>CVL-Nu</value>
-  </data>
-  <data name="Ship524" xml:space="preserve">
-    <value>BB-Ru</value>
-  </data>
-  <data name="Ship525" xml:space="preserve">
-    <value>CV-Wo</value>
-  </data>
-  <data name="Ship526" xml:space="preserve">
-    <value>AP-Wa</value>
-  </data>
-  <data name="Ship527" xml:space="preserve">
-    <value>CA-Ri</value>
-  </data>
-  <data name="Ship528" xml:space="preserve">
-    <value>CV-Wo</value>
-  </data>
-  <data name="Ship529" xml:space="preserve">
-    <value>BB-Ru</value>
-  </data>
-  <data name="Ship530" xml:space="preserve">
-    <value>SS-Ka</value>
-  </data>
-  <data name="Ship531" xml:space="preserve">
-    <value>SS-Yo</value>
-  </data>
-  <data name="Ship532" xml:space="preserve">
-    <value>SS-Ka</value>
-  </data>
-  <data name="Ship533" xml:space="preserve">
-    <value>SS-Yo</value>
-  </data>
-  <data name="Ship534" xml:space="preserve">
-    <value>SS-Ka</value>
-  </data>
-  <data name="Ship535" xml:space="preserve">
-    <value>SS-Yo</value>
-  </data>
-  <data name="Ship536" xml:space="preserve">
-    <value>Floating Fotress</value>
-  </data>
-  <data name="Ship537" xml:space="preserve">
-    <value>Floating Fotress</value>
-  </data>
-  <data name="Ship538" xml:space="preserve">
-    <value>Floating Fotress</value>
-  </data>
-  <data name="Ship539" xml:space="preserve">
-    <value>Anchorage Demon</value>
-  </data>
-  <data name="Ship540" xml:space="preserve">
-    <value>Anchorage Princess</value>
-  </data>
-  <data name="Ship541" xml:space="preserve">
-    <value>BB-Ta</value>
-  </data>
-  <data name="Ship542" xml:space="preserve">
-    <value>BB-Ta</value>
-  </data>
-  <data name="Ship543" xml:space="preserve">
-    <value>BB-Ta</value>
-  </data>
-  <data name="Ship544" xml:space="preserve">
-    <value>Armored Carrier Demon</value>
-  </data>
-  <data name="Ship545" xml:space="preserve">
-    <value>Armored Carrier Princess</value>
-  </data>
-  <data name="Ship546" xml:space="preserve">
-    <value>Southern Demon</value>
-  </data>
-  <data name="Ship547" xml:space="preserve">
-    <value>Southern War Demon</value>
-  </data>
-  <data name="Ship548" xml:space="preserve">
-    <value>Southern War Princess</value>
-  </data>
-  <data name="Ship549" xml:space="preserve">
-    <value>Escort Fortress</value>
-  </data>
-  <data name="Ship550" xml:space="preserve">
-    <value>Escort Fortress</value>
-  </data>
-  <data name="Ship551" xml:space="preserve">
-    <value>Escort Fortress</value>
-  </data>
-  <data name="Ship552" xml:space="preserve">
-    <value>DD-Ro</value>
-  </data>
-  <data name="Ship553" xml:space="preserve">
-    <value>DD-Ha</value>
-  </data>
-  <data name="Ship554" xml:space="preserve">
-    <value>CL-Ho</value>
-  </data>
-  <data name="Ship555" xml:space="preserve">
-    <value>CL-He</value>
-  </data>
-  <data name="Ship556" xml:space="preserve">
-    <value>Airfield Princess</value>
-  </data>
-  <data name="Ship557" xml:space="preserve">
-    <value>Battleship Princess</value>
-  </data>
-  <data name="Ship558" xml:space="preserve">
-    <value>AP-Wa</value>
-  </data>
-  <data name="Ship559" xml:space="preserve">
-    <value>CLT-Chi</value>
-  </data>
-  <data name="Ship560" xml:space="preserve">
-    <value>CVL-Nu</value>
-  </data>
-  <data name="Ship561" xml:space="preserve">
-    <value>BB-Re</value>
-  </data>
-  <data name="Ship562" xml:space="preserve">
-    <value>BB-Re</value>
-  </data>
-  <data name="Ship564" xml:space="preserve">
-    <value>DD-I</value>
-  </data>
-  <data name="Ship565" xml:space="preserve">
-    <value>CV-Wo Kai</value>
-  </data>
-  <data name="Ship566" xml:space="preserve">
-    <value>CA-Ri Kai</value>
-  </data>
-  <data name="Ship567" xml:space="preserve">
-    <value>BB-Ru Kai</value>
-  </data>
-  <data name="Ship570" xml:space="preserve">
-    <value>SS-So</value>
-  </data>
-  <data name="Ship571" xml:space="preserve">
-    <value>SS-So</value>
-  </data>
-  <data name="Ship572" xml:space="preserve">
-    <value>潜水ソ級</value>
-  </data>
-  <data name="Ship573" xml:space="preserve">
-    <value>Harbour Princess</value>
-  </data>
-  <data name="Ship574" xml:space="preserve">
-    <value>Isolated Island Demon</value>
-  </data>
-  <data name="Ship575" xml:space="preserve">
-    <value>駆逐イ級後期型</value>
-  </data>
-  <data name="Ship576" xml:space="preserve">
-    <value>駆逐ロ級後期型</value>
-  </data>
-  <data name="Ship577" xml:space="preserve">
-    <value>駆逐ハ級後期型</value>
-  </data>
-  <data name="Ship578" xml:space="preserve">
-    <value>駆逐ニ級後期型</value>
-  </data>
-  <data name="Ship579" xml:space="preserve">
-    <value>空母ヲ級</value>
-  </data>
-  <data name="Ship581" xml:space="preserve">
-    <value>Nagara (fog)</value>
-  </data>
-  <data name="Ship582" xml:space="preserve">
-    <value>Takao (fog)</value>
-  </data>
-  <data name="Ship583" xml:space="preserve">
-    <value>Maya (fog)</value>
-  </data>
-  <data name="Ship584" xml:space="preserve">
-    <value>Haruna (fog)</value>
-    <comment>Possible Duplicate: First was 大淀 this was 中間棲姫</comment>
-  </data>
-  <data name="Ship585" xml:space="preserve">
-    <value>Kirishima (fog)</value>
-  </data>
-  <data name="Ship586" xml:space="preserve">
-    <value>Kongou (fog)</value>
-  </data>
-  <data name="Ship587" xml:space="preserve">
-    <value>Nagara (fog)*</value>
-  </data>
-  <data name="Ship588" xml:space="preserve">
-    <value>Takao (fog)*</value>
-  </data>
-  <data name="Ship589" xml:space="preserve">
-    <value>Maya (fog)*</value>
-  </data>
-  <data name="Ship590" xml:space="preserve">
-    <value>Haruna (fog)*</value>
-  </data>
-  <data name="Ship591" xml:space="preserve">
-    <value>Kirishima (fog)*</value>
-  </data>
-  <data name="Ship592" xml:space="preserve">
-    <value>Kongou (fog)*</value>
-  </data>
-  <data name="Ship594" xml:space="preserve">
-    <value>重巡ネ級</value>
-  </data>
-  <data name="Ship595" xml:space="preserve">
-    <value>重巡ネ級</value>
-  </data>
-  <data name="Ship597" xml:space="preserve">
-    <value>駆逐棲姫</value>
-  </data>
-  <data name="Ship598" xml:space="preserve">
-    <value>駆逐棲姫</value>
-  </data>
-  <data name="Ship599" xml:space="preserve">
-    <value>空母水鬼</value>
-  </data>
-  <data name="Ship600" xml:space="preserve">
-    <value>空母水鬼</value>
-  </data>
-  <data name="Ship601" xml:space="preserve">
-    <value>軽巡棲鬼</value>
-  </data>
-  <data name="Ship602" xml:space="preserve">
-    <value>軽巡棲鬼</value>
-  </data>
-  <data name="Ship603" xml:space="preserve">
-    <value>戦艦水鬼</value>
-  </data>
-  <data name="Ship604" xml:space="preserve">
-    <value>戦艦水鬼</value>
-  </data>
-  <data name="Ship605" xml:space="preserve">
-    <value>港湾水鬼</value>
-  </data>
-  <data name="Ship606" xml:space="preserve">
-    <value>港湾水鬼</value>
-  </data>
-  <data name="Ship607" xml:space="preserve">
-    <value>港湾水鬼</value>
-  </data>
-  <data name="Ship608" xml:space="preserve">
-    <value>港湾水鬼</value>
-  </data>
-  <data name="Ship609" xml:space="preserve">
-    <value>泊地水鬼</value>
-  </data>
-  <data name="Ship610" xml:space="preserve">
-    <value>泊地水鬼</value>
-  </data>
-  <data name="Ship611" xml:space="preserve">
-    <value>泊地水鬼</value>
-  </data>
-  <data name="Ship612" xml:space="preserve">
-    <value>泊地水鬼</value>
-  </data>
-  <data name="Ship613" xml:space="preserve">
-    <value>港湾棲姫</value>
-  </data>
-  <data name="Ship614" xml:space="preserve">
-    <value>空母ヲ級</value>
-  </data>
-  <data name="Ship615" xml:space="preserve">
-    <value>空母ヲ級</value>
-  </data>
-  <data name="Ship616" xml:space="preserve">
-    <value>空母ヲ級改</value>
-  </data>
-  <data name="Ship617" xml:space="preserve">
-    <value>空母ヲ級改</value>
-  </data>
-  <data name="Ship618" xml:space="preserve">
-    <value>空母ヲ級改</value>
-  </data>
-  <data name="Ship619" xml:space="preserve">
-    <value>空母棲鬼</value>
-  </data>
-  <data name="Ship620" xml:space="preserve">
-    <value>空母棲姫</value>
-  </data>
-  <data name="Ship621" xml:space="preserve">
-    <value>駆逐イ級後期型</value>
-  </data>
-  <data name="Ship622" xml:space="preserve">
-    <value>駆逐ロ級後期型</value>
-  </data>
-  <data name="Ship623" xml:space="preserve">
-    <value>駆逐ハ級後期型</value>
-  </data>
-  <data name="Ship624" xml:space="preserve">
-    <value>駆逐ニ級後期型</value>
-  </data>
-  <data name="Ship625" xml:space="preserve">
-    <value>水母棲姫</value>
-  </data>
-  <data name="Ship626" xml:space="preserve">
-    <value>水母棲姫</value>
-  </data>
-  <data name="Ship627" xml:space="preserve">
-    <value>水母棲姫</value>
-  </data>
-  <data name="Ship628" xml:space="preserve">
-    <value>防空棲姫</value>
-  </data>
-  <data name="Ship629" xml:space="preserve">
-    <value>防空棲姫</value>
-  </data>
-  <data name="Ship630" xml:space="preserve">
-    <value>防空棲姫</value>
-  </data>
-  <data name="Ship631" xml:space="preserve">
-    <value>飛行場姫</value>
-  </data>
-  <data name="Ship632" xml:space="preserve">
-    <value>飛行場姫</value>
-  </data>
-  <data name="Ship633" xml:space="preserve">
-    <value>飛行場姫</value>
-  </data>
-  <data name="Ship634" xml:space="preserve">
-    <value>離島棲鬼</value>
-  </data>
-  <data name="Ship635" xml:space="preserve">
-    <value>離島棲鬼</value>
-  </data>
-  <data name="Ship636" xml:space="preserve">
-    <value>離島棲鬼</value>
-  </data>
-  <data name="摩耶" xml:space="preserve">
-    <value>Maya</value>
-  </data>
-  <data name="早霜" xml:space="preserve">
-    <value>Hayashimo</value>
-  </data>
-  <data name="時津風" xml:space="preserve">
-    <value>Tokitsukaze</value>
-  </data>
-  <data name="江風" xml:space="preserve">
-    <value>Kawakaze</value>
-  </data>
-  <data name="清霜" xml:space="preserve">
-    <value>Kiyoshimo</value>
-  </data>
-  <data name="秋津洲" xml:space="preserve">
-    <value>Akitsushima</value>
   </data>
   <data name="羽黒" xml:space="preserve">
     <value>Haguro</value>
   </data>
-  <data name="葛城" xml:space="preserve">
-    <value>Katsuragi</value>
+  <data name="高雄" xml:space="preserve">
+    <value>Takao</value>
+  </data>
+  <data name="愛宕" xml:space="preserve">
+    <value>Atago</value>
+  </data>
+  <data name="摩耶" xml:space="preserve">
+    <value>Maya</value>
+  </data>
+  <data name="鳥海" xml:space="preserve">
+    <value>Choukai</value>
+  </data>
+  <data name="最上" xml:space="preserve">
+    <value>Mogami</value>
+  </data>
+  <data name="利根" xml:space="preserve">
+    <value>Tone</value>
+  </data>
+  <data name="筑摩" xml:space="preserve">
+    <value>Chikuma</value>
+  </data>
+  <data name="祥鳳" xml:space="preserve">
+    <value>Shouhou</value>
+  </data>
+  <data name="飛鷹" xml:space="preserve">
+    <value>Hiyou</value>
+  </data>
+  <data name="龍驤" xml:space="preserve">
+    <value>Ryuujou</value>
+  </data>
+  <data name="伊勢" xml:space="preserve">
+    <value>Ise</value>
+  </data>
+  <data name="金剛" xml:space="preserve">
+    <value>Kongou</value>
+  </data>
+  <data name="榛名" xml:space="preserve">
+    <value>Haruna</value>
+  </data>
+  <data name="長門" xml:space="preserve">
+    <value>Nagato</value>
+  </data>
+  <data name="陸奥" xml:space="preserve">
+    <value>Mutsu</value>
+  </data>
+  <data name="赤城" xml:space="preserve">
+    <value>Akagi</value>
+  </data>
+  <data name="加賀" xml:space="preserve">
+    <value>Kaga</value>
+  </data>
+  <data name="霧島" xml:space="preserve">
+    <value>Kirishima</value>
+  </data>
+  <data name="比叡" xml:space="preserve">
+    <value>Hiei</value>
+  </data>
+  <data name="日向" xml:space="preserve">
+    <value>Hyuuga</value>
+  </data>
+  <data name="鳳翔" xml:space="preserve">
+    <value>Houshou</value>
   </data>
   <data name="蒼龍" xml:space="preserve">
     <value>Souryuu</value>
   </data>
+  <data name="飛龍" xml:space="preserve">
+    <value>Hiryuu</value>
+  </data>
+  <data name="隼鷹" xml:space="preserve">
+    <value>Junyou</value>
+  </data>
+  <data name="朧" xml:space="preserve">
+    <value>Oboro</value>
+  </data>
+  <data name="漣" xml:space="preserve">
+    <value>Sazanami</value>
+  </data>
+  <data name="朝潮" xml:space="preserve">
+    <value>Asashio</value>
+  </data>
+  <data name="大潮" xml:space="preserve">
+    <value>Ooshio</value>
+  </data>
+  <data name="満潮" xml:space="preserve">
+    <value>Michishio</value>
+  </data>
+  <data name="荒潮" xml:space="preserve">
+    <value>Arashio</value>
+  </data>
+  <data name="球磨" xml:space="preserve">
+    <value>Kuma</value>
+  </data>
+  <data name="多摩" xml:space="preserve">
+    <value>Tama</value>
+  </data>
+  <data name="木曾" xml:space="preserve">
+    <value>Kiso</value>
+  </data>
+  <data name="千歳" xml:space="preserve">
+    <value>Chitose</value>
+  </data>
+  <data name="千代田" xml:space="preserve">
+    <value>Chiyoda</value>
+  </data>
+  <data name="千歳甲" xml:space="preserve">
+    <value>Chitose A</value>
+  </data>
+  <data name="千代田甲" xml:space="preserve">
+    <value>Chiyoda A</value>
+  </data>
+  <data name="千歳航" xml:space="preserve">
+    <value>Chitose Carrier</value>
+  </data>
+  <data name="千代田航" xml:space="preserve">
+    <value>Chiyoda Carrier</value>
+  </data>
+  <data name="翔鶴" xml:space="preserve">
+    <value>Shoukaku</value>
+  </data>
+  <data name="瑞鶴" xml:space="preserve">
+    <value>Zuikaku</value>
+  </data>
+  <data name="瑞鳳" xml:space="preserve">
+    <value>Zuihou</value>
+  </data>
+  <data name="三隈" xml:space="preserve">
+    <value>Mikuma</value>
+  </data>
+  <data name="舞風" xml:space="preserve">
+    <value>Maikaze</value>
+  </data>
+  <data name="衣笠" xml:space="preserve">
+    <value>Kinugasa</value>
+  </data>
+  <data name="鈴谷" xml:space="preserve">
+    <value>Suzuya</value>
+  </data>
+  <data name="熊野" xml:space="preserve">
+    <value>Kumano</value>
+  </data>
+  <data name="伊168" xml:space="preserve">
+    <value>I-168</value>
+  </data>
+  <data name="伊58" xml:space="preserve">
+    <value>I-58</value>
+  </data>
+  <data name="伊8" xml:space="preserve">
+    <value>I-8</value>
+  </data>
+  <data name="大和" xml:space="preserve">
+    <value>Yamato</value>
+  </data>
+  <data name="秋雲" xml:space="preserve">
+    <value>Akigumo</value>
+  </data>
+  <data name="夕雲" xml:space="preserve">
+    <value>Yuugumo</value>
+  </data>
+  <data name="巻雲" xml:space="preserve">
+    <value>Makigumo</value>
+  </data>
+  <data name="長波" xml:space="preserve">
+    <value>Naganami</value>
+  </data>
+  <data name="阿賀野" xml:space="preserve">
+    <value>Agano</value>
+  </data>
+  <data name="能代" xml:space="preserve">
+    <value>Noshiro</value>
+  </data>
+  <data name="矢矧" xml:space="preserve">
+    <value>Yahagi</value>
+  </data>
+  <data name="酒匂" xml:space="preserve">
+    <value>Sakawa</value>
+  </data>
+  <data name="武蔵" xml:space="preserve">
+    <value>Musashi</value>
+  </data>
+  <data name="Верный" xml:space="preserve">
+    <value>Верный</value>
+  </data>
+  <data name="大鳳" xml:space="preserve">
+    <value>Taiho</value>
+  </data>
+  <data name="香取" xml:space="preserve">
+    <value>Katori</value>
+  </data>
+  <data name="伊401" xml:space="preserve">
+    <value>I-401</value>
+  </data>
+  <data name="あきつ丸" xml:space="preserve">
+    <value>Akitsumaru</value>
+  </data>
+  <data name="まるゆ" xml:space="preserve">
+    <value>Maruyu</value>
+  </data>
+  <data name="弥生" xml:space="preserve">
+    <value>Yayoi</value>
+  </data>
+  <data name="卯月" xml:space="preserve">
+    <value>Uzuki</value>
+  </data>
+  <data name="磯風" xml:space="preserve">
+    <value>Isokaze</value>
+  </data>
+  <data name="浦風" xml:space="preserve">
+    <value>Urakaze</value>
+  </data>
+  <data name="谷風" xml:space="preserve">
+    <value>Tanikaze</value>
+  </data>
+  <data name="浜風" xml:space="preserve">
+    <value>Hamakaze</value>
+  </data>
+  <data name="Bismarck" xml:space="preserve">
+    <value>Bismarck</value>
+  </data>
+  <data name="Bismarck zwei" xml:space="preserve">
+    <value>Bismarck zwei</value>
+  </data>
+  <data name="Z1" xml:space="preserve">
+    <value>Z1</value>
+  </data>
+  <data name="Z3" xml:space="preserve">
+    <value>Z3</value>
+  </data>
+  <data name="Prinz Eugen" xml:space="preserve">
+    <value>Prinz Eugen</value>
+  </data>
+  <data name="Bismarck drei" xml:space="preserve">
+    <value>Bismarck drei</value>
+  </data>
+  <data name="Z1 zwei" xml:space="preserve">
+    <value>Z1 zwei</value>
+  </data>
+  <data name="Z3 zwei" xml:space="preserve">
+    <value>Z3 zwei</value>
+  </data>
+  <data name="天津風" xml:space="preserve">
+    <value>Amatsukaze</value>
+  </data>
+  <data name="明石" xml:space="preserve">
+    <value>Akashi</value>
+  </data>
+  <data name="大淀" xml:space="preserve">
+    <value>Ooyodo</value>
+  </data>
+  <data name="大鯨" xml:space="preserve">
+    <value>Taigei</value>
+  </data>
+  <data name="龍鳳" xml:space="preserve">
+    <value>Ryuuhou</value>
+  </data>
+  <data name="時津風" xml:space="preserve">
+    <value>Tokitsukaze</value>
+  </data>
+  <data name="初風" xml:space="preserve">
+    <value>Hatsukaze</value>
+  </data>
+  <data name="伊19" xml:space="preserve">
+    <value>I-19</value>
+  </data>
+  <data name="天城" xml:space="preserve">
+    <value>Amagi</value>
+  </data>
+  <data name="葛城" xml:space="preserve">
+    <value>Katsuragi</value>
+  </data>
+  <data name="雲龍" xml:space="preserve">
+    <value>Unryuu</value>
+  </data>
+  <data name="春雨" xml:space="preserve">
+    <value>Harusame</value>
+  </data>
+  <data name="早霜" xml:space="preserve">
+    <value>Hayashimo</value>
+  </data>
+  <data name="清霜" xml:space="preserve">
+    <value>Kiyoshimo</value>
+  </data>
+  <data name="朝雲" xml:space="preserve">
+    <value>Asagumo</value>
+  </data>
+  <data name="山雲" xml:space="preserve">
+    <value>Yamagumo</value>
+  </data>
+  <data name="野分" xml:space="preserve">
+    <value>Nowaki</value>
+  </data>
+  <data name="秋月" xml:space="preserve">
+    <value>Akizuki</value>
+  </data>
+  <data name="照月" xml:space="preserve">
+    <value>Teruzuki</value>
+  </data>
+  <data name="高波" xml:space="preserve">
+    <value>Takanami</value>
+  </data>
+  <data name="朝霜" xml:space="preserve">
+    <value>Asashimo</value>
+  </data>
+  <data name="U-511" xml:space="preserve">
+    <value>U-511</value>
+  </data>
+  <data name="呂500" xml:space="preserve">
+    <value>Ro-500</value>
+  </data>
+  <data name="Littorio" xml:space="preserve">
+    <value>Littorio</value>
+  </data>
+  <data name="Roma" xml:space="preserve">
+    <value>Roma</value>
+  </data>
+  <data name="Libeccio" xml:space="preserve">
+    <value>Libeccio</value>
+  </data>
+  <data name="秋津洲" xml:space="preserve">
+    <value>Akitsushima</value>
+  </data>
+  <data name="Italia" xml:space="preserve">
+    <value>Italia</value>
+  </data>
+  <data name="瑞穂" xml:space="preserve">
+    <value>Mizuho</value>
+  </data>
+  <data name="風雲" xml:space="preserve">
+    <value>Kazagumo</value>
+  </data>
+  <data name="海風" xml:space="preserve">
+    <value>Umikaze</value>
+  </data>
+  <data name="江風" xml:space="preserve">
+    <value>Kawakaze</value>
+  </data>
   <data name="速吸" xml:space="preserve">
     <value>Hayasui</value>
   </data>
-  <data name="那智" xml:space="preserve">
-    <value>Nachi</value>
+  <data name="駆逐イ級" xml:space="preserve">
+    <value>Destroyer I-Class</value>
+  </data>
+  <data name="駆逐ロ級" xml:space="preserve">
+    <value>Destroyer Ro-Class</value>
+  </data>
+  <data name="駆逐ハ級" xml:space="preserve">
+    <value>Destroyer Ha-Class</value>
+  </data>
+  <data name="駆逐ニ級" xml:space="preserve">
+    <value>Destroyer Ni-Class</value>
+  </data>
+  <data name="軽巡ホ級" xml:space="preserve">
+    <value>Light Cruiser Ho-Class</value>
+  </data>
+  <data name="軽巡ヘ級" xml:space="preserve">
+    <value>Light Cruiser Ho-Class</value>
+  </data>
+  <data name="軽巡ト級" xml:space="preserve">
+    <value>Light Cruiser To-Class</value>
+  </data>
+  <data name="雷巡チ級" xml:space="preserve">
+    <value>CLT-Chi</value>
+  </data>
+  <data name="重巡リ級" xml:space="preserve">
+    <value>Heavy Cruiser Ri-Class</value>
+  </data>
+  <data name="軽母ヌ級" xml:space="preserve">
+    <value>Light Carrier Nu-Class</value>
+  </data>
+  <data name="戦艦ル級" xml:space="preserve">
+    <value>Battleship Ru-Class</value>
+  </data>
+  <data name="空母ヲ級" xml:space="preserve">
+    <value>Standard Carrier Wo-Class</value>
+  </data>
+  <data name="輸送ワ級" xml:space="preserve">
+    <value>Transport Ship Wa-Class</value>
+  </data>
+  <data name="潜水カ級" xml:space="preserve">
+    <value>Submarine Ka-Class</value>
+  </data>
+  <data name="潜水ヨ級" xml:space="preserve">
+    <value>Submarine Yo-Class</value>
+  </data>
+  <data name="浮遊要塞" xml:space="preserve">
+    <value>Floating Fotress</value>
+  </data>
+  <data name="泊地棲鬼" xml:space="preserve">
+    <value>Anchorage Demon</value>
+  </data>
+  <data name="泊地棲姫" xml:space="preserve">
+    <value>Anchorage Princess</value>
+  </data>
+  <data name="戦艦タ級" xml:space="preserve">
+    <value>Battleship Ta-Class</value>
+  </data>
+  <data name="装甲空母鬼" xml:space="preserve">
+    <value>Armored Carrier Demon</value>
+  </data>
+  <data name="装甲空母姫" xml:space="preserve">
+    <value>Armored Carrier Princess</value>
+  </data>
+  <data name="南方棲鬼" xml:space="preserve">
+    <value>Southern Demon</value>
+  </data>
+  <data name="南方棲戦鬼" xml:space="preserve">
+    <value>Southern War Demon</value>
+  </data>
+  <data name="南方棲戦姫" xml:space="preserve">
+    <value>Southern War Princess</value>
+  </data>
+  <data name="護衛要塞" xml:space="preserve">
+    <value>Escort Fortress</value>
+  </data>
+  <data name="飛行場姫" xml:space="preserve">
+    <value>Airfield Princess</value>
+  </data>
+  <data name="戦艦棲姫" xml:space="preserve">
+    <value>Battleship Princess</value>
+  </data>
+  <data name="戦艦レ級" xml:space="preserve">
+    <value>Battleship Re-Class</value>
+  </data>
+  <data name="潜水ソ級" xml:space="preserve">
+    <value>Submarine So-class</value>
+  </data>
+  <data name="港湾棲姫" xml:space="preserve">
+    <value>Harbour Princess</value>
+  </data>
+  <data name="離島棲鬼" xml:space="preserve">
+    <value>Isolated Island Demon</value>
+  </data>
+  <data name="駆逐イ級後期型" xml:space="preserve">
+    <value>Destroyer I-Class Late Model</value>
+  </data>
+  <data name="駆逐ロ級後期型" xml:space="preserve">
+    <value>Destroyer Ro-Class Late Model</value>
+  </data>
+  <data name="駆逐ハ級後期型" xml:space="preserve">
+    <value>Destroyer Ha-Class Late Model</value>
+  </data>
+  <data name="駆逐ニ級後期型" xml:space="preserve">
+    <value>Destroyer Ni-Class Late Model</value>
+  </data>
+  <data name="北方棲姫" xml:space="preserve">
+    <value>Northern Princess</value>
+  </data>
+  <data name="中間棲姫" xml:space="preserve">
+    <value>Midway Princess</value>
+  </data>
+  <data name="空母棲鬼" xml:space="preserve">
+    <value>Aircraft Carrier Demon</value>
+  </data>
+  <data name="空母棲姫" xml:space="preserve">
+    <value>Aircraft Carrier Princess</value>
+  </data>
+  <data name="軽巡ツ級" xml:space="preserve">
+    <value>Light Cruiser Tsu-Class</value>
+  </data>
+  <data name="重巡ネ級" xml:space="preserve">
+    <value>Heavy Cruiser Ne-Class</value>
+  </data>
+  <data name="駆逐棲姫" xml:space="preserve">
+    <value>Destroyer Princess</value>
+  </data>
+  <data name="空母水鬼" xml:space="preserve">
+    <value>Aircraft Carrier Water Demon</value>
+  </data>
+  <data name="軽巡棲鬼" xml:space="preserve">
+    <value>Light Cruiser Demon</value>
+  </data>
+  <data name="戦艦水鬼" xml:space="preserve">
+    <value>Battleship Water Demon</value>
+  </data>
+  <data name="港湾水鬼" xml:space="preserve">
+    <value>Harbour Water Demon</value>
+  </data>
+  <data name="泊地水鬼" xml:space="preserve">
+    <value>Anchorage Water Demon</value>
+  </data>
+  <data name="水母棲姫" xml:space="preserve">
+    <value>Seaplane Tender Princess</value>
+  </data>
+  <data name="防空棲姫" xml:space="preserve">
+    <value>Air Defense Princess</value>
+  </data>
+  <data name="阿武隈" xml:space="preserve">
+    <value>Abukuma</value>
   </data>
 </root>
