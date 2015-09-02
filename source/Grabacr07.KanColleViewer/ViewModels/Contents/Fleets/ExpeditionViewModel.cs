@@ -12,7 +12,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 	{
 		private readonly Expedition source;
 
-		public Mission Mission => this.source.Mission;
+		public MissionViewModel Mission { get; private set; }
 
 		public bool IsInExecution => this.source.IsInExecution;
 
@@ -25,7 +25,19 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 		public ExpeditionViewModel(Expedition expedition)
 		{
 			this.source = expedition;
-			this.CompositeDisposable.Add(new PropertyChangedEventListener(expedition, (sender, args) => this.RaisePropertyChanged(args.PropertyName)));
+            this.Mission = new MissionViewModel(expedition.Mission);
+
+			this.CompositeDisposable.Add(new PropertyChangedEventListener(expedition, 
+                (sender, args) => 
+                {
+                    if(args.PropertyName == nameof(this.Mission))
+                    {
+                        this.Mission = new MissionViewModel(expedition.Mission);
+                    }
+
+                    this.RaisePropertyChanged(args.PropertyName);
+                }
+            ));
 		}
 	}
 }
