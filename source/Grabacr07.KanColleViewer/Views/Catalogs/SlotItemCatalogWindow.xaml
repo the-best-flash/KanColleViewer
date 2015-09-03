@@ -35,7 +35,7 @@
 				   IsRestoringWindowPlacement="True"
 				   UseLayoutRounding="True"
 				   TextOptions.TextFormattingMode="Display">
-    
+
     <Grid>
 		<Grid.RowDefinitions>
 			<RowDefinition Height="Auto" />

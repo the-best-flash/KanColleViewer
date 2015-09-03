@@ -94,10 +94,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
 		public string Title
 		{
-			get
-            {
-                return QuestTranslationHelper.TranslateQuestTitle(this._Title);
-            }
+			get { return QuestTranslationHelper.TranslateQuestTitle(this._Title); }
 			set
 			{
 				if (this._Title != value)
@@ -116,10 +113,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
 		public string Detail
 		{
-			get
-            {
-                return QuestTranslationHelper.TranslateQuestDetail(this._Title, this._Detail);
-            }
+			get { return QuestTranslationHelper.TranslateQuestDetail(this._Title, this._Detail); }
 			set
 			{
 				if (this._Detail != value)
@@ -176,7 +170,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
                     this.RaisePropertyChanged(nameof(this.Detail));
                     }
             });
-
         }
 	}
 }

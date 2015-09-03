@@ -3,7 +3,7 @@
 			 xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
 			 xmlns:s="clr-namespace:System;assembly=mscorlib"
 			 xmlns:converters="clr-namespace:MetroTrilithon.Converters;assembly=MetroTrilithon.Desktop">
-    <Application.Resources>
+   <Application.Resources>
 		<ResourceDictionary>
 			<ResourceDictionary.MergedDictionaries>
 				<ResourceDictionary Source="pack://application:,,,/MetroRadiance;component/Styles/Controls.xaml" />

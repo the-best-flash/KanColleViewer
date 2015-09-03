@@ -9,7 +9,6 @@ using Grabacr07.KanColleWrapper.Models;
 using Livet;
 using MetroTrilithon.Lifetime;
 using MetroTrilithon.Mvvm;
-using Grabacr07.KanColleWrapper.Translation;
 
 namespace Grabacr07.KanColleViewer.Models
 {
