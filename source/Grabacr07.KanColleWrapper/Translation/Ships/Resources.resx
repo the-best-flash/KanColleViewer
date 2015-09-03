@@ -123,4 +123,7 @@
   <data name="Ni" xml:space="preserve">
     <value>二</value>
   </data>
+  <data name="UseShipNameForSorting" xml:space="preserve">
+    <value>false</value>
+  </data>
 </root>

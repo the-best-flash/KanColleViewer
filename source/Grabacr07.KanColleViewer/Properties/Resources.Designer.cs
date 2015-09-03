@@ -1465,6 +1465,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 耐久.
+        /// </summary>
+        public static string ShipListHeader_HP {
+            get {
+                return ResourceManager.GetString("ShipListHeader_HP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ID.
         /// </summary>
         public static string ShipListHeader_ID {
@@ -1551,6 +1560,33 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string ShipListWindow_Title {
             get {
                 return ResourceManager.GetString("ShipListWindow_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Condition 値.
+        /// </summary>
+        public static string ShipSorting_ConditionValue {
+            get {
+                return ResourceManager.GetString("ShipSorting_ConditionValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to なし.
+        /// </summary>
+        public static string ShipSorting_None {
+            get {
+                return ResourceManager.GetString("ShipSorting_None", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 次のレベルまでの経験値.
+        /// </summary>
+        public static string ShipSorting_RemainingExp {
+            get {
+                return ResourceManager.GetString("ShipSorting_RemainingExp", resourceCulture);
             }
         }
         

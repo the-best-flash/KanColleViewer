@@ -654,6 +654,18 @@
   <data name="Submarines" xml:space="preserve">
     <value>潜水艦</value>
   </data>
+  <data name="ShipListHeader_HP" xml:space="preserve">
+    <value>耐久</value>
+  </data>
+  <data name="ShipSorting_ConditionValue" xml:space="preserve">
+    <value>Condition 値</value>
+  </data>
+  <data name="ShipSorting_None" xml:space="preserve">
+    <value>なし</value>
+  </data>
+  <data name="ShipSorting_RemainingExp" xml:space="preserve">
+    <value>次のレベルまでの経験値</value>
+  </data>
   <data name="Shipyard" xml:space="preserve">
     <value>工廠</value>
   </data>

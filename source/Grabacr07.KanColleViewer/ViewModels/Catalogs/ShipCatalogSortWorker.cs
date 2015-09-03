@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper;
 using Grabacr07.KanColleWrapper.Models;
 using Livet;
+using Grabacr07.KanColleViewer.Controls.Globalization;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 {
@@ -13,20 +15,20 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 		#region static members
 
 		private const int selectorNum = 4;
-		public static readonly SortableColumn NoneColumn = new SortableColumn { Name = "なし", KeySelector = null };
-		public static readonly SortableColumn IdColumn = new SortableColumn { Name = "ID", KeySelector = x => x.Id, };
-		public static readonly SortableColumn StypeColumn = new SortableColumn { Name = "艦種", KeySelector = x => x.Info.ShipType.SortNumber, };
-		public static readonly SortableColumn NameColumn = new SortableColumn { Name = "艦名", KeySelector = x => x.Info.SortId, };
-		public static readonly SortableColumn LevelColumn = new SortableColumn { Name = "レベル", KeySelector = x => x.Level, DefaultIsDescending = true, };
-		public static readonly SortableColumn ExpColumn = new SortableColumn { Name = "次のレベルまでの経験値", KeySelector = x => x.ExpForNextLevel, };
-		public static readonly SortableColumn CondColumn = new SortableColumn { Name = "Condition 値", KeySelector = x => x.Condition, DefaultIsDescending = true, };
-		public static readonly SortableColumn FirepowerColumn = new SortableColumn { Name = "火力", KeySelector = x => x.Firepower.Current, DefaultIsDescending = true, };
-		public static readonly SortableColumn TorpedoColumn = new SortableColumn { Name = "雷装", KeySelector = x => x.Torpedo.Current, DefaultIsDescending = true, };
-		public static readonly SortableColumn AAColumn = new SortableColumn { Name = "対空", KeySelector = x => x.AA.Current, DefaultIsDescending = true, };
-		public static readonly SortableColumn ArmerColumn = new SortableColumn { Name = "装甲", KeySelector = x => x.Armer.Current, DefaultIsDescending = true, };
-		public static readonly SortableColumn LuckColumn = new SortableColumn { Name = "運", KeySelector = x => x.Luck.Current, DefaultIsDescending = true, };
-		public static readonly SortableColumn HPColumn = new SortableColumn { Name = "耐久", KeySelector = x => x.HP.Maximum, DefaultIsDescending = true, };
-		public static readonly SortableColumn ViewRangeColumn = new SortableColumn { Name = "索敵", KeySelector = x => x.ViewRange, DefaultIsDescending = true, };
+		public static readonly SortableColumn NoneColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipSorting_None, KeySelector = null };
+		public static readonly SortableColumn IdColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_ID, KeySelector = x => x.Id, };
+		public static readonly SortableColumn StypeColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_ShipType, KeySelector = x => x.Info.ShipType.SortNumber, };
+		public static readonly SortableColumn NameColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_ShipName, KeySelector = x => x.Info.SortId, StringKeySelector = x => x.Info.Name, UseString = KanColleWrapper.Translation.ShipTranslationHelper.UseShipNameForSorting };
+		public static readonly SortableColumn LevelColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_Level, KeySelector = x => x.Level, DefaultIsDescending = true, };
+		public static readonly SortableColumn ExpColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipSorting_RemainingExp, KeySelector = x => x.ExpForNextLevel, };
+		public static readonly SortableColumn CondColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipSorting_ConditionValue, KeySelector = x => x.Condition, DefaultIsDescending = true, };
+		public static readonly SortableColumn FirepowerColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_Firepower, KeySelector = x => x.Firepower.Current, DefaultIsDescending = true, };
+		public static readonly SortableColumn TorpedoColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_Torpedo, KeySelector = x => x.Torpedo.Current, DefaultIsDescending = true, };
+		public static readonly SortableColumn AAColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_AA, KeySelector = x => x.AA.Current, DefaultIsDescending = true, };
+		public static readonly SortableColumn ArmerColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_Armor, KeySelector = x => x.Armer.Current, DefaultIsDescending = true, };
+		public static readonly SortableColumn LuckColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_Luck, KeySelector = x => x.Luck.Current, DefaultIsDescending = true, };
+		public static readonly SortableColumn HPColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_HP, KeySelector = x => x.HP.Maximum, DefaultIsDescending = true, };
+		public static readonly SortableColumn ViewRangeColumn = new SortableColumn { NameFunc = () => Properties.Resources.ShipListHeader_LOS, KeySelector = x => x.ViewRange, DefaultIsDescending = true, };
 
 		public static SortableColumn[] Columns { get; set; }
 
@@ -84,13 +86,31 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 			var selectors = this.Selectors.Where(x => x.Current.KeySelector != null).ToArray();
 			if (selectors.Length == 0) return ships;
 
-			var selector = selectors[0].Current.KeySelector;
-			var orderedShips = selectors[0].IsAscending ? ships.OrderBy(selector) : ships.OrderByDescending(selector);
+            IOrderedEnumerable<Ship> orderedShips;
+
+            if (selectors[0].Current.UseString != null && selectors[0].Current.UseString.Invoke())
+            {
+                var selector = selectors[0].Current.StringKeySelector;
+                orderedShips = selectors[0].IsAscending ? ships.OrderBy(selector) : ships.OrderByDescending(selector);
+            }
+            else
+            {
+                var selector = selectors[0].Current.KeySelector;
+                orderedShips = selectors[0].IsAscending ? ships.OrderBy(selector) : ships.OrderByDescending(selector);
+            }
 
 			for (var i = 1; i < selectors.Length; i++)
 			{
-				selector = selectors[i].Current.KeySelector;
-				orderedShips = selectors[i].IsAscending ? orderedShips.ThenBy(selector) : orderedShips.ThenByDescending(selector);
+                if (selectors[i].Current.UseString != null && selectors[i].Current.UseString.Invoke())
+                {
+                    var selector = selectors[i].Current.KeySelector;
+                    orderedShips = selectors[i].IsAscending ? orderedShips.ThenBy(selector) : orderedShips.ThenByDescending(selector);
+                }
+                else
+                {
+                    var selector = selectors[i].Current.KeySelector;
+                    orderedShips = selectors[i].IsAscending ? orderedShips.ThenBy(selector) : orderedShips.ThenByDescending(selector);
+                }
 			}
 
 			return orderedShips;
@@ -260,10 +280,19 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 		}
 	}
 
-	public class SortableColumn
+	public class SortableColumn : ViewModel
 	{
-		public string Name { get; set; }
+        public string Name => (this.NameFunc != null ? this.NameFunc.Invoke() : "");
+
+        public Func<string> NameFunc { get; set; }
 		public bool DefaultIsDescending { get; set; }
 		public Func<Ship, int> KeySelector { get; set; }
+        public Func<Ship, string> StringKeySelector { get; set; }
+        public Func<bool> UseString { get; set; }
+
+        public SortableColumn()
+        {
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) { (sender, args) => this.RaisePropertyChanged(nameof(this.Name)) });
+        }
 	}
 }

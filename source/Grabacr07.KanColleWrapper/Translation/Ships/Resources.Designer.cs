@@ -77,5 +77,14 @@ namespace Grabacr07.KanColleWrapper.Translation.Ships {
                 return ResourceManager.GetString("Ni", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to false.
+        /// </summary>
+        internal static string UseShipNameForSorting {
+            get {
+                return ResourceManager.GetString("UseShipNameForSorting", resourceCulture);
+            }
+        }
     }
 }

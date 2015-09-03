@@ -639,6 +639,18 @@
   <data name="Submarines" xml:space="preserve">
     <value>Submarines</value>
   </data>
+  <data name="ShipListHeader_HP" xml:space="preserve">
+    <value>HP</value>
+  </data>
+  <data name="ShipSorting_ConditionValue" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="ShipSorting_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="ShipSorting_RemainingExp" xml:space="preserve">
+    <value>Remaining Exp.</value>
+  </data>
   <data name="Shipyard" xml:space="preserve">
     <value>Shipyard</value>
   </data>
