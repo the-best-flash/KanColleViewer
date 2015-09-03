@@ -4,7 +4,7 @@
     {
         public static string TranslateItemName(string name)
         {
-            string stripped = TranslationHelper.StripInvalidCharacters(name);
+            string stripped = name;
             string translated = (string.IsNullOrEmpty(stripped) ? null : Equipment.Resources.ResourceManager.GetString(stripped, Equipment.Resources.Culture));
 
             return (string.IsNullOrEmpty(translated) ? name : translated);
