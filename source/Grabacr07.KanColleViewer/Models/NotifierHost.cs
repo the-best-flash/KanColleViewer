@@ -9,6 +9,7 @@ using Grabacr07.KanColleWrapper.Models;
 using Livet;
 using MetroTrilithon.Lifetime;
 using MetroTrilithon.Mvvm;
+using Grabacr07.KanColleWrapper.Translation;
 
 namespace Grabacr07.KanColleViewer.Models
 {
@@ -112,7 +113,7 @@ namespace Grabacr07.KanColleViewer.Models
 			if (!Settings.KanColleSettings.NotifyBuildingCompleted) return;
 
 			var shipName = Settings.KanColleSettings.CanDisplayBuildingShipName
-				? ShipTranslationHelper.TranslateShipName(args.Ship.Id, args.Ship.Name)
+				? args.Ship.Name
 				: Resources.Common_ShipGirl;
 
 			var notification = Notification.Create(

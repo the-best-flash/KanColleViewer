@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Grabacr07.KanColleViewer.Translation.Ships {
+namespace Grabacr07.KanColleWrapper.Translation.Expedition {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Grabacr07.KanColleViewer.Translation.Ships {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Grabacr07.KanColleViewer.Translation.Ships.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Grabacr07.KanColleWrapper.Translation.Expedition.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

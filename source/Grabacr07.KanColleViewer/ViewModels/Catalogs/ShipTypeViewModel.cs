@@ -38,7 +38,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 		public string DisplayName
 		{
-			get { return ShipTranslationHelper.TranslateShipTypeName(this._DisplayName); }
+			get { return KanColleWrapper.Translation.ShipTranslationHelper.TranslateShipTypeName(this._DisplayName); }
 			set
 			{
 				if (this._DisplayName != value)

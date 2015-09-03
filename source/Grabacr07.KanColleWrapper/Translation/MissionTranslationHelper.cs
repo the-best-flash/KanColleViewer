@@ -1,4 +1,4 @@
-﻿namespace Grabacr07.KanColleViewer
+﻿namespace Grabacr07.KanColleWrapper.Translation
 {
     public static class MissionTranslationHelper
     {
@@ -6,7 +6,7 @@
         {
             if (!string.IsNullOrWhiteSpace(str))
             {
-                string translation = Translation.Expedition.Resources.ResourceManager.GetString(str, Translation.Expedition.Resources.Culture);
+                string translation = Expedition.Resources.ResourceManager.GetString(str, Expedition.Resources.Culture);
 
                 if (!string.IsNullOrWhiteSpace(translation))
                 {

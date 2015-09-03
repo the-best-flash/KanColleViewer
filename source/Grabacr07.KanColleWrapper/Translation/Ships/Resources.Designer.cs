@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Grabacr07.KanColleViewer.Translation.Expedition {
+namespace Grabacr07.KanColleWrapper.Translation.Ships {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Grabacr07.KanColleViewer.Translation.Expedition {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Grabacr07.KanColleViewer.Translation.Expedition.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Grabacr07.KanColleWrapper.Translation.Ships.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,24 @@ namespace Grabacr07.KanColleViewer.Translation.Expedition {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 改.
+        /// </summary>
+        internal static string Kai {
+            get {
+                return ResourceManager.GetString("Kai", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 二.
+        /// </summary>
+        internal static string Ni {
+            get {
+                return ResourceManager.GetString("Ni", resourceCulture);
             }
         }
     }

@@ -15,26 +15,20 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
         public int Id => this.source.Id;
 
-        public string Ship
+        public string Ship => this.source.Ship == null ? "----" : this.source.Ship.Info.Name;
+
+        public string CompleteTime => this.source.CompleteTime?.LocalDateTime.ToString("MM/dd HH:mm") ?? "--/-- --:--:--";
+
+        public string Remaining => this.source.Remaining.HasValue
+            ? $"{(int)this.source.Remaining.Value.TotalHours:D2}:{this.source.Remaining.Value.ToString(@"mm\:ss")}"
+            : "--:--:--";
+
+        public RepairingDockState State => this.source.State;
+
+        public RepairingDockViewModel(RepairingDock source)
         {
-            get
-            {
-                return this.source.Ship == null ? "----" : ShipTranslationHelper.TranslateShipName(this.source.Ship.Info.Id, this.source.Ship.Info.Name);
-            }
-        }
-
-		public string CompleteTime => this.source.CompleteTime?.LocalDateTime.ToString("MM/dd HH:mm") ?? "--/-- --:--:--";
-
-		public string Remaining => this.source.Remaining.HasValue
-			? $"{(int)this.source.Remaining.Value.TotalHours:D2}:{this.source.Remaining.Value.ToString(@"mm\:ss")}"
-			: "--:--:--";
-
-		public RepairingDockState State => this.source.State;
-
-		public RepairingDockViewModel(RepairingDock source)
-		{
-			this.source = source;
-			this.CompositeDisposable.Add(new PropertyChangedEventListener(source, (sender, args) => this.RaisePropertyChanged(args.PropertyName)));
+            this.source = source;
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(source, (sender, args) => this.RaisePropertyChanged(args.PropertyName)));
 
             this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
             {
@@ -43,5 +37,5 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
                     }
             });
         }
-	}
+    }
 }

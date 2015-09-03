@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models.Raw;
 using Grabacr07.KanColleWrapper.Internal;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleWrapper.Models
 {
@@ -25,7 +26,7 @@ namespace Grabacr07.KanColleWrapper.Models
 		/// <summary>
 		/// 艦の名称を取得します。
 		/// </summary>
-		public string Name => this.RawData.api_name;
+		public string Name => Translation.ShipTranslationHelper.TranslateShipName(this.RawData.api_name);
 
 		/// <summary>
 		/// 艦種を取得します。
@@ -107,7 +108,16 @@ namespace Grabacr07.KanColleWrapper.Models
 		public int? NextRemodelingLevel => this.RawData.api_afterlv == 0 ? null : (int?)this.RawData.api_afterlv;
 
 
-		internal ShipInfo(kcsapi_mst_ship rawData) : base(rawData) { }
+		internal ShipInfo(kcsapi_mst_ship rawData) : base(rawData)
+        {
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(Globalization.ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Name));
+                    this.RaisePropertyChanged(nameof(this.ShipType));
+                    }
+            });
+        }
 
 		public override string ToString()
 		{

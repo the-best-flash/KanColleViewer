@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper;
 using Livet.EventListeners;
+using Grabacr07.KanColleViewer.Models;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Contents
 {
@@ -11,7 +12,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 	{
 		public override string Name
 		{
-			get { return "工廠"; }
+			get { return Properties.Resources.Shipyard; }
 			protected set { throw new NotImplementedException(); }
 		}
 
@@ -60,7 +61,14 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 		{
 			this.CreatedSlotItem = new CreatedSlotItemViewModel();
 
-			this.CompositeDisposable.Add(new PropertyChangedEventListener(KanColleClient.Current.Homeport.Repairyard)
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Name));
+                    }
+            });
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(KanColleClient.Current.Homeport.Repairyard)
 			{
 				{ nameof(Repairyard.Docks), (sender, args) => this.UpdateRepairingDocks() },
 			});

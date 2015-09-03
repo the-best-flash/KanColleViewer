@@ -654,4 +654,7 @@
   <data name="Submarines" xml:space="preserve">
     <value>潜水艦</value>
   </data>
+  <data name="Shipyard" xml:space="preserve">
+    <value>工廠</value>
+  </data>
 </root>

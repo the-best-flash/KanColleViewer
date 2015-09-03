@@ -16,14 +16,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 
 		public FleetStateViewModel State { get; }
 
-        public FleetViewModel[] Fleets
-        {
-            get
-            {
-                return this.Source.Fleets.Select(x => new FleetViewModel(x)).ToArray();
-            }
-        }
-
 		public ViewModel QuickStateView => this.Source.State.Situation.HasFlag(FleetSituation.Sortie)
 			? this.State.Sortie
 			: this.State.Homeport as QuickStateViewViewModel;
@@ -37,10 +29,10 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 				{ nameof(fleet.Name), (sender, args) =>
                     {
                         this.RaisePropertyChanged(nameof(this.Name));
-                        this.RaisePropertyChanged(nameof(this.Fleets));
                     }
                 },
 			});
+
 			this.CompositeDisposable.Add(new PropertyChangedEventListener(fleet.State)
 			{
 				{ nameof(fleet.State.Situation), (sender, args) => this.RaisePropertyChanged(nameof(this.QuickStateView)) },

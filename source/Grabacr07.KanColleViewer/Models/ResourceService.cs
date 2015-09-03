@@ -69,14 +69,15 @@ namespace Grabacr07.KanColleViewer.Models
             CultureInfo cultureInfo = this.SupportedCultures.SingleOrDefault(x => x.Name == name);
 
 			Resources.Culture = cultureInfo;
-            Translation.Equipment.Resources.Culture = cultureInfo;
-            Translation.Quests.Resources.Culture = cultureInfo;
-            Translation.Ships.Resources.Culture = cultureInfo;
 			
 			GeneralSettings.Culture.Value = Resources.Culture?.Name;
 
-			this.RaisePropertyChanged(nameof(this.Resources));
-			Controls.Globalization.ResourceService.Current.ChangeCulture(name);
-		}
+            Controls.Globalization.ResourceService.Current.ChangeCulture(name, false);
+            KanColleWrapper.Globalization.ResourceService.Current.ChangeCulture(name, false);
+
+            this.RaisePropertyChanged(nameof(this.Resources));
+            Controls.Globalization.ResourceService.Current.RaiseCultureChanged();
+            KanColleWrapper.Globalization.ResourceService.Current.RaiseCultureChanged();
+        }
 	}
 }

@@ -55,15 +55,24 @@ namespace Grabacr07.KanColleViewer.Controls.Globalization
 				.ToList();
 		}
 
-		/// <summary>
-		/// 指定されたカルチャ名を使用して、リソースのカルチャを変更します。
-		/// </summary>
-		/// <param name="name">カルチャの名前。</param>
-		public void ChangeCulture(string name)
+        /// <summary>
+        /// 指定されたカルチャ名を使用して、リソースのカルチャを変更します。
+        /// </summary>
+        /// <param name="name">カルチャの名前。</param>
+        public void ChangeCulture(string name, bool update = true)
 		{
 			Resources.Culture = this.SupportedCultures.SingleOrDefault(x => x.Name == name);
-			this.OnPropertyChanged(nameof(this.Resources));
+
+            if (update)
+            {
+                this.OnPropertyChanged(nameof(this.Resources));
+            }
 		}
+
+        public void RaiseCultureChanged()
+        {
+            this.OnPropertyChanged(nameof(this.Resources));
+        }
 
 
 		#region PropertyChanged event

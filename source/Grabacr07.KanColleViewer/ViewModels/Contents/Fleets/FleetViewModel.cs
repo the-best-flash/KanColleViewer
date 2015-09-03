@@ -53,7 +53,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 			}
 		}
 
-
 		public FleetViewModel(Fleet fleet)
 		{
 			this.Source = fleet;

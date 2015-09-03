@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models.Raw;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleWrapper.Models
 {
@@ -15,11 +16,19 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
 		public int Id => this.RawData.api_id;
 
-		public string Name => this.RawData.api_name;
+		public string Name => Translation.ShipTranslationHelper.TranslateShipTypeName(this.Id, this.RawData.api_name);
 
 		public int SortNumber => this.RawData.api_sortno;
 
-		public ShipType(kcsapi_mst_stype rawData) : base(rawData) { }
+		public ShipType(kcsapi_mst_stype rawData) : base(rawData)
+        {
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(Globalization.ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Name));
+                    }
+            });
+        }
 
 		public override string ToString()
 		{

@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Livet;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleWrapper.Models
 {
-	public class ShipSlot : Notifier
+	public class ShipSlot : ViewModel
 	{
 		public SlotItem Item { get; }
 
@@ -37,6 +39,13 @@ namespace Grabacr07.KanColleWrapper.Models
 			this.Item = item ?? SlotItem.Dummy;
 			this.Maximum = maximum;
 			this.Current = current;
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(Globalization.ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Item));
+                    }
+            });
+        }
 	}
 }

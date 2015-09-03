@@ -23,7 +23,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 		// Value: レベル別の装備数カウンター
 		private readonly Dictionary<SlotItemCounterKey, SlotItemCounterByLevel> itemsByLevel;
 
-		public SlotItemInfoViewModel Target { get; private set; }
+		public SlotItemInfo Target { get; private set; }
 
 		public IReadOnlyCollection<SlotItemCounterByLevel> Levels
 		{
@@ -42,7 +42,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 		public SlotItemCounter(SlotItemInfo target, IEnumerable<SlotItem> items)
 		{
-			this.Target = new SlotItemInfoViewModel(target);
+			this.Target = target;
 
 			this.itemsByLevel = items
 				.GroupBy(x => new SlotItemCounterKey(x.Level, x.Adept))
@@ -112,26 +112,11 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 	public class SlotItemCounterByShip
 	{
-        public ShipInfoViewModel ShipInfo { get; private set; }
-
-        private Ship _ship;
-		public Ship Ship
-        {
-            get
-            {
-                return this._ship;
-            }
-
-            set
-            {
-                this._ship = value;
-                this.ShipInfo = new ShipInfoViewModel(this._ship);
-            }
-        }
+        public Ship Ship { get; set; }
 
 		public int Count { get; set; }
 
-		public string ShipName => this.ShipInfo.Name;
+		public string ShipName => this.Ship.Info.Name;
 
 		public string ShipLevel => "Lv." + this.Ship.Level;
 

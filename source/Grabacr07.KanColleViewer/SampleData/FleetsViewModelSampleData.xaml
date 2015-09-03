@@ -55,13 +55,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="金剛改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -128,13 +125,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="榛名"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -201,13 +195,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="北上改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -274,13 +265,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="伊19"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -347,13 +335,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="蒼龍改"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -420,13 +405,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="飛行場姫"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -496,13 +478,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="金剛改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -569,13 +548,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="榛名"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -642,13 +618,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="北上改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -715,13 +688,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="伊19"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -791,13 +761,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="金剛改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -864,13 +831,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="榛名"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -937,13 +901,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="北上改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1010,13 +971,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="伊19"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1086,13 +1044,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="金剛改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1159,13 +1114,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="榛名"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1232,13 +1184,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="北上改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1305,13 +1254,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="伊19"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1383,13 +1329,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="金剛改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1456,13 +1399,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="榛名"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1529,13 +1469,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="北上改二"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1602,13 +1539,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="伊19"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1675,13 +1609,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="蒼龍改"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>
@@ -1748,13 +1679,10 @@
 						<Models:Ship.Info>
 							<Models:ShipInfo HP="15"
 											 Id="27"
-											 MaxASW="78"
 											 MaxTorpedo="95"
 											 MaxFirepower="16"
-											 MaxLOS="76"
 											 MaxArmer="58"
 											 MaxAA="97"
-											 MaxEvasion="10"
 											 Name="飛行場姫"
 											 Speed="Low">
 								<Models:ShipInfo.ShipType>

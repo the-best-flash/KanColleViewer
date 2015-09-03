@@ -1555,6 +1555,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 工廠.
+        /// </summary>
+        public static string Shipyard {
+            get {
+                return ResourceManager.GetString("Shipyard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 熟練度.
         /// </summary>
         public static string Skilled {

@@ -13,13 +13,10 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 		public Ship Ship { get; }
 
-        public ShipInfoViewModel ShipInfo { get; }
-
 		public ShipViewModel(int index, Ship ship)
 		{
 			this.Index = index;
 			this.Ship = ship;
-            this.ShipInfo = new ShipInfoViewModel(ship);
 		}
 	}
 }

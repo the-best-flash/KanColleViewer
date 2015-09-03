@@ -98,8 +98,8 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 			}
 
 			return dic.Values
-				.OrderBy(x => x.Target.SlotItemInfo.CategoryId)
-				.ThenBy(x => x.Target.SlotItemInfo.Id)
+				.OrderBy(x => x.Target.CategoryId)
+				.ThenBy(x => x.Target.Id)
 				.ToList();
 		}
 	}

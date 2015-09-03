@@ -52,6 +52,12 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Livet">
+      <HintPath>..\packages\LivetCask.1.1.0.0\lib\net45\Livet.dll</HintPath>
+    </Reference>
+    <Reference Include="Livet.Extensions">
+      <HintPath>..\packages\LivetExtensions.1.1.0.0\lib\net45\Livet.Extensions.dll</HintPath>
+    </Reference>
     <Reference Include="log4net">
       <HintPath>..\packages\log4net.2.0.3\lib\net40-full\log4net.dll</HintPath>
       <Private>True</Private>
@@ -219,8 +225,33 @@
     <Compile Include="Quests.cs" />
     <Compile Include="Repairyard.cs" />
     <Compile Include="IKanColleClientSettings.cs" />
+    <Compile Include="Globalization\ResourceService.cs" />
     <Compile Include="TimerNotifier.cs" />
-    <Compile Include="TranslationHelper.cs" />
+    <Compile Include="Translation\TranslationHelper.cs" />
+    <Compile Include="Translation\Equipment\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Translation\Expedition\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Translation\ItemTranslationHelper.cs" />
+    <Compile Include="Translation\MissionTranslationHelper.cs" />
+    <Compile Include="Translation\Quests\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Translation\QuestTranslationHelper.cs" />
+    <Compile Include="Translation\Ships\Resources.Designer.cs">
+      <DependentUpon>Resources.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Translation\ShipTranslationHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -239,6 +270,39 @@
       <Project>{df381709-9f44-44ed-a7d6-ecdf157e620d}</Project>
       <Name>MetroTrilithon</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewModel\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Translation\Equipment\Resources.en.resx" />
+    <EmbeddedResource Include="Translation\Equipment\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Translation\Equipment\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Equipment\Resources.zh-CN.resx" />
+    <EmbeddedResource Include="Translation\Expedition\Resources.en.resx" />
+    <EmbeddedResource Include="Translation\Expedition\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Translation\Expedition\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Expedition\Resources.zh-CN.resx" />
+    <EmbeddedResource Include="Translation\Quests\Resources.en.resx" />
+    <EmbeddedResource Include="Translation\Quests\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Translation\Quests\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Quests\Resources.zh-CN.resx" />
+    <EmbeddedResource Include="Translation\Ships\Resources.en.resx" />
+    <EmbeddedResource Include="Translation\Ships\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Translation\Ships\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Ships\Resources.zh-CN.resx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

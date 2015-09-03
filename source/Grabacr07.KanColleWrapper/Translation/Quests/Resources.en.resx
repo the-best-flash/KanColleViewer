@@ -1,0 +1,1225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="敵艦隊を10回邀撃せよ" xml:space="preserve">
+    <value>Ambush the Enemy Fleet 10 Times</value>
+  </data>
+  <data name="敵艦隊を10回邀撃せよ_Detail" xml:space="preserve">
+    <value>Defeat 10 enemy fleets.</value>
+  </data>
+  <data name="6隻編成の艦隊を編成せよ" xml:space="preserve">
+    <value>Organize a Fleet of 6 Ships</value>
+  </data>
+  <data name="6隻編成の艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 6 ships in your fleet</value>
+  </data>
+  <data name="はじめての_編成" xml:space="preserve">
+    <value>The First Organization</value>
+  </data>
+  <data name="はじめての_編成_Detail" xml:space="preserve">
+    <value>Have 2 ships in your main fleet</value>
+  </data>
+  <data name="三川艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Mikawa Fleet</value>
+  </data>
+  <data name="三川艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Choukai, Aoba, Kako, Furutaka, and Tenryuu in your main fleet, with one additional FAST ship</value>
+  </data>
+  <data name="中規模潜水艦隊を編成せよ" xml:space="preserve">
+    <value>Organize a Medium-sized Submarine Fleet</value>
+  </data>
+  <data name="中規模潜水艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 3 Submarines in any one of your fleets</value>
+  </data>
+  <data name="主力戦艦部隊_第二戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Main Battleship Force: "The 2nd Squadron"</value>
+  </data>
+  <data name="主力戦艦部隊_第二戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Nagato, Mutsu, Fusou, and Yamashiro in your main fleet</value>
+  </data>
+  <data name="伊勢_型戦艦姉妹の全2隻を編成せよ" xml:space="preserve">
+    <value>Organize Both Sisters of the Ise-class Battleships</value>
+  </data>
+  <data name="伊勢_型戦艦姉妹の全2隻を編成せよ_Detail" xml:space="preserve">
+    <value>Have Ise and Hyuuga in your main fleet</value>
+  </data>
+  <data name="再編成_第二航空戦隊_を強化せよ" xml:space="preserve">
+    <value>Strengthen the Reorganized 2nd Carrier Division</value>
+  </data>
+  <data name="再編成_第二航空戦隊_を強化せよ_Detail" xml:space="preserve">
+    <value>Have Souryuu(Kai-2) as flagship with Hiryuu(Kai-2) and 2 Destroyers in your main fleet</value>
+  </data>
+  <data name="南雲機動部隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Nagumo Carrier Task Force</value>
+  </data>
+  <data name="南雲機動部隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Akagi, Kaga, Hiryuu, and Souryuu in your main fleet</value>
+  </data>
+  <data name="天龍_型軽巡姉妹の全2艦を編成せよ" xml:space="preserve">
+    <value>Organize both Sisters of the Tenryuu-class Light Cruisers</value>
+  </data>
+  <data name="天龍_型軽巡姉妹の全2艦を編成せよ_Detail" xml:space="preserve">
+    <value>Have Tenryuu and Tatsuta in your main fleet</value>
+  </data>
+  <data name="妙高_型重巡姉妹の全4隻を編成せよ" xml:space="preserve">
+    <value>Organize All 4 Sisters of the Myoukou-class Heavy Cruisers</value>
+  </data>
+  <data name="妙高_型重巡姉妹の全4隻を編成せよ_Detail" xml:space="preserve">
+    <value>Have Myoukou, Nachi, Ashigara, and Haguro in your main fleet</value>
+  </data>
+  <data name="川内_型軽巡姉妹の全３艦を編成せよ" xml:space="preserve">
+    <value>Organize All 3 Sisters of the Sendai-class Light Cruisers</value>
+  </data>
+  <data name="川内_型軽巡姉妹の全３艦を編成せよ_Detail" xml:space="preserve">
+    <value>Have Sendai, Jintsuu, and Naka in your main fleet</value>
+  </data>
+  <data name="戦艦と重巡による主力艦隊を編成せよ" xml:space="preserve">
+    <value>Organize the Main Fleet with a Battleship and Heavy Cruisers</value>
+  </data>
+  <data name="戦艦と重巡による主力艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have a Battleship and 2 Heavy Cruisers in your main fleet</value>
+  </data>
+  <data name="戦艦を主力とした水上打撃部隊を編成せよ" xml:space="preserve">
+    <value>Organize a Surface Attack Fleet with Battleships Comprising the Main Force</value>
+  </data>
+  <data name="戦艦を主力とした水上打撃部隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 3 of any ship from either the Nagato, Ise, Fusou, or Yamato classes and 1 Light Cruiser in your main fleet</value>
+  </data>
+  <data name="扶桑_型戦艦姉妹の全2隻を編成せよ" xml:space="preserve">
+    <value>Organize Both Sisters of the Fusou-class Battleships</value>
+  </data>
+  <data name="扶桑_型戦艦姉妹の全2隻を編成せよ_Detail" xml:space="preserve">
+    <value>Have Fusou and Yamashiro in your main fleet</value>
+  </data>
+  <data name="改修工廠を準備せよ" xml:space="preserve">
+    <value>Prepare the Improvement Arsenal</value>
+  </data>
+  <data name="改修工廠を準備せよ_Detail" xml:space="preserve">
+    <value>Have Akashi as flagship in your main fleet</value>
+  </data>
+  <data name="新_三川艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the New Mikawa Fleet</value>
+  </data>
+  <data name="新_三川艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Choukai, Aoba, Kinugasa, Kako, Furutaka, and Tenryuu in your main fleet</value>
+  </data>
+  <data name="新型正規空母_を配備せよ" xml:space="preserve">
+    <value>Deploy the New Standard Aircraft Carrier Class</value>
+  </data>
+  <data name="新型正規空母_を配備せよ_Detail" xml:space="preserve">
+    <value>Have Unryuu in your fleet as flagship</value>
+  </data>
+  <data name="新型電探を配備せよ" xml:space="preserve">
+    <value>Deploy the New Radar Type</value>
+  </data>
+  <data name="新型電探を配備せよ_Detail" xml:space="preserve">
+    <value>Have Myoukou(Kai-2) as flagship</value>
+  </data>
+  <data name="新編_第二航空戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the New 2nd Carrier Division</value>
+  </data>
+  <data name="新編_第二航空戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Hiryuu(Kai-2) as flagship, Souryuu and 2 Destroyers in your main fleet</value>
+  </data>
+  <data name="水上機母艦_を配備せよ" xml:space="preserve">
+    <value>Deploy a Seaplane Tender</value>
+  </data>
+  <data name="水上機母艦_を配備せよ_Detail" xml:space="preserve">
+    <value>Have a Seaplane Tender in your fleet</value>
+  </data>
+  <data name="水雷戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Torpedo Squadron</value>
+  </data>
+  <data name="水雷戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Consists of a Light Cruiser as your flagship and 3 Destroyers</value>
+  </data>
+  <data name="潜水艦隊_第六艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Submarine Fleet: "6th Fleet"</value>
+  </data>
+  <data name="潜水艦隊_第六艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have a Submarine Tender as flagship and 4 Submarines or more in your main fleet</value>
+  </data>
+  <data name="潜水艦隊を編成せよ" xml:space="preserve">
+    <value>Organize a Submarine Fleet</value>
+  </data>
+  <data name="潜水艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 2 Submarines in any one of your fleets</value>
+  </data>
+  <data name="空母機動部隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Carrier Task Force</value>
+  </data>
+  <data name="空母機動部隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have an Aircraft Carrier / Light Aircraft Carrier and 3 Destroyers in your main fleet</value>
+  </data>
+  <data name="第2艦隊で空母機動部隊を編成せよ" xml:space="preserve">
+    <value>Organize a Carrier Task Force in Your Second Fleet</value>
+  </data>
+  <data name="第2艦隊で空母機動部隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have an Aircraft Carrier / Light Aircraft Carrier and 3 Destroyers in your SECOND fleet</value>
+  </data>
+  <data name="第2艦隊を編成せよ" xml:space="preserve">
+    <value>Organize the Second Fleet</value>
+  </data>
+  <data name="第2艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have a flagship in your second fleet</value>
+  </data>
+  <data name="第一水雷戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 1st Torpedo Squadron</value>
+  </data>
+  <data name="第一水雷戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Abukuma, Akebono, Ushio, Kasumi, and Shiranui in your main fleet</value>
+  </data>
+  <data name="第三十駆逐隊(第二次)_を編成せよ" xml:space="preserve">
+    <value>Organize the 30th Destroyer Division (Second Generation)</value>
+  </data>
+  <data name="第三十駆逐隊(第二次)_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Mutsuki, Yayoi, Uzuki, and Mochizuki in your main fleet</value>
+  </data>
+  <data name="第三十駆逐隊(第一次)_を編成せよ" xml:space="preserve">
+    <value>Organize the 30th Destroyer Division (First Generation)</value>
+  </data>
+  <data name="第三十駆逐隊(第一次)_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Mutsuki, Kisaragi, Yayoi, and Mochizuki in your main fleet</value>
+  </data>
+  <data name="第二一駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 21st Destroyer Division</value>
+  </data>
+  <data name="第二一駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Hatsuharu, Hatsushimo, Nenohi, and Wakaba in your main fleet</value>
+  </data>
+  <data name="第二二駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 22nd Destroyer Division</value>
+  </data>
+  <data name="第二二駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Satsuki, Fumizuki, Nagatsuki, and 1 more Destroyer in your main fleet</value>
+  </data>
+  <data name="第五戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 5th Cruiser Division</value>
+  </data>
+  <data name="第五戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Myoukou, Nachi, and Haguro in your main fleet</value>
+  </data>
+  <data name="第五航空戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 5th Carrier Division</value>
+  </data>
+  <data name="第五航空戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have both Shoukaku, Zuikaku, and 2 Destroyers in your main fleet</value>
+  </data>
+  <data name="第五艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 5th Fleet</value>
+  </data>
+  <data name="第五艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Nachi, Ashigara, Tama, and Kiso in your main fleet</value>
+  </data>
+  <data name="第八駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 8th Destroyer Division</value>
+  </data>
+  <data name="第八駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Asashio, Michishio, Ooshio, and Arashio in your main fleet</value>
+  </data>
+  <data name="第六戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 6th Cruiser Division</value>
+  </data>
+  <data name="第六戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Furutaka, Kako, Kinugasa, and Aoba in your main fleet</value>
+  </data>
+  <data name="第六駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 6th Destroyer Division</value>
+  </data>
+  <data name="第六駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Akatsuki, Hibiki, Ikazuchi and Inazuma in your second fleet</value>
+  </data>
+  <data name="第十一駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 11th Destroyer Division</value>
+  </data>
+  <data name="第十一駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Fubuki, Shirayuki, Hatsuyuki, and Murakumo in your main fleet</value>
+  </data>
+  <data name="第十八駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 18th Destroyer Division</value>
+  </data>
+  <data name="第十八駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY Kasumi, Arare, Kagerou, and Shiranui in your main fleet</value>
+  </data>
+  <data name="第四戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 4th Cruiser Division</value>
+  </data>
+  <data name="第四戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Takao, Atago, Choukai, and Maya in your main fleet</value>
+  </data>
+  <data name="精鋭_第三戦隊_全艦集結せよ" xml:space="preserve">
+    <value>Gather All of the Elite 3rd Battleship Division</value>
+  </data>
+  <data name="精鋭_第三戦隊_全艦集結せよ_Detail" xml:space="preserve">
+    <value>Have Kongou(Kai-2), Hiei(Kai-2), Haruna(Kai-2), and Kirishima(Kai-2) in your main fleet</value>
+  </data>
+  <data name="航空水上打撃艦隊を編成せよ" xml:space="preserve">
+    <value>Organize an Aviation Surface Attack Fleet</value>
+  </data>
+  <data name="航空水上打撃艦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have ONLY 2 Aviation Battleships and 2 Aviation Cruisers in your main fleet</value>
+  </data>
+  <data name="西村艦隊_を再編成せよ" xml:space="preserve">
+    <value>Reorganize the Nishimura Fleet</value>
+  </data>
+  <data name="西村艦隊_を再編成せよ_Detail" xml:space="preserve">
+    <value>Have Fusou, Yamashiro, Mogami, Shigure, and Michishio in your main fleet</value>
+  </data>
+  <data name="西村艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the Nishimura Fleet</value>
+  </data>
+  <data name="西村艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Fusou, Yamashiro, Mogami, and Shigure in your main fleet</value>
+  </data>
+  <data name="軽巡2隻を擁する隊を編成せよ" xml:space="preserve">
+    <value>Organize a Fleet of 2 Light Cruisers</value>
+  </data>
+  <data name="軽巡2隻を擁する隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have 2 Light Cruisers in your fleet</value>
+  </data>
+  <data name="軽快な_水上反撃部隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Light Surface Counterattack Fleet</value>
+  </data>
+  <data name="軽快な_水上反撃部隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Kasumi as flagship, Ashigara, 1 Light Cruiser, and 3 Destroyers in your main fleet</value>
+  </data>
+  <data name="重巡戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Heavy Cruiser Division</value>
+  </data>
+  <data name="重巡戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have 2 Heavy Cruisers in your fleet</value>
+  </data>
+  <data name="金剛_型による高速戦艦部隊を編成せよ" xml:space="preserve">
+    <value>Organize a Fast Battleship Force with the Kongou-class</value>
+  </data>
+  <data name="金剛_型による高速戦艦部隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have Kongou, Hiei, Haruna, and Kirishima in your main fleet</value>
+  </data>
+  <data name="駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize a Destroyer Division</value>
+  </data>
+  <data name="駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have 4 Destroyers in your fleet</value>
+  </data>
+  <data name="艦隊大整備" xml:space="preserve">
+    <value>The Fleet's Large Maintenance</value>
+  </data>
+  <data name="艦隊大整備_Detail" xml:space="preserve">
+    <value>Repair 5 ships</value>
+  </data>
+  <data name="三川艦隊_を新編、突入準備せよ" xml:space="preserve">
+    <value>Reorganize the Mikawa Fleet and Prepare to Rush in</value>
+  </data>
+  <data name="三川艦隊を新編、突入準備せよ_Detail" xml:space="preserve">
+    <value>Have Choukai(Kai-2) as flagship and fill the rest of the fleet with any combination of Furutaka, Kako, Aoba, Kinugasa, Yuubari, or Tenryuu for a total of 6 ships.</value>
+  </data>
+  <data name="新編_第六駆逐隊_を編成せよ" xml:space="preserve">
+    <value>Organize the New 6th Destroyer Division</value>
+  </data>
+  <data name="新編_第六駆逐隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Akatsuki(Kai-2) as flagship with Hibiki(Hibiki/Верный), Ikazuchi, and Inazuma in your main fleet</value>
+  </data>
+  <data name="海上突入部隊を編成せよ" xml:space="preserve">
+    <value>Organize the Marine Rush Fleet</value>
+  </data>
+  <data name="海上突入部隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have Hiei, Kirishima, Nagara, Akatsuki, Ikazuchi, and Inazuma in your main fleet</value>
+  </data>
+  <data name="第一水雷戦隊_北方再突入準備" xml:space="preserve">
+    <value>1st Torpedo Squadron, Prepare for Another Rush to the Northern Sea</value>
+  </data>
+  <data name="第一水雷戦隊_北方再突入準備_Detail" xml:space="preserve">
+    <value>Have Abukuma Kai-2 as flagship with Hibiki(Hibiki/Верный), Yuugumo, Naganami, Akigumo and Shimakaze in your main fleet</value>
+  </data>
+  <data name="第一水雷戦隊_北方突入準備" xml:space="preserve">
+    <value>1st Torpedo Squadron, Prepare for a Rush to the Northern Sea</value>
+  </data>
+  <data name="第一水雷戦隊_北方突入準備_Detail" xml:space="preserve">
+    <value>Have Abukuma as flagship with Hibiki(Hibiki/Верный), Hatsushimo, Wakaba, Samidare and Shimakaze in your main fleet</value>
+  </data>
+  <data name="第十八戦隊_を新編成せよ" xml:space="preserve">
+    <value>Reorganize the 18th Squadron</value>
+  </data>
+  <data name="第十八戦隊_を新編成せよ_Detail" xml:space="preserve">
+    <value>Have Tenryuu, Tatsuta, and at least two other ships in your fleet</value>
+  </data>
+  <data name="あ号作戦" xml:space="preserve">
+    <value>Operation A-gou</value>
+  </data>
+  <data name="あ号作戦_Detail" xml:space="preserve">
+    <value>Launch your fleet 36 times, encounter 24 bosses, kill 12 bosses, and get 6 S-Rank victories</value>
+  </data>
+  <data name="い号作戦" xml:space="preserve">
+    <value>Operation I-gou</value>
+  </data>
+  <data name="い号作戦_Detail" xml:space="preserve">
+    <value>Sink 20 Aircraft Carriers. Light Carriers are fine too</value>
+  </data>
+  <data name="はじめての_出撃" xml:space="preserve">
+    <value>The First Sortie</value>
+  </data>
+  <data name="はじめての_出撃_Detail" xml:space="preserve">
+    <value>Sortie your main fleet</value>
+  </data>
+  <data name="ろ号作戦" xml:space="preserve">
+    <value>Operation Ro-gou</value>
+  </data>
+  <data name="ろ号作戦_Detail" xml:space="preserve">
+    <value>Sink 50 Transport Ships</value>
+  </data>
+  <data name="三川艦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the Mikawa Fleet</value>
+  </data>
+  <data name="三川艦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Choukai, Aoba, Kako, Furutaka, and Tenryuu, with one additional fast ship to any map</value>
+  </data>
+  <data name="南方海域珊瑚諸島沖の制空権を握れ" xml:space="preserve">
+    <value>Seize Air Superiority on the Southern Sea Coral Islands</value>
+  </data>
+  <data name="南方海域珊瑚諸島沖の制空権を握れ_Detail" xml:space="preserve">
+    <value>Sortie to 5-2 and get an S-Rank at the boss node 2 times</value>
+  </data>
+  <data name="南西諸島沖に出撃せよ" xml:space="preserve">
+    <value>Sortie to the Sea around Nansei Islands</value>
+  </data>
+  <data name="南西諸島沖に出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie to World 1-2 and clear the stage</value>
+  </data>
+  <data name="南西諸島海域の制海権を握れ" xml:space="preserve">
+    <value>Seize Control of the Southwestern Archipelago Sea</value>
+  </data>
+  <data name="南西諸島海域の制海権を握れ_Detail" xml:space="preserve">
+    <value>Defeat 5 boss nodes in World 2: 南西諸島海域</value>
+  </data>
+  <data name="戦艦_を出撃させよ" xml:space="preserve">
+    <value>Sortie a Battleship</value>
+  </data>
+  <data name="戦艦_を出撃させよ_Detail" xml:space="preserve">
+    <value>Sortie a fleet with a Battleship as flagship.</value>
+  </data>
+  <data name="戦艦_榛名_出撃せよ" xml:space="preserve">
+    <value>Sortie the Battleship: "Haruna"</value>
+  </data>
+  <data name="戦艦_榛名_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Haruna(Kai-2) and 5 additional ships to World 5-1 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="戦艦部隊_北方海域に突入せよ" xml:space="preserve">
+    <value>Rush the Battleship Force to the Northern Sea</value>
+  </data>
+  <data name="戦艦部隊_北方海域に突入せよ_Detail" xml:space="preserve">
+    <value>Sortie 2 Battleships (Aviation Battleships do not count), 1 Light Carrier, and 3 additional ships to World 3-5 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="抜錨_第十八戦隊" xml:space="preserve">
+    <value>Set Sail! The 18th Squadron</value>
+  </data>
+  <data name="抜錨_第十八戦隊_Detail" xml:space="preserve">
+    <value>Sortie Tenryuu, Tatsuta, and at least two other ships to World 2-3 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="接近する_敵前衛艦隊_を迎撃せよ" xml:space="preserve">
+    <value>Intercept the Approaching Enemy Vanguard Fleet</value>
+  </data>
+  <data name="接近する_敵前衛艦隊_を迎撃せよ_Detail" xml:space="preserve">
+    <value>Sortie to World 1-2 AGAIN and clear the stage</value>
+  </data>
+  <data name="改装防空重巡_出撃せよ" xml:space="preserve">
+    <value>Sortie the Remodeled Anti-Air Heavy Cruiser</value>
+  </data>
+  <data name="改装防空重巡_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Maya (Kai or Kai-2), 1 Light Cruiser, and 2 Destroyers (you may add additional ships) to World 2-3 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="敵北方艦隊主力を撃滅せよ" xml:space="preserve">
+    <value>Destroy the Main Force of the Enemy's Northern Fleet</value>
+  </data>
+  <data name="敵北方艦隊主力を撃滅せよ_Detail" xml:space="preserve">
+    <value>Defeat 5 bosses in the Northern Sea 3-3, 3-4, or 3-5</value>
+  </data>
+  <data name="敵東方中枢艦隊を撃破せよ" xml:space="preserve">
+    <value>Crush the Core of the Enemy's Eastern Fleet</value>
+  </data>
+  <data name="敵東方中枢艦隊を撃破せよ_Detail" xml:space="preserve">
+    <value>Defeat the boss in 4-4</value>
+  </data>
+  <data name="敵東方艦隊を撃滅せよ" xml:space="preserve">
+    <value>Destroy the Enemy's Eastern Fleet</value>
+  </data>
+  <data name="敵東方艦隊を撃滅せよ_Detail" xml:space="preserve">
+    <value>Defeat 12 bosses in the World 4: 西方海域</value>
+  </data>
+  <data name="敵潜水艦を制圧せよ" xml:space="preserve">
+    <value>Suppress the Enemy Submarines</value>
+  </data>
+  <data name="敵潜水艦を制圧せよ_Detail" xml:space="preserve">
+    <value>Sink 6 enemy Submarines</value>
+  </data>
+  <data name="敵空母を3隻撃沈せよ" xml:space="preserve">
+    <value>Sink 3 Enemy Carriers</value>
+  </data>
+  <data name="敵空母を3隻撃沈せよ_Detail" xml:space="preserve">
+    <value>Sink 3 enemy Aircraft Carriers. Light Carriers are fine too</value>
+  </data>
+  <data name="敵空母を撃沈せよ" xml:space="preserve">
+    <value>Sink an Enemy Carrier</value>
+  </data>
+  <data name="敵空母を撃沈せよ_Detail" xml:space="preserve">
+    <value>Sink an enemy Aircraft Carrier / Light Aircraft Carrier.</value>
+  </data>
+  <data name="敵艦隊を撃破せよ" xml:space="preserve">
+    <value>Crush the Enemy Fleet</value>
+  </data>
+  <data name="敵艦隊を撃破せよ_Detail" xml:space="preserve">
+    <value>Defeat an enemy fleet</value>
+  </data>
+  <data name="敵艦隊主力を撃滅せよ" xml:space="preserve">
+    <value>Destroy the Main Force of the Enemy Fleet</value>
+  </data>
+  <data name="敵艦隊主力を撃滅せよ_Detail" xml:space="preserve">
+    <value>Defeat the flagship of an enemy fleet</value>
+  </data>
+  <data name="敵補給艦を3隻撃沈せよ" xml:space="preserve">
+    <value>Sink 3 Enemy Transport Ships</value>
+  </data>
+  <data name="敵補給艦を3隻撃沈せよ_Detail" xml:space="preserve">
+    <value>Sink 3 enemy Transport Ships</value>
+  </data>
+  <data name="敵輸送船団を叩け" xml:space="preserve">
+    <value>Strike the Enemy Transport Group</value>
+  </data>
+  <data name="敵輸送船団を叩け_Detail" xml:space="preserve">
+    <value>Sink 5 enemy Transport Ships</value>
+  </data>
+  <data name="新_三川艦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the New Mikawa Fleet</value>
+  </data>
+  <data name="新_三川艦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Choukai, Furutaka, Kako, Aoba, Kinugasa, and Tenryuu to World 2-3 and defeat the boss</value>
+  </data>
+  <data name="新編_三川艦隊_ソロモン方面へ" xml:space="preserve">
+    <value>Sortie the New Mikawa Fleet to the Solomon Waters</value>
+  </data>
+  <data name="新編_三川艦隊_ソロモン方面へ_Detail" xml:space="preserve">
+    <value>Sortie Choukai(Kai-2) as flagship and any combination of Furutaka, Kako, Aoba, Kinugasa, Yuubari, or Tenryuu to World 5-1 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="新編_第二航空戦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the New 2nd Carrier Division</value>
+  </data>
+  <data name="新編_第二航空戦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Hiryuu(Kai-2) as flagship, Souryuu (Kai or Kai-2 is ok), and 2 Destroyers (you may add additional ships) to World 5-2 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="水上反撃部隊_突入せよ" xml:space="preserve">
+    <value>Send in the Surface Counterattack Fleet</value>
+  </data>
+  <data name="水上反撃部隊_突入せよ_Detail" xml:space="preserve">
+    <value>Sortie a Destroyer as flagship, 1 Heavy Cruiser (CAVs don't count), 1 Light Cruiser, and 3 other Destroyers to World 2-5 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="水上打撃部隊_南方へ" xml:space="preserve">
+    <value>Surface Attack Fleet, toward South</value>
+  </data>
+  <data name="水上打撃部隊_南方へ_Detail" xml:space="preserve">
+    <value>Sortie 3 Slow Battleships (BBVs count), 1 Light Cruiser, and 2 additional ships to World 5-1 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="水雷戦隊_で出撃せよ" xml:space="preserve">
+    <value>Sortie a Torpedo Squadron</value>
+  </data>
+  <data name="水雷戦隊_で出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie a Light Cruiser as flagship and 3 Destroyers</value>
+  </data>
+  <data name="水雷戦隊_バシー島沖緊急展開" xml:space="preserve">
+    <value>The Torpedo Squadron Bashi Island Emergency Deployment</value>
+  </data>
+  <data name="水雷戦隊_バシー島沖緊急展開_Detail" xml:space="preserve">
+    <value>Sortie 1-2 Light Cruisers, which one of must be the flagship, and 4-5 Destroyers to World 2-2 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="水雷戦隊_南西へ" xml:space="preserve">
+    <value>Torpedo Squadron, toward Southwest</value>
+  </data>
+  <data name="水雷戦隊_南西へ_Detail" xml:space="preserve">
+    <value>Sortie 1-3 Light Cruisers, with one as flagship, and 3-5 Destroyers to World 1-4 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="海上突入部隊、進発せよ" xml:space="preserve">
+    <value>Deploy the Marine Rush Fleet</value>
+  </data>
+  <data name="海上突入部隊、進発せよ_Detail" xml:space="preserve">
+    <value>Sortie Hiei, Kirishima, Nagara, Akatsuki, Ikazuchi, and Inazuma to World 5-1 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="海上護衛強化月間" xml:space="preserve">
+    <value>Month-long Strengthening of the Marine Escort</value>
+  </data>
+  <data name="海上護衛強化月間_Detail" xml:space="preserve">
+    <value>Sortie to World 1-5 and obtain an A-Rank or higher at the boss 10 times</value>
+  </data>
+  <data name="海上護衛戦" xml:space="preserve">
+    <value>Marine Escort Battle</value>
+  </data>
+  <data name="海上護衛戦_Detail" xml:space="preserve">
+    <value>Sink 15 Submarines</value>
+  </data>
+  <data name="海上輸送路の安全確保に努めよ" xml:space="preserve">
+    <value>Strive to Ensure the Security of the Marine Transportation Route</value>
+  </data>
+  <data name="海上輸送路の安全確保に努めよ_Detail" xml:space="preserve">
+    <value>Sortie to 1-5 and get at least an A-rank at the boss node 3 times</value>
+  </data>
+  <data name="海上通商破壊作戦" xml:space="preserve">
+    <value>Maritime Trade Disrupt Operation</value>
+  </data>
+  <data name="海上通商破壊作戦_Detail" xml:space="preserve">
+    <value>Sink 20 Transport Ships</value>
+  </data>
+  <data name="潜水艦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie a Submarine Fleet</value>
+  </data>
+  <data name="伊号潜水艦2隻からなる潜水艦隊でオリョール海の敵を撃滅せよ" xml:space="preserve">
+    <value>Sortie 2 Submarines and 4 additional ships to World 2-3 and defeat the boss</value>
+  </data>
+  <data name="空母機動部隊_出撃せよ" xml:space="preserve">
+    <value>Sortie a Carrier Task Force</value>
+  </data>
+  <data name="空母機動部隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie a Light or Standard Carrier flagship and 5 Light Cruisers, Destroyers, or Seaplane Tenders</value>
+  </data>
+  <data name="空母機動部隊_西へ" xml:space="preserve">
+    <value>Carrier Task Force, toward West</value>
+  </data>
+  <data name="空母機動部隊_西へ_Detail" xml:space="preserve">
+    <value>Sortie 2 Carriers (CVLs count), 2 Destroyers, and 2 additional ships to World 4-2 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="第2艦隊、出撃せよ" xml:space="preserve">
+    <value>Sortie The 2nd Fleet</value>
+  </data>
+  <data name="第2艦隊、出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie your second fleet</value>
+  </data>
+  <data name="第一水雷戦隊_ケ号作戦、突入せよ" xml:space="preserve">
+    <value>Rush the 1st Torpedo Squadron to Operation KE</value>
+  </data>
+  <data name="第一水雷戦隊_ケ号作戦、突入せよ_Detail" xml:space="preserve">
+    <value>Sortie Abukuma as flagship with Hibiki(Hibiki/Верный), Hatsushimo, Wakaba, Samidare and Shimakaze to World 3-2 and obtain a victory (B-Rank or better) at the boss</value>
+  </data>
+  <data name="第一水雷戦隊_北方ケ号作戦、再突入" xml:space="preserve">
+    <value>Rush the 1st Torpedo Squadron to Operation KE Again</value>
+  </data>
+  <data name="第一水雷戦隊_北方ケ号作戦、再突入_Detail" xml:space="preserve">
+    <value>Sortie Abukuma Kai-2 as flagship with Hibiki(Hibiki/Верный), Yuugumo, Naganami, Akigumo and Shimakaze to World 3-2 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="第三十駆逐隊(第一次)_出撃せよ" xml:space="preserve">
+    <value>Sortie the 30th Destroyer Division (First Generation)</value>
+  </data>
+  <data name="第三十駆逐隊(第一次)_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Mutsuki, Kisaragi, Mochizuki, Yayoi, and 2 additional Destroyers (or Destroyer and Light Cruiser flagship) to World 3-2 and obtain a C-Rank or better at the boss</value>
+  </data>
+  <data name="第三十駆逐隊_対潜哨戒" xml:space="preserve">
+    <value>The 30th Destroyer Division Anti-Submarine Patrol</value>
+  </data>
+  <data name="第三十駆逐隊_対潜哨戒_Detail" xml:space="preserve">
+    <value>Sortie Mutsuki, Mochizuki, Uzuki, and Yayoi to World 1-5 and obtain a C-Rank or better at the boss</value>
+  </data>
+  <data name="第二一駆逐隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 21st Destroyer Division</value>
+  </data>
+  <data name="第二一駆逐隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Hatsuharu, Nenohi, Wakaba, Hatsushimo, and 2 additional ships to World 3-1 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="第二二駆逐隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 22nd Destroyer Division</value>
+  </data>
+  <data name="第二二駆逐隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Satsuki, Fumizuki, Nagatsuki, 1 other Destroyer, and 2 other additional ships to World 1-4 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="第二戦隊_抜錨" xml:space="preserve">
+    <value>Sortie the 2nd Squadron</value>
+  </data>
+  <data name="第二戦隊_抜錨_Detail" xml:space="preserve">
+    <value>Sortie Fusou, Mutsu, Nagato, Yamashiro, and 2 additional ships to World 4-2 and obtain two S-Rank victories at the boss</value>
+  </data>
+  <data name="第五戦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 5th Squadron</value>
+  </data>
+  <data name="第五戦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Myoukou, Nachi, Haguro, and 3 additional ships to World 2-5 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="第五航空戦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 5th Carrier Division</value>
+  </data>
+  <data name="第五航空戦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Shoukaku, Zuikaku, and 4 additional ships to World 3-1 and defeat the boss</value>
+  </data>
+  <data name="第八駆逐隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 8th Destroyer Division</value>
+  </data>
+  <data name="第八駆逐隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Arashio, Asashio, Michishio, Ooshio, and 2 additional ships to World 2-3 and defeat the boss</value>
+  </data>
+  <data name="第六〇一航空隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 601st Naval Air Group</value>
+  </data>
+  <data name="第六〇一航空隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Unryuu(Kai) and 5 additional ships to World 5-2 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="第六戦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 6th Cruiser Division</value>
+  </data>
+  <data name="第六戦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Aoba, Furutaka, Kako, Kinugasa, and 2 additional ships to World 2-3 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="第六戦隊_南西海域へ出撃せよ" xml:space="preserve">
+    <value>Sortie the 6th Squadron to the Southwestern Sea</value>
+  </data>
+  <data name="第六戦隊_南西海域へ出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Furutaka, Kako, Aoba, Kinugasa and 2 additional ships to World 2-5 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="第六駆逐隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 6th Destroyer Division</value>
+  </data>
+  <data name="第六駆逐隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie ONLY Akatsuki, Hibiki, Ikazuchi, and Inazuma to any map</value>
+  </data>
+  <data name="第六駆逐隊_対潜哨戒なのです" xml:space="preserve">
+    <value>The 6th Destroyer Division Anti-Submarine Patrol nanodesu</value>
+  </data>
+  <data name="第六駆逐隊_対潜哨戒なのです_Detail" xml:space="preserve">
+    <value>Sortie Akatsuki, Hibiki(Hibiki/Верный), Ikazuchi, and Inazuma to World 1-5 and obtain a C-Rank or better at the boss</value>
+  </data>
+  <data name="第六駆逐隊_対潜哨戒を徹底なのです" xml:space="preserve">
+    <value>A Thorough 6th Destroyer Division Anti-Submarine Patrol nanodesu</value>
+  </data>
+  <data name="第六駆逐隊_対潜哨戒を徹底なのです_Detail" xml:space="preserve">
+    <value>Sortie Akatsuki(Kai-2), Hibiki(Hibiki/Верный), Ikazuchi, and Inazuma to World 1-5 and obtain an A-Rank or better at the boss</value>
+  </data>
+  <data name="第十一駆逐隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 11th Destroyer Division</value>
+  </data>
+  <data name="第十一駆逐隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Fubuki, Shirayuki, Hatsuyuki, Murakumo, and 2 additional ships to World 2-3 and defeat the boss</value>
+  </data>
+  <data name="第十一駆逐隊_対潜哨戒" xml:space="preserve">
+    <value>The 11th Destroyer Division Anti-Submarine Patrol</value>
+  </data>
+  <data name="第十一駆逐隊_対潜哨戒_Detail" xml:space="preserve">
+    <value>Sortie Fubuki, Shirayuki, Hatsuyuki, and Murakumo to World 1-5 and obtain at least a C or above Rank at the boss</value>
+  </data>
+  <data name="第十八駆逐隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 18th Destroyer Division</value>
+  </data>
+  <data name="第十八駆逐隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Arare, Kagerou, Kasumi, Shiranui, and 2 additional ships to World 3-1 and defeat the boss</value>
+  </data>
+  <data name="第四戦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the 4th Cruiser Division</value>
+  </data>
+  <data name="第四戦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Takao, Atago, Maya, Choukai, and 2 additional ships to World 2-2 and defeat the boss</value>
+  </data>
+  <data name="精鋭_第二航空戦隊_抜錨せよ" xml:space="preserve">
+    <value>Sortie the Elite 2nd Carrier Division</value>
+  </data>
+  <data name="精鋭_第二航空戦隊_抜錨せよ_Detail" xml:space="preserve">
+    <value>Sortie Souryuu(Kai-2) as flagship, Hiryuu(Kai-2), 2 Destroyers, and 2 additional ship to World 4-3 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="航空戦艦_抜錨せよ" xml:space="preserve">
+    <value>Sortie an Aviation Battleship</value>
+  </data>
+  <data name="航空戦艦_抜錨せよ_Detail" xml:space="preserve">
+    <value>Sortie a fleet with at least 2 Aviation Battleships to World 4-4 and defeat the boss</value>
+  </data>
+  <data name="航空水上打撃艦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie an Aviation Surface Attack Fleet</value>
+  </data>
+  <data name="航空水上打撃艦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie 2 Aviation Cruisers, 2 Aviation Battleships, and 2 additional ships to World 4-2 and defeat the boss</value>
+  </data>
+  <data name="西村艦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the Nishimura Fleet</value>
+  </data>
+  <data name="西村艦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Fusou, Yamashiro, Mogami, Shigure, and 2 additional ships to World 2-3 and defeat the boss</value>
+  </data>
+  <data name="西村艦隊_南方海域へ進出せよ" xml:space="preserve">
+    <value>Advance the Nishimura Fleet to the Southern Sea</value>
+  </data>
+  <data name="西村艦隊_南方海域へ進出せよ_Detail" xml:space="preserve">
+    <value>Sortie Fusou, Yamashiro, Mogami, Shigure, Michishio, and 1 additional ship to World 5-1, and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="軽空母_戦隊、出撃せよ" xml:space="preserve">
+    <value>Sortie a Light Carrier Squadron</value>
+  </data>
+  <data name="軽空母_戦隊、出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie 1-2 Light Carriers, 1 Light Cruiser, and 3-4 Destroyers to World 2-1 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="那智戦隊_抜錨せよ" xml:space="preserve">
+    <value>Sortie the Nachi Squadron</value>
+  </data>
+  <data name="那智戦隊_抜錨せよ_Detail" xml:space="preserve">
+    <value>Sortie Nachi as flagship, Hatsushimo, Kasumi, Ushio, Akebono, and 1 other ship to World 2-2 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="重巡洋艦_を出撃させよ" xml:space="preserve">
+    <value>Sortie a Heavy Cruiser</value>
+  </data>
+  <data name="重巡洋艦_を出撃させよ_Detail" xml:space="preserve">
+    <value>Sortie a fleet with a Heavy Cruiser as flagship</value>
+  </data>
+  <data name="鎮守府正面海域を護れ" xml:space="preserve">
+    <value>Guard the Sea in Front of the Naval Base</value>
+  </data>
+  <data name="鎮守府正面海域を護れ_Detail" xml:space="preserve">
+    <value>Sortie to World 1-1 and clear the stage</value>
+  </data>
+  <data name="6-1ボスに_３回_S勝利" xml:space="preserve">
+    <value>Sortie to World 6-1 and obtain an S-Rank at the boss three times</value>
+  </data>
+  <data name="(続)航空火力艦の運用を強化せよ" xml:space="preserve">
+    <value>(Continuation) Enhance the Use of Aviation Firepower</value>
+  </data>
+  <data name="(続)航空火力艦の運用を強化せよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 23 four more times</value>
+  </data>
+  <data name="M1" xml:space="preserve">
+    <value>Model Conversion: Type 97 Torpedo Bomber (TS)</value>
+    <comment>機種転換</comment>
+  </data>
+  <data name="M1_Detail" xml:space="preserve">
+    <value>Have flagship equipped with Type 97 Torpedo Bomber (Tomonaga Squadron), then scrap 2 Tenzan (Heavenly Mountain).  UNLOCK the plane before completing this quest if they are previously locked</value>
+    <comment>機種転換</comment>
+  </data>
+  <data name="M2" xml:space="preserve">
+    <value>Model Conversion: Type 99 Dive Bomber (ES)</value>
+    <comment>機種転換</comment>
+  </data>
+  <data name="M2_Detail" xml:space="preserve">
+    <value>Have flagship equipped with Type 99 Dive Bomber (Egusa Squadron), then scrap 2 Suisei (Comet).  UNLOCK the plane before completing this quest if they are previously locked</value>
+  </data>
+  <data name="M3" xml:space="preserve">
+    <value>Model Conversion: Zero Fighter Type 52 Type C (601)</value>
+    <comment>機種転換</comment>
+  </data>
+  <data name="M3_Detail" xml:space="preserve">
+    <value>Have flagship equipped with Zero Fighter Type 52 Type C (601 Air Group), then scrap 2 Reppuu (Strong Gale).  UNLOCK the plane before completing this quest if they are previously locked</value>
+  </data>
+  <data name="はじめての_入渠" xml:space="preserve">
+    <value>The First Repair</value>
+  </data>
+  <data name="はじめての_入渠_Detail" xml:space="preserve">
+    <value>Repair a ship</value>
+  </data>
+  <data name="はじめての_廃棄" xml:space="preserve">
+    <value>The First Scrapping</value>
+  </data>
+  <data name="はじめての_廃棄_Detail" xml:space="preserve">
+    <value>Scrap a piece of equipment</value>
+  </data>
+  <data name="はじめての_建造" xml:space="preserve">
+    <value>The First Construction</value>
+  </data>
+  <data name="はじめての_建造_Detail" xml:space="preserve">
+    <value>Craft a ship</value>
+  </data>
+  <data name="はじめての_演習" xml:space="preserve">
+    <value>The First Exercise</value>
+  </data>
+  <data name="はじめての_演習_Detail" xml:space="preserve">
+    <value>Challenge another fleet in Exercise</value>
+  </data>
+  <data name="はじめての_装備改修" xml:space="preserve">
+    <value>The First Equipment Improvement</value>
+  </data>
+  <data name="はじめての_装備改修_Detail" xml:space="preserve">
+    <value>Do equipment modernization 1 time</value>
+  </data>
+  <data name="はじめての_補給" xml:space="preserve">
+    <value>The First Resupply</value>
+  </data>
+  <data name="はじめての_補給_Detail" xml:space="preserve">
+    <value>Resupply a ship</value>
+  </data>
+  <data name="はじめての_解体" xml:space="preserve">
+    <value>The First Dismantling</value>
+  </data>
+  <data name="はじめての_解体_Detail" xml:space="preserve">
+    <value>Dismantle a ship</value>
+  </data>
+  <data name="はじめての_近代化改修" xml:space="preserve">
+    <value>The First Modernization</value>
+  </data>
+  <data name="はじめての_近代化改修_Detail" xml:space="preserve">
+    <value>Perform a successful modernization</value>
+  </data>
+  <data name="はじめての_遠征" xml:space="preserve">
+    <value>The First Expedition</value>
+  </data>
+  <data name="はじめての_遠征_Detail" xml:space="preserve">
+    <value>Perform an expedition</value>
+  </data>
+  <data name="はじめての_開発" xml:space="preserve">
+    <value>The First Development</value>
+  </data>
+  <data name="はじめての_開発_Detail" xml:space="preserve">
+    <value>Craft a piece of equipment</value>
+  </data>
+  <data name="二人でする初めての任務" xml:space="preserve">
+    <value>A Couple's First Quest</value>
+  </data>
+  <data name="二人でする初めての任務_Detail" xml:space="preserve">
+    <value>Defeat the boss in 4-3 with a level 100+ flagship (with S rank)</value>
+  </data>
+  <data name="伊良瑚_の準備" xml:space="preserve">
+    <value>Preparation for Irako</value>
+  </data>
+  <data name="伊良瑚_の準備_Detail" xml:space="preserve">
+    <value>Scrap equipment 10 times</value>
+  </data>
+  <data name="北方再突入に備え、練度向上に努めよ" xml:space="preserve">
+    <value>Strive to Increase the Level of Training in Preparation for Another Rush to the Northern Sea</value>
+  </data>
+  <data name="北方再突入に備え、練度向上に努めよ_Detail" xml:space="preserve">
+    <value>Get 4 victories in Exercises within the same day</value>
+  </data>
+  <data name="南方への輸送作戦を成功させよ" xml:space="preserve">
+    <value>Complete the Transport Operations towards the South</value>
+  </data>
+  <data name="南方への輸送作戦を成功させよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 37 or 38</value>
+  </data>
+  <data name="南方への鼠輸送を継続実施せよ" xml:space="preserve">
+    <value>Continue Carrying Out the Rat Transportation (Tokyo Express) towards South</value>
+  </data>
+  <data name="南方への鼠輸送を継続実施せよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 37 or 38 a total of 7 times in a week</value>
+  </data>
+  <data name="囮機動部隊支援作戦を実施せよ" xml:space="preserve">
+    <value>Carry Out the Decoy Task Force Support Operation</value>
+  </data>
+  <data name="囮機動部隊支援作戦を実施せよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 15</value>
+  </data>
+  <data name="大型艦建造_の準備(その壱)" xml:space="preserve">
+    <value>Preparation for Large Ship Construction (Part I)</value>
+  </data>
+  <data name="大型艦建造_の準備(その壱)_Detail" xml:space="preserve">
+    <value>Perform 4 successful modernizations</value>
+  </data>
+  <data name="大型艦建造_の準備(その弐)" xml:space="preserve">
+    <value>Preparation for Large Ship Construction (Part II)</value>
+  </data>
+  <data name="大型艦建造_の準備(その弐)_Detail" xml:space="preserve">
+    <value>Scrap equipment 4 times</value>
+  </data>
+  <data name="大規模演習" xml:space="preserve">
+    <value>Large-scale Exercises</value>
+  </data>
+  <data name="大規模演習_Detail" xml:space="preserve">
+    <value>Get 20 victories in Exercises within the same week</value>
+  </data>
+  <data name="大規模遠征作戦、発令" xml:space="preserve">
+    <value>Official Announcement, Operation Large-scale Expedition</value>
+  </data>
+  <data name="大規模遠征作戦、発令_Detail" xml:space="preserve">
+    <value>Perform 30 successful expeditions within the same week.</value>
+  </data>
+  <data name="式の準備(その参)" xml:space="preserve">
+    <value>Preparation for the Ceremony (Part III)</value>
+  </data>
+  <data name="式の準備(その参)_Detail" xml:space="preserve">
+    <value>Have a level 90 to 99 ship as your flagship</value>
+  </data>
+  <data name="式の準備(その壱)" xml:space="preserve">
+    <value>Preparation for the Ceremony (Part I)</value>
+  </data>
+  <data name="式の準備(その壱)_Detail" xml:space="preserve">
+    <value>Scrap equipment twice</value>
+  </data>
+  <data name="式の準備(その弐)" xml:space="preserve">
+    <value>Preparation for the Ceremony (Part II)</value>
+  </data>
+  <data name="式の準備(その弐)_Detail" xml:space="preserve">
+    <value>Win two battles in Exercises</value>
+  </data>
+  <data name="式の準備(最終)" xml:space="preserve">
+    <value>Preparation for the Ceremony (Final)</value>
+  </data>
+  <data name="式の準備(最終)_Detail" xml:space="preserve">
+    <value>Defeat the boss in 2-3 with a Level 90-99 flagship (with S rank)</value>
+  </data>
+  <data name="新たなる旅立ち" xml:space="preserve">
+    <value>A New Voyage</value>
+  </data>
+  <data name="新たなる旅立ち_Detail" xml:space="preserve">
+    <value>Have a Level 100 ship as your flagship along with five others in your main fleet</value>
+  </data>
+  <data name="新装備_開発_指令" xml:space="preserve">
+    <value>Instructions to Develop New Equipment</value>
+  </data>
+  <data name="新装備_開発_指令_Detail" xml:space="preserve">
+    <value>Craft a piece of equipment (Failures are OK)</value>
+  </data>
+  <data name="新造艦_建造_指令" xml:space="preserve">
+    <value>Instructions to Construct New Ship</value>
+  </data>
+  <data name="新造艦_建造_指令_Detail" xml:space="preserve">
+    <value>Craft a ship</value>
+  </data>
+  <data name="演習_で他提督を圧倒せよ" xml:space="preserve">
+    <value>Overwhelm the Other Admirals through Exercises</value>
+  </data>
+  <data name="演習_で他提督を圧倒せよ_Detail" xml:space="preserve">
+    <value>Get 5 victories in Exercises within the same day</value>
+  </data>
+  <data name="演習_で練度向上" xml:space="preserve">
+    <value>Increase the Level of Training by Exercising</value>
+  </data>
+  <data name="演習_で練度向上_Detail" xml:space="preserve">
+    <value>Challenge 3 other fleets in Exercises (defeat is ok) within the same day</value>
+  </data>
+  <data name="演習を強化、艦隊の練度向上に努めよ" xml:space="preserve">
+    <value>Continue Exercising, and Strive to Increase the Level of Fleet's Training</value>
+  </data>
+  <data name="演習を強化、艦隊の練度向上に努めよ_Detail" xml:space="preserve">
+    <value>Get 4 victories in Exercises within the same day</value>
+  </data>
+  <data name="潜水艦派遣による海外艦との接触作戦" xml:space="preserve">
+    <value>Operation Contact Foreign Ship through Submarine Dispatch</value>
+  </data>
+  <data name="潜水艦派遣による海外艦との接触作戦_Detail" xml:space="preserve">
+    <value>Complete Expedition 31</value>
+  </data>
+  <data name="潜水艦派遣作戦による技術入手の継続" xml:space="preserve">
+    <value>Continue to Obtain Technology through Submarine Dispatch Operations</value>
+  </data>
+  <data name="潜水艦派遣作戦による技術入手の継続_Detail" xml:space="preserve">
+    <value>Complete Expedition 30 two more times</value>
+  </data>
+  <data name="第一次潜水艦派遣作戦" xml:space="preserve">
+    <value>The First Submarine Dispatch Operation</value>
+  </data>
+  <data name="第一次潜水艦派遣作戦_Detail" xml:space="preserve">
+    <value>Complete Expedition 30 for the first time</value>
+  </data>
+  <data name="第二次潜水艦派遣作戦" xml:space="preserve">
+    <value>The Second Submarine Dispatch Operation</value>
+  </data>
+  <data name="第二次潜水艦派遣作戦_Detail" xml:space="preserve">
+    <value>Complete Expedition 30 one more time</value>
+  </data>
+  <data name="航空火力艦の運用を強化せよ" xml:space="preserve">
+    <value>Enhance the Use of Aviation Firepower</value>
+  </data>
+  <data name="航空火力艦の運用を強化せよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 23</value>
+  </data>
+  <data name="艦の_近代化改修_を実施せよ" xml:space="preserve">
+    <value>Carry Out Ship Modernizations</value>
+  </data>
+  <data name="艦の_近代化改修_を実施せよ_Detail" xml:space="preserve">
+    <value>Perform 2 successful modernizations within the same day</value>
+  </data>
+  <data name="艦娘_建造_艦隊強化" xml:space="preserve">
+    <value>Strengthen the Fleet by Constructing Shipgirls</value>
+  </data>
+  <data name="艦娘_建造_艦隊強化_Detail" xml:space="preserve">
+    <value>Craft 3 ships</value>
+  </data>
+  <data name="艦隊の練度向上に努めよ" xml:space="preserve">
+    <value>Strive to Increase the Level of the Fleet's Training</value>
+  </data>
+  <data name="艦隊の練度向上に努めよ_Detail" xml:space="preserve">
+    <value>Get 3 victories in Exercises within the same day</value>
+  </data>
+  <data name="艦隊酒保祭り" xml:space="preserve">
+    <value>The Fleet's Canteen Festival</value>
+  </data>
+  <data name="艦隊酒保祭り_Detail" xml:space="preserve">
+    <value>Resupply 15 ships</value>
+  </data>
+  <data name="装備_開発_集中強化" xml:space="preserve">
+    <value>Intensify the Concentration in Developing Equipment</value>
+  </data>
+  <data name="装備_開発_集中強化_Detail" xml:space="preserve">
+    <value>Craft 3 pieces of equipment (Failures are OK)</value>
+  </data>
+  <data name="装備の改修強化" xml:space="preserve">
+    <value>Reinforce Improvement for Equipment</value>
+  </data>
+  <data name="装備の改修強化_Detail" xml:space="preserve">
+    <value>Do equipment modernization 1 time</value>
+  </data>
+  <data name="観艦式を敢行せよ" xml:space="preserve">
+    <value>Execute Naval Review</value>
+  </data>
+  <data name="観艦式を敢行せよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 8</value>
+  </data>
+  <data name="観艦式予行を実施せよ" xml:space="preserve">
+    <value>Carry Out Naval Review Rehearsals</value>
+  </data>
+  <data name="観艦式予行を実施せよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 7 twice</value>
+  </data>
+  <data name="資源の再利用(その弐)" xml:space="preserve">
+    <value>Recycling Resources (Part II)</value>
+  </data>
+  <data name="資源の再利用(その弐)_Detail" xml:space="preserve">
+    <value>Scrap equipment 24 times</value>
+  </data>
+  <data name="軍縮条約対応" xml:space="preserve">
+    <value>Response to Disarmament Treaty</value>
+  </data>
+  <data name="軍縮条約対応_Detail" xml:space="preserve">
+    <value>Scrap 2 ships</value>
+  </data>
+  <data name="輸送用ドラム缶の準備" xml:space="preserve">
+    <value>Prepare Drum Canisters for Transport</value>
+  </data>
+  <data name="輸送用ドラム缶の準備_Detail" xml:space="preserve">
+    <value>Scrap equipment 3 times</value>
+  </data>
+  <data name="近代化改修_を進め、戦備を整えよ" xml:space="preserve">
+    <value>Proceed with Modernization, and Prepare for War</value>
+  </data>
+  <data name="近代化改修_を進め、戦備を整えよ_Detail" xml:space="preserve">
+    <value>Perform 15 successful modernizations within the same week</value>
+  </data>
+  <data name="遠征_を１０回成功させよう" xml:space="preserve">
+    <value>Complete 10 Expeditions</value>
+  </data>
+  <data name="遠征_を１０回成功させよう_Detail" xml:space="preserve">
+    <value>Perform 10 successful expeditions within the same day.</value>
+  </data>
+  <data name="遠征_を３回成功させよう" xml:space="preserve">
+    <value>Complete 3 Expeditions</value>
+  </data>
+  <data name="遠征_を３回成功させよう_Detail" xml:space="preserve">
+    <value>Perform 3 successful expeditions within the same day.</value>
+  </data>
+  <data name="遠洋潜水艦作戦の成果を拡大せよ" xml:space="preserve">
+    <value>Expand the Result of the Deep Sea Submarine Operations</value>
+  </data>
+  <data name="遠洋潜水艦作戦の成果を拡大せよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 39 two more times</value>
+  </data>
+  <data name="遠洋潜水艦作戦を実施せよ" xml:space="preserve">
+    <value>Carry Out the Deep Sea Submarine Operations</value>
+  </data>
+  <data name="遠洋潜水艦作戦を実施せよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 39</value>
+  </data>
+  <data name="防空射撃演習を実施せよ" xml:space="preserve">
+    <value>Carry Out Air Defense Exercises</value>
+  </data>
+  <data name="防空射撃演習を実施せよ_Detail" xml:space="preserve">
+    <value>Complete Expedition 6 three times</value>
+  </data>
+</root>

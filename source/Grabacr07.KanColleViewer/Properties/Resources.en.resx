@@ -639,4 +639,7 @@
   <data name="Submarines" xml:space="preserve">
     <value>Submarines</value>
   </data>
+  <data name="Shipyard" xml:space="preserve">
+    <value>Shipyard</value>
+  </data>
 </root>

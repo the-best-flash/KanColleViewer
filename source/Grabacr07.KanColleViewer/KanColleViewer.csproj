@@ -141,8 +141,6 @@
     <Compile Include="Composition\Plugin.cs" />
     <Compile Include="Composition\PluginHost.cs" />
     <Compile Include="Composition\PluginMetadata.cs" />
-    <Compile Include="ItemTranslationHelper.cs" />
-    <Compile Include="MissionTranslationHelper.cs" />
     <Compile Include="Models\BrowserZoomFactor.cs" />
     <Compile Include="Models\ExitConfirmationType.cs" />
     <Compile Include="Models\IZoomFactor.cs" />
@@ -166,29 +164,6 @@
     <Compile Include="Models\SupportedImageFormat.cs" />
     <Compile Include="Models\Volume.cs" />
     <Compile Include="Models\Migration\_KanColleClientSettings.cs" />
-    <Compile Include="QuestTranslationHelper.cs" />
-    <Compile Include="ShipTranslationHelper.cs" />
-    <Compile Include="Translation\Equipment\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Translation\Expedition\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Translation\Quests\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="Translation\Ships\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-    <Compile Include="ViewModels\Catalogs\SlotItemInfoViewModel.cs" />
     <Compile Include="ViewModels\Composition\LoadFailedPluginViewModel.cs" />
     <Compile Include="ViewModels\Contents\Fleets\MissionViewModel.cs" />
     <Compile Include="ViewModels\InformationWindowViewModel.cs" />
@@ -243,9 +218,6 @@
     <Compile Include="ViewModels\Contents\ShipsViewModel.cs" />
     <Compile Include="ViewModels\Contents\SlotItemsViewModel.cs" />
     <Compile Include="ViewModels\Settings\WindowSettingsViewModel.cs" />
-    <Compile Include="ViewModels\ShipInfoViewModel.cs" />
-    <Compile Include="ViewModels\ShipSlotViewModel.cs" />
-    <Compile Include="ViewModels\SlotItemViewModel.cs" />
     <Compile Include="ViewModels\StatusBarViewModel.cs" />
     <Compile Include="ViewModels\TabItemViewModel.cs" />
     <Compile Include="ViewModels\Contents\ToolsViewModel.cs" />
@@ -577,34 +549,6 @@
     <EmbeddedResource Include="Properties\Resources.zh-CN.resx">
       <DependentUpon>Resources.resx</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Equipment\Resources.en.resx" />
-    <EmbeddedResource Include="Translation\Equipment\Resources.ko-KR.resx" />
-    <EmbeddedResource Include="Translation\Equipment\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Equipment\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Translation\Expedition\Resources.en.resx" />
-    <EmbeddedResource Include="Translation\Expedition\Resources.ko-KR.resx" />
-    <EmbeddedResource Include="Translation\Expedition\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Expedition\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Translation\Quests\Resources.en.resx" />
-    <EmbeddedResource Include="Translation\Quests\Resources.ko-KR.resx" />
-    <EmbeddedResource Include="Translation\Quests\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Quests\Resources.zh-CN.resx" />
-    <EmbeddedResource Include="Translation\Ships\Resources.en.resx" />
-    <EmbeddedResource Include="Translation\Ships\Resources.ko-KR.resx" />
-    <EmbeddedResource Include="Translation\Ships\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Translation\Ships\Resources.zh-CN.resx" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

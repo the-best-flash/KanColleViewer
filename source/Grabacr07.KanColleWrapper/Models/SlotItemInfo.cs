@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Internal;
 using Grabacr07.KanColleWrapper.Models.Raw;
+using Livet.EventListeners;
+using Grabacr07.KanColleWrapper.Globalization;
 
 namespace Grabacr07.KanColleWrapper.Models
 {
@@ -20,7 +22,7 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		public int Id => this.RawData.api_id;
 
-		public string Name => this.RawData.api_name;
+		public string Name => Translation.ItemTranslationHelper.TranslateItemName(this.RawData.api_name);
 
 		public SlotItemType Type => this.type ?? (SlotItemType)(this.type = (SlotItemType)(this.RawData.api_type.Get(2) ?? 0));
 
@@ -93,7 +95,14 @@ namespace Grabacr07.KanColleWrapper.Models
 		internal SlotItemInfo(kcsapi_mst_slotitem rawData, MasterTable<SlotItemEquipType> types) : base(rawData)
 		{
 			this.EquipType = types[rawData.api_type?[2] ?? 0] ?? SlotItemEquipType.Dummy;
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Name));
+                    }
+            });
+        }
 
 		public override string ToString()
 		{

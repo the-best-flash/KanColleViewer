@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Grabacr07.KanColleViewer.Translation.Quests {
+namespace Grabacr07.KanColleWrapper.Translation.Equipment {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace Grabacr07.KanColleViewer.Translation.Quests {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Grabacr07.KanColleViewer.Translation.Quests.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Grabacr07.KanColleWrapper.Translation.Equipment.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -57,6 +57,15 @@ namespace Grabacr07.KanColleViewer.Translation.Quests {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 熟練度.
+        /// </summary>
+        internal static string Skilled {
+            get {
+                return ResourceManager.GetString("Skilled", resourceCulture);
             }
         }
     }

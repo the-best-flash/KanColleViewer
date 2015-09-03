@@ -860,4 +860,10 @@
     <value>FBB</value>
     <comment>Fast BB</comment>
   </data>
+  <data name="Kai" xml:space="preserve">
+    <value>Kai</value>
+  </data>
+  <data name="Ni" xml:space="preserve">
+    <value>Ni</value>
+  </data>
 </root>
