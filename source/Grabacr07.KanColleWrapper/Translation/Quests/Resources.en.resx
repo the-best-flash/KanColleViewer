@@ -567,10 +567,10 @@
   <data name="敵潜水艦を制圧せよ_Detail" xml:space="preserve">
     <value>Sink 6 enemy Submarines</value>
   </data>
-  <data name="敵空母を3隻撃沈せよ" xml:space="preserve">
+  <data name="敵空母を３隻撃沈せよ" xml:space="preserve">
     <value>Sink 3 Enemy Carriers</value>
   </data>
-  <data name="敵空母を3隻撃沈せよ_Detail" xml:space="preserve">
+  <data name="敵空母を３隻撃沈せよ_Detail" xml:space="preserve">
     <value>Sink 3 enemy Aircraft Carriers. Light Carriers are fine too</value>
   </data>
   <data name="敵空母を撃沈せよ" xml:space="preserve">
