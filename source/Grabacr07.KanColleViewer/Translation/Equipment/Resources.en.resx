@@ -214,7 +214,7 @@
     <value>潜水艦魚雷</value>
   </data>
   <data name="照明弾" xml:space="preserve">
-    <value>照明弾</value>
+    <value>Star Shell</value>
   </data>
   <data name="司令部施設" xml:space="preserve">
     <value>司令部施設</value>
@@ -244,7 +244,7 @@
     <value>大型探照灯</value>
   </data>
   <data name="戦闘糧食" xml:space="preserve">
-    <value>戦闘糧食</value>
+    <value>Combat Provisions</value>
   </data>
   <data name="補給物資" xml:space="preserve">
     <value>補給物資</value>
@@ -463,10 +463,10 @@
     <value>10cm High-angle Cannon (Improved)</value>
   </data>
   <data name="増設バルジ(中型艦)" xml:space="preserve">
-    <value>増設バルジ(中型艦)</value>
+    <value>Anti-torpedo Bulge (Medium)</value>
   </data>
   <data name="増設バルジ(大型艦)" xml:space="preserve">
-    <value>増設バルジ(大型艦)</value>
+    <value>Anti-torpedo Bulge (Large)</value>
   </data>
   <data name="ドラム缶(輸送用)" xml:space="preserve">
     <value>Drum (Transport)</value>
@@ -487,16 +487,16 @@
     <value>Zuiun Model 12</value>
   </data>
   <data name="瑞雲12型(六三四空)" xml:space="preserve">
-    <value>瑞雲12型(六三四空)</value>
+    <value>Zuiun Model 12 (634 Air Group)</value>
   </data>
   <data name="九七式艦攻(九三一空)" xml:space="preserve">
-    <value>九七式艦攻(九三一空)</value>
+    <value>Type 97 Torpedo Bomber (931 Air Group)</value>
   </data>
   <data name="天山(九三一空)" xml:space="preserve">
     <value>Tenzan (931 Air Group)</value>
   </data>
   <data name="2cm 四連装FlaK 38" xml:space="preserve">
-    <value>2cm 四連装FlaK 38</value>
+    <value>2cm Flakvierling 38</value>
   </data>
   <data name="3.7cm FlaK M42" xml:space="preserve">
     <value>3.7cm FlaK M42</value>
@@ -505,181 +505,185 @@
     <value>New High Pressure-Temperature Steam Boiler</value>
   </data>
   <data name="22号対水上電探改四" xml:space="preserve">
-    <value>22号対水上電探改四</value>
+    <value>Type 22 Surface RADAR Kai 4</value>
   </data>
   <data name="21号対空電探改" xml:space="preserve">
-    <value>21号対空電探改</value>
+    <value>Type 21 Air RADAR Kai</value>
   </data>
   <data name="20.3cm(2号)連装砲" xml:space="preserve">
-    <value>20.3cm(2号)連装砲</value>
+    <value>20.3cm(no.2) Twin Gun Mount</value>
   </data>
   <data name="12.7cm連装高角砲(後期型)" xml:space="preserve">
-    <value>12.7cm連装高角砲(後期型)</value>
+    <value>12.7cm Twin High-angle Gun Mount (Late Model)</value>
   </data>
   <data name="毘式40mm連装機銃" xml:space="preserve">
-    <value>毘式40mm連装機銃</value>
+    <value>BI-type 40mm Twin Machine Gun</value>
   </data>
   <data name="九七式艦攻(友永隊)" xml:space="preserve">
-    <value>九七式艦攻(友永隊)</value>
+    <value>Type 97 Torpedo Bomber (Tomonaga Squadron)</value>
   </data>
   <data name="天山一二型(友永隊)" xml:space="preserve">
-    <value>天山一二型(友永隊)</value>
+    <value>Tenzan Model 12 (Tomonaga Squadron)</value>
   </data>
   <data name="潜水艦53cm艦首魚雷(8門)" xml:space="preserve">
-    <value>潜水艦53cm艦首魚雷(8門)</value>
+    <value>53cm Submarine Bow Torpedo Mount (8 tubes)</value>
   </data>
   <data name="零式艦戦21型(熟練)" xml:space="preserve">
-    <value>零式艦戦21型(熟練)</value>
+    <value>Type 21 Zero Fighter (Skilled)</value>
   </data>
   <data name="九九式艦爆(熟練)" xml:space="preserve">
-    <value>九九式艦爆(熟練)</value>
+    <value>Type 99 Dive Bomber (Skilled)</value>
   </data>
   <data name="九七式艦攻(熟練)" xml:space="preserve">
-    <value>九七式艦攻(熟練)</value>
+    <value>Type 97 Torpedo Bomber (Skilled)</value>
   </data>
   <data name="九九式艦爆(江草隊)" xml:space="preserve">
-    <value>九九式艦爆(江草隊)</value>
+    <value>Type 99 Dive Bomber (Egusa Squadron)</value>
   </data>
   <data name="彗星(江草隊)" xml:space="preserve">
-    <value>彗星(江草隊)</value>
+    <value>Suisei (Comet) (Egusa Squadron)</value>
   </data>
   <data name="九八式水上偵察機(夜偵)" xml:space="preserve">
-    <value>九八式水上偵察機(夜偵)</value>
+    <value>Type 98 Recon Seaplane (Night Scout)</value>
   </data>
   <data name="試製35.6cm三連装砲" xml:space="preserve">
-    <value>試製35.6cm三連装砲</value>
+    <value>Prototype 35.6cm Triple Gun Mount</value>
   </data>
   <data name="35.6cm連装砲(ダズル迷彩)" xml:space="preserve">
-    <value>35.6cm連装砲(ダズル迷彩)</value>
+    <value>35.6cm Twin Gun Mount
+(Dazzle Camouflage)</value>
   </data>
   <data name="試製41cm三連装砲" xml:space="preserve">
-    <value>試製41cm三連装砲</value>
+    <value>Prototype 41cm Triple Cannon</value>
   </data>
   <data name="13号対空電探改" xml:space="preserve">
-    <value>13号対空電探改</value>
+    <value>Type 13 Air Radar Kai</value>
   </data>
   <data name="艦隊司令部施設" xml:space="preserve">
-    <value>艦隊司令部施設</value>
+    <value>Fleet Command Facility</value>
   </data>
   <data name="熟練艦載機整備員" xml:space="preserve">
-    <value>熟練艦載機整備員</value>
+    <value>Skilled Carrier-based Aircraft
+Maintenance Personnel</value>
   </data>
   <data name="零戦52型丙(六〇一空)" xml:space="preserve">
-    <value>零戦52型丙(六〇一空)</value>
+    <value>Zero Fighter Type 52
+Type C (601 Air Group)</value>
   </data>
   <data name="烈風(六〇一空)" xml:space="preserve">
-    <value>烈風(六〇一空)</value>
+    <value>Reppuu (601 Air Group)</value>
   </data>
   <data name="彗星(六〇一空)" xml:space="preserve">
-    <value>彗星(六〇一空)</value>
+    <value>Suisei (601 Air Group)</value>
   </data>
   <data name="天山(六〇一空)" xml:space="preserve">
-    <value>天山(六〇一空)</value>
+    <value>Tenzan (601 Air Group)</value>
   </data>
   <data name="流星(六〇一空)" xml:space="preserve">
-    <value>流星(六〇一空)</value>
+    <value>Ryuusei (601 Air Group)</value>
   </data>
   <data name="38cm連装砲改" xml:space="preserve">
-    <value>38cm連装砲改</value>
+    <value>38cm Twin Gun Mount Kai</value>
   </data>
   <data name="Ar196改" xml:space="preserve">
-    <value>Ar196改</value>
+    <value>Ar196 Kai</value>
   </data>
   <data name="一式徹甲弾" xml:space="preserve">
-    <value>一式徹甲弾</value>
+    <value>Type 1 Armor-Piercing (AP) Shell</value>
   </data>
   <data name="試製46cm連装砲" xml:space="preserve">
-    <value>試製46cm連装砲</value>
+    <value>46cm Twin Gun Mount Prototype</value>
   </data>
   <data name="紫雲" xml:space="preserve">
-    <value>紫雲</value>
+    <value>Shiun</value>
   </data>
   <data name="14cm連装砲" xml:space="preserve">
-    <value>14cm連装砲</value>
+    <value>14cm Twin Gun Mount</value>
   </data>
   <data name="91式高射装置" xml:space="preserve">
-    <value>91式高射装置</value>
+    <value>Type 91 Anti-Aircraft Fire Director</value>
   </data>
   <data name="94式高射装置" xml:space="preserve">
-    <value>94式高射装置</value>
+    <value>Type 94 Anti-Aircraft Fire Director</value>
   </data>
   <data name="10cm連装高角砲+高射装置" xml:space="preserve">
-    <value>10cm連装高角砲+高射装置</value>
+    <value>10cm Twin High-angle Gun Mount + Anti-Aircraft Fire Director</value>
   </data>
   <data name="SKC34 20.3cm連装砲" xml:space="preserve">
-    <value>SKC34 20.3cm連装砲</value>
+    <value>SKC34 20.3cm Twin Cannon</value>
   </data>
   <data name="FuMO25 レーダー" xml:space="preserve">
-    <value>FuMO25 レーダー</value>
+    <value>FuMO25 Radar</value>
   </data>
   <data name="61cm三連装(酸素)魚雷" xml:space="preserve">
-    <value>61cm三連装(酸素)魚雷</value>
+    <value>61cm Triple O2 Torpedo Mount</value>
   </data>
   <data name="WG42 (Wurfgerät 42)" xml:space="preserve">
     <value>WG42 (Wurfgerät 42)</value>
   </data>
   <data name="試製FaT仕様九五式酸素魚雷改" xml:space="preserve">
-    <value>試製FaT仕様九五式酸素魚雷改</value>
+    <value>Prototype FaT Type 95 O2 Torpedo Kai</value>
   </data>
   <data name="試製51cm連装砲" xml:space="preserve">
-    <value>試製51cm連装砲</value>
+    <value>Prototype 51cm Twin Cannon</value>
   </data>
   <data name="熟練見張員" xml:space="preserve">
-    <value>熟練見張員</value>
+    <value>Skilled Lookouts</value>
   </data>
   <data name="12.7cm高角砲+高射装置" xml:space="preserve">
-    <value>12.7cm高角砲+高射装置</value>
+    <value>12.7cm High-angle Gun + Anti-Aircraft Fire Director</value>
   </data>
   <data name="25mm三連装機銃 集中配備" xml:space="preserve">
-    <value>25mm三連装機銃 集中配備</value>
+    <value>25mm Triple Autocannon Mount
+(Concentrated Deployment)</value>
   </data>
   <data name="零式水中聴音機" xml:space="preserve">
-    <value>零式水中聴音機</value>
+    <value>Type 0 Passive SONAR</value>
   </data>
   <data name="381mm/50 三連装砲" xml:space="preserve">
-    <value>381mm/50 三連装砲</value>
+    <value>381mm/50 Triple Gun Mount</value>
   </data>
   <data name="OTO 152mm三連装速射砲" xml:space="preserve">
-    <value>OTO 152mm三連装速射砲</value>
+    <value>OTO 152mm Triple Rapid Fire Gun Mount</value>
   </data>
   <data name="90mm単装高角砲" xml:space="preserve">
-    <value>90mm単装高角砲</value>
+    <value>90mm Single High-angle Gun Mount</value>
   </data>
   <data name="プリエーゼ式水中防御隔壁" xml:space="preserve">
-    <value>プリエーゼ式水中防御隔壁</value>
+    <value>Pugliese Underwater Protection Bulkhead</value>
   </data>
   <data name="381mm/50 三連装砲改" xml:space="preserve">
-    <value>381mm/50 三連装砲改</value>
+    <value>381mm/50 Triple Gun Mount Kai</value>
   </data>
   <data name="二式大艇" xml:space="preserve">
-    <value>二式大艇</value>
+    <value>Type 2 Large-sized Flying Boat</value>
   </data>
   <data name="15.2cm連装砲改" xml:space="preserve">
-    <value>15.2cm連装砲改</value>
+    <value>15.2cm Twin Gun Mount Kai</value>
   </data>
   <data name="96式150cm探照灯" xml:space="preserve">
-    <value>96式150cm探照灯</value>
+    <value>Type 96 150cm Searchlight</value>
   </data>
   <data name="32号対水上電探改" xml:space="preserve">
-    <value>32号対水上電探改</value>
+    <value>Type 32 Surface Radar Kai</value>
   </data>
   <data name="15m二重測距儀+21号電探改二" xml:space="preserve">
-    <value>15m二重測距儀+21号電探改二</value>
+    <value>15m Duplex Rangefinder + Type 21 Radar Kai Ni</value>
   </data>
   <data name="九七式艦攻(村田隊)" xml:space="preserve">
-    <value>九七式艦攻(村田隊)</value>
+    <value>Type 97 Torpedo Bomber (Murata Squadron)</value>
   </data>
   <data name="天山一二型(村田隊)" xml:space="preserve">
-    <value>天山一二型(村田隊)</value>
+    <value>Tenzan Model 12 (Murata Squadron)</value>
   </data>
   <data name="洋上補給" xml:space="preserve">
-    <value>洋上補給</value>
+    <value>Underway Replenishment</value>
   </data>
   <data name="120mm連装砲" xml:space="preserve">
-    <value>120mm連装砲</value>
+    <value>120mm Twin Gun Mount</value>
   </data>
   <data name="試製南山" xml:space="preserve">
-    <value>試製南山</value>
+    <value>Prototype Nanzan</value>
   </data>
   <data name="5inch単装砲" xml:space="preserve">
     <value>5inch単装砲</value>
