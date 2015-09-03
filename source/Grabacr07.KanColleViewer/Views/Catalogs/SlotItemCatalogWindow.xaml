@@ -71,7 +71,7 @@
 		<DockPanel Grid.Row="1">
 			<Border DockPanel.Dock="Top"
 					Margin="8,8,8,0">
-				<metro2:CallMethodButton Content="表示の更新"
+                <metro2:CallMethodButton Content="{Binding Resources.Update_Display, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 										 Padding="40,6"
 										 MethodName="Update"
 										 HorizontalAlignment="Left" />

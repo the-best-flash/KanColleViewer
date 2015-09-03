@@ -642,4 +642,7 @@
   <data name="Shipyard" xml:space="preserve">
     <value>Shipyard</value>
   </data>
+  <data name="Update_Display" xml:space="preserve">
+    <value>Update Display</value>
+  </data>
 </root>

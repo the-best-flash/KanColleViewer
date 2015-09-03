@@ -657,4 +657,7 @@
   <data name="Shipyard" xml:space="preserve">
     <value>工廠</value>
   </data>
+  <data name="Update_Display" xml:space="preserve">
+    <value>表示の更新</value>
+  </data>
 </root>

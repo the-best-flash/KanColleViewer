@@ -1645,6 +1645,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 表示の更新.
+        /// </summary>
+        public static string Update_Display {
+            get {
+                return ResourceManager.GetString("Update_Display", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ズーム {0} % はサポートされていません。.
         /// </summary>
         public static string ZoomAction_OutOfRange {
