@@ -714,4 +714,16 @@
   <data name="SlotItemCatalog_Upgrade" xml:space="preserve">
     <value>改修</value>
   </data>
+  <data name="FleetWindow_AS" xml:space="preserve">
+    <value>制空戦力</value>
+  </data>
+  <data name="FleetWindow_AvgLevel" xml:space="preserve">
+    <value>平均レベル</value>
+  </data>
+  <data name="FleetWindow_LOS" xml:space="preserve">
+    <value>索敵値</value>
+  </data>
+  <data name="FleetWindow_TotalLevel" xml:space="preserve">
+    <value>合計レベル</value>
+  </data>
 </root>
