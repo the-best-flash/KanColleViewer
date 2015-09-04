@@ -36,7 +36,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 					case FleetSpeed.Low:
 						return Resources.Fleets_Speed_Slow;
 					default:
-						return "速度混成艦隊";
+						return Resources.Fleets_Speed_Hybrid;
 				}
 			}
 		}
@@ -54,7 +54,14 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 				(sender, args) => this.RaisePropertyChanged(args.PropertyName),
 			});
 
-			this.Sortie = new SortieViewModel(source);
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(Models.ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Speed));
+                    }
+            });
+
+            this.Sortie = new SortieViewModel(source);
 			this.CompositeDisposable.Add(this.Sortie);
 
 			this.Homeport = new HomeportViewModel(source);

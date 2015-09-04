@@ -31,7 +31,8 @@
 								   Style="{DynamicResource DefaultTextStyleKey}"
 								   Foreground="{DynamicResource ActiveForegroundBrushKey}">
 							<TextBlock.Text>
-								<MultiBinding StringFormat="疲労回復まで: {0}">
+								<MultiBinding StringFormat=" {0}: {1}">
+                                    <Binding Path="Resources.Fleet_Details" Source="{x:Static models:ResourceService.Current}" Mode="OneTime" />
 									<Binding Path="Condition.Remaining" />
 								</MultiBinding>
 							</TextBlock.Text>
@@ -44,7 +45,7 @@
 								 Value="False">
 						<Setter TargetName="Text"
 								Property="Text"
-								Value="疲労回復済み" />
+								Value="{Binding Resources.Message_FatigueRecovered, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 					</DataTrigger>
 					<DataTrigger Binding="{Binding State.IsReady}"
 								 Value="True">
@@ -53,7 +54,7 @@
 								Value="#FF286414" />
 						<Setter TargetName="Text"
 								Property="Text"
-								Value="出撃可能！" />
+								Value="{Binding Resources.MessageBar_ReSortie_CanReSortie, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 					</DataTrigger>
 				</DataTemplate.Triggers>
 			</DataTemplate>
@@ -84,7 +85,7 @@
 									<ObjectAnimationUsingKeyFrames Storyboard.TargetName="Text"
 																   Storyboard.TargetProperty="Text">
 										<DiscreteObjectKeyFrame KeyTime="0"
-																Value="大破した艦娘がいます！！！" />
+																Value="{Binding Resources.MessageBar_HeavilyDamagedShip, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 									</ObjectAnimationUsingKeyFrames>
 								</Storyboard>
 							</VisualState>

@@ -711,4 +711,28 @@
   <data name="FleetWindow_TotalLevel" xml:space="preserve">
     <value>Total Level</value>
   </data>
+  <data name="FleetNameFormat" xml:space="preserve">
+    <value>(Fleet {0})</value>
+  </data>
+  <data name="Fleets_InDock" xml:space="preserve">
+    <value>Repairing</value>
+  </data>
+  <data name="Fleets_Speed_Hybrid" xml:space="preserve">
+    <value>Hybrid Fast Fleet</value>
+  </data>
+  <data name="Fleet_Details" xml:space="preserve">
+    <value>Fleet Details</value>
+  </data>
+  <data name="MessageBar_HeavilyDamagedShip" xml:space="preserve">
+    <value>A Ship Girl is Heavily Damaged!</value>
+  </data>
+  <data name="MessageBar_Homeport_Rejuvenated_Format" xml:space="preserve">
+    <value>{0} has recovered from fatigue.</value>
+  </data>
+  <data name="Message_FatigueRecovered" xml:space="preserve">
+    <value>Moral Recovered</value>
+  </data>
+  <data name="ShipDetailIndicator_RecoveryLabel" xml:space="preserve">
+    <value>Moral Recovery Timer:</value>
+  </data>
 </root>

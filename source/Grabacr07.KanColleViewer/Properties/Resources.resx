@@ -726,4 +726,28 @@
   <data name="FleetWindow_TotalLevel" xml:space="preserve">
     <value>合計レベル</value>
   </data>
+  <data name="FleetNameFormat" xml:space="preserve">
+    <value>(第 {0} 艦隊)</value>
+  </data>
+  <data name="Fleets_InDock" xml:space="preserve">
+    <value>入渠中</value>
+  </data>
+  <data name="Fleets_Speed_Hybrid" xml:space="preserve">
+    <value>速度混成艦隊</value>
+  </data>
+  <data name="Fleet_Details" xml:space="preserve">
+    <value>艦隊詳細</value>
+  </data>
+  <data name="MessageBar_HeavilyDamagedShip" xml:space="preserve">
+    <value>大破した艦娘がいます！！！</value>
+  </data>
+  <data name="MessageBar_Homeport_Rejuvenated_Format" xml:space="preserve">
+    <value>「{0}」に編成されている艦娘の疲労が回復しました。</value>
+  </data>
+  <data name="Message_FatigueRecovered" xml:space="preserve">
+    <value>疲労回復済み</value>
+  </data>
+  <data name="ShipDetailIndicator_RecoveryLabel" xml:space="preserve">
+    <value>疲労回復まで</value>
+  </data>
 </root>

@@ -619,6 +619,24 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 艦隊詳細.
+        /// </summary>
+        public static string Fleet_Details {
+            get {
+                return ResourceManager.GetString("Fleet_Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (第 {0} 艦隊).
+        /// </summary>
+        public static string FleetNameFormat {
+            get {
+                return ResourceManager.GetString("FleetNameFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 艦隊.
         /// </summary>
         public static string Fleets {
@@ -646,6 +664,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 入渠中.
+        /// </summary>
+        public static string Fleets_InDock {
+            get {
+                return ResourceManager.GetString("Fleets_InDock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to レベル.
         /// </summary>
         public static string Fleets_Level {
@@ -660,6 +687,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Fleets_Speed_Fast {
             get {
                 return ResourceManager.GetString("Fleets_Speed_Fast", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 速度混成艦隊.
+        /// </summary>
+        public static string Fleets_Speed_Hybrid {
+            get {
+                return ResourceManager.GetString("Fleets_Speed_Hybrid", resourceCulture);
             }
         }
         
@@ -817,6 +853,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 疲労回復済み.
+        /// </summary>
+        public static string Message_FatigueRecovered {
+            get {
+                return ResourceManager.GetString("Message_FatigueRecovered", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to この艦隊は遠征中です。.
         /// </summary>
         public static string MessageBar_Expedition {
@@ -840,6 +885,24 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string MessageBar_Expedition_TimeRemaining {
             get {
                 return ResourceManager.GetString("MessageBar_Expedition_TimeRemaining", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 大破した艦娘がいます！！！.
+        /// </summary>
+        public static string MessageBar_HeavilyDamagedShip {
+            get {
+                return ResourceManager.GetString("MessageBar_HeavilyDamagedShip", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 「{0}」に編成されている艦娘の疲労が回復しました。.
+        /// </summary>
+        public static string MessageBar_Homeport_Rejuvenated_Format {
+            get {
+                return ResourceManager.GetString("MessageBar_Homeport_Rejuvenated_Format", resourceCulture);
             }
         }
         
@@ -1506,6 +1569,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Ship_Classification {
             get {
                 return ResourceManager.GetString("Ship_Classification", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 疲労回復まで.
+        /// </summary>
+        public static string ShipDetailIndicator_RecoveryLabel {
+            get {
+                return ResourceManager.GetString("ShipDetailIndicator_RecoveryLabel", resourceCulture);
             }
         }
         

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models;
 using Livet;
 using Livet.EventListeners;
+using Grabacr07.KanColleViewer.Controls.Globalization;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 {
@@ -17,7 +18,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 
 		public int Id => this.Source.Id;
 
-		public string Name => string.IsNullOrEmpty(this.Source.Name.Trim()) ? "(第 " + this.Source.Id + " 艦隊)" : this.Source.Name;
+		public string Name => string.IsNullOrWhiteSpace(this.Source.Name) ? string.Format(Properties.Resources.FleetNameFormat, this.Source.Id) : this.Source.Name;
 
 		/// <summary>
 		/// 艦隊に所属している艦娘のコレクションを取得します。
@@ -67,7 +68,14 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 				{ nameof(fleet.State.Situation), (sender, args) => this.RaisePropertyChanged(nameof(this.QuickStateView)) },
 			});
 
-			this.State = new FleetStateViewModel(fleet.State);
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Name));
+                    }
+            });
+
+            this.State = new FleetStateViewModel(fleet.State);
 			this.CompositeDisposable.Add(this.State);
 
 			this.Expedition = new ExpeditionViewModel(fleet.Expedition);

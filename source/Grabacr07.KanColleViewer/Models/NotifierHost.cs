@@ -191,8 +191,8 @@ namespace Grabacr07.KanColleViewer.Models
 
 			var notification = Notification.Create(
 				Notification.Types.FleetRejuvenated,
-				"疲労回復完了",
-				$"「{args.FleetName}」に編成されている艦娘の疲労が回復しました。",
+				Resources.ReSortie_NotificationMessage_Title,
+				string.Format(Resources.MessageBar_Homeport_Rejuvenated_Format, args.FleetName),
 				() => WindowService.Current.MainWindow.Activate());
 
 			this.Notify(notification);
