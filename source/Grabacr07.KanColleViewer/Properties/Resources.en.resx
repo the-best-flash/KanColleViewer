@@ -699,4 +699,16 @@
   <data name="SlotItemCatalog_Upgrade" xml:space="preserve">
     <value>⭐🌟⭐</value>
   </data>
+  <data name="FleetWindow_AS" xml:space="preserve">
+    <value>AS</value>
+  </data>
+  <data name="FleetWindow_AvgLevel" xml:space="preserve">
+    <value>Avg. Level</value>
+  </data>
+  <data name="FleetWindow_LOS" xml:space="preserve">
+    <value>LoS</value>
+  </data>
+  <data name="FleetWindow_TotalLevel" xml:space="preserve">
+    <value>Total Level</value>
+  </data>
 </root>

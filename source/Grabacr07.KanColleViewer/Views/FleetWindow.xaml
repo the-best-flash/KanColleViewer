@@ -601,7 +601,7 @@
 									   HorizontalAlignment="Right"
 									   VerticalAlignment="Bottom"
 									   Margin="1,2">
-								<Run Text="合計レベル" />
+								<Run Text="{Binding Resources.Fleetwindow_TotalLevel, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 								<Run Text=":" />
 							</TextBlock>
 							<TextBlock Grid.Row="0"
@@ -617,7 +617,7 @@
 									   HorizontalAlignment="Right"
 									   VerticalAlignment="Bottom"
 									   Margin="1,2">
-								<Run Text="平均レベル" />
+								<Run Text="{Binding Resources.FleetWindow_AvgLevel, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 								<Run Text=":" />
 							</TextBlock>
 							<TextBlock Grid.Row="1"
@@ -633,7 +633,7 @@
 									   HorizontalAlignment="Right"
 									   VerticalAlignment="Bottom"
 									   Margin="1,2">
-								<Run Text="索敵値" />
+								<Run Text="{Binding Resources.FleetWindow_LOS, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 								<Run Text=":" />
 							</TextBlock>
 							<TextBlock Grid.Row="3"
@@ -649,7 +649,7 @@
 									   HorizontalAlignment="Right"
 									   VerticalAlignment="Bottom"
 									   Margin="1,2">
-								<Run Text="制空戦力" />
+								<Run Text="{Binding Resources.FleetWindow_AS, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 								<Run Text=":" />
 							</TextBlock>
 							<TextBlock Grid.Row="4"

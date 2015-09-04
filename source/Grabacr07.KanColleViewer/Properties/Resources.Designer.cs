@@ -700,6 +700,42 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 制空戦力.
+        /// </summary>
+        public static string FleetWindow_AS {
+            get {
+                return ResourceManager.GetString("FleetWindow_AS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 平均レベル.
+        /// </summary>
+        public static string FleetWindow_AvgLevel {
+            get {
+                return ResourceManager.GetString("FleetWindow_AvgLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 索敵値.
+        /// </summary>
+        public static string FleetWindow_LOS {
+            get {
+                return ResourceManager.GetString("FleetWindow_LOS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 合計レベル.
+        /// </summary>
+        public static string FleetWindow_TotalLevel {
+            get {
+                return ResourceManager.GetString("FleetWindow_TotalLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 司令部.
         /// </summary>
         public static string Homeport_FleetHQ {
