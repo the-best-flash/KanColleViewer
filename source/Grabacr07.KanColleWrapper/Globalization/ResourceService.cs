@@ -59,6 +59,7 @@ namespace Grabacr07.KanColleWrapper.Globalization
         {
             this.Culture = this.SupportedCultures.SingleOrDefault(x => x.Name == name);
 
+            Properties.Resources.Culture = this.Culture;
             Translation.Equipment.Resources.Culture = this.Culture;
             Translation.Quests.Resources.Culture = this.Culture;
             Translation.Ships.Resources.Culture = this.Culture;

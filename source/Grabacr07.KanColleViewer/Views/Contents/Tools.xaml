@@ -11,6 +11,7 @@
 			 xmlns:wrapper="clr-namespace:Grabacr07.KanColleWrapper;assembly=KanColleWrapper"
 			 xmlns:properties="clr-namespace:Grabacr07.KanColleViewer.Properties"
 			 xmlns:vm="clr-namespace:Grabacr07.KanColleViewer.ViewModels.Contents"
+             xmlns:models="clr-namespace:Grabacr07.KanColleViewer.Models"
 			 mc:Ignorable="d"
 			 d:DesignWidth="700"
 			 d:DesignHeight="300"

@@ -750,4 +750,119 @@
   <data name="ShipDetailIndicator_RecoveryLabel" xml:space="preserve">
     <value>疲労回復まで</value>
   </data>
+  <data name="KanColle" xml:space="preserve">
+    <value>艦これ</value>
+  </data>
+  <data name="MessageBar_OnExpedition" xml:space="preserve">
+    <value>遠征中</value>
+  </data>
+  <data name="MessageBar_OnSortie" xml:space="preserve">
+    <value>艦隊は出撃中です！</value>
+  </data>
+  <data name="MessageBar_ShipNotInFleet" xml:space="preserve">
+    <value>艦隊に艦娘が編成されていません。</value>
+  </data>
+  <data name="Settings_Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Settings_ExitConfirmation_AlwaysCheck" xml:space="preserve">
+    <value>常に確認する</value>
+  </data>
+  <data name="Settings_ExitConfirmation_None" xml:space="preserve">
+    <value>確認しない</value>
+  </data>
+  <data name="Settings_ExitConfirmation_SortieOnly" xml:space="preserve">
+    <value>出撃中のみ確認する</value>
+  </data>
+  <data name="Settings_LocalProxy" xml:space="preserve">
+    <value>待ち受けポートを変更する</value>
+  </data>
+  <data name="Settings_LocalProxy_DefaultValue" xml:space="preserve">
+    <value>既定値</value>
+  </data>
+  <data name="Settings_LocalProxy_PortInUseMessageFormat" xml:space="preserve">
+    <value>既にポート {0} で通信を待ち受けているアプリケーションが存在するため、開始に失敗しました。
+アプリケーションを終了するか、以下で待ち受けポートを変更できます。</value>
+  </data>
+  <data name="Settings_LocalProxy_PressRetryMessage" xml:space="preserve">
+    <value>※設定を変更したら [再試行] ボタンを押してください。</value>
+  </data>
+  <data name="Settings_LocalProxy_UnexpectedException" xml:space="preserve">
+    <value>
+	だめだった :;(∩´﹏`∩);:
+{0}
+	</value>
+  </data>
+  <data name="Settings_NotificationSettings_Title" xml:space="preserve">
+    <value>通知設定</value>
+  </data>
+  <data name="Settings_Retry" xml:space="preserve">
+    <value>再試行</value>
+  </data>
+  <data name="Settings_Status_Retrying" xml:space="preserve">
+    <value>再試行中...</value>
+  </data>
+  <data name="Settings_Window_Apply" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="Settings_Window_ExitConfirmation" xml:space="preserve">
+    <value>アプリケーション終了時の確認動作</value>
+  </data>
+  <data name="Settings_Window_Information" xml:space="preserve">
+    <value>情報</value>
+  </data>
+  <data name="Settings_Window_Layout" xml:space="preserve">
+    <value>ウィンドウ レイアウト</value>
+  </data>
+  <data name="Settings_Window_MultiWindow" xml:space="preserve">
+    <value>マルチ ウィンドウ</value>
+  </data>
+  <data name="Settings_Window_SingleWindow" xml:space="preserve">
+    <value>シングル ウィンドウ</value>
+  </data>
+  <data name="Operation_Settings_ConditionBoxMessage" xml:space="preserve">
+    <value>※通常は、間宮アイコンが消灯する 40 か、自然回復上限の 49 に設定します。</value>
+  </data>
+  <data name="Operation_Settings_ConditionDescription" xml:space="preserve">
+    <value>艦隊内の全艦のコンディションが次の数値以上になったとき、出撃可能と判断する</value>
+  </data>
+  <data name="Operation_Settings_Example" xml:space="preserve">
+    <value>例: 40</value>
+  </data>
+  <data name="Operation_Settings_LoSFormulaHeader" xml:space="preserve">
+    <value>艦隊の索敵値の算出に使用する計算式は、以下を使用する</value>
+  </data>
+  <data name="Operation_Settings_LoSHeader" xml:space="preserve">
+    <value>索敵値計算</value>
+  </data>
+  <data name="Plugins_FailedToLoad" xml:space="preserve">
+    <value>読み込みに失敗したプラグイン</value>
+  </data>
+  <data name="Plugins_FailedToLoadMessage" xml:space="preserve">
+    <value>以下のプラグインは、読み込みに失敗し動作していません。発生したエラーの詳細を確認できます。</value>
+  </data>
+  <data name="Plugins_Features" xml:space="preserve">
+    <value>機能: </value>
+  </data>
+  <data name="Plugins_LoadedPlugins" xml:space="preserve">
+    <value>読み込み済みのプラグイン</value>
+  </data>
+  <data name="Plugins_LoadedPluginsMessage" xml:space="preserve">
+    <value>以下のプラグインが読み込まれています。各プラグインの設定を変更できます。</value>
+  </data>
+  <data name="Plugins_NotificationFeatures" xml:space="preserve">
+    <value>通知機能</value>
+  </data>
+  <data name="Plugins_NotificationsFromPlugins" xml:space="preserve">
+    <value>プラグインからの通知</value>
+  </data>
+  <data name="Plugins_Test" xml:space="preserve">
+    <value>(テスト)</value>
+  </data>
+  <data name="Plugins_ToolDisplay" xml:space="preserve">
+    <value>ツール表示</value>
+  </data>
+  <data name="Settings_Plugins_Close" xml:space="preserve">
+    <value>閉じる</value>
+  </data>
 </root>

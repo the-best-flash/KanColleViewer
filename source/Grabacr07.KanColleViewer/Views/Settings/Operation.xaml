@@ -24,7 +24,7 @@
 				   Style="{DynamicResource SettingsHeaderTextStyleKey}" />
 
 		<StackPanel Margin="20,0,0,0">
-			<TextBlock Text="艦隊内の全艦のコンディションが次の数値以上になったとき、出撃可能と判断する" />
+            <TextBlock Text="{Binding Resources.Operation_Settings_ConditionDescription, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 
 			<Grid Margin="0,10">
 				<Grid.ColumnDefinitions>
@@ -33,7 +33,7 @@
 					<ColumnDefinition />
 				</Grid.ColumnDefinitions>
 
-				<metro:PromptTextBox Prompt="例: 40"
+                <metro:PromptTextBox Prompt="{Binding Resources.Operation_Settings_Example, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 									 Width="60">
 					<metro:PromptTextBox.Text>
 						<Binding Source="{x:Static ms:KanColleSettings.ReSortieCondition}"
@@ -48,7 +48,7 @@
 				</metro:PromptTextBox>
 				<TextBlock Grid.Column="2"
 						   Style="{DynamicResource DetailTextStyleKey}">
-					<Run Text="※通常は、間宮アイコンが消灯する 40 か、自然回復上限の 49 に設定します。" />
+					<Run Text="{Binding Resources.Operation_Settings_ConditionBoxMessage, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 				</TextBlock>
 			</Grid>
 		</StackPanel>
@@ -56,12 +56,12 @@
 		<Rectangle Height="1"
 				   Style="{DynamicResource SeparatorRectangleStyleKey}" />
 
-		<TextBlock Text="索敵値計算"
+        <TextBlock Text="{Binding Resources.Operation_Settings_LoSHeader, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 				   Style="{DynamicResource SettingsHeaderTextStyleKey}"
 				   Margin="0,10" />
 
 		<StackPanel Margin="20,0,0,0">
-			<TextBlock Text="艦隊の索敵値の算出に使用する計算式は、以下を使用する" />
+            <TextBlock Text="{Binding Resources.Operation_Settings_LoSFormulaHeader, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 
 			<ItemsControl ItemsSource="{Binding ViewRangeSettingsCollection}"
 						  Margin="0,5">

@@ -14,9 +14,9 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
         public int Id => this.RawData.api_id;
 
-        public string Title => Translation.QuestTranslationHelper.TranslateQuestTitle(this.RawData.api_name);
+        public string Title => Translation.MissionTranslationHelper.TranslateTitle(this.Id, this.RawData.api_name);
 
-        public string Detail => Translation.QuestTranslationHelper.TranslateQuestDetail(this.RawData.api_name, this.RawData.api_details);
+        public string Detail => Translation.MissionTranslationHelper.TranslateDetail(this.Id, this.RawData.api_details);
 
 		public Mission(kcsapi_mission mission)
 			: base(mission)

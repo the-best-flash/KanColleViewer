@@ -733,6 +733,119 @@
     <value>Moral Recovered</value>
   </data>
   <data name="ShipDetailIndicator_RecoveryLabel" xml:space="preserve">
-    <value>Moral Recovery Timer:</value>
+    <value>Moral Recovery Timer</value>
+  </data>
+  <data name="KanColle" xml:space="preserve">
+    <value>KanColle</value>
+  </data>
+  <data name="MessageBar_FleetSortie" xml:space="preserve">
+    <value>Fleet is Sortieing</value>
+  </data>
+  <data name="MessageBar_OnExpedition" xml:space="preserve">
+    <value>On Expedition</value>
+  </data>
+  <data name="MessageBar_ShipNotInFleet" xml:space="preserve">
+    <value>Ship Girl is Not in a Fleet</value>
+    <comment>Kanmusume has not been organized in a fleet?</comment>
+  </data>
+  <data name="Operation_Settings_ConditionBoxMessage" xml:space="preserve">
+    <value>※ Value must be between 40 and 49. (Default: 40)</value>
+  </data>
+  <data name="Operation_Settings_ConditionDescription" xml:space="preserve">
+    <value>Minimum fleet condition required for all ships in a fleet before they are considered ready to sortie.</value>
+  </data>
+  <data name="Operation_Settings_Example" xml:space="preserve">
+    <value>Example: 40</value>
+  </data>
+  <data name="Operation_Settings_LoSFormulaHeader" xml:space="preserve">
+    <value>Use the following formula to compute LoS:</value>
+  </data>
+  <data name="Operation_Settings_LoSHeader" xml:space="preserve">
+    <value>LoS Calculation</value>
+  </data>
+  <data name="Plugins_FailedToLoad" xml:space="preserve">
+    <value>Failed to Load Plugin</value>
+  </data>
+  <data name="Plugins_FailedToLoadMessage" xml:space="preserve">
+    <value>The following plug-ins failed to load. You can find more infomation in the error messages.</value>
+  </data>
+  <data name="Plugins_Features" xml:space="preserve">
+    <value>Features: </value>
+  </data>
+  <data name="Plugins_LoadedPlugins" xml:space="preserve">
+    <value>Loaded Plug-ins</value>
+  </data>
+  <data name="Plugins_LoadedPluginsMessage" xml:space="preserve">
+    <value>The following plug-ins are loaded. You can change the settings for each plugin.</value>
+  </data>
+  <data name="Plugins_NotificationFeatures" xml:space="preserve">
+    <value>Notification Features</value>
+  </data>
+  <data name="Plugins_NotificationsFromPlugins" xml:space="preserve">
+    <value>Notifications From Plugins</value>
+  </data>
+  <data name="Plugins_Test" xml:space="preserve">
+    <value>(Test)</value>
+  </data>
+  <data name="Plugins_ToolDisplay" xml:space="preserve">
+    <value>Tool Display</value>
+  </data>
+  <data name="Settings_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Settings_ExitConfirmation_AlwaysCheck" xml:space="preserve">
+    <value>Always Check</value>
+  </data>
+  <data name="Settings_ExitConfirmation_None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Settings_ExitConfirmation_SortieOnly" xml:space="preserve">
+    <value>Sortie Only</value>
+  </data>
+  <data name="Settings_LocalProxy" xml:space="preserve">
+    <value>Local Proxy</value>
+  </data>
+  <data name="Settings_LocalProxy_DefaultValue" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="Settings_LocalProxy_PortInUseMessageFormat" xml:space="preserve">
+    <value>Port {0} is already in use. Terminate the application or specify another port in the box below.</value>
+  </data>
+  <data name="Settings_LocalProxy_PressRetryMessage" xml:space="preserve">
+    <value>※ Press Retry after changing.</value>
+  </data>
+  <data name="Settings_LocalProxy_UnexpectedException" xml:space="preserve">
+    <value>An unexpected exception has occurred :;(∩´﹏`∩);:
+{0}</value>
+  </data>
+  <data name="Settings_NotificationSettings_Title" xml:space="preserve">
+    <value>Notifications</value>
+  </data>
+  <data name="Settings_Plugins_Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Settings_Retry" xml:space="preserve">
+    <value>Retry</value>
+  </data>
+  <data name="Settings_Status_Retrying" xml:space="preserve">
+    <value>Retrying...</value>
+  </data>
+  <data name="Settings_Window_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Settings_Window_ExitConfirmation" xml:space="preserve">
+    <value>Exit Confirmation</value>
+  </data>
+  <data name="Settings_Window_Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Settings_Window_Layout" xml:space="preserve">
+    <value>Window Layout</value>
+  </data>
+  <data name="Settings_Window_MultiWindow" xml:space="preserve">
+    <value>Multi-Window</value>
+  </data>
+  <data name="Settings_Window_SingleWindow" xml:space="preserve">
+    <value>Single Window</value>
   </data>
 </root>

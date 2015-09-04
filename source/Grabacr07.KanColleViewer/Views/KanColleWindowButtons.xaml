@@ -6,6 +6,7 @@
 			 xmlns:metro2="clr-namespace:MetroTrilithon.Controls;assembly=MetroTrilithon.Desktop"
 			 xmlns:root="clr-namespace:Grabacr07.KanColleViewer"
 			 xmlns:vm="clr-namespace:Grabacr07.KanColleViewer.ViewModels"
+             xmlns:models="clr-namespace:Grabacr07.KanColleViewer.Models"
 			 mc:Ignorable="d"
 			 d:DataContext="{d:DesignInstance vm:KanColleWindowViewModel}"
 			 Height="54">

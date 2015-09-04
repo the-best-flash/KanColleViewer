@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Internal;
+using Livet;
+using Livet.EventListeners;
+using Grabacr07.KanColleWrapper.Globalization;
 
 namespace Grabacr07.KanColleWrapper.Models
 {
@@ -22,7 +25,7 @@ namespace Grabacr07.KanColleWrapper.Models
 	}
 
 
-	public abstract class ViewRangeCalcLogic : ICalcViewRange
+	public abstract class ViewRangeCalcLogic : ViewModel, ICalcViewRange
 	{
 		private static readonly Dictionary<string, ICalcViewRange> logics = new Dictionary<string, ICalcViewRange>();
 
@@ -51,8 +54,16 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		protected ViewRangeCalcLogic()
 		{
-			// ReSharper disable once DoNotCallOverridableMethodsInConstructor
-			var key = this.Id;
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) => {
+                    this.RaisePropertyChanged(nameof(this.Name));
+                    this.RaisePropertyChanged(nameof(this.Description));
+                    }
+            });
+
+            // ReSharper disable once DoNotCallOverridableMethodsInConstructor
+            var key = this.Id;
 			if (key != null && !logics.ContainsKey(key)) logics.Add(key, this);
 		}
 	}
@@ -62,9 +73,9 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
 		public override sealed string Id => "KanColleViewer.Type1";
 
-		public override string Name => "単純計算";
+		public override string Name => Properties.Resources.Operation_Settings_SimpleLoS;
 
-		public override string Description => "艦娘と装備の索敵値の単純な合計値";
+		public override string Description => Properties.Resources.Operation_Settings_SimpleLoSDescription;
 
 		public override double Calc(Ship[] ships)
 		{
@@ -79,9 +90,9 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
 		public override sealed string Id => "KanColleViewer.Type2";
 
-		public override string Name => "2-5 式 (旧)";
+		public override string Name => Properties.Resources.Operation_Settings_Old2_5;
 
-		public override string Description => "(偵察機 × 2) + (電探) + √(装備込みの艦隊索敵値合計 - 偵察機 - 電探)";
+		public override string Description => Properties.Resources.Operation_Settings_Old2_5Description;
 
 		public override double Calc(Ship[] ships)
 		{
@@ -113,12 +124,9 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
 		public override sealed string Id => "KanColleViewer.Type3";
 
-		public override string Name => "2-5 式 (秋)";
+		public override string Name => Properties.Resources.Operation_Settings_2_5_Autumn;
 
-		public override string Description => @"(艦上爆撃機 × 1.04) + (艦上攻撃機 × 1.37) + (艦上偵察機 × 1.66)
-+ (水上偵察機 × 2.00) + (水上爆撃機 × 1.78) + (探照灯 × 0.91)
-+ (小型電探 × 1.00) + (大型電探 × 0.99) + (√各艦毎の素索敵 × 1.69)
-+ (司令部レベルを 5 の倍数に切り上げ × -0.61)";
+		public override string Description => Properties.Resources.Operation_Settings_2_5_AutumnDescription;
 
 		public override double Calc(Ship[] ships)
 		{

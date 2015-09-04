@@ -5,6 +5,7 @@
 			 xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
 			 xmlns:vm="clr-namespace:Grabacr07.KanColleViewer.ViewModels"
 			 xmlns:fleets="clr-namespace:Grabacr07.KanColleViewer.ViewModels.Contents.Fleets"
+             xmlns:models="clr-namespace:Grabacr07.KanColleViewer.Models"
 			 mc:Ignorable="d"
 			 d:DataContext="{d:DesignInstance fleets:FleetViewModel}">
 	<ContentControl Content="{Binding QuickStateView}">

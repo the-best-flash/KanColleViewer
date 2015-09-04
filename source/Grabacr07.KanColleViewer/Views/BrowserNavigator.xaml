@@ -10,6 +10,7 @@
 			 xmlns:metro2="clr-namespace:MetroTrilithon.Controls;assembly=MetroTrilithon.Desktop"
 			 xmlns:root="clr-namespace:Grabacr07.KanColleViewer"
 			 xmlns:viewModels="clr-namespace:Grabacr07.KanColleViewer.ViewModels"
+             xmlns:models="clr-namespace:Grabacr07.KanColleViewer.Models"
 			 mc:Ignorable="d"
 			 d:DesignWidth="800"
 			 d:DataContext="{d:DesignInstance viewModels:NavigatorViewModel}">

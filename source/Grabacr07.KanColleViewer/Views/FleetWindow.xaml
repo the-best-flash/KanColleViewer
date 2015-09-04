@@ -601,7 +601,7 @@
 									   HorizontalAlignment="Right"
 									   VerticalAlignment="Bottom"
 									   Margin="1,2">
-								<Run Text="{Binding Resources.Fleetwindow_TotalLevel, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
+								<Run Text="{Binding Resources.FleetWindow_TotalLevel, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 								<Run Text=":" />
 							</TextBlock>
 							<TextBlock Grid.Row="0"

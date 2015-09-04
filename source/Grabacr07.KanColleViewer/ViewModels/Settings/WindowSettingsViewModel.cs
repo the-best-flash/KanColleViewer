@@ -69,9 +69,9 @@ namespace Grabacr07.KanColleViewer.ViewModels.Settings
 		{
 			this.ExitConfirmationTypes = new List<DisplayViewModel<ExitConfirmationType>>
 			{
-				DisplayViewModel.Create(ExitConfirmationType.None,"確認しない"),
-				DisplayViewModel.Create(ExitConfirmationType.InSortieOnly, "出撃中のみ確認する"),
-				DisplayViewModel.Create(ExitConfirmationType.Always, "常に確認する"),
+				DisplayFunctionViewModel.Create(ExitConfirmationType.None, () => Properties.Resources.Settings_ExitConfirmation_None, ResourceService.Current),
+                DisplayFunctionViewModel.Create(ExitConfirmationType.InSortieOnly, () => Properties.Resources.Settings_ExitConfirmation_SortieOnly, ResourceService.Current),
+                DisplayFunctionViewModel.Create(ExitConfirmationType.Always, () => Properties.Resources.Settings_ExitConfirmation_AlwaysCheck, ResourceService.Current),
 			};
 		}
 

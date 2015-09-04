@@ -835,6 +835,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 艦これ.
+        /// </summary>
+        public static string KanColle {
+            get {
+                return ResourceManager.GetString("KanColle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to レベル.
         /// </summary>
         public static string Level {
@@ -903,6 +912,24 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string MessageBar_Homeport_Rejuvenated_Format {
             get {
                 return ResourceManager.GetString("MessageBar_Homeport_Rejuvenated_Format", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 遠征中.
+        /// </summary>
+        public static string MessageBar_OnExpedition {
+            get {
+                return ResourceManager.GetString("MessageBar_OnExpedition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 艦隊は出撃中です！.
+        /// </summary>
+        public static string MessageBar_OnSortie {
+            get {
+                return ResourceManager.GetString("MessageBar_OnSortie", resourceCulture);
             }
         }
         
@@ -988,6 +1015,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 艦隊に艦娘が編成されていません。.
+        /// </summary>
+        public static string MessageBar_ShipNotInFleet {
+            get {
+                return ResourceManager.GetString("MessageBar_ShipNotInFleet", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 二.
         /// </summary>
         public static string Ni {
@@ -1002,6 +1038,51 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Operation_ConditionInfo {
             get {
                 return ResourceManager.GetString("Operation_ConditionInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ※通常は、間宮アイコンが消灯する 40 か、自然回復上限の 49 に設定します。.
+        /// </summary>
+        public static string Operation_Settings_ConditionBoxMessage {
+            get {
+                return ResourceManager.GetString("Operation_Settings_ConditionBoxMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 艦隊内の全艦のコンディションが次の数値以上になったとき、出撃可能と判断する.
+        /// </summary>
+        public static string Operation_Settings_ConditionDescription {
+            get {
+                return ResourceManager.GetString("Operation_Settings_ConditionDescription", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 例: 40.
+        /// </summary>
+        public static string Operation_Settings_Example {
+            get {
+                return ResourceManager.GetString("Operation_Settings_Example", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 艦隊の索敵値の算出に使用する計算式は、以下を使用する.
+        /// </summary>
+        public static string Operation_Settings_LoSFormulaHeader {
+            get {
+                return ResourceManager.GetString("Operation_Settings_LoSFormulaHeader", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 索敵値計算.
+        /// </summary>
+        public static string Operation_Settings_LoSHeader {
+            get {
+                return ResourceManager.GetString("Operation_Settings_LoSHeader", resourceCulture);
             }
         }
         
@@ -1056,6 +1137,87 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Overview_ShowShipList {
             get {
                 return ResourceManager.GetString("Overview_ShowShipList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 読み込みに失敗したプラグイン.
+        /// </summary>
+        public static string Plugins_FailedToLoad {
+            get {
+                return ResourceManager.GetString("Plugins_FailedToLoad", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 以下のプラグインは、読み込みに失敗し動作していません。発生したエラーの詳細を確認できます。.
+        /// </summary>
+        public static string Plugins_FailedToLoadMessage {
+            get {
+                return ResourceManager.GetString("Plugins_FailedToLoadMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 機能: .
+        /// </summary>
+        public static string Plugins_Features {
+            get {
+                return ResourceManager.GetString("Plugins_Features", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 読み込み済みのプラグイン.
+        /// </summary>
+        public static string Plugins_LoadedPlugins {
+            get {
+                return ResourceManager.GetString("Plugins_LoadedPlugins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 以下のプラグインが読み込まれています。各プラグインの設定を変更できます。.
+        /// </summary>
+        public static string Plugins_LoadedPluginsMessage {
+            get {
+                return ResourceManager.GetString("Plugins_LoadedPluginsMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 通知機能.
+        /// </summary>
+        public static string Plugins_NotificationFeatures {
+            get {
+                return ResourceManager.GetString("Plugins_NotificationFeatures", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to プラグインからの通知.
+        /// </summary>
+        public static string Plugins_NotificationsFromPlugins {
+            get {
+                return ResourceManager.GetString("Plugins_NotificationsFromPlugins", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (テスト).
+        /// </summary>
+        public static string Plugins_Test {
+            get {
+                return ResourceManager.GetString("Plugins_Test", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ツール表示.
+        /// </summary>
+        public static string Plugins_ToolDisplay {
+            get {
+                return ResourceManager.GetString("Plugins_ToolDisplay", resourceCulture);
             }
         }
         
@@ -1330,6 +1492,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to キャンセル.
+        /// </summary>
+        public static string Settings_Cancel {
+            get {
+                return ResourceManager.GetString("Settings_Cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 表示設定.
         /// </summary>
         public static string Settings_Display {
@@ -1339,11 +1510,87 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 常に確認する.
+        /// </summary>
+        public static string Settings_ExitConfirmation_AlwaysCheck {
+            get {
+                return ResourceManager.GetString("Settings_ExitConfirmation_AlwaysCheck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 確認しない.
+        /// </summary>
+        public static string Settings_ExitConfirmation_None {
+            get {
+                return ResourceManager.GetString("Settings_ExitConfirmation_None", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 出撃中のみ確認する.
+        /// </summary>
+        public static string Settings_ExitConfirmation_SortieOnly {
+            get {
+                return ResourceManager.GetString("Settings_ExitConfirmation_SortieOnly", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 言語.
         /// </summary>
         public static string Settings_Language {
             get {
                 return ResourceManager.GetString("Settings_Language", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 待ち受けポートを変更する.
+        /// </summary>
+        public static string Settings_LocalProxy {
+            get {
+                return ResourceManager.GetString("Settings_LocalProxy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 既定値.
+        /// </summary>
+        public static string Settings_LocalProxy_DefaultValue {
+            get {
+                return ResourceManager.GetString("Settings_LocalProxy_DefaultValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 既にポート {0} で通信を待ち受けているアプリケーションが存在するため、開始に失敗しました。
+        ///アプリケーションを終了するか、以下で待ち受けポートを変更できます。.
+        /// </summary>
+        public static string Settings_LocalProxy_PortInUseMessageFormat {
+            get {
+                return ResourceManager.GetString("Settings_LocalProxy_PortInUseMessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ※設定を変更したら [再試行] ボタンを押してください。.
+        /// </summary>
+        public static string Settings_LocalProxy_PressRetryMessage {
+            get {
+                return ResourceManager.GetString("Settings_LocalProxy_PressRetryMessage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 
+        ///	だめだった :;(∩´﹏`∩);:
+        ///{0}
+        ///	.
+        /// </summary>
+        public static string Settings_LocalProxy_UnexpectedException {
+            get {
+                return ResourceManager.GetString("Settings_LocalProxy_UnexpectedException", resourceCulture);
             }
         }
         
@@ -1375,6 +1622,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 通知設定.
+        /// </summary>
+        public static string Settings_NotificationSettings_Title {
+            get {
+                return ResourceManager.GetString("Settings_NotificationSettings_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 動作設定.
         /// </summary>
         public static string Settings_Operation {
@@ -1398,6 +1654,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Settings_Plugin {
             get {
                 return ResourceManager.GetString("Settings_Plugin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 閉じる.
+        /// </summary>
+        public static string Settings_Plugins_Close {
+            get {
+                return ResourceManager.GetString("Settings_Plugins_Close", resourceCulture);
             }
         }
         
@@ -1443,6 +1708,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Settings_Proxy_Port {
             get {
                 return ResourceManager.GetString("Settings_Proxy_Port", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 再試行.
+        /// </summary>
+        public static string Settings_Retry {
+            get {
+                return ResourceManager.GetString("Settings_Retry", resourceCulture);
             }
         }
         
@@ -1510,6 +1784,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 再試行中....
+        /// </summary>
+        public static string Settings_Status_Retrying {
+            get {
+                return ResourceManager.GetString("Settings_Status_Retrying", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to バージョン情報.
         /// </summary>
         public static string Settings_VersionInfo {
@@ -1524,6 +1807,60 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Settings_Window {
             get {
                 return ResourceManager.GetString("Settings_Window", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 適用.
+        /// </summary>
+        public static string Settings_Window_Apply {
+            get {
+                return ResourceManager.GetString("Settings_Window_Apply", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to アプリケーション終了時の確認動作.
+        /// </summary>
+        public static string Settings_Window_ExitConfirmation {
+            get {
+                return ResourceManager.GetString("Settings_Window_ExitConfirmation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 情報.
+        /// </summary>
+        public static string Settings_Window_Information {
+            get {
+                return ResourceManager.GetString("Settings_Window_Information", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ウィンドウ レイアウト.
+        /// </summary>
+        public static string Settings_Window_Layout {
+            get {
+                return ResourceManager.GetString("Settings_Window_Layout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to マルチ ウィンドウ.
+        /// </summary>
+        public static string Settings_Window_MultiWindow {
+            get {
+                return ResourceManager.GetString("Settings_Window_MultiWindow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to シングル ウィンドウ.
+        /// </summary>
+        public static string Settings_Window_SingleWindow {
+            get {
+                return ResourceManager.GetString("Settings_Window_SingleWindow", resourceCulture);
             }
         }
         

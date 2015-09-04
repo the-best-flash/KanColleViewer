@@ -10,6 +10,7 @@
 			 xmlns:models="clr-namespace:Grabacr07.KanColleViewer.Models"
 			 xmlns:ms="clr-namespace:Grabacr07.KanColleViewer.Models.Settings"
 			 xmlns:vms="clr-namespace:Grabacr07.KanColleViewer.ViewModels.Settings"
+             xmlns:models="clr-namespace:Grabacr07.KanColleViewer.Models"
 			 mc:Ignorable="d"
 			 d:DesignWidth="500"
 			 d:DesignHeight="400"
