@@ -898,6 +898,60 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 艦隊内の全艦のコンディションが次の数値以上になったとき、出撃可能と判断する.
+        /// </summary>
+        public static string Operation_ConditionInfo {
+            get {
+                return ResourceManager.GetString("Operation_ConditionInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 出撃コンディション.
+        /// </summary>
+        public static string Operation_SortieCondition {
+            get {
+                return ResourceManager.GetString("Operation_SortieCondition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 建造ドック.
+        /// </summary>
+        public static string Overview_BuildingDock {
+            get {
+                return ResourceManager.GetString("Overview_BuildingDock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to データ.
+        /// </summary>
+        public static string Overview_Data {
+            get {
+                return ResourceManager.GetString("Overview_Data", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 入渠ドック.
+        /// </summary>
+        public static string Overview_RepairDock {
+            get {
+                return ResourceManager.GetString("Overview_RepairDock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 装備一覧.
+        /// </summary>
+        public static string Overview_ShowEquipList {
+            get {
+                return ResourceManager.GetString("Overview_ShowEquipList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 艦娘一覧.
         /// </summary>
         public static string Overview_ShowShipList {
@@ -1236,6 +1290,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Settings_Other {
             get {
                 return ResourceManager.GetString("Settings_Other", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to プラグイン.
+        /// </summary>
+        public static string Settings_Plugin {
+            get {
+                return ResourceManager.GetString("Settings_Plugin", resourceCulture);
             }
         }
         
@@ -1605,6 +1668,69 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Skilled {
             get {
                 return ResourceManager.GetString("Skilled", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 熟練度.
+        /// </summary>
+        public static string SlotItemCatalog_Level {
+            get {
+                return ResourceManager.GetString("SlotItemCatalog_Level", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 装備名.
+        /// </summary>
+        public static string SlotItemCatalog_Name {
+            get {
+                return ResourceManager.GetString("SlotItemCatalog_Name", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 所持数.
+        /// </summary>
+        public static string SlotItemCatalog_Number {
+            get {
+                return ResourceManager.GetString("SlotItemCatalog_Number", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (余り).
+        /// </summary>
+        public static string SlotItemCatalog_NumberEquipped {
+            get {
+                return ResourceManager.GetString("SlotItemCatalog_NumberEquipped", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 装備している艦娘.
+        /// </summary>
+        public static string SlotItemCatalog_Ships {
+            get {
+                return ResourceManager.GetString("SlotItemCatalog_Ships", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 合計.
+        /// </summary>
+        public static string SlotItemCatalog_Total {
+            get {
+                return ResourceManager.GetString("SlotItemCatalog_Total", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 改修.
+        /// </summary>
+        public static string SlotItemCatalog_Upgrade {
+            get {
+                return ResourceManager.GetString("SlotItemCatalog_Upgrade", resourceCulture);
             }
         }
         

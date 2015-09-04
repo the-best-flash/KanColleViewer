@@ -19,7 +19,7 @@
 	</UserControl.Resources>
 
 	<StackPanel>
-		<TextBlock Text="出撃コンディション"
+        <TextBlock Text="出撃コンディション"
 				   Style="{DynamicResource SettingsHeaderTextStyleKey}" />
 
 		<StackPanel Margin="20,0,0,0">

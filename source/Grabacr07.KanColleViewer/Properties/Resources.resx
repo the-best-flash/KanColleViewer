@@ -672,4 +672,46 @@
   <data name="Update_Display" xml:space="preserve">
     <value>表示の更新</value>
   </data>
+  <data name="Operation_ConditionInfo" xml:space="preserve">
+    <value>艦隊内の全艦のコンディションが次の数値以上になったとき、出撃可能と判断する</value>
+  </data>
+  <data name="Operation_SortieCondition" xml:space="preserve">
+    <value>出撃コンディション</value>
+  </data>
+  <data name="Overview_BuildingDock" xml:space="preserve">
+    <value>建造ドック</value>
+  </data>
+  <data name="Overview_Data" xml:space="preserve">
+    <value>データ</value>
+  </data>
+  <data name="Overview_RepairDock" xml:space="preserve">
+    <value>入渠ドック</value>
+  </data>
+  <data name="Overview_ShowEquipList" xml:space="preserve">
+    <value>装備一覧</value>
+  </data>
+  <data name="Settings_Plugin" xml:space="preserve">
+    <value>プラグイン</value>
+  </data>
+  <data name="SlotItemCatalog_Level" xml:space="preserve">
+    <value>熟練度</value>
+  </data>
+  <data name="SlotItemCatalog_Name" xml:space="preserve">
+    <value>装備名</value>
+  </data>
+  <data name="SlotItemCatalog_Number" xml:space="preserve">
+    <value>所持数</value>
+  </data>
+  <data name="SlotItemCatalog_NumberEquipped" xml:space="preserve">
+    <value>(余り)</value>
+  </data>
+  <data name="SlotItemCatalog_Ships" xml:space="preserve">
+    <value>装備している艦娘</value>
+  </data>
+  <data name="SlotItemCatalog_Total" xml:space="preserve">
+    <value>合計</value>
+  </data>
+  <data name="SlotItemCatalog_Upgrade" xml:space="preserve">
+    <value>改修</value>
+  </data>
 </root>

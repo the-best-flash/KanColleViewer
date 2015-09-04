@@ -604,7 +604,7 @@
     <value>Level</value>
   </data>
   <data name="ShipListHeader_LOS" xml:space="preserve">
-    <value>LOS</value>
+    <value>LoS</value>
   </data>
   <data name="ShipListHeader_LOS_Tooltip" xml:space="preserve">
     <value>Includes Bonuses From Equipment</value>
@@ -656,5 +656,47 @@
   </data>
   <data name="Update_Display" xml:space="preserve">
     <value>Update Display</value>
+  </data>
+  <data name="Operation_ConditionInfo" xml:space="preserve">
+    <value>When the condition of all the ships in the fleet is equal to or greater than the following numbers, it will be marked ready to sortie</value>
+  </data>
+  <data name="Operation_SortieCondition" xml:space="preserve">
+    <value>Sortie Condition</value>
+  </data>
+  <data name="Overview_BuildingDock" xml:space="preserve">
+    <value>Construction</value>
+  </data>
+  <data name="Overview_Data" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="Overview_RepairDock" xml:space="preserve">
+    <value>Repairs</value>
+  </data>
+  <data name="Overview_ShowEquipList" xml:space="preserve">
+    <value>Equip List</value>
+  </data>
+  <data name="Settings_Plugin" xml:space="preserve">
+    <value>Plugins</value>
+  </data>
+  <data name="SlotItemCatalog_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="SlotItemCatalog_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SlotItemCatalog_Number" xml:space="preserve">
+    <value>Owned</value>
+  </data>
+  <data name="SlotItemCatalog_NumberEquipped" xml:space="preserve">
+    <value>(Extra)</value>
+  </data>
+  <data name="SlotItemCatalog_Ships" xml:space="preserve">
+    <value>Shipgirls with equipment</value>
+  </data>
+  <data name="SlotItemCatalog_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="SlotItemCatalog_Upgrade" xml:space="preserve">
+    <value>⭐🌟⭐</value>
   </data>
 </root>
