@@ -70,11 +70,29 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 弾薬.
+        /// </summary>
+        public static string Ammunition {
+            get {
+                return ResourceManager.GetString("Ammunition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 戦艦.
         /// </summary>
         public static string Battleships {
             get {
                 return ResourceManager.GetString("Battleships", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ボーキサイト.
+        /// </summary>
+        public static string Bauxite {
+            get {
+                return ResourceManager.GetString("Bauxite", resourceCulture);
             }
         }
         
@@ -165,6 +183,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Destroyers {
             get {
                 return ResourceManager.GetString("Destroyers", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 開発資材.
+        /// </summary>
+        public static string DevelopmentMaterials {
+            get {
+                return ResourceManager.GetString("DevelopmentMaterials", resourceCulture);
             }
         }
         
@@ -763,11 +790,29 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 艦隊は遠征中です.
+        /// </summary>
+        public static string FleetWindow_OnExpedition {
+            get {
+                return ResourceManager.GetString("FleetWindow_OnExpedition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 合計レベル.
         /// </summary>
         public static string FleetWindow_TotalLevel {
             get {
                 return ResourceManager.GetString("FleetWindow_TotalLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 燃料.
+        /// </summary>
+        public static string Fuel {
+            get {
+                return ResourceManager.GetString("Fuel", resourceCulture);
             }
         }
         
@@ -813,6 +858,33 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Homeport_NoOfShips {
             get {
                 return ResourceManager.GetString("Homeport_NoOfShips", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 改修資材.
+        /// </summary>
+        public static string ImprovementMaterials {
+            get {
+                return ResourceManager.GetString("ImprovementMaterials", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 高速建造材.
+        /// </summary>
+        public static string InstantBuildMaterials {
+            get {
+                return ResourceManager.GetString("InstantBuildMaterials", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 高速修復材.
+        /// </summary>
+        public static string InstantRepairMaterials {
+            get {
+                return ResourceManager.GetString("InstantRepairMaterials", resourceCulture);
             }
         }
         
@@ -1793,6 +1865,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ツール.
+        /// </summary>
+        public static string Settings_Tools_Title {
+            get {
+                return ResourceManager.GetString("Settings_Tools_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to バージョン情報.
         /// </summary>
         public static string Settings_VersionInfo {
@@ -2239,6 +2320,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string StatusBar_Ready {
             get {
                 return ResourceManager.GetString("StatusBar_Ready", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 鋼鉄.
+        /// </summary>
+        public static string Steel {
+            get {
+                return ResourceManager.GetString("Steel", resourceCulture);
             }
         }
         

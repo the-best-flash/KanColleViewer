@@ -12,26 +12,26 @@ namespace Grabacr07.KanColleWrapper.Models
 			switch (rank)
 			{
 				case 1:
-					return "元帥";
+					return Properties.Resources.AdmiralRank_01;
 				case 2:
-					return "大将";
+					return Properties.Resources.AdmiralRank_02;
 				case 3:
-					return "中将";
+					return Properties.Resources.AdmiralRank_03;
 				case 4:
-					return "少将";
+					return Properties.Resources.AdmiralRank_04;
 				case 5:
-					return "大佐";
+					return Properties.Resources.AdmiralRank_05;
 				case 6:
-					return "中佐";
+					return Properties.Resources.AdmiralRank_06;
 				case 7:
-					return "新米中佐";
+					return Properties.Resources.AdmiralRank_07;
 				case 8:
-					return "少佐";
+					return Properties.Resources.AdmiralRank_08;
 				case 9:
-					return "中堅少佐";
+					return Properties.Resources.AdmiralRank_09;
 				case 10:
 				default:
-					return "新米少佐";
+					return Properties.Resources.AdmiralRank_10;
 			}
 		}
 	}

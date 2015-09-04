@@ -820,6 +820,9 @@
   <data name="Settings_Window_SingleWindow" xml:space="preserve">
     <value>シングル ウィンドウ</value>
   </data>
+  <data name="FleetWindow_OnExpedition" xml:space="preserve">
+    <value>艦隊は遠征中です</value>
+  </data>
   <data name="Operation_Settings_ConditionBoxMessage" xml:space="preserve">
     <value>※通常は、間宮アイコンが消灯する 40 か、自然回復上限の 49 に設定します。</value>
   </data>
@@ -864,5 +867,32 @@
   </data>
   <data name="Settings_Plugins_Close" xml:space="preserve">
     <value>閉じる</value>
+  </data>
+  <data name="Settings_Tools_Title" xml:space="preserve">
+    <value>ツール</value>
+  </data>
+  <data name="Ammunition" xml:space="preserve">
+    <value>弾薬</value>
+  </data>
+  <data name="Bauxite" xml:space="preserve">
+    <value>ボーキサイト</value>
+  </data>
+  <data name="DevelopmentMaterials" xml:space="preserve">
+    <value>開発資材</value>
+  </data>
+  <data name="Fuel" xml:space="preserve">
+    <value>燃料</value>
+  </data>
+  <data name="ImprovementMaterials" xml:space="preserve">
+    <value>改修資材</value>
+  </data>
+  <data name="InstantBuildMaterials" xml:space="preserve">
+    <value>高速建造材</value>
+  </data>
+  <data name="InstantRepairMaterials" xml:space="preserve">
+    <value>高速修復材</value>
+  </data>
+  <data name="Steel" xml:space="preserve">
+    <value>鋼鉄</value>
   </data>
 </root>

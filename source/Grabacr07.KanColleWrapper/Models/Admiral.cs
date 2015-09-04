@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models.Raw;
+using Livet.EventListeners;
+using Grabacr07.KanColleWrapper.Globalization;
 
 namespace Grabacr07.KanColleWrapper.Models
 {
@@ -93,7 +95,9 @@ namespace Grabacr07.KanColleWrapper.Models
 			: base(rawData)
 		{
 			this.Comment = this.RawData.api_comment;
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) { (sender, args) => this.RaisePropertyChanged(nameof(this.Rank)) });
+        }
 
 		public override string ToString()
 		{

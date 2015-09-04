@@ -135,4 +135,34 @@
   <data name="Operation_Settings_SimpleLoSDescription" xml:space="preserve">
     <value>Sum of LoS from Ship Girls and Equipment</value>
   </data>
+  <data name="AdmiralRank_01" xml:space="preserve">
+    <value>Marshal Admiral</value>
+  </data>
+  <data name="AdmiralRank_02" xml:space="preserve">
+    <value>Admiral</value>
+  </data>
+  <data name="AdmiralRank_03" xml:space="preserve">
+    <value>Vice-Admiral</value>
+  </data>
+  <data name="AdmiralRank_04" xml:space="preserve">
+    <value>Rear-Admiral</value>
+  </data>
+  <data name="AdmiralRank_05" xml:space="preserve">
+    <value>Captain</value>
+  </data>
+  <data name="AdmiralRank_06" xml:space="preserve">
+    <value>Commander</value>
+  </data>
+  <data name="AdmiralRank_07" xml:space="preserve">
+    <value>Commander (Novice)</value>
+  </data>
+  <data name="AdmiralRank_08" xml:space="preserve">
+    <value>Lieutenant-Commander</value>
+  </data>
+  <data name="AdmiralRank_09" xml:space="preserve">
+    <value>Vice Lieutenant-Commander</value>
+  </data>
+  <data name="AdmiralRank_10" xml:space="preserve">
+    <value>Lieutenant-Commander (Novice)</value>
+  </data>  
 </root>

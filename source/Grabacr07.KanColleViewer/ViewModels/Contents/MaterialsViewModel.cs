@@ -6,6 +6,8 @@ using Grabacr07.KanColleViewer.Models.Settings;
 using Grabacr07.KanColleWrapper;
 using Livet;
 using MetroTrilithon.Mvvm;
+using Livet.EventListeners;
+using Grabacr07.KanColleViewer.Models;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Contents
 {
@@ -59,28 +61,28 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 		{
 			this.Model = KanColleClient.Current.Homeport.Materials;
 
-			var fuel = new MaterialViewModel(nameof(Materials.Fuel), "燃料").AddTo(this);
+			var fuel = new MaterialViewModel(nameof(Materials.Fuel), () => Properties.Resources.Fuel).AddTo(this);
 			this.Model.Subscribe(fuel.Key, () => fuel.Value = this.Model.Fuel).AddTo(this);
 
-			var ammunition = new MaterialViewModel(nameof(Materials.Ammunition), "弾薬").AddTo(this);
+			var ammunition = new MaterialViewModel(nameof(Materials.Ammunition), () => Properties.Resources.Ammunition).AddTo(this);
 			this.Model.Subscribe(ammunition.Key, () => ammunition.Value = this.Model.Ammunition).AddTo(this);
 
-			var steel = new MaterialViewModel(nameof(Materials.Steel), "鋼鉄").AddTo(this);
+			var steel = new MaterialViewModel(nameof(Materials.Steel), () => Properties.Resources.Steel).AddTo(this);
 			this.Model.Subscribe(steel.Key, () => steel.Value = this.Model.Steel).AddTo(this);
 
-			var bauxite = new MaterialViewModel(nameof(Materials.Bauxite), "ボーキサイト").AddTo(this);
+			var bauxite = new MaterialViewModel(nameof(Materials.Bauxite), () => Properties.Resources.Bauxite).AddTo(this);
 			this.Model.Subscribe(bauxite.Key, () => bauxite.Value = this.Model.Bauxite).AddTo(this);
 
-			var develop = new MaterialViewModel(nameof(Materials.DevelopmentMaterials), "開発資材").AddTo(this);
+			var develop = new MaterialViewModel(nameof(Materials.DevelopmentMaterials), () => Properties.Resources.DevelopmentMaterials).AddTo(this);
 			this.Model.Subscribe(develop.Key, () => develop.Value = this.Model.DevelopmentMaterials).AddTo(this);
 
-			var repair = new MaterialViewModel(nameof(Materials.InstantRepairMaterials), "高速修復材").AddTo(this);
+			var repair = new MaterialViewModel(nameof(Materials.InstantRepairMaterials), () => Properties.Resources.InstantRepairMaterials).AddTo(this);
 			this.Model.Subscribe(repair.Key, () => repair.Value = this.Model.InstantRepairMaterials).AddTo(this);
 
-			var build = new MaterialViewModel(nameof(Materials.InstantBuildMaterials), "高速建造材").AddTo(this);
+			var build = new MaterialViewModel(nameof(Materials.InstantBuildMaterials), () => Properties.Resources.InstantBuildMaterials).AddTo(this);
 			this.Model.Subscribe(build.Key, () => build.Value = this.Model.InstantBuildMaterials).AddTo(this);
 
-			var improvement = new MaterialViewModel(nameof(Materials.ImprovementMaterials), "改修資材").AddTo(this);
+			var improvement = new MaterialViewModel(nameof(Materials.ImprovementMaterials), () => Properties.Resources.ImprovementMaterials).AddTo(this);
 			this.Model.Subscribe(improvement.Key, () => improvement.Value = this.Model.ImprovementMaterials).AddTo(this);
 
 			this.Values = new List<MaterialViewModel>
@@ -103,7 +105,9 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 		{
 			public string Key { get; }
 
-			public string Display { get; }
+            Func<string> _displayMethod;
+            string _display;
+            public string Display { get; }
 
 			#region Value 変更通知プロパティ
 
@@ -124,11 +128,26 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
 			#endregion
 
-			public MaterialViewModel(string key, string display)
+			public MaterialViewModel(string key, Func<string> displayMethod)
 			{
 				this.Key = key;
-				this.Display = display;
-			}
+                this._displayMethod = displayMethod;
+				this.Display = this.InvokeDisplayMethod();
+
+                this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+                {
+                    (sender, args) => 
+                    {
+                        this._display = this.InvokeDisplayMethod();
+                        this.RaisePropertyChanged(nameof(this.Display));
+                    }
+                });
+            }
+
+            private string InvokeDisplayMethod()
+            {
+                return (this._displayMethod != null ? this._displayMethod.Invoke() : "");
+            }
 		}
 	}
 }

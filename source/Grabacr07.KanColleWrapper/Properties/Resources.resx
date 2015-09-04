@@ -138,4 +138,34 @@
   <data name="Operation_Settings_SimpleLoSDescription" xml:space="preserve">
     <value>艦娘と装備の索敵値の単純な合計値</value>
   </data>
+  <data name="AdmiralRank_01" xml:space="preserve">
+    <value>元帥</value>
+  </data>
+  <data name="AdmiralRank_02" xml:space="preserve">
+    <value>大将</value>
+  </data>
+  <data name="AdmiralRank_03" xml:space="preserve">
+    <value>中将</value>
+  </data>
+  <data name="AdmiralRank_04" xml:space="preserve">
+    <value>少将</value>
+  </data>
+  <data name="AdmiralRank_05" xml:space="preserve">
+    <value>大佐</value>
+  </data>
+  <data name="AdmiralRank_06" xml:space="preserve">
+    <value>中佐</value>
+  </data>
+  <data name="AdmiralRank_07" xml:space="preserve">
+    <value>新米中佐</value>
+  </data>
+  <data name="AdmiralRank_08" xml:space="preserve">
+    <value>少佐</value>
+  </data>
+  <data name="AdmiralRank_09" xml:space="preserve">
+    <value>中堅少佐</value>
+  </data>
+  <data name="AdmiralRank_10" xml:space="preserve">
+    <value>新米少佐</value>
+  </data>
 </root>

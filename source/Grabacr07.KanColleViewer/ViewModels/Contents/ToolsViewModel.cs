@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Grabacr07.KanColleViewer.Composition;
 using Grabacr07.KanColleViewer.ViewModels.Composition;
+using Livet.EventListeners;
+using Grabacr07.KanColleViewer.Models;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Contents
 {
@@ -11,7 +13,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 	{
 		public override string Name
 		{
-			get { return "ツール"; }
+			get { return Properties.Resources.Settings_Tools_Title; }
 			protected set { throw new NotImplementedException(); }
 		}
 
@@ -58,6 +60,8 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 		{
 			this.Tools = new List<ToolViewModel>(PluginService.Current.Get<ITool>().Select(x => new ToolViewModel(x)));
 			this.SelectedTool = this.Tools.FirstOrDefault();
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current){ (sender, args) => this.RaisePropertyChanged(nameof(this.Name)) });
+        }
 	}
 }

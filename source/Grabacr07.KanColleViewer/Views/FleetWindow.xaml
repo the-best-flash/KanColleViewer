@@ -801,7 +801,8 @@
 																</MultiDataTrigger.Conditions>
 																<Setter Property="Text">
 																	<Setter.Value>
-																		<MultiBinding StringFormat="艦隊は遠征中です: {0} - {1}">
+																		<MultiBinding StringFormat=" {0}: {1} - {2}">
+                                                                            <Binding Path="Resources.FleetWindow_OnExpedition" Source="{x:Static models:ResourceService.Current}" Mode="OneTime" />
 																			<Binding Path="Expedition.Mission.Title" />
 																			<Binding Path="Expedition.Remaining" />
 																		</MultiBinding>
@@ -936,7 +937,8 @@
 													</MultiDataTrigger.Conditions>
 													<Setter Property="Text">
 														<Setter.Value>
-															<MultiBinding StringFormat="疲労回復まで: {0}">
+															<MultiBinding StringFormat=" {0}: {1}">
+                                                                <Binding Path="Resources.ShipDetailIndicator_RecoveryLabel" Source="{x:Static models:ResourceService.Current}" Mode="OneTime" />
 																<Binding Path="State.Homeport.Condition.Remaining" />
 															</MultiBinding>
 														</Setter.Value>

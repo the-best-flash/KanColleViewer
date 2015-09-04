@@ -61,6 +61,96 @@ namespace Grabacr07.KanColleWrapper.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 元帥.
+        /// </summary>
+        internal static string AdmiralRank_01 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_01", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 大将.
+        /// </summary>
+        internal static string AdmiralRank_02 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_02", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 中将.
+        /// </summary>
+        internal static string AdmiralRank_03 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_03", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 少将.
+        /// </summary>
+        internal static string AdmiralRank_04 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_04", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 大佐.
+        /// </summary>
+        internal static string AdmiralRank_05 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_05", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 中佐.
+        /// </summary>
+        internal static string AdmiralRank_06 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_06", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 新米中佐.
+        /// </summary>
+        internal static string AdmiralRank_07 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_07", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 少佐.
+        /// </summary>
+        internal static string AdmiralRank_08 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_08", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 中堅少佐.
+        /// </summary>
+        internal static string AdmiralRank_09 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_09", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 新米少佐.
+        /// </summary>
+        internal static string AdmiralRank_10 {
+            get {
+                return ResourceManager.GetString("AdmiralRank_10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 2-5 式 (秋).
         /// </summary>
         internal static string Operation_Settings_2_5_Autumn {
@@ -70,7 +160,10 @@ namespace Grabacr07.KanColleWrapper.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to (艦上爆撃機 × 1.04) + (艦上攻撃機 × 1.37) + (艦上偵察機 × 1.66)
+        ///+ (水上偵察機 × 2.00) + (水上爆撃機 × 1.78) + (探照灯 × 0.91)
+        ///+ (小型電探 × 1.00) + (大型電探 × 0.99) + (√各艦毎の素索敵 × 1.69)
+        ///+ (司令部レベルを 5 の倍数に切り上げ × -0.61).
         /// </summary>
         internal static string Operation_Settings_2_5_AutumnDescription {
             get {
