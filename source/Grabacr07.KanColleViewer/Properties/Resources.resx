@@ -988,4 +988,97 @@
   <data name="Shipyard_EquipDev" xml:space="preserve">
     <value>装備開発</value>
   </data>
+  <data name="Artillery_Spotting" xml:space="preserve">
+    <value>弾着観測射撃</value>
+  </data>
+  <data name="Combined_Fleet" xml:space="preserve">
+    <value>連合艦隊</value>
+  </data>
+  <data name="Crafting_NoResults" xml:space="preserve">
+    <value>結果なし</value>
+  </data>
+  <data name="EquipmentList_Title" xml:space="preserve">
+    <value>所有装備一覧</value>
+  </data>
+  <data name="ExitConfirmation_Title" xml:space="preserve">
+    <value>終了確認</value>
+  </data>
+  <data name="Failure" xml:space="preserve">
+    <value>失敗</value>
+  </data>
+  <data name="FleetWindow_CannotDoExpedition" xml:space="preserve">
+    <value>連合艦隊は遠征に参加できません</value>
+  </data>
+  <data name="FleetWindow_CriticalDamagedShip" xml:space="preserve">
+    <value>艦隊に大破した艦娘がいます！</value>
+  </data>
+  <data name="FleetWindow_FullySupplied" xml:space="preserve">
+    <value>艦隊は補給済みです</value>
+  </data>
+  <data name="FleetWindow_HaveHeavyDamageShip" xml:space="preserve">
+    <value>艦隊に大破した艦娘がいます</value>
+  </data>
+  <data name="FleetWindow_MainSortieStateDefaultMessage" xml:space="preserve">
+    <value>艦隊は出撃していません</value>
+  </data>
+  <data name="FleetWindow_NeedsResupplied" xml:space="preserve">
+    <value>艦隊に未補給の艦娘がいます</value>
+  </data>
+  <data name="FleetWindow_NightBattleCutIn_30" xml:space="preserve">
+    <value>夜戦カットイン: 30 %</value>
+  </data>
+  <data name="FleetWindow_NoHeavyDamage" xml:space="preserve">
+    <value>艦隊の艦娘に大きなダメージはありません</value>
+  </data>
+  <data name="FleetWindow_NoShipsInDock" xml:space="preserve">
+    <value>艦隊の艦娘は入渠していません</value>
+  </data>
+  <data name="FleetWindow_NotFatigued" xml:space="preserve">
+    <value>艦隊の艦娘は疲労していません</value>
+  </data>
+  <data name="FleetWindow_NotOnSortie" xml:space="preserve">
+    <value>艦隊は遠征中ではありません</value>
+  </data>
+  <data name="FleetWindow_NotReady" xml:space="preserve">
+    <value>艦隊の出撃準備は完了していません</value>
+  </data>
+  <data name="FleetWindow_OnSortie" xml:space="preserve">
+    <value>出撃準備完了！</value>
+  </data>
+  <data name="FleetWindow_Ready" xml:space="preserve">
+    <value>出撃準備完了！</value>
+  </data>
+  <data name="FleetWindow_ShipsInDock" xml:space="preserve">
+    <value>艦隊に入渠中の艦娘がいます</value>
+  </data>
+  <data name="FleetWindow_Status" xml:space="preserve">
+    <value>ステータス</value>
+  </data>
+  <data name="Fleet_EvacuationIndicatorText" xml:space="preserve">
+    <value>退避済</value>
+  </data>
+  <data name="Fleet_Healthy" xml:space="preserve">
+    <value>健在</value>
+  </data>
+  <data name="Fleet_Health_DameCon" xml:space="preserve">
+    <value>健在・ダメコン搭載</value>
+  </data>
+  <data name="Fleet_HeavyDamageMessage" xml:space="preserve">
+    <value>大破 (轟沈の可能性あり)</value>
+  </data>
+  <data name="Fleet_HeavyDamage_DameCon" xml:space="preserve">
+    <value>大破 (ダメコン使用可能)</value>
+  </data>
+  <data name="Fleet_HeavyDamage_Evacuated" xml:space="preserve">
+    <value>大破 (退避済み)</value>
+  </data>
+  <data name="Fleet_Withdrawal_Escort" xml:space="preserve">
+    <value>撤退 (護衛退避)</value>
+  </data>
+  <data name="PlugingSettings_TitleFormat" xml:space="preserve">
+    <value>{0} プラグイン設定</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
 </root>

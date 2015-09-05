@@ -395,7 +395,7 @@
                                             <Style TargetType="{x:Type TextBlock}"
                                                    BasedOn="{StaticResource DefaultTextStyleKey}">
                                                 <Setter Property="Text"
-                                                        Value="成功" />
+                                                        Value="{Binding Resources.Success, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
                                                 <Setter Property="Foreground"
                                                         Value="{DynamicResource AccentForegroundBrushKey}" />
                                                 <Setter Property="Background"
@@ -404,7 +404,7 @@
                                                     <DataTrigger Binding="{Binding CreatedSlotItem.Succeed}"
                                                                  Value="False">
                                                         <Setter Property="Text"
-                                                                Value="失敗" />
+                                                                Value="{Binding Resources.Failure, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
                                                         <Setter Property="Foreground"
                                                                 Value="{DynamicResource ForegroundBrushKey}" />
                                                         <Setter Property="Background"
@@ -413,7 +413,7 @@
                                                     <DataTrigger Binding="{Binding CreatedSlotItem.Succeed}"
                                                                  Value="{x:Null}">
                                                         <Setter Property="Text"
-                                                                Value="結果なし" />
+                                                                Value="{Binding Resources.Crafting_NoResults, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
                                                         <Setter Property="Foreground"
                                                                 Value="{DynamicResource ForegroundBrushKey}" />
                                                         <Setter Property="Background"

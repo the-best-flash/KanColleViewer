@@ -96,7 +96,7 @@
 							Background="Transparent"
 							Padding="8,4">
 						<TextBlock x:Name="Text"
-								   Text="{Binding Resources.MessageBar_FleetSortie, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
+								   Text="{Binding Resources.MessageBar_OnSortie, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 								   Style="{DynamicResource DefaultTextStyleKey}"
 								   Foreground="{DynamicResource ActiveForegroundBrushKey}">
 							<i:Interaction.Behaviors>

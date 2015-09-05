@@ -7,6 +7,8 @@ using System.Reactive.Subjects;
 using Grabacr07.KanColleViewer.Models.Settings;
 using Grabacr07.KanColleWrapper;
 using MetroTrilithon.Mvvm;
+using Livet.EventListeners;
+using Grabacr07.KanColleViewer.Models;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 {
@@ -56,7 +58,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 		public SlotItemCatalogViewModel()
 		{
-			this.Title = "所有装備一覧";
+			this.Title = Properties.Resources.EquipmentList_Title;
 			this.Settings = new SlotItemCatalogWindowSettings();
 
 			this.updateSource
@@ -69,7 +71,15 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 				.AddTo(this);
 
 			this.Update();
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) =>
+                {
+                    this.Title = Properties.Resources.EquipmentList_Title;
+                }
+            });
+        }
 
 		public void Update()
 		{

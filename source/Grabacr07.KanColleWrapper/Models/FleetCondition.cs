@@ -83,7 +83,7 @@ namespace Grabacr07.KanColleWrapper.Models
 			}
 
 			var condition = this.ships.Min(x => x.Condition);
-			if (condition != this.minCondition)
+			if (condition < this.minCondition)
 			{
 				this.minCondition = condition;
 
@@ -100,6 +100,10 @@ namespace Grabacr07.KanColleWrapper.Models
 					? (DateTimeOffset?)null
 					: rejuvnate;
 			}
+            else
+            {
+                this.RejuvenateTime = (DateTimeOffset?)null;
+            }
 		}
 
 

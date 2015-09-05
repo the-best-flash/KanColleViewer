@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Grabacr07.KanColleViewer.Composition;
 using MetroTrilithon.Mvvm;
+using Livet.EventListeners;
+using Grabacr07.KanColleViewer.Models;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Settings
 {
@@ -16,8 +18,16 @@ namespace Grabacr07.KanColleViewer.ViewModels.Settings
 
 		public PluginSettingsWindowViewModel(ISettings settings, string title)
 		{
-			this.Title = $"{title} プラグイン設定";
+			this.Title = string.Format(Properties.Resources.PlugingSettings_TitleFormat, title);
 			this.settings = settings;
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) =>
+                {
+                    this.Title = string.Format(Properties.Resources.PlugingSettings_TitleFormat, title);
+                }
+            });
+        }
 	}
 }

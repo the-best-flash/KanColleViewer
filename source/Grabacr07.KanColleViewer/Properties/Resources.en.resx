@@ -741,7 +741,7 @@
   <data name="KanColle" xml:space="preserve">
     <value>KanColle</value>
   </data>
-  <data name="MessageBar_FleetSortie" xml:space="preserve">
+  <data name="MessageBar_OnSortie" xml:space="preserve">
     <value>Fleet is Sortieing</value>
   </data>
   <data name="MessageBar_OnExpedition" xml:space="preserve">
@@ -991,5 +991,109 @@
   </data>
   <data name="Shipyard_EquipDev" xml:space="preserve">
     <value>Development</value>
+  </data>
+  <data name="Artillery_Spotting" xml:space="preserve">
+    <value>Artillery Spotting</value>
+  </data>
+  <data name="Combined_Fleet" xml:space="preserve">
+    <value>Combined Fleet</value>
+  </data>
+  <data name="Crafting_NoResults" xml:space="preserve">
+    <value>No Results</value>
+  </data>
+  <data name="EquipmentList_Title" xml:space="preserve">
+    <value>Owned Equipment List</value>
+  </data>
+  <data name="ExitConfirmation_Title" xml:space="preserve">
+    <value>Exit Confirmation</value>
+  </data>
+  <data name="Failure" xml:space="preserve">
+    <value>Failure</value>
+  </data>
+  <data name="FleetWindow_CannotDoExpedition" xml:space="preserve">
+    <value>Feet Can't Participate in Expeditions</value>
+  </data>
+  <data name="FleetWindow_CriticalDamagedShip" xml:space="preserve">
+    <value>There is a Critically Damaged Ship</value>
+  </data>
+  <data name="FleetWindow_FullySupplied" xml:space="preserve">
+    <value>Fleet is Fully Supplied</value>
+  </data>
+  <data name="FleetWindow_HaveHeavyDamageShip" xml:space="preserve">
+    <value>There is a Heavily Damaged Ship</value>
+  </data>
+  <data name="FleetWindow_MainSortieStateDefaultMessage" xml:space="preserve">
+    <value>Fleet is not Sortieing</value>
+  </data>
+  <data name="FleetWindow_NeedsResupplied" xml:space="preserve">
+    <value>Fleet Needs Resupplied</value>
+  </data>
+  <data name="FleetWindow_NightBattleCutIn_30" xml:space="preserve">
+    <value>Night Battle Cut-in: 30%</value>
+  </data>
+  <data name="FleetWindow_NoHeavyDamage" xml:space="preserve">
+    <value>No Critically Damaged Ships</value>
+  </data>
+  <data name="FleetWindow_NoShipsInDock" xml:space="preserve">
+    <value>All Ships in the Fleet are Repaired</value>
+  </data>
+  <data name="FleetWindow_NotFatigued" xml:space="preserve">
+    <value>Fleet is Not Fatigued</value>
+  </data>
+  <data name="FleetWindow_NotOnSortie" xml:space="preserve">
+    <value>Not Sortieing</value>
+  </data>
+  <data name="FleetWindow_NotReady" xml:space="preserve">
+    <value>Fleet is not Ready to Sortie</value>
+  </data>
+  <data name="FleetWindow_OnSortie" xml:space="preserve">
+    <value>Fleet is Sortieing</value>
+  </data>
+  <data name="FleetWindow_Ready" xml:space="preserve">
+    <value>Ready to Sortie</value>
+  </data>
+  <data name="FleetWindow_ShipsInDock" xml:space="preserve">
+    <value>A Ship in the Fleet is Repairing</value>
+  </data>
+  <data name="FleetWindow_Status" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="Fleet_EvacuationIndicatorText" xml:space="preserve">
+    <value>Evacuated</value>
+  </data>
+  <data name="Fleet_Healthy" xml:space="preserve">
+    <value>Healthy</value>
+  </data>
+  <data name="Fleet_Health_DameCon" xml:space="preserve">
+    <value>Healthy (with Emergency Repair)</value>
+    <comment>Translation Unclear</comment>
+  </data>
+  <data name="Fleet_HeavyDamageMessage" xml:space="preserve">
+    <value>Heavy Damage (Can Sink)</value>
+    <comment>Translation Unclear</comment>
+  </data>
+  <data name="Fleet_HeavyDamage_DameCon" xml:space="preserve">
+    <value>Heavy Damage (Emergency Repair Available)</value>
+    <comment>Translation Unclear</comment>
+  </data>
+  <data name="Fleet_HeavyDamage_Evacuated" xml:space="preserve">
+    <value>Heavy Damage (Evacuated)</value>
+    <comment>Translation Unclear</comment>
+  </data>
+  <data name="Fleet_Withdrawal_Escort" xml:space="preserve">
+    <value>Withdrawn (Escort)</value>
+    <comment>Translation Unclear</comment>
+  </data>
+  <data name="PlugingSettings_TitleFormat" xml:space="preserve">
+    <value>{0} Plug-in Settings</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="ZoomFactorSelector" xml:space="preserve">
+    <value>Game Zoom Factor</value>
+  </data>
+  <data name="ZoomFactorSelector_Tooltip" xml:space="preserve">
+    <value>Adjusts the zoom of the game screen</value>
   </data>
 </root>

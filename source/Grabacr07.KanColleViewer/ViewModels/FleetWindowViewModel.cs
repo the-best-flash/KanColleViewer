@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Grabacr07.KanColleViewer.ViewModels.Contents.Fleets;
 using Grabacr07.KanColleWrapper;
 using MetroTrilithon.Mvvm;
+using Livet.EventListeners;
+using Grabacr07.KanColleViewer.Models;
 
 namespace Grabacr07.KanColleViewer.ViewModels
 {
@@ -60,7 +62,7 @@ namespace Grabacr07.KanColleViewer.ViewModels
 
 		public FleetWindowViewModel()
 		{
-			this.Title = "艦隊詳細";
+			this.Title = Properties.Resources.Fleet_Details;
 			this.Fleets = new ItemViewModel[0];
 
 			KanColleClient.Current.Homeport.Organization
@@ -70,7 +72,15 @@ namespace Grabacr07.KanColleViewer.ViewModels
 				.AddTo(this);
 
 			this.InitializeFleets();
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) =>
+                {
+                    this.Title = Properties.Resources.Fleet_Details;
+                }
+            });
+        }
 
 
 		private void InitializeFleets()
