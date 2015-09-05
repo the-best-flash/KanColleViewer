@@ -40,15 +40,11 @@
 									 Padding="20,4"
 									 HorizontalAlignment="Left">
 				<StackPanel>
-					<TextBlock Foreground="{Binding RelativeSource={RelativeSource AncestorType={x:Type metro2:CallMethodButton}}, Path=Foreground}"
+                    <TextBlock Foreground="{Binding RelativeSource={RelativeSource AncestorType={x:Type metro2:CallMethodButton}}, Path=Foreground}"
 							   FontSize="13"
-							   HorizontalAlignment="Center">
-						<TextBlock.Text>
-							<Binding Path="BrowserZoomFactor.CurrentParcentage"
-									 StringFormat="{Binding Resources.Browser_Zoom, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
-									 Mode="OneWay" />
-						</TextBlock.Text>
-					</TextBlock>
+							   HorizontalAlignment="Center"
+                               Text="{Binding BrowserZoomFactorMessage}">
+                    </TextBlock>
                     <TextBlock Text="{Binding Resources.Browser_ZoomSubText, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 							   Style="{DynamicResource DefaultTextStyleKey}"
 							   FontSize="11"

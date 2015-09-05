@@ -108,9 +108,9 @@ namespace Grabacr07.KanColleViewer.Properties {
         /// <summary>
         ///   Looks up a localized string similar to ゲーム画面を {0} % に戻す.
         /// </summary>
-        public static string Browser_Zoom {
+        public static string Browser_ZoomFormat {
             get {
-                return ResourceManager.GetString("Browser_Zoom", resourceCulture);
+                return ResourceManager.GetString("Browser_ZoomFormat", resourceCulture);
             }
         }
         

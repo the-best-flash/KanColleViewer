@@ -929,8 +929,8 @@
   <data name="Browser_InfoBlock" xml:space="preserve">
     <value>You can change the display size at the top right of the game screen. Screenshots are always taken at 100% of the size, it is not affected by the display size setting.</value>
   </data>
-  <data name="Browser_Zoom" xml:space="preserve">
-    <value>Return the game screen to {0} %</value>
+  <data name="Browser_ZoomFormat" xml:space="preserve">
+    <value>Return the game screen to {0}%</value>
   </data>
   <data name="Browser_ZoomSubText" xml:space="preserve">
     <value>(when zoomed incorrectly)</value>

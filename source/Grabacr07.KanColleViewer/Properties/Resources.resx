@@ -925,7 +925,7 @@
   <data name="Browser_InfoBlock" xml:space="preserve">
     <value>ウィンドウ上部のボタンでゲーム画面 (Internet Explorer) の表示サイズを変更できます。スクリーンショットは常に 100 % のサイズで撮影され、表示サイズ設定の影響を受けません。</value>
   </data>
-  <data name="Browser_Zoom" xml:space="preserve">
+  <data name="Browser_ZoomFormat" xml:space="preserve">
     <value>ゲーム画面を {0} % に戻す</value>
   </data>
   <data name="Browser_ZoomSubText" xml:space="preserve">

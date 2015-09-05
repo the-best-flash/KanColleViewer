@@ -9,6 +9,7 @@ using Grabacr07.KanColleViewer.Properties;
 using Grabacr07.KanColleViewer.ViewModels.Composition;
 using Grabacr07.KanColleWrapper.Models;
 using MetroTrilithon.Mvvm;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Settings
 {
@@ -53,6 +54,8 @@ namespace Grabacr07.KanColleViewer.ViewModels.Settings
 
 		#endregion
 
+        public string BrowserZoomFactorMessage { get; private set; }
+
 		private SettingsViewModel()
 		{
 			this.ScreenshotSettings = new ScreenshotSettingsViewModel().AddTo(this);
@@ -91,13 +94,25 @@ namespace Grabacr07.KanColleViewer.ViewModels.Settings
 			this.FailedPlugins = new List<LoadFailedPluginViewModel>(
 				PluginService.Current.FailedPlugins.Select(x => new LoadFailedPluginViewModel(x)));
 
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(this.BrowserZoomFactor)
+            {
+                (sender, args) =>
+                {
+                    this.BrowserZoomFactorMessage = string.Format(Resources.Browser_ZoomFormat, this.BrowserZoomFactor.CurrentParcentage);
+                    this.RaisePropertyChanged(nameof(this.BrowserZoomFactorMessage));
+                }
+            });
+
             this.UpdateTranslatedValues();
 		}
 
         protected override void UpdateTranslatedValues()
         {
             this.Name = Resources.Settings;
+            this.BrowserZoomFactorMessage = string.Format(Resources.Browser_ZoomFormat, this.BrowserZoomFactor.CurrentParcentage);
+
             this.RaisePropertyChanged(nameof(this.Name));
+            this.RaisePropertyChanged(nameof(this.BrowserZoomFactorMessage));
         }
 
         public void Initialize()
