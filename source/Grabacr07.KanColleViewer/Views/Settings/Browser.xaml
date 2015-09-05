@@ -45,11 +45,11 @@
 							   HorizontalAlignment="Center">
 						<TextBlock.Text>
 							<Binding Path="BrowserZoomFactor.CurrentParcentage"
-									 StringFormat="ゲーム画面を {0} % に戻す"
+									 StringFormat="{Binding Resources.Browser_Zoom, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 									 Mode="OneWay" />
 						</TextBlock.Text>
 					</TextBlock>
-					<TextBlock Text="(誤ってズームしたとき用)"
+                    <TextBlock Text="{Binding Resources.Browser_ZoomSubText, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 							   Style="{DynamicResource DefaultTextStyleKey}"
 							   FontSize="11"
 							   HorizontalAlignment="Center" />
@@ -65,7 +65,7 @@
 
 			<TextBlock Margin="8,0,10,0"
 					   Style="{DynamicResource DefaultTextStyleKey}"
-					   Text="ウィンドウ上部のボタンでゲーム画面 (Internet Explorer) の表示サイズを変更できます。スクリーンショットは常に 100 % のサイズで撮影され、表示サイズ設定の影響を受けません。"
+					   Text="{Binding Resources.Browser_InfoBlock, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 					   Foreground="{DynamicResource ActiveForegroundBrushKey}" />
 		</DockPanel>
 

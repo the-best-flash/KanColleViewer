@@ -97,6 +97,33 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to ウィンドウ上部のボタンでゲーム画面 (Internet Explorer) の表示サイズを変更できます。スクリーンショットは常に 100 % のサイズで撮影され、表示サイズ設定の影響を受けません。.
+        /// </summary>
+        public static string Browser_InfoBlock {
+            get {
+                return ResourceManager.GetString("Browser_InfoBlock", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ゲーム画面を {0} % に戻す.
+        /// </summary>
+        public static string Browser_Zoom {
+            get {
+                return ResourceManager.GetString("Browser_Zoom", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (誤ってズームしたとき用).
+        /// </summary>
+        public static string Browser_ZoomSubText {
+            get {
+                return ResourceManager.GetString("Browser_ZoomSubText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to ※近日実装予定.
         /// </summary>
         public static string Common_Implement_Oncoming {
@@ -1096,11 +1123,236 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 適用.
+        /// </summary>
+        public static string Network_Apply {
+            get {
+                return ResourceManager.GetString("Network_Apply", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to キャンセル.
+        /// </summary>
+        public static string Network_Cancel {
+            get {
+                return ResourceManager.GetString("Network_Cancel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to プロキシ サーバーを指定する.
+        /// </summary>
+        public static string Network_CustomProxy {
+            get {
+                return ResourceManager.GetString("Network_CustomProxy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 全てのプロトコルで指定したプロキシ サーバーを中継して通信を行います。.
+        /// </summary>
+        public static string Network_CustomProxyInfo1 {
+            get {
+                return ResourceManager.GetString("Network_CustomProxyInfo1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to サーバーをホスト名で指定した場合、動作が遅くなることがあるため、IP アドレスでの指定を推奨します。.
+        /// </summary>
+        public static string Network_CustomProxyInfo2 {
+            get {
+                return ResourceManager.GetString("Network_CustomProxyInfo2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to プロキシ サーバーを使用しない.
+        /// </summary>
+        public static string Network_DoNotUseProxy {
+            get {
+                return ResourceManager.GetString("Network_DoNotUseProxy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 全てのプロトコルでプロキシ サーバーを中継せずに直接サーバーと通信を行います。.
+        /// </summary>
+        public static string Network_DoNotUseProxyInfo {
+            get {
+                return ResourceManager.GetString("Network_DoNotUseProxyInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Internet Explorer のプロキシ設定を使用する.
+        /// </summary>
+        public static string Network_IEProxy {
+            get {
+                return ResourceManager.GetString("Network_IEProxy", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 「インターネット オプション」の設定を用いて通信を行います。.
+        /// </summary>
+        public static string Network_IEProxyInfo1 {
+            get {
+                return ResourceManager.GetString("Network_IEProxyInfo1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HTTP プロトコルの通信は自動構成も含め「インターネット オプション」の設定がリアルタイムに反映されますが、HTTP プロトコル以外の通信はアプリケーション起動時および「適用」時の設定が使用されます。.
+        /// </summary>
+        public static string Network_IEProxyInfo2 {
+            get {
+                return ResourceManager.GetString("Network_IEProxyInfo2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ローカル待ち受けポート設定.
+        /// </summary>
+        public static string Network_ListenPort {
+            get {
+                return ResourceManager.GetString("Network_ListenPort", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 待ち受けポートを変更する.
+        /// </summary>
+        public static string Network_ListenPortCheck {
+            get {
+                return ResourceManager.GetString("Network_ListenPortCheck", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (既定値:.
+        /// </summary>
+        public static string Network_ListenPortDefualt {
+            get {
+                return ResourceManager.GetString("Network_ListenPortDefualt", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ※反映にはアプリケーションの再起動が必要です。.
+        /// </summary>
+        public static string Network_ListenPortInfo1 {
+            get {
+                return ResourceManager.GetString("Network_ListenPortInfo1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 二.
         /// </summary>
         public static string Ni {
             get {
                 return ResourceManager.GetString("Ni", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 通知を早める.
+        /// </summary>
+        public static string Notification_AdvanceTime {
+            get {
+                return ResourceManager.GetString("Notification_AdvanceTime", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 建造完了時に通知する.
+        /// </summary>
+        public static string Notification_BuildFinish {
+            get {
+                return ResourceManager.GetString("Notification_BuildFinish", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 再出撃可能とするコンディション値.
+        /// </summary>
+        public static string Notification_ConditionLevel {
+            get {
+                return ResourceManager.GetString("Notification_ConditionLevel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 遠征帰投時に通知する.
+        /// </summary>
+        public static string Notification_Expedition {
+            get {
+                return ResourceManager.GetString("Notification_Expedition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 艦隊に編成されている艦娘の疲労が回復したら通知する.
+        /// </summary>
+        public static string Notification_Fatigue {
+            get {
+                return ResourceManager.GetString("Notification_Fatigue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 艦これ本体の仕様により、最大 1 分間短縮できます。サーバー時刻とのずれを加味し、40 ～ 50 秒に設定することを推奨します。.
+        /// </summary>
+        public static string Notification_InfoBlock1 {
+            get {
+                return ResourceManager.GetString("Notification_InfoBlock1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ※[動作設定] &gt; [出撃コンディション] から設定できます。.
+        /// </summary>
+        public static string Notification_InfoBlock2 {
+            get {
+                return ResourceManager.GetString("Notification_InfoBlock2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 艦隊に編成されているすべて艦娘のコンディション値が上記の値以上になったときに通知されます。コンディション値は 3 分間で 3 ずつ回復しますが、KanColleViewer 実装の仕様により、通知タイミングは数秒 ～ 最大 3 分程度遅れる可能性があること予めご了承ください。.
+        /// </summary>
+        public static string Notification_InfoBlock3 {
+            get {
+                return ResourceManager.GetString("Notification_InfoBlock3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 入渠完了時に通知する.
+        /// </summary>
+        public static string Notification_Repairs {
+            get {
+                return ResourceManager.GetString("Notification_Repairs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 秒.
+        /// </summary>
+        public static string Notification_Sec {
+            get {
+                return ResourceManager.GetString("Notification_Sec", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 通知設定.
+        /// </summary>
+        public static string Notification_Title {
+            get {
+                return ResourceManager.GetString("Notification_Title", resourceCulture);
             }
         }
         
@@ -2185,6 +2437,33 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Shipyard {
             get {
                 return ResourceManager.GetString("Shipyard", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 建造.
+        /// </summary>
+        public static string Shipyard_Building {
+            get {
+                return ResourceManager.GetString("Shipyard_Building", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 入渠.
+        /// </summary>
+        public static string Shipyard_Docking {
+            get {
+                return ResourceManager.GetString("Shipyard_Docking", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 装備開発.
+        /// </summary>
+        public static string Shipyard_EquipDev {
+            get {
+                return ResourceManager.GetString("Shipyard_EquipDev", resourceCulture);
             }
         }
         
