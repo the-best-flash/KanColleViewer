@@ -20,7 +20,7 @@ namespace Grabacr07.KanColleWrapper.Models
 			: base(maparea)
 		{
 			this.Id = maparea.api_id;
-			this.Name = Translation.MapTranslationHelper.TranslateMapString(maparea.api_name);
+			this.Name = Translation.MapTranslationHelper.TranslateMapAreaName(this.Id, maparea.api_name);
 			this.MapInfos = new MasterTable<MapInfo>(mapInfos.Values.Where(x => x.MapAreaId == maparea.api_id));
 			foreach (var cell in this.MapInfos.Values)
 				cell.MapArea = this;
@@ -29,7 +29,7 @@ namespace Grabacr07.KanColleWrapper.Models
             {
                 (sender, args) =>
                 {
-                    this.Name = Translation.MapTranslationHelper.TranslateMapString(this.RawData.api_name);
+                    this.Name = Translation.MapTranslationHelper.TranslateMapAreaName(this.Id, this.RawData.api_name);
                     this.RaisePropertyChanged(nameof(this.Name));
                 }
             });

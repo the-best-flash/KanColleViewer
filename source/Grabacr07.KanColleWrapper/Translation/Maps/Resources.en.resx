@@ -98,4 +98,401 @@
 	<resheader name="writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
+  <data name="Map11" xml:space="preserve">
+    <value>鎮守府正面海域</value>
+  </data>
+  <data name="Map11_OperationName" xml:space="preserve">
+    <value>近海警備</value>
+  </data>
+  <data name="Map11_OperationInfo" xml:space="preserve">
+    <value>鎮守府正面近海の
+警備に出動せよ！</value>
+  </data>
+  <data name="Map12" xml:space="preserve">
+    <value>南西諸島沖</value>
+  </data>
+  <data name="Map12_OperationName" xml:space="preserve">
+    <value>南西諸島沖警備</value>
+  </data>
+  <data name="Map12_OperationInfo" xml:space="preserve">
+    <value>南西諸島沖に接近する
+敵前衛艦隊を捕捉、迎撃せよ！</value>
+  </data>
+  <data name="Map13" xml:space="preserve">
+    <value>製油所地帯沿岸</value>
+  </data>
+  <data name="Map13_OperationName" xml:space="preserve">
+    <value>海上護衛作戦</value>
+  </data>
+  <data name="Map13_OperationInfo" xml:space="preserve">
+    <value>製油所地帯沿岸部の
+海上輸送ラインを防衛せよ！</value>
+  </data>
+  <data name="Map14" xml:space="preserve">
+    <value>南西諸島防衛線</value>
+  </data>
+  <data name="Map14_OperationName" xml:space="preserve">
+    <value>南1号作戦</value>
+  </data>
+  <data name="Map14_OperationInfo" xml:space="preserve">
+    <value>南西諸島の防衛ライン上の
+敵侵攻艦隊を捕捉、
+全力出撃でこれを撃滅せよ！</value>
+  </data>
+  <data name="Map15" xml:space="preserve">
+    <value>鎮守府近海</value>
+  </data>
+  <data name="Map15_OperationName" xml:space="preserve">
+    <value>鎮守府近海対潜哨戒</value>
+  </data>
+  <data name="Map15_OperationInfo" xml:space="preserve">
+    <value>なるべく小編成の対潜哨戒部隊
+を編成し、鎮守府近海に出没す
+る敵潜水艦を発見・制圧せよ！</value>
+  </data>
+  <data name="Map16" xml:space="preserve">
+    <value>鎮守府近海航路</value>
+  </data>
+  <data name="Map16_OperationName" xml:space="preserve">
+    <value>輸送船団護衛作戦</value>
+  </data>
+  <data name="Map16_OperationInfo" xml:space="preserve">
+    <value>対潜及び防空能力に優れた艦艇
+を基幹戦力とした艦隊を編成、
+輸送船団航路の護衛にあたれ！</value>
+  </data>
+  <data name="Map21" xml:space="preserve">
+    <value>カムラン半島</value>
+  </data>
+  <data name="Map21_OperationName" xml:space="preserve">
+    <value>カ号迎撃戦</value>
+  </data>
+  <data name="Map21_OperationInfo" xml:space="preserve">
+    <value>カムラン半島付近に
+遊弋する敵艦隊を捕捉、
+これを迎撃せよ！</value>
+  </data>
+  <data name="Map22" xml:space="preserve">
+    <value>バシー島沖</value>
+  </data>
+  <data name="Map22_OperationName" xml:space="preserve">
+    <value>柳輸送作戦</value>
+  </data>
+  <data name="Map22_OperationInfo" xml:space="preserve">
+    <value>敵艦隊を排除し、
+バシー島に集積された
+ボーキサイト資材を輸送せよ！</value>
+  </data>
+  <data name="Map23" xml:space="preserve">
+    <value>東部オリョール海</value>
+  </data>
+  <data name="Map23_OperationName" xml:space="preserve">
+    <value>O1号作戦</value>
+  </data>
+  <data name="Map23_OperationInfo" xml:space="preserve">
+    <value>オリョール海に進出し、
+敵通商破壊艦隊を排除して、
+海上輸送ラインを防衛せよ！</value>
+  </data>
+  <data name="Map24" xml:space="preserve">
+    <value>沖ノ島海域</value>
+  </data>
+  <data name="Map24_OperationName" xml:space="preserve">
+    <value>あ号艦隊決戦</value>
+  </data>
+  <data name="Map24_OperationInfo" xml:space="preserve">
+    <value>沖ノ島海域に襲来した、
+有力な敵機動部隊を迎撃、
+全力出撃で、これを撃滅せよ！</value>
+  </data>
+  <data name="Map25" xml:space="preserve">
+    <value>沖ノ島沖</value>
+  </data>
+  <data name="Map25_OperationName" xml:space="preserve">
+    <value>沖ノ島沖戦闘哨戒</value>
+  </data>
+  <data name="Map25_OperationInfo" xml:space="preserve">
+    <value>同方面に敵反攻の兆候が報告さ
+れた。巡洋艦を中心に哨戒部隊
+を編成、敵艦隊の動向を探れ！</value>
+  </data>
+  <data name="Map31" xml:space="preserve">
+    <value>モーレイ海</value>
+  </data>
+  <data name="Map31_OperationName" xml:space="preserve">
+    <value>モーレイ海哨戒</value>
+  </data>
+  <data name="Map31_OperationInfo" xml:space="preserve">
+    <value>北方海域に艦隊を進出させ、
+モーレイ海を哨戒せよ！</value>
+  </data>
+  <data name="Map32" xml:space="preserve">
+    <value>キス島沖</value>
+  </data>
+  <data name="Map32_OperationName" xml:space="preserve">
+    <value>キス島撤退作戦</value>
+  </data>
+  <data name="Map32_OperationInfo" xml:space="preserve">
+    <value>軽巡を旗艦とした水雷戦隊、ま
+たは駆逐艦のみの艦隊で、敵包
+囲下の北方海域キス島に突入！
+島の守備隊を無事収容せよ！</value>
+  </data>
+  <data name="Map33" xml:space="preserve">
+    <value>アルフォンシーノ方面</value>
+  </data>
+  <data name="Map33_OperationName" xml:space="preserve">
+    <value>アルフォンシーノ方面進出</value>
+  </data>
+  <data name="Map33_OperationInfo" xml:space="preserve">
+    <value>空母２隻以上を擁する空母機動
+部隊をもって北方海域へ進出。
+敵情の強行偵察を敢行せよ！</value>
+  </data>
+  <data name="Map34" xml:space="preserve">
+    <value>北方海域全域</value>
+  </data>
+  <data name="Map34_OperationName" xml:space="preserve">
+    <value>北方海域艦隊決戦</value>
+  </data>
+  <data name="Map34_OperationInfo" xml:space="preserve">
+    <value>北方海域奥地に敵艦隊の大規模
+泊地を発見！我が艦隊の総力を
+挙げてこれを撃滅せよ！</value>
+  </data>
+  <data name="Map35" xml:space="preserve">
+    <value>北方AL海域</value>
+  </data>
+  <data name="Map35_OperationName" xml:space="preserve">
+    <value>北方海域戦闘哨戒</value>
+  </data>
+  <data name="Map35_OperationInfo" xml:space="preserve">
+    <value>北方海域に敵増援の動きがある。
+中規模の水上打撃部隊を派遣し、
+敵増援を捕捉、これを撃滅せよ！</value>
+  </data>
+  <data name="Map41" xml:space="preserve">
+    <value>ジャム島攻略作戦</value>
+  </data>
+  <data name="Map41_OperationInfo" xml:space="preserve">
+    <value>西方作戦の第一段階として、ジャム島攻略作戦を展開せよ！(対潜警戒を厳とせよ)</value>
+  </data>
+  <data name="Map42" xml:space="preserve">
+    <value>カレー洋制圧戦</value>
+  </data>
+  <data name="Map42_OperationInfo" xml:space="preserve">
+    <value>カレー洋の制圧作戦を行う。採掘地域を確保しつつ、カレー半島水域の敵艦隊を無力化せよ！</value>
+  </data>
+  <data name="Map43" xml:space="preserve">
+    <value>リランカ島空襲</value>
+  </data>
+  <data name="Map43_OperationInfo" xml:space="preserve">
+    <value>空母を伴った艦隊を編成し、リランカ島の敵母港に展開する敵艦隊を叩け！</value>
+  </data>
+  <data name="Map44" xml:space="preserve">
+    <value>カスガダマ沖海戦</value>
+  </data>
+  <data name="Map44_OperationInfo" xml:space="preserve">
+    <value>カレー洋西方の敵哨戒線を突破、カスガダマ島沖へ侵攻し、敵東方艦隊の中枢部隊を撃滅せよ！</value>
+  </data>
+  <data name="Map45" xml:space="preserve">
+    <value>カレー洋リランカ島沖</value>
+  </data>
+  <data name="Map45_OperationName" xml:space="preserve">
+    <value>深海東洋艦隊漸減作戦</value>
+  </data>
+  <data name="Map45_OperationInfo" xml:space="preserve">
+    <value>我が艦隊により大打撃を受けた
+敵東洋艦隊がリランカ島の港湾
+に再集結しつつある。遊撃部隊
+を編成し、敵増援を撃滅せよ！</value>
+  </data>
+  <data name="Map51" xml:space="preserve">
+    <value>南方海域前面</value>
+  </data>
+  <data name="Map51_OperationName" xml:space="preserve">
+    <value>南方海域進出作戦</value>
+  </data>
+  <data name="Map51_OperationInfo" xml:space="preserve">
+    <value>練度の高い水上打撃部隊を編成し、南方海域への進出を図れ！</value>
+  </data>
+  <data name="Map52" xml:space="preserve">
+    <value>珊瑚諸島沖</value>
+  </data>
+  <data name="Map52_OperationName" xml:space="preserve">
+    <value>珊瑚諸島沖海戦</value>
+  </data>
+  <data name="Map52_OperationInfo" xml:space="preserve">
+    <value>MO作戦を実施する。空母機動部隊を展開し、南方海域に出没する敵機動部隊を叩け！</value>
+  </data>
+  <data name="Map53" xml:space="preserve">
+    <value>サブ島沖海域</value>
+  </data>
+  <data name="Map53_OperationName" xml:space="preserve">
+    <value>第一次サーモン沖海戦</value>
+  </data>
+  <data name="Map53_OperationInfo" xml:space="preserve">
+    <value>敵泊地に対して水上打撃部隊による夜戦突撃を敢行し、艦隊後方の敵輸送艦を叩け！</value>
+  </data>
+  <data name="Map54" xml:space="preserve">
+    <value>サーモン海域</value>
+  </data>
+  <data name="Map54_OperationName" xml:space="preserve">
+    <value>東京急行</value>
+  </data>
+  <data name="Map54_OperationInfo" xml:space="preserve">
+    <value>南方海域に有力な艦隊を投入し
+鼠輸送作戦を敢行、可能であれ
+ば同方面の敵艦隊も撃滅せよ！</value>
+  </data>
+  <data name="Map55" xml:space="preserve">
+    <value>サーモン海域北方</value>
+  </data>
+  <data name="Map55_OperationName" xml:space="preserve">
+    <value>第二次サーモン海戦</value>
+  </data>
+  <data name="Map55_OperationInfo" xml:space="preserve">
+    <value>南方海域に敵の有力な機動部隊
+の接近が確認された。空母機動
+部隊を以て、これを迎撃せよ！</value>
+  </data>
+  <data name="Map61" xml:space="preserve">
+    <value>中部海域哨戒線</value>
+  </data>
+  <data name="Map61_OperationName" xml:space="preserve">
+    <value>潜水艦作戦</value>
+  </data>
+  <data name="Map61_OperationInfo" xml:space="preserve">
+    <value>有力な潜水艦隊を編成し、中部
+海域哨戒線に進出せよ。敵艦隊
+を発見、これを漸減撃滅せよ！</value>
+  </data>
+  <data name="Map62" xml:space="preserve">
+    <value>MS諸島沖</value>
+  </data>
+  <data name="Map62_OperationName" xml:space="preserve">
+    <value>MS諸島防衛戦</value>
+  </data>
+  <data name="Map62_OperationInfo" xml:space="preserve">
+    <value>MS諸島沖前面に展開し、同諸島
+方面に接近しつつある敵攻略部
+隊を捕捉、全力で撃滅せよ！</value>
+  </data>
+  <data name="Map63" xml:space="preserve">
+    <value>グアノ環礁沖海域</value>
+  </data>
+  <data name="Map63_OperationName" xml:space="preserve">
+    <value>K作戦</value>
+  </data>
+  <data name="Map63_OperationInfo" xml:space="preserve">
+    <value>飛行艇または水上偵察機を装備
+した水上機母艦・軽巡・駆逐艦
+による艦隊を同方面へ進出、航
+空偵察「Ｋ作戦」を実施せよ！</value>
+  </data>
+  <data name="Map311" xml:space="preserve">
+    <value>ショートランド沖</value>
+  </data>
+  <data name="Map311_OperationName" xml:space="preserve">
+    <value>発動準備、第二次SN作戦！</value>
+  </data>
+  <data name="Map311_OperationInfo" xml:space="preserve">
+    <value>第二次SN作戦が発動された！
+水雷戦隊を含む艦隊を編成し、
+作戦海域となるソロモン海域の
+威力偵察と前路哨戒を実施せよ！</value>
+  </data>
+  <data name="Map312" xml:space="preserve">
+    <value>ソロモン海</value>
+  </data>
+  <data name="Map312_OperationName" xml:space="preserve">
+    <value>連合艦隊、ソロモン海へ！</value>
+  </data>
+  <data name="Map312_OperationInfo" xml:space="preserve">
+    <value>いよいよ我が連合艦隊が抜錨、
+作戦海域であるソロモン海域へ
+進撃を開始する。連合艦隊主力
+をもって同海域制海権を握れ！</value>
+  </data>
+  <data name="Map313" xml:space="preserve">
+    <value>南太平洋海域</value>
+  </data>
+  <data name="Map313_OperationName" xml:space="preserve">
+    <value>激突！第二次南太平洋海戦</value>
+  </data>
+  <data name="Map313_OperationInfo" xml:space="preserve">
+    <value>戦いの激化するソロモン海域に
+有力な敵機動部隊の接近中だ。
+我が機動部隊はこれを迎撃、南
+太平洋上で敵を捕捉撃滅せよ！</value>
+  </data>
+  <data name="Map314" xml:space="preserve">
+    <value>アイアンボトムサウンド</value>
+  </data>
+  <data name="Map314_OperationName" xml:space="preserve">
+    <value>海峡突入！敵飛行場を撃滅せよ！</value>
+  </data>
+  <data name="Map314_OperationInfo" xml:space="preserve">
+    <value>来援した敵機動部隊主力は戦力
+を喪失して後退した。いまこそ
+ソロモン海域の要衝、敵飛行場
+を撃滅する時！挺身部隊出撃！</value>
+  </data>
+  <data name="Map315" xml:space="preserve">
+    <value>西方海域戦線 カレー洋</value>
+  </data>
+  <data name="Map315_OperationName" xml:space="preserve">
+    <value>奮戦！西部方面派遣艦隊</value>
+  </data>
+  <data name="Map315_OperationInfo" xml:space="preserve">
+    <value>第二次SN作戦の間隙を塗って
+西方海域に再集結中の敵増援
+が確認された。西部方面派遣
+艦隊で、同方面を防衛せよ！</value>
+  </data>
+  <data name="Map316" xml:space="preserve">
+    <value>ソロモン海東部海域</value>
+  </data>
+  <data name="Map316_OperationName" xml:space="preserve">
+    <value>反攻作戦！FS方面進出</value>
+  </data>
+  <data name="Map316_OperationInfo" xml:space="preserve">
+    <value>第二次SN作戦の成功により、
+ソロモン海域方面に作戦橋頭堡
+が確立された。連合艦隊機動部
+隊主力をFS方面へ進出させよ！</value>
+  </data>
+  <data name="Map317" xml:space="preserve">
+    <value>FS方面海域</value>
+  </data>
+  <data name="Map317_OperationName" xml:space="preserve">
+    <value>FS作戦</value>
+  </data>
+  <data name="Map317_OperationInfo" xml:space="preserve">
+    <value>いよいよ拡張作戦、FS作戦を
+実施する環境が整った。ソロモ
+ン海域方面の全戦力を結集し、
+拡張作戦FS作戦を実施せよ！</value>
+  </data>
+  <data name="MapArea1" xml:space="preserve">
+    <value>鎮守府海域</value>
+  </data>
+  <data name="MapArea2" xml:space="preserve">
+    <value>南西諸島海域</value>
+  </data>
+  <data name="MapArea3" xml:space="preserve">
+    <value>北方海域</value>
+  </data>
+  <data name="MapArea4" xml:space="preserve">
+    <value>西方海域</value>
+  </data>
+  <data name="MapArea5" xml:space="preserve">
+    <value>南方海域</value>
+  </data>
+  <data name="MapArea6" xml:space="preserve">
+    <value>中部海域</value>
+  </data>
+  <data name="MapArea31" xml:space="preserve">
+    <value>反撃！第二次SN作戦</value>
+  </data>
 </root>

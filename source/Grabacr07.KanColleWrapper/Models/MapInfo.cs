@@ -34,13 +34,13 @@ namespace Grabacr07.KanColleWrapper.Models
 			: base(mapinfo)
 		{
 			this.Id = mapinfo.api_id;
-			this.Name = Translation.MapTranslationHelper.TranslateMapString(mapinfo.api_name);
 			this.MapAreaId = mapinfo.api_maparea_id;
 			this.IdInEachMapArea = mapinfo.api_no;
 			this.Level = mapinfo.api_level;
-			this.OperationName = Translation.MapTranslationHelper.TranslateMapString(mapinfo.api_opetext);
-			this.OperationSummary = Translation.MapTranslationHelper.TranslateMapString(mapinfo.api_infotext);
 			this.RequiredDefeatCount = mapinfo.api_required_defeat_count ?? 1;
+
+            this.UpdateTranslatedValues();
+
 			this.MapCells = new MasterTable<MapCell>(mapCells.Values.Where(x => x.MapInfoId == mapinfo.api_id));
 			foreach (var cell in this.MapCells.Values)
 				cell.MapInfo = this;
@@ -50,9 +50,9 @@ namespace Grabacr07.KanColleWrapper.Models
 
         private void UpdateTranslatedValues()
         {
-            this.Name = Translation.MapTranslationHelper.TranslateMapString(this.RawData.api_name);
-            this.OperationName = Translation.MapTranslationHelper.TranslateMapString(this.RawData.api_opetext);
-            this.OperationSummary = Translation.MapTranslationHelper.TranslateMapString(this.RawData.api_infotext);
+            this.Name = Translation.MapTranslationHelper.TranslateMapName(this.Id, this.RawData.api_name);
+            this.OperationName = Translation.MapTranslationHelper.TranslateMapOperationName(this.Id, this.RawData.api_opetext);
+            this.OperationSummary = Translation.MapTranslationHelper.TranslateMapOperationInfo(this.Id, this.RawData.api_infotext);
 
             this.RaisePropertyChanged(nameof(this.Name));
             this.RaisePropertyChanged(nameof(this.OperationName));
