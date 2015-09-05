@@ -25,7 +25,7 @@ namespace Grabacr07.KanColleWrapper.Models
 	}
 
 
-	public abstract class ViewRangeCalcLogic : ViewModel, ICalcViewRange
+	public abstract class ViewRangeCalcLogic : DisposableNotifier, ICalcViewRange
 	{
 		private static readonly Dictionary<string, ICalcViewRange> logics = new Dictionary<string, ICalcViewRange>();
 

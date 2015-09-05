@@ -83,7 +83,7 @@ namespace Grabacr07.KanColleWrapper.Models
 			}
 
 			var condition = this.ships.Min(x => x.Condition);
-			if (condition < this.minCondition)
+			if (condition != this.minCondition)
 			{
 				this.minCondition = condition;
 
@@ -100,10 +100,6 @@ namespace Grabacr07.KanColleWrapper.Models
 					? (DateTimeOffset?)null
 					: rejuvnate;
 			}
-            else
-            {
-                this.RejuvenateTime = (DateTimeOffset?)null;
-            }
 		}
 
 
@@ -117,6 +113,11 @@ namespace Grabacr07.KanColleWrapper.Models
 				if (remaining.Ticks < 0) remaining = TimeSpan.Zero;
 
 				this.Remaining = remaining;
+
+                if(remaining.Ticks <= 0)
+                {
+                    this.RejuvenateTime = null;
+                }
 
 				if (!this.notificated && this.Rejuvenated != null && remaining.Ticks <= 0)
 				{

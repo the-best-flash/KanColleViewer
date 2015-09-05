@@ -47,16 +47,37 @@
 								Property="Text"
 								Value="{Binding Resources.Message_FatigueRecovered, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
 					</DataTrigger>
-					<DataTrigger Binding="{Binding State.IsReady}"
+                    <DataTrigger Binding="{Binding State.Situation, Converter={StaticResource HasFlagConverter}, ConverterParameter=Homeport|InShortSupply}"
+                                 Value="True">
+                        <Setter TargetName="Text"
+								Property="Text"
+								Value="{Binding Resources.FleetWindow_NeedsResupplied, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding State.Situation, Converter={StaticResource HasFlagConverter}, ConverterParameter=Homeport|Repairing}"
+                                 Value="True">
+                        <Setter TargetName="Text"
+								Property="Text"
+								Value="{Binding Resources.FleetWindow_ShipsInDock, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding State.Situation, Converter={StaticResource HasFlagConverter}, ConverterParameter=Homeport|HeavilyDamaged}"
+                                 Value="True">
+                        <Setter TargetName="Border"
+								Property="Background"
+								Value="#FFB40000" />
+                        <Setter TargetName="Text"
+								Property="Text"
+								Value="{Binding Resources.MessageBar_HeavilyDamagedShip, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
+                    </DataTrigger>                    
+                    <DataTrigger Binding="{Binding State.IsReady}"
 								 Value="True">
-						<Setter TargetName="Border"
+                        <Setter TargetName="Border"
 								Property="Background"
 								Value="#FF286414" />
-						<Setter TargetName="Text"
+                        <Setter TargetName="Text"
 								Property="Text"
 								Value="{Binding Resources.MessageBar_ReSortie_CanReSortie, Source={x:Static models:ResourceService.Current}, Mode=OneWay}" />
-					</DataTrigger>
-				</DataTemplate.Triggers>
+                    </DataTrigger>
+                </DataTemplate.Triggers>
 			</DataTemplate>
 
 			<DataTemplate DataType="{x:Type fleets:SortieViewModel}">
