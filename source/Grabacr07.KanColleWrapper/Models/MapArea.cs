@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models.Raw;
+using Livet.EventListeners;
+using Grabacr07.KanColleWrapper.Globalization;
 
 namespace Grabacr07.KanColleWrapper.Models
 {
@@ -10,7 +12,7 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
 		public int Id { get; }
 
-		public string Name { get; }
+		public string Name { get; private set; }
 
 		public MasterTable<MapInfo> MapInfos { get; }
 
@@ -18,11 +20,20 @@ namespace Grabacr07.KanColleWrapper.Models
 			: base(maparea)
 		{
 			this.Id = maparea.api_id;
-			this.Name = maparea.api_name;
+			this.Name = Translation.MapTranslationHelper.TranslateMapString(maparea.api_name);
 			this.MapInfos = new MasterTable<MapInfo>(mapInfos.Values.Where(x => x.MapAreaId == maparea.api_id));
 			foreach (var cell in this.MapInfos.Values)
 				cell.MapArea = this;
-		}
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) =>
+                {
+                    this.Name = Translation.MapTranslationHelper.TranslateMapString(this.RawData.api_name);
+                    this.RaisePropertyChanged(nameof(this.Name));
+                }
+            });
+        }
 		
 		public override string ToString()
 		{

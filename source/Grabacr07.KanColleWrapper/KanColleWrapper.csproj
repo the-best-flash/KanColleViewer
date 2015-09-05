@@ -232,6 +232,12 @@
     <Compile Include="IKanColleClientSettings.cs" />
     <Compile Include="Globalization\ResourceService.cs" />
     <Compile Include="TimerNotifier.cs" />
+    <Compile Include="Translation\Maps\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Translation\MapTranslationHelper.cs" />
     <Compile Include="Translation\TranslationHelper.cs" />
     <Compile Include="Translation\Equipment\Resources.Designer.cs">
       <DependentUpon>Resources.resx</DependentUpon>
@@ -276,9 +282,7 @@
       <Name>MetroTrilithon</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="ViewModel\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -308,6 +312,13 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="Translation\Quests\Resources.zh-CN.resx" />
+    <EmbeddedResource Include="Translation\Maps\Resources.en.resx" />
+    <EmbeddedResource Include="Translation\Maps\Resources.ko-KR.resx" />
+    <EmbeddedResource Include="Translation\Maps\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Translation\Maps\Resources.zh-CN.resx" />
     <EmbeddedResource Include="Translation\Ships\Resources.en.resx" />
     <EmbeddedResource Include="Translation\Ships\Resources.ko-KR.resx" />
     <EmbeddedResource Include="Translation\Ships\Resources.resx">

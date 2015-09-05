@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Grabacr07.KanColleWrapper.Models.Raw;
+using Livet.EventListeners;
+using Grabacr07.KanColleWrapper.Globalization;
 
 namespace Grabacr07.KanColleWrapper.Models
 {
@@ -10,7 +12,7 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
 		public int Id { get; }
 
-		public string Name { get; }
+		public string Name { get; private set; }
 
 		public int MapAreaId { get;}
 
@@ -20,9 +22,9 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		public int Level { get; }
 
-		public string OperationName { get; }
+		public string OperationName { get; private set; }
 
-		public string OperationSummary { get; }
+		public string OperationSummary { get; private set; }
 
 		public int RequiredDefeatCount { get; }
 
@@ -32,19 +34,32 @@ namespace Grabacr07.KanColleWrapper.Models
 			: base(mapinfo)
 		{
 			this.Id = mapinfo.api_id;
-			this.Name = mapinfo.api_name;
+			this.Name = Translation.MapTranslationHelper.TranslateMapString(mapinfo.api_name);
 			this.MapAreaId = mapinfo.api_maparea_id;
 			this.IdInEachMapArea = mapinfo.api_no;
 			this.Level = mapinfo.api_level;
-			this.OperationName = mapinfo.api_opetext;
-			this.OperationSummary = mapinfo.api_infotext;
+			this.OperationName = Translation.MapTranslationHelper.TranslateMapString(mapinfo.api_opetext);
+			this.OperationSummary = Translation.MapTranslationHelper.TranslateMapString(mapinfo.api_infotext);
 			this.RequiredDefeatCount = mapinfo.api_required_defeat_count ?? 1;
 			this.MapCells = new MasterTable<MapCell>(mapCells.Values.Where(x => x.MapInfoId == mapinfo.api_id));
 			foreach (var cell in this.MapCells.Values)
 				cell.MapInfo = this;
-		}
 
-		public override string ToString()
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current){ (sender, args) => this.UpdateTranslatedValues() });
+        }
+
+        private void UpdateTranslatedValues()
+        {
+            this.Name = Translation.MapTranslationHelper.TranslateMapString(this.RawData.api_name);
+            this.OperationName = Translation.MapTranslationHelper.TranslateMapString(this.RawData.api_opetext);
+            this.OperationSummary = Translation.MapTranslationHelper.TranslateMapString(this.RawData.api_infotext);
+
+            this.RaisePropertyChanged(nameof(this.Name));
+            this.RaisePropertyChanged(nameof(this.OperationName));
+            this.RaisePropertyChanged(nameof(this.OperationSummary));
+        }
+
+        public override string ToString()
 		{
 			return $"ID = {this.Id}, Name = {this.Name}";
 		}
