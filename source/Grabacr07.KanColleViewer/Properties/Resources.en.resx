@@ -718,7 +718,7 @@
     <value>Repairing</value>
   </data>
   <data name="Fleets_Speed_Hybrid" xml:space="preserve">
-    <value>Hybrid Fast Fleet</value>
+    <value>Hybrid speed fleet</value>
   </data>
   <data name="Fleet_Details" xml:space="preserve">
     <value>Fleet Details</value>
@@ -877,5 +877,119 @@
   </data>
   <data name="Steel" xml:space="preserve">
     <value>Steel</value>
-  </data>  
+  </data>
+  <data name="Fleets_AirSuperiorityPotential" xml:space="preserve">
+    <value>Air superiority</value>
+  </data>
+  <data name="Fleets_Average" xml:space="preserve">
+    <value>Average</value>
+  </data>
+  <data name="Fleets_Level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="Fleets_Speed_Fast" xml:space="preserve">
+    <value>Fast fleet</value>
+  </data>
+  <data name="Fleets_Speed_Slow" xml:space="preserve">
+    <value>Slow fleet</value>
+  </data>
+  <data name="Fleets_Total" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="Fleets_ViewRange" xml:space="preserve">
+    <value>LoS</value>
+  </data>
+  <data name="Notification_AdvanceTime" xml:space="preserve">
+    <value>Notify ahead of time by</value>
+  </data>
+  <data name="Notification_BuildFinish" xml:space="preserve">
+    <value>When construction finishes.</value>
+  </data>
+  <data name="Notification_ConditionLevel" xml:space="preserve">
+    <value>Morale threshold</value>
+  </data>
+  <data name="Notification_Expedition" xml:space="preserve">
+    <value>When Expeditions return</value>
+  </data>
+  <data name="Notification_Fatigue" xml:space="preserve">
+    <value>When a fleets morale recovers</value>
+  </data>
+  <data name="Notification_InfoBlock1" xml:space="preserve">
+    <value>Recommended: 40-50 seconds.  These can finish upto 1 minute early due to server time deviation.</value>
+  </data>
+  <data name="Notification_Repairs" xml:space="preserve">
+    <value>When repairs finish</value>
+  </data>
+  <data name="Notification_Sec" xml:space="preserve">
+    <value>Sec</value>
+  </data>
+  <data name="Notification_Title" xml:space="preserve">
+    <value>Notification Settings</value>
+  </data>
+  <data name="Browser_InfoBlock" xml:space="preserve">
+    <value>You can change the display size at the top right of the game screen. Screenshots are always taken at 100% of the size, it is not affected by the display size setting.</value>
+  </data>
+  <data name="Browser_Zoom" xml:space="preserve">
+    <value>Return the game screen to {0} %</value>
+  </data>
+  <data name="Browser_ZoomSubText" xml:space="preserve">
+    <value>(when zoomed incorrectly)</value>
+  </data>
+  <data name="Network_Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Network_Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Network_CustomProxy" xml:space="preserve">
+    <value>Set a custom Proxy server</value>
+  </data>
+  <data name="Network_CustomProxyInfo1" xml:space="preserve">
+    <value>Proxy server set here will be used for all communication.</value>
+  </data>
+  <data name="Network_CustomProxyInfo2" xml:space="preserve">
+    <value>Please Note: Using a DNS name or a Web Address is slow.  Using an IP address is recommended.</value>
+  </data>
+  <data name="Network_DoNotUseProxy" xml:space="preserve">
+    <value>Do not use a proxy server</value>
+  </data>
+  <data name="Network_DoNotUseProxyInfo" xml:space="preserve">
+    <value>KCV communicates with the server directly without a proxy server for all protocols.</value>
+  </data>
+  <data name="Network_IEProxy" xml:space="preserve">
+    <value>Use the proxy settings of Internet Explorer</value>
+  </data>
+  <data name="Network_IEProxyInfo1" xml:space="preserve">
+    <value>Uses the settings under "Internet Options"</value>
+  </data>
+  <data name="Network_IEProxyInfo2" xml:space="preserve">
+    <value>Only HTTP protocol communication is affected.  Changes in "Internet Options" will take effect upon hitting Apply.</value>
+  </data>
+  <data name="Network_ListenPort" xml:space="preserve">
+    <value>Local Proxy port settings.</value>
+  </data>
+  <data name="Network_ListenPortCheck" xml:space="preserve">
+    <value>Change the Local port</value>
+  </data>
+  <data name="Network_ListenPortDefualt" xml:space="preserve">
+    <value>(Defualt:</value>
+  </data>
+  <data name="Network_ListenPortInfo1" xml:space="preserve">
+    <value>※For changes to take effect it is necessary to restart the application.</value>
+  </data>
+  <data name="Notification_InfoBlock2" xml:space="preserve">
+    <value>※Set condition threshold in Behaviour</value>
+  </data>
+  <data name="Notification_InfoBlock3" xml:space="preserve">
+    <value>You will be notified when condition values of all shipgirls that are organized in the fleet becomes equal to or greater than the above values.  Morale regenerates at 3 points every 3 minutes.  Please note that KanColleViewer's timer is a rough estimate of the actual regen timing.</value>
+  </data>
+  <data name="Shipyard_Building" xml:space="preserve">
+    <value>Construction</value>
+  </data>
+  <data name="Shipyard_Docking" xml:space="preserve">
+    <value>Repair</value>
+  </data>
+  <data name="Shipyard_EquipDev" xml:space="preserve">
+    <value>Development</value>
+  </data>
 </root>
