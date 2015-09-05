@@ -658,7 +658,7 @@
     <value>Update Display</value>
   </data>
   <data name="Operation_ConditionInfo" xml:space="preserve">
-    <value>When the condition of all the ships in the fleet is equal to or greater than the following numbers, it will be marked ready to sortie</value>
+    <value>When the condition of all the ships in the fleet is equal to or greater than the following numbers, it will be marked as ready to sortie</value>
   </data>
   <data name="Operation_SortieCondition" xml:space="preserve">
     <value>Sortie Condition</value>
@@ -730,10 +730,10 @@
     <value>{0} has recovered from fatigue.</value>
   </data>
   <data name="Message_FatigueRecovered" xml:space="preserve">
-    <value>Moral Recovered</value>
+    <value>Morale Recovered</value>
   </data>
   <data name="ShipDetailIndicator_RecoveryLabel" xml:space="preserve">
-    <value>Moral Recovery Timer</value>
+    <value>Morale Recovery Timer</value>
   </data>
   <data name="FleetWindow_OnExpedition" xml:space="preserve">
     <value>On Expedition</value>
@@ -912,7 +912,7 @@
     <value>When Expeditions return</value>
   </data>
   <data name="Notification_Fatigue" xml:space="preserve">
-    <value>When a fleets morale recovers</value>
+    <value>When a fleet's morale recovers</value>
   </data>
   <data name="Notification_InfoBlock1" xml:space="preserve">
     <value>Recommended: 40-50 seconds.  These can finish upto 1 minute early due to server time deviation.</value>
