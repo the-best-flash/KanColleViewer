@@ -362,7 +362,7 @@
                                         <Border Background="{DynamicResource FleetRepairingBrushKey}"
 												Opacity=".4"
 												Margin="5,0" />
-                                        <TextBlock Text="退避済"
+                                        <TextBlock Text="{Binding Resources.Fleet_EvacuationIndicatorText, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 												   Style="{DynamicResource EmphaticTextStyleKey}"
 												   HorizontalAlignment="Center" />
                                     </Grid>

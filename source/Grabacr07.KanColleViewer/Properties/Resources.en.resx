@@ -748,8 +748,7 @@
     <value>On Expedition</value>
   </data>
   <data name="MessageBar_ShipNotInFleet" xml:space="preserve">
-    <value>Ship Girl is Not in a Fleet</value>
-    <comment>Kanmusume has not been organized in a fleet?</comment>
+    <value>Fleet is empty.</value>
   </data>
   <data name="Operation_Settings_ConditionBoxMessage" xml:space="preserve">
     <value>※ Value must be between 40 and 49. (Default: 40)</value>
@@ -1011,7 +1010,7 @@
     <value>Failure</value>
   </data>
   <data name="FleetWindow_CannotDoExpedition" xml:space="preserve">
-    <value>Feet Can't Participate in Expeditions</value>
+    <value>Fleet Can't Participate in Expeditions</value>
   </data>
   <data name="FleetWindow_CriticalDamagedShip" xml:space="preserve">
     <value>There is a Critically Damaged Ship</value>
