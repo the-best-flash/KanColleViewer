@@ -11,12 +11,12 @@ namespace Grabacr07.KanColleViewer.ViewModels
 {
 	public abstract class TabItemViewModel : ItemViewModel, ITabItem
 	{
-		#region Name 変更通知プロパティ
+        #region Name 変更通知プロパティ
 
-		/// <summary>
-		/// タブ名を取得します。
-		/// </summary>
-		public abstract string Name { get; protected set; }
+        /// <summary>
+        /// タブ名を取得します。
+        /// </summary>
+        public string Name { get; protected set; }
 
 		#endregion
 
@@ -66,12 +66,11 @@ namespace Grabacr07.KanColleViewer.ViewModels
 
 		protected TabItemViewModel()
 		{
-			if (Helper.IsInDesignMode) return;
+            if (Helper.IsInDesignMode) return;
 
-			this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
-			{
-				(sender, args) => this.RaisePropertyChanged(nameof(this.Name)),
-			});
+			this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) { (sender, args) => this.UpdateTranslatedValues() });
 		}
+
+        protected abstract void UpdateTranslatedValues();
 	}
 }

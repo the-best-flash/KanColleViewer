@@ -10,30 +10,31 @@ using System.Threading.Tasks;
 
 namespace Grabacr07.KanColleViewer.ViewModels
 {
-    public static class DisplayFunctionViewModel
-    {
-        public static DisplayFunctionViewModel<T> Create<T>(T value, Func<string> displayFunc, INotifyPropertyChanged notificationObject)
-        {
-            return new DisplayFunctionViewModel<T> (notificationObject) { Value = value, Display = (displayFunc != null? displayFunc.Invoke() : ""), DisplayFunction = displayFunc };
-        }
-    }
-
     public class DisplayFunctionViewModel<T> : DisplayViewModel<T>
     {
         public Func<string> DisplayFunction { get; set; }
 
-        public DisplayFunctionViewModel(INotifyPropertyChanged notificationObject)
+        public DisplayFunctionViewModel(T value, Func<string> displayFunc, INotifyPropertyChanged notificationObject)
         {
-            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            this.Value = value;
+            this.DisplayFunction = displayFunc;
+            this.Display = this.InvokeDisplayFunction();
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(notificationObject)
             {
                 (sender, args) =>
                 {
                     if(this.DisplayFunction != null)
                     {
-                        this.Display = this.DisplayFunction.Invoke();
+                        this.Display = this.InvokeDisplayFunction();
                     }
                 }
             });
+        }
+
+        private string InvokeDisplayFunction()
+        {
+            return (this.DisplayFunction != null ? this.DisplayFunction.Invoke() : string.Empty);
         }
     }
 }

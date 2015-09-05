@@ -49,7 +49,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Settings
 				DialogPreference = Helper.IsWindows8OrGreater
 					? FolderSelectionDialogPreference.CommonItemDialog
 					: FolderSelectionDialogPreference.FolderBrowser,
-				SelectedPath = this.CanOpenDestination ? ScreenshotSettings.Destination : ""
+				SelectedPath = this.CanOpenDestination ? ScreenshotSettings.Destination : string.Empty
 			};
 			this.Messenger.Raise(message);
 

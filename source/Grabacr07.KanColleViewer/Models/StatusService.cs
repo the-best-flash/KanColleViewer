@@ -20,7 +20,7 @@ namespace Grabacr07.KanColleViewer.Models
 		#endregion
 
 		private readonly Subject<string> notifier;
-		private string persisitentMessage = "";
+		private string persisitentMessage = string.Empty;
 		private string notificationMessage;
 
 		#region Message 変更通知プロパティ

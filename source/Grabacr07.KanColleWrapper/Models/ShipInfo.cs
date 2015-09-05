@@ -26,7 +26,7 @@ namespace Grabacr07.KanColleWrapper.Models
 		/// <summary>
 		/// 艦の名称を取得します。
 		/// </summary>
-		public string Name => Translation.ShipTranslationHelper.TranslateShipName(this.RawData.api_name);
+		public string Name { get; private set; }
 
 		/// <summary>
 		/// 艦種を取得します。
@@ -110,12 +110,16 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		internal ShipInfo(kcsapi_mst_ship rawData) : base(rawData)
         {
+            this.Name = Translation.ShipTranslationHelper.TranslateShipName(this.RawData.api_name);
+
             this.CompositeDisposable.Add(new PropertyChangedEventListener(Globalization.ResourceService.Current)
             {
-                (sender, args) => {
+                (sender, args) => 
+                {
+                    this.Name = Translation.ShipTranslationHelper.TranslateShipName(this.RawData.api_name);
                     this.RaisePropertyChanged(nameof(this.Name));
                     this.RaisePropertyChanged(nameof(this.ShipType));
-                    }
+                }
             });
         }
 

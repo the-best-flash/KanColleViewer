@@ -11,7 +11,7 @@ namespace Grabacr07.KanColleWrapper.Internal
 	{
 		public static string GetResponseAsJson(this Session session)
 		{
-			return session.Response.BodyAsString.Replace("svdata=", "");
+			return session.Response.BodyAsString.Replace("svdata=", string.Empty);
 		}
 
 		/// <summary>

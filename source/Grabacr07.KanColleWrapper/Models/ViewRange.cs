@@ -47,25 +47,36 @@ namespace Grabacr07.KanColleWrapper.Models
 			// ReSharper restore ObjectCreationAsStatement
 		}
 
-		public abstract string Id { get; }
-		public abstract string Name { get; }
-		public abstract string Description { get; }
-		public abstract double Calc(Ship[] ships);
+        private string _name;
+        public string Name => this._name;
 
-		protected ViewRangeCalcLogic()
+        private string _description;
+        public string Description => this._description;
+
+        public abstract double Calc(Ship[] ships);
+
+        public abstract string Id { get; }
+        protected abstract string TranslatedName { get; }
+        protected abstract string TranslatedDescription { get; }
+
+        protected ViewRangeCalcLogic()
 		{
-            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
-            {
-                (sender, args) => {
-                    this.RaisePropertyChanged(nameof(this.Name));
-                    this.RaisePropertyChanged(nameof(this.Description));
-                    }
-            });
+            this.UpdateTranslatedValues();
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) { (sender, args) => { this.UpdateTranslatedValues(); } });
 
             // ReSharper disable once DoNotCallOverridableMethodsInConstructor
             var key = this.Id;
 			if (key != null && !logics.ContainsKey(key)) logics.Add(key, this);
 		}
+
+        protected void UpdateTranslatedValues()
+        {
+            this._name = this.TranslatedName;
+            this._description = this.TranslatedDescription;
+
+            this.RaisePropertyChanged(nameof(this.Name));
+            this.RaisePropertyChanged(nameof(this.Description));
+        }
 	}
 
 
@@ -73,26 +84,26 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
 		public override sealed string Id => "KanColleViewer.Type1";
 
-		public override string Name => Properties.Resources.Operation_Settings_SimpleLoS;
+        protected override string TranslatedName => Properties.Resources.Operation_Settings_SimpleLoS;
 
-		public override string Description => Properties.Resources.Operation_Settings_SimpleLoSDescription;
+        protected override string TranslatedDescription => Properties.Resources.Operation_Settings_SimpleLoSDescription;
 
-		public override double Calc(Ship[] ships)
+        public override double Calc(Ship[] ships)
 		{
 			if (ships == null || ships.Length == 0) return 0;
 
 			return ships.Sum(x => x.ViewRange);
 		}
-	}
+    }
 
 
 	public class ViewRangeType2 : ViewRangeCalcLogic
 	{
 		public override sealed string Id => "KanColleViewer.Type2";
 
-		public override string Name => Properties.Resources.Operation_Settings_Old2_5;
+		protected override string TranslatedName => Properties.Resources.Operation_Settings_Old2_5;
 
-		public override string Description => Properties.Resources.Operation_Settings_Old2_5Description;
+        protected override string TranslatedDescription => Properties.Resources.Operation_Settings_Old2_5Description;
 
 		public override double Calc(Ship[] ships)
 		{
@@ -124,9 +135,9 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
 		public override sealed string Id => "KanColleViewer.Type3";
 
-		public override string Name => Properties.Resources.Operation_Settings_2_5_Autumn;
+        protected override string TranslatedName => Properties.Resources.Operation_Settings_2_5_Autumn;
 
-		public override string Description => Properties.Resources.Operation_Settings_2_5_AutumnDescription;
+        protected override string TranslatedDescription => Properties.Resources.Operation_Settings_2_5_AutumnDescription;
 
 		public override double Calc(Ship[] ships)
 		{

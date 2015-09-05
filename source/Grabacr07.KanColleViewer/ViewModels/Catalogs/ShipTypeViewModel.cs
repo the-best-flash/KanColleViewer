@@ -35,16 +35,18 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 		#region DisplayName 変更通知プロパティ
 
 		private string _DisplayName;
+        public string _translatedName;
 
 		public string DisplayName
 		{
-			get { return KanColleWrapper.Translation.ShipTranslationHelper.TranslateShipTypeName(this._DisplayName); }
+			get { return this._translatedName; }
 			set
 			{
 				if (this._DisplayName != value)
 				{
 					this._DisplayName = value;
-					this.RaisePropertyChanged();
+                    this._translatedName = KanColleWrapper.Translation.ShipTranslationHelper.TranslateShipTypeName(this._DisplayName);
+                    this.RaisePropertyChanged();
 				}
 			}
 		}
@@ -82,9 +84,11 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
             this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
             {
-                (sender, args) => {
+                (sender, args) => 
+                {
+                    this._translatedName = KanColleWrapper.Translation.ShipTranslationHelper.TranslateShipTypeName(this._DisplayName);
                     this.RaisePropertyChanged(nameof(this.DisplayName));
-                    }
+                }
             });
         }
 

@@ -106,8 +106,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 			public string Key { get; }
 
             Func<string> _displayMethod;
-            string _display;
-            public string Display { get; }
+            public string Display { get; private set; }
 
 			#region Value 変更通知プロパティ
 
@@ -138,7 +137,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
                 {
                     (sender, args) => 
                     {
-                        this._display = this.InvokeDisplayMethod();
+                        this.Display = this.InvokeDisplayMethod();
                         this.RaisePropertyChanged(nameof(this.Display));
                     }
                 });
@@ -146,7 +145,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
             private string InvokeDisplayMethod()
             {
-                return (this._displayMethod != null ? this._displayMethod.Invoke() : "");
+                return (this._displayMethod != null ? this._displayMethod.Invoke() : string.Empty);
             }
 		}
 	}

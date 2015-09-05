@@ -120,6 +120,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 		public string ShipLevel => "Lv." + this.Ship.Level;
 
-		public string CountString => this.Count == 1 ? "" : " x " + this.Count + " ";
+		public string CountString => this.Count == 1 ? string.Empty : " x " + this.Count + " ";
 	}
 }

@@ -14,20 +14,27 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
         public int Id => this.RawData.api_id;
 
-        public string Title => Translation.MissionTranslationHelper.TranslateTitle(this.Id, this.RawData.api_name);
+        private string _title;
+        public string Title => this._title;
 
-        public string Detail => Translation.MissionTranslationHelper.TranslateDetail(this.Id, this.RawData.api_details);
+        private string _detail;
+        public string Detail => this._detail;
 
 		public Mission(kcsapi_mission mission)
 			: base(mission)
 		{
-            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
-            {
-                (sender, args) => {
-                    this.RaisePropertyChanged(nameof(this.Title));
-                    this.RaisePropertyChanged(nameof(this.Detail));
-                    }
-            });
+            this.UpdateTranslatedValues();
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) { (sender, args) => this.UpdateTranslatedValues() });
+        }
+
+        private void UpdateTranslatedValues()
+        {
+            this._title = Translation.MissionTranslationHelper.TranslateTitle(this.Id, this.RawData.api_name);
+            this._detail = Translation.MissionTranslationHelper.TranslateDetail(this.Id, this.RawData.api_details);
+
+            this.RaisePropertyChanged(nameof(this.Title));
+            this.RaisePropertyChanged(nameof(this.Detail));
         }
 	}
 }

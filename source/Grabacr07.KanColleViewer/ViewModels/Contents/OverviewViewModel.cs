@@ -10,20 +10,14 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 {
 	public class OverviewViewModel : TabItemViewModel
 	{
-		public override string Name
-		{
-			get { return Resources.IntegratedView; }
-			protected set { throw new NotImplementedException(); }
-		}
-
 		public InformationViewModel Content { get; }
-
 
 		public OverviewViewModel(InformationViewModel owner)
 		{
 			this.Content = owner;
-		}
 
+            this.UpdateTranslatedValues();
+		}
 
 		public void Jump(string tabName)
 		{
@@ -62,5 +56,11 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 			var catalog = new SlotItemCatalogViewModel();
 			WindowService.Current.MainWindow.Transition(catalog, typeof(SlotItemCatalogWindow));
 		}
-	}
+
+        protected override void UpdateTranslatedValues()
+        {
+            this.Name = Properties.Resources.IntegratedView;
+            this.RaisePropertyChanged(nameof(this.Name));
+        }
+    }
 }

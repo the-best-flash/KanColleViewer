@@ -1,13 +1,12 @@
-﻿using System;
+﻿using Livet.EventListeners;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Livet;
-using Livet.EventListeners;
 
 namespace Grabacr07.KanColleWrapper.Models
 {
-	public class ShipSlot : ViewModel
+	public class ShipSlot : DisposableNotifier
 	{
 		public SlotItem Item { get; }
 

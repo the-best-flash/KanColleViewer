@@ -32,9 +32,10 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
             this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
             {
-                (sender, args) => {
+                (sender, args) => 
+                {
                     this.RaisePropertyChanged(nameof(this.Ship));
-                    }
+                }
             });
         }
     }

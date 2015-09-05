@@ -10,12 +10,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 {
 	public class ShipyardViewModel : TabItemViewModel
 	{
-		public override string Name
-		{
-			get { return Properties.Resources.Shipyard; }
-			protected set { throw new NotImplementedException(); }
-		}
-
 		#region RepairingDocks 変更通知プロパティ
 
 		private RepairingDockViewModel[] _RepairingDocks;
@@ -61,13 +55,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 		{
 			this.CreatedSlotItem = new CreatedSlotItemViewModel();
 
-            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
-            {
-                (sender, args) => {
-                    this.RaisePropertyChanged(nameof(this.Name));
-                    }
-            });
-
             this.CompositeDisposable.Add(new PropertyChangedEventListener(KanColleClient.Current.Homeport.Repairyard)
 			{
 				{ nameof(Repairyard.Docks), (sender, args) => this.UpdateRepairingDocks() },
@@ -80,6 +67,8 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 				{ nameof(Dockyard.CreatedSlotItem), (sender, args) => this.UpdateSlotItem() },
 			});
 			this.UpdateBuildingDocks();
+
+            this.UpdateTranslatedValues();
 		}
 
 
@@ -97,5 +86,11 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 		{
 			this.CreatedSlotItem.Update(KanColleClient.Current.Homeport.Dockyard.CreatedSlotItem);
 		}
-	}
+
+        protected override void UpdateTranslatedValues()
+        {
+            this.Name = Properties.Resources.Shipyard;
+            this.RaisePropertyChanged(nameof(this.Name));
+        }
+    }
 }

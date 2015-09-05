@@ -75,9 +75,9 @@ namespace Grabacr07.KanColleViewer.Models
             Controls.Globalization.ResourceService.Current.ChangeCulture(name, false);
             KanColleWrapper.Globalization.ResourceService.Current.ChangeCulture(name, false);
 
+            KanColleWrapper.Globalization.ResourceService.Current.RaiseCultureChanged();
             this.RaisePropertyChanged(nameof(this.Resources));
             Controls.Globalization.ResourceService.Current.RaiseCultureChanged();
-            KanColleWrapper.Globalization.ResourceService.Current.RaiseCultureChanged();
         }
 	}
 }

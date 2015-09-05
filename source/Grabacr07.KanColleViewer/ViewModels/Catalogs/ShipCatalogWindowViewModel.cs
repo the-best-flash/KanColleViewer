@@ -7,6 +7,8 @@ using System.Reactive.Subjects;
 using Grabacr07.KanColleViewer.Models.Settings;
 using Grabacr07.KanColleWrapper;
 using MetroTrilithon.Mvvm;
+using Grabacr07.KanColleViewer.Models;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 {
@@ -116,7 +118,8 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 		public ShipCatalogWindowViewModel()
 		{
-			this.IsOpenFilterSettings = true;
+            this.Title = Properties.Resources.ShipListWindow_Title;
+            this.IsOpenFilterSettings = true;
 			this.Settings = new ShipCatalogWindowSettings();
 
 			this.SortWorker = new ShipCatalogSortWorker();
@@ -150,6 +153,15 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 			this.homeport.Organization
 				.Subscribe(nameof(Organization.Ships), this.Update)
 				.AddTo(this);
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
+            {
+                (sender, args) =>
+                {
+                    this.Title = Properties.Resources.ShipListWindow_Title;
+                    this.RaisePropertyChanged(nameof(this.Title));
+                }
+            });
         }
 
 

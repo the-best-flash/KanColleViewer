@@ -18,7 +18,8 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 
 		public int Id => this.Source.Id;
 
-		public string Name => string.IsNullOrWhiteSpace(this.Source.Name) ? string.Format(Properties.Resources.FleetNameFormat, this.Source.Id) : this.Source.Name;
+        private string _name;
+		public string Name => this._name;
 
 		/// <summary>
 		/// 艦隊に所属している艦娘のコレクションを取得します。
@@ -58,8 +59,9 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 		public FleetViewModel(Fleet fleet)
 		{
 			this.Source = fleet;
+            this._name = string.IsNullOrWhiteSpace(this.Source.Name) ? string.Format(Properties.Resources.FleetNameFormat, this.Source.Id) : this.Source.Name;
 
-			this.CompositeDisposable.Add(new PropertyChangedEventListener(fleet)
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(fleet)
 			{
 				(sender, args) => this.RaisePropertyChanged(args.PropertyName),
 			});
@@ -70,9 +72,11 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 
             this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
             {
-                (sender, args) => {
+                (sender, args) => 
+                {
+                    this._name = string.IsNullOrWhiteSpace(this.Source.Name) ? string.Format(Properties.Resources.FleetNameFormat, this.Source.Id) : this.Source.Name;
                     this.RaisePropertyChanged(nameof(this.Name));
-                    }
+                }
             });
 
             this.State = new FleetStateViewModel(fleet.State);

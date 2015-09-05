@@ -16,15 +16,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Settings
 	{
 		public static SettingsViewModel Instance { get; } = new SettingsViewModel();
 
-
-		public override string Name
-		{
-			get { return Resources.Settings; }
-			protected set { throw new NotImplementedException(); }
-		}
-
-
-		public ScreenshotSettingsViewModel ScreenshotSettings { get; }
+        public ScreenshotSettingsViewModel ScreenshotSettings { get; }
 
 		public WindowSettingsViewModel WindowSettings { get; }
 
@@ -98,10 +90,17 @@ namespace Grabacr07.KanColleViewer.ViewModels.Settings
 
 			this.FailedPlugins = new List<LoadFailedPluginViewModel>(
 				PluginService.Current.FailedPlugins.Select(x => new LoadFailedPluginViewModel(x)));
+
+            this.UpdateTranslatedValues();
 		}
 
+        protected override void UpdateTranslatedValues()
+        {
+            this.Name = Resources.Settings;
+            this.RaisePropertyChanged(nameof(this.Name));
+        }
 
-		public void Initialize()
+        public void Initialize()
 		{
 			this.WindowSettings.Initialize();
 			this.NetworkSettings.Initialize();

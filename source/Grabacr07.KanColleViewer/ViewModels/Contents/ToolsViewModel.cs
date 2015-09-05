@@ -11,12 +11,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 {
 	public class ToolsViewModel : TabItemViewModel
 	{
-		public override string Name
-		{
-			get { return Properties.Resources.Settings_Tools_Title; }
-			protected set { throw new NotImplementedException(); }
-		}
-
 		#region Items 変更通知プロパティ
 
 		private List<ToolViewModel> _Tools;
@@ -61,7 +55,13 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 			this.Tools = new List<ToolViewModel>(PluginService.Current.Get<ITool>().Select(x => new ToolViewModel(x)));
 			this.SelectedTool = this.Tools.FirstOrDefault();
 
-            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current){ (sender, args) => this.RaisePropertyChanged(nameof(this.Name)) });
+            this.UpdateTranslatedValues();
         }
-	}
+
+        protected override void UpdateTranslatedValues()
+        {
+            this.Name = Properties.Resources.Settings_Tools_Title;
+            this.RaisePropertyChanged(nameof(this.Name));
+        }
+    }
 }

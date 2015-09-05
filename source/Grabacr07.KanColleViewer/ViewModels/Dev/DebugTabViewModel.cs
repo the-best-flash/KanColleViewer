@@ -8,10 +8,15 @@ namespace Grabacr07.KanColleViewer.ViewModels.Dev
 {
 	public class DebugTabViewModel : TabItemViewModel
 	{
-		public override string Name
-		{
-			get { return Properties.Resources.Debug; }
-			protected set { throw new NotImplementedException(); }
-		}
-	}
+        public DebugTabViewModel()
+        {
+            this.UpdateTranslatedValues();
+        }
+
+        protected override void UpdateTranslatedValues()
+        {
+            this.Name = Properties.Resources.Debug;
+            this.RaisePropertyChanged(nameof(this.Name));
+        }
+    }
 }

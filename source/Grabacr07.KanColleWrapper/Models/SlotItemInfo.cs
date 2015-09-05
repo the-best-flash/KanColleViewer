@@ -22,7 +22,8 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		public int Id => this.RawData.api_id;
 
-		public string Name => Translation.ItemTranslationHelper.TranslateItemName(this.RawData.api_name);
+        private string _name;
+		public string Name => this._name;
 
 		public SlotItemType Type => this.type ?? (SlotItemType)(this.type = (SlotItemType)(this.RawData.api_type.Get(2) ?? 0));
 
@@ -95,13 +96,15 @@ namespace Grabacr07.KanColleWrapper.Models
 		internal SlotItemInfo(kcsapi_mst_slotitem rawData, MasterTable<SlotItemEquipType> types) : base(rawData)
 		{
 			this.EquipType = types[rawData.api_type?[2] ?? 0] ?? SlotItemEquipType.Dummy;
+            this.UpdateTranslatedValues();
 
-            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
-            {
-                (sender, args) => {
-                    this.RaisePropertyChanged(nameof(this.Name));
-                    }
-            });
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) { (sender, args) => this.UpdateTranslatedValues() });
+        }
+
+        private void UpdateTranslatedValues()
+        {
+            this._name = Translation.ItemTranslationHelper.TranslateItemName(this.RawData.api_name);
+            this.RaisePropertyChanged(nameof(this.Name));
         }
 
 		public override string ToString()

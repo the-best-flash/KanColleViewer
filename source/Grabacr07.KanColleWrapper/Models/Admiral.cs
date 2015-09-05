@@ -52,10 +52,11 @@ namespace Grabacr07.KanColleWrapper.Models
 		/// </summary>
 		public int Level => this.RawData.api_level;
 
-		/// <summary>
-		/// 提督のランク名 (元帥, 大将, 中将, ...) を取得します。
-		/// </summary>
-		public string Rank => Models.Rank.GetName(this.RawData.api_rank);
+        /// <summary>
+        /// 提督のランク名 (元帥, 大将, 中将, ...) を取得します。
+        /// </summary>
+        private string _rank;
+		public string Rank => this._rank;
 
 		/// <summary>
 		/// 出撃時の勝利数を取得します。
@@ -95,8 +96,15 @@ namespace Grabacr07.KanColleWrapper.Models
 			: base(rawData)
 		{
 			this.Comment = this.RawData.api_comment;
+            this._rank = Models.Rank.GetName(this.RawData.api_rank);
 
-            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) { (sender, args) => this.RaisePropertyChanged(nameof(this.Rank)) });
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) { (sender, args) => this.UpdateTranslatedValues() });
+        }
+
+        private void UpdateTranslatedValues()
+        {
+            this._rank = Models.Rank.GetName(this.RawData.api_rank);
+            this.RaisePropertyChanged(nameof(this.Rank));
         }
 
 		public override string ToString()

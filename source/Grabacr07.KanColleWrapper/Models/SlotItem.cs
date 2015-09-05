@@ -18,17 +18,22 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		public string LevelText => this.Level >= 10 ? "★max" : this.Level >= 1 ? ("★+" + this.Level) : "";
 
-        public string NameWithLevel => $"{this.Info.Name}{(this.Level >= 1 ? (" " + this.LevelText) : "")}{(this.Adept >= 1 ? (" " + this.AdeptText) : "")}";
+        public string _nameWithLevel;
+        public string NameWithLevel => this._nameWithLevel;
 
         public int Adept => this.RawData.api_alv;
 
-        public string AdeptText => this.Adept >= 1 ? string.Format(" ({0} {1}) ", Translation.Equipment.Resources.Skilled, this.Adept) : "";
+        private string _adeptText;
+        public string AdeptText => this._adeptText;
 
         internal SlotItem(kcsapi_slotitem rawData)
 			: base(rawData)
 		{
 			this.Info = KanColleClient.Current.Master.SlotItems[this.RawData.api_slotitem_id] ?? SlotItemInfo.Dummy;
-		}
+            this.UpdateTranslatedValues();
+
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) { (sender, args) => { this.UpdateTranslatedValues(); } });
+        }
 
 
 		public void Remodel(int level, int masterId)
@@ -39,13 +44,16 @@ namespace Grabacr07.KanColleWrapper.Models
 			this.RaisePropertyChanged(nameof(this.Info));
 			this.RaisePropertyChanged(nameof(this.Level));
 
-            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
-            {
-                (sender, args) => {
-                    this.RaisePropertyChanged(nameof(this.AdeptText));
-                    this.RaisePropertyChanged(nameof(this.NameWithLevel));
-                }
-            });
+            this.UpdateTranslatedValues();
+        }
+
+        private void UpdateTranslatedValues()
+        {
+            this._adeptText = this.Adept >= 1 ? string.Format(" ({0} {1}) ", Translation.Equipment.Resources.Skilled, this.Adept) : "";
+            this._nameWithLevel = $"{this.Info.Name}{(this.Level >= 1 ? (" " + this.LevelText) : "")}{(this.Adept >= 1 ? this.AdeptText : "")}";
+
+            this.RaisePropertyChanged(nameof(this.AdeptText));
+            this.RaisePropertyChanged(nameof(this.NameWithLevel));
         }
 
 		public override string ToString()

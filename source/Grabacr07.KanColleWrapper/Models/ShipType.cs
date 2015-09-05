@@ -16,17 +16,21 @@ namespace Grabacr07.KanColleWrapper.Models
 	{
 		public int Id => this.RawData.api_id;
 
-		public string Name => Translation.ShipTranslationHelper.TranslateShipTypeName(this.Id, this.RawData.api_name);
+		public string Name { get; private set; }
 
 		public int SortNumber => this.RawData.api_sortno;
 
 		public ShipType(kcsapi_mst_stype rawData) : base(rawData)
         {
+            this.Name = Translation.ShipTranslationHelper.TranslateShipTypeName(this.Id, this.RawData.api_name);
+
             this.CompositeDisposable.Add(new PropertyChangedEventListener(Globalization.ResourceService.Current)
             {
-                (sender, args) => {
+                (sender, args) =>
+                {
+                    this.Name = Translation.ShipTranslationHelper.TranslateShipTypeName(this.Id, this.RawData.api_name);
                     this.RaisePropertyChanged(nameof(this.Name));
-                    }
+                }
             });
         }
 

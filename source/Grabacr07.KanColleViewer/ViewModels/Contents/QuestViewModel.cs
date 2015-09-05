@@ -91,16 +91,18 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 		#region Title 変更通知プロパティ
 
 		private string _Title;
+        private string _translatedTitle;
 
 		public string Title
 		{
-			get { return QuestTranslationHelper.TranslateQuestTitle(this._Title); }
+			get { return _translatedTitle; }
 			set
 			{
 				if (this._Title != value)
 				{
 					this._Title = value;
-					this.RaisePropertyChanged();
+                    this._translatedTitle = QuestTranslationHelper.TranslateQuestTitle(this._Title);
+                    this.RaisePropertyChanged();
 				}
 			}
 		}
@@ -110,16 +112,18 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 		#region Detail 変更通知プロパティ
 
 		private string _Detail;
+        private string _translatedDetail;
 
 		public string Detail
 		{
-			get { return QuestTranslationHelper.TranslateQuestDetail(this._Title, this._Detail); }
+			get { return this._translatedDetail; }
 			set
 			{
 				if (this._Detail != value)
 				{
 					this._Detail = value;
-					this.RaisePropertyChanged();
+                    this._translatedDetail = QuestTranslationHelper.TranslateQuestDetail(this._Title, this._Detail);
+                    this.RaisePropertyChanged();
 				}
 			}
 		}
@@ -163,13 +167,23 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 				this.Detail = quest.Detail;
 			}
 
+            this.UpdateTranslatedValues();
+
             this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
             {
-                (sender, args) => {
+                (sender, args) => 
+                {
+                    this.UpdateTranslatedValues();
                     this.RaisePropertyChanged(nameof(this.Title));
                     this.RaisePropertyChanged(nameof(this.Detail));
-                    }
+                }
             });
+        }
+
+        private void UpdateTranslatedValues()
+        {
+            this._translatedTitle = QuestTranslationHelper.TranslateQuestTitle(this._Title);
+            this._translatedDetail = QuestTranslationHelper.TranslateQuestDetail(this._Title, this._Detail);
         }
 	}
 }

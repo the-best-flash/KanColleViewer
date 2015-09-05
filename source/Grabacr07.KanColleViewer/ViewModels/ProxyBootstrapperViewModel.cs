@@ -87,7 +87,7 @@ namespace Grabacr07.KanColleViewer.ViewModels
 			await Task.WhenAll(Task.Run(() => this.Bootstrapper.Try()), Task.Delay(TimeSpan.FromMilliseconds(1500)));
 
 			this.IsEditable = true;
-			this.Status = "";
+			this.Status = string.Empty;
 
 			if (this.Bootstrapper.Result == ProxyBootstrapResult.Success)
 			{

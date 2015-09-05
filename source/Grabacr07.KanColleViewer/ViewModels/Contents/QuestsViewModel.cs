@@ -10,12 +10,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 {
 	public class QuestsViewModel : TabItemViewModel
 	{
-		public override string Name
-		{
-			get { return Resources.Quests; }
-			protected set { throw new NotImplementedException(); }
-		}
-
 		#region Current 変更通知プロパティ
 
 		private QuestViewModel[] _Current;
@@ -92,7 +86,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
 		#endregion
 
-
 		public QuestsViewModel()
 		{
 			var quests = KanColleClient.Current.Homeport.Quests;
@@ -109,6 +102,14 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 				{ nameof(quests.Current), (sender, args) => this.Current = quests.Current.Select(x => new QuestViewModel(x)).ToArray() },
 				{ nameof(quests.IsEmpty), (sender, args) => this.IsEmpty = quests.IsEmpty }
 			});
+
+            this.UpdateTranslatedValues();
 		}
-	}
+
+        protected override void UpdateTranslatedValues()
+        {
+            this.Name = Properties.Resources.Quests;
+            this.RaisePropertyChanged(nameof(this.Name));
+        }
+    }
 }

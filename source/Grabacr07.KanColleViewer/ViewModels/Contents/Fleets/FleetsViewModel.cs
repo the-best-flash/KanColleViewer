@@ -11,12 +11,6 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 {
 	public class FleetsViewModel : TabItemViewModel
 	{
-		public override string Name
-		{
-			get { return Properties.Resources.Fleets; }
-			protected set { throw new NotImplementedException(); }
-		}
-
 		#region Fleets 変更通知プロパティ
 
 		private FleetViewModel[] _Fleets;
@@ -65,6 +59,8 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 			KanColleClient.Current.Homeport.Organization
 				.Subscribe(nameof(Organization.Fleets), this.UpdateFleets)
 				.AddTo(this);
+
+            this.UpdateTranslatedValues();
 		}
 
 		public void ShowFleetWindow()
@@ -74,11 +70,16 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents.Fleets
 			this.Messenger.Raise(message);
 		}
 
-
 		private void UpdateFleets()
 		{
 			this.Fleets = KanColleClient.Current.Homeport.Organization.Fleets.Select(kvp => new FleetViewModel(kvp.Value)).ToArray();
 			this.SelectedFleet = this.Fleets.FirstOrDefault();
 		}
-	}
+
+        protected override void UpdateTranslatedValues()
+        {
+            this.Name = Properties.Resources.Fleets;
+            this.RaisePropertyChanged(nameof(this.Name));
+        }
+    }
 }
