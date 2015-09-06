@@ -35,7 +35,7 @@
             if ((Test-Path $versionSource) -and (Test-Path $target))
             {
                 $version = (Get-ChildItem $versionSource).VersionInfo
-                $result  = $result + ' ver.{0}.{1}' -f $version.ProductMajorPart, $version.ProductMinorPart
+                $result  = $result + '.{0}.{1}' -f $version.ProductMajorPart, $version.ProductMinorPart
  
                 Rename-Item -NewName $result -Path $target
                 New-ZipCompression -source $(Join-Path $(Get-Location) $result) -destination $(Join-Path $(Get-Location).Path ('./' + $result + '.zip'))
