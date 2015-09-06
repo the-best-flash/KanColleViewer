@@ -1,7 +1,7 @@
 ﻿提督業も忙しい！ (KanColleViewer)
 --
 
-[![Build status (master)](https://img.shields.io/appveyor/ci/the-best-flash/KanColleViewer.svg?style=flat-square)](https://ci.appveyor.com/project/the-best-flash/kancolleviewer)
+[![Build status](https://ci.appveyor.com/api/projects/status/g76k3nr3qh1v6hsr?svg=true)](https://ci.appveyor.com/project/the-best-flash/kancolleviewer)
 [![Release](https://img.shields.io/github/release/the-best-flash/KanColleViewer.svg?style=flat-square)](https://github.com/the-best-flash/KanColleViewer/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/the-best-flash/KanColleViewer/latest/total.svg?style=flat-square)](https://github.com/the-best-flash/KanColleViewer/releases/latest)
 [![NuGet (KanColleWrapper)](https://img.shields.io/nuget/v/KanColleWrapper.svg?style=flat-square)](https://www.nuget.org/packages/KanColleWrapper/)
