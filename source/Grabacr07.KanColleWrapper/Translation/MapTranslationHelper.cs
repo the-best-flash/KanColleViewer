@@ -6,7 +6,7 @@
         {
             if (!string.IsNullOrWhiteSpace(str))
             {
-                string translation = Expedition.Resources.ResourceManager.GetString(str, Expedition.Resources.Culture);
+                string translation = Maps.Resources.ResourceManager.GetString(str, Maps.Resources.Culture);
 
                 if (!string.IsNullOrWhiteSpace(translation))
                 {

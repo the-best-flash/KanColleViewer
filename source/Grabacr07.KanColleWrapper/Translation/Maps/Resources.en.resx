@@ -1,236 +1,235 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-	<!-- 
-		Microsoft ResX Schema
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
 
-		Version 1.3
-
-		The primary goals of this format is to allow a simple XML format 
-		that is mostly human readable. The generation and parsing of the 
-		various data types are done through the TypeConverter classes 
-		associated with the data types.
-
-		Example:
-
-		... ado.net/XML headers & schema ...
-		<resheader name="resmimetype">text/microsoft-resx</resheader>
-		<resheader name="version">1.3</resheader>
-		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-		<data name="Name1">this is my long string</data>
-		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-			[base64 mime encoded serialized .NET Framework object]
-		</data>
-		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-			[base64 mime encoded string representing a byte array form of the .NET Framework object]
-		</data>
-
-		There are any number of "resheader" rows that contain simple 
-		name/value pairs.
-
-		Each data row contains a name, and value. The row also contains a 
-		type or mimetype. Type corresponds to a .NET class that support 
-		text/value conversion through the TypeConverter architecture. 
-		Classes that don't support this are serialized and stored with the 
-		mimetype set.
-
-		The mimetype is used for serialized objects, and tells the 
-		ResXResourceReader how to depersist the object. This is currently not 
-		extensible. For a given mimetype the value must be set accordingly:
-
-		Note - application/x-microsoft.net.object.binary.base64 is the format 
-		that the ResXResourceWriter will generate, however the reader can 
-		read any of the formats listed below.
-
-		mimetype: application/x-microsoft.net.object.binary.base64
-		value   : The object must be serialized with 
-			: System.Serialization.Formatters.Binary.BinaryFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.soap.base64
-		value   : The object must be serialized with 
-			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-			: and then encoded with base64 encoding.
-
-		mimetype: application/x-microsoft.net.object.bytearray.base64
-		value   : The object must be serialized into a byte array 
-			: using a System.ComponentModel.TypeConverter
-			: and then encoded with base64 encoding.
-	-->
-	
-	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-		<xsd:element name="root" msdata:IsDataSet="true">
-			<xsd:complexType>
-				<xsd:choice maxOccurs="unbounded">
-					<xsd:element name="data">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
-							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-						</xsd:complexType>
-					</xsd:element>
-					<xsd:element name="resheader">
-						<xsd:complexType>
-							<xsd:sequence>
-								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-							</xsd:sequence>
-							<xsd:attribute name="name" type="xsd:string" use="required" />
-						</xsd:complexType>
-					</xsd:element>
-				</xsd:choice>
-			</xsd:complexType>
-		</xsd:element>
-	</xsd:schema>
-	<resheader name="resmimetype">
-		<value>text/microsoft-resx</value>
-	</resheader>
-	<resheader name="version">
-		<value>1.3</value>
-	</resheader>
-	<resheader name="reader">
-		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
-	<resheader name="writer">
-		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-	</resheader>
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
   <data name="Map11" xml:space="preserve">
-    <value>鎮守府正面海域</value>
+    <value>Sea in Front of the Naval Base (1-1)</value>
   </data>
   <data name="Map11_OperationName" xml:space="preserve">
-    <value>近海警備</value>
+    <value>Coastal Waters Defense</value>
   </data>
   <data name="Map11_OperationInfo" xml:space="preserve">
-    <value>鎮守府正面近海の
-警備に出動せよ！</value>
+    <value>Mobilize for a patrol of the waters outside the naval base!</value>
   </data>
   <data name="Map12" xml:space="preserve">
-    <value>南西諸島沖</value>
+    <value>Sea around the Nansei Islands (1-2)</value>
   </data>
   <data name="Map12_OperationName" xml:space="preserve">
-    <value>南西諸島沖警備</value>
+    <value>Nansei Islands Sea Defense</value>
   </data>
   <data name="Map12_OperationInfo" xml:space="preserve">
-    <value>南西諸島沖に接近する
-敵前衛艦隊を捕捉、迎撃せよ！</value>
+    <value>Intercept the enemy's vanguard fleet in the seas off the Nansei Islands!</value>
   </data>
   <data name="Map13" xml:space="preserve">
-    <value>製油所地帯沿岸</value>
+    <value>Coastal Refinery Zon (1-3)</value>
   </data>
   <data name="Map13_OperationName" xml:space="preserve">
-    <value>海上護衛作戦</value>
+    <value>Maritime Convoy Tactics</value>
   </data>
   <data name="Map13_OperationInfo" xml:space="preserve">
-    <value>製油所地帯沿岸部の
-海上輸送ラインを防衛せよ！</value>
+    <value>Protect the supply lines from our coastal refineries!</value>
   </data>
   <data name="Map14" xml:space="preserve">
-    <value>南西諸島防衛線</value>
+    <value>Hold the Line at the Nansei Islands (1-4)</value>
   </data>
   <data name="Map14_OperationName" xml:space="preserve">
-    <value>南1号作戦</value>
+    <value>First Southern Operation Tactics</value>
   </data>
   <data name="Map14_OperationInfo" xml:space="preserve">
-    <value>南西諸島の防衛ライン上の
-敵侵攻艦隊を捕捉、
-全力出撃でこれを撃滅せよ！</value>
+    <value>An enemy invasion fleet is pressing on the defensive line in the Nansei Islands. Sail out in full force and destroy them!</value>
   </data>
   <data name="Map15" xml:space="preserve">
-    <value>鎮守府近海</value>
+    <value>Adjacent Seas of the Naval Base</value>
   </data>
   <data name="Map15_OperationName" xml:space="preserve">
-    <value>鎮守府近海対潜哨戒</value>
+    <value>Naval base adjacent waters anti-submarine patrol</value>
   </data>
   <data name="Map15_OperationInfo" xml:space="preserve">
-    <value>なるべく小編成の対潜哨戒部隊
-を編成し、鎮守府近海に出没す
-る敵潜水艦を発見・制圧せよ！</value>
+    <value>Organize a small seek-and-destroy ASW fleet to clean up the submarine-infested waters near the naval base!</value>
   </data>
   <data name="Map16" xml:space="preserve">
-    <value>鎮守府近海航路</value>
+    <value>Naval Base Adjacent Sea Route (1-6)</value>
   </data>
   <data name="Map16_OperationName" xml:space="preserve">
-    <value>輸送船団護衛作戦</value>
+    <value>Convoy Escort Operation</value>
   </data>
   <data name="Map16_OperationInfo" xml:space="preserve">
-    <value>対潜及び防空能力に優れた艦艇
-を基幹戦力とした艦隊を編成、
-輸送船団航路の護衛にあたれ！</value>
+    <value>Form a fleet consisting of ships that excel at anti-submarine warfare and in anti-aircraft capabilities, and protect the transport ship routes!</value>
   </data>
   <data name="Map21" xml:space="preserve">
-    <value>カムラン半島</value>
+    <value>Cam Ranh Peninsula (2-1)</value>
   </data>
   <data name="Map21_OperationName" xml:space="preserve">
-    <value>カ号迎撃戦</value>
+    <value>Operation Ka - Interception</value>
   </data>
   <data name="Map21_OperationInfo" xml:space="preserve">
-    <value>カムラン半島付近に
-遊弋する敵艦隊を捕捉、
-これを迎撃せよ！</value>
+    <value>There is an enemy fleet patrolling off the Cam Ranh Peninsula. Intercept them!</value>
   </data>
   <data name="Map22" xml:space="preserve">
-    <value>バシー島沖</value>
+    <value>Bashi Island (2-2)</value>
   </data>
   <data name="Map22_OperationName" xml:space="preserve">
-    <value>柳輸送作戦</value>
+    <value>Weeping Willow Transport Tactics</value>
   </data>
   <data name="Map22_OperationInfo" xml:space="preserve">
-    <value>敵艦隊を排除し、
-バシー島に集積された
-ボーキサイト資材を輸送せよ！</value>
+    <value>Eliminate the enemy fleet and transport bauxite from Bashi Island!</value>
   </data>
   <data name="Map23" xml:space="preserve">
-    <value>東部オリョール海</value>
+    <value>Eastern Orel Bay (2-3)</value>
   </data>
   <data name="Map23_OperationName" xml:space="preserve">
-    <value>O1号作戦</value>
+    <value>Operation I-Go</value>
   </data>
   <data name="Map23_OperationInfo" xml:space="preserve">
-    <value>オリョール海に進出し、
-敵通商破壊艦隊を排除して、
-海上輸送ラインを防衛せよ！</value>
+    <value>Enter Orel Bay and destroy the enemy transport fleet while protecting our own supply lines!</value>
   </data>
   <data name="Map24" xml:space="preserve">
-    <value>沖ノ島海域</value>
+    <value>Okinoshima Island (2-4)</value>
   </data>
   <data name="Map24_OperationName" xml:space="preserve">
-    <value>あ号艦隊決戦</value>
+    <value>Operation A-Go: The Fleet's Decisive Battle</value>
   </data>
   <data name="Map24_OperationInfo" xml:space="preserve">
-    <value>沖ノ島海域に襲来した、
-有力な敵機動部隊を迎撃、
-全力出撃で、これを撃滅せよ！</value>
+    <value>A powerful enemy battlegroup is invading the waters around Okinoshima Island. Sail out in full force and annihilate them!</value>
   </data>
   <data name="Map25" xml:space="preserve">
-    <value>沖ノ島沖</value>
+    <value>Okinoshima Sea (2-5)</value>
   </data>
   <data name="Map25_OperationName" xml:space="preserve">
-    <value>沖ノ島沖戦闘哨戒</value>
+    <value>Okinoshima Patrol Battles</value>
   </data>
   <data name="Map25_OperationInfo" xml:space="preserve">
-    <value>同方面に敵反攻の兆候が報告さ
-れた。巡洋艦を中心に哨戒部隊
-を編成、敵艦隊の動向を探れ！</value>
+    <value>There are reports of an enemy counteroffensive. Form a cruiser patrol group and track their movements!</value>
   </data>
   <data name="Map31" xml:space="preserve">
-    <value>モーレイ海</value>
+    <value>The Moray Sea (3-1)</value>
   </data>
   <data name="Map31_OperationName" xml:space="preserve">
-    <value>モーレイ海哨戒</value>
+    <value>Moray Sea Patrol</value>
   </data>
   <data name="Map31_OperationInfo" xml:space="preserve">
-    <value>北方海域に艦隊を進出させ、
-モーレイ海を哨戒せよ！</value>
+    <value>Advance into Northern waters and patrol the Moray Sea!</value>
   </data>
   <data name="Map32" xml:space="preserve">
-    <value>キス島沖</value>
+    <value>The Kis Island (3-2)</value>
   </data>
   <data name="Map32_OperationName" xml:space="preserve">
-    <value>キス島撤退作戦</value>
+    <value>Kis Island Withdrawal Tactics</value>
   </data>
   <data name="Map32_OperationInfo" xml:space="preserve">
     <value>軽巡を旗艦とした水雷戦隊、ま
@@ -239,156 +238,136 @@
 島の守備隊を無事収容せよ！</value>
   </data>
   <data name="Map33" xml:space="preserve">
-    <value>アルフォンシーノ方面</value>
+    <value>The Alfonsinoes (3-3)</value>
   </data>
   <data name="Map33_OperationName" xml:space="preserve">
-    <value>アルフォンシーノ方面進出</value>
+    <value>The Advance for Alfonsinoes</value>
   </data>
   <data name="Map33_OperationInfo" xml:space="preserve">
-    <value>空母２隻以上を擁する空母機動
-部隊をもって北方海域へ進出。
-敵情の強行偵察を敢行せよ！</value>
+    <value>Form an Aviation fleet with at least two Carriers and search the Northern Sea for the enemy positions!</value>
   </data>
   <data name="Map34" xml:space="preserve">
-    <value>北方海域全域</value>
+    <value>Throughout the Northern Sea (3-4)</value>
   </data>
   <data name="Map34_OperationName" xml:space="preserve">
-    <value>北方海域艦隊決戦</value>
+    <value>Northern Sea Fleet Decisive Battle</value>
   </data>
   <data name="Map34_OperationInfo" xml:space="preserve">
-    <value>北方海域奥地に敵艦隊の大規模
-泊地を発見！我が艦隊の総力を
-挙げてこれを撃滅せよ！</value>
+    <value>A major enemy anchorage has been discovered deep in the northern sea. Sail out in an all-out attack to destroy it!</value>
   </data>
   <data name="Map35" xml:space="preserve">
-    <value>北方AL海域</value>
+    <value>Aleutian Islands Campaign (3-5)</value>
   </data>
   <data name="Map35_OperationName" xml:space="preserve">
-    <value>北方海域戦闘哨戒</value>
+    <value>Northern Water Combat Patrols</value>
   </data>
   <data name="Map35_OperationInfo" xml:space="preserve">
-    <value>北方海域に敵増援の動きがある。
-中規模の水上打撃部隊を派遣し、
-敵増援を捕捉、これを撃滅せよ！</value>
+    <value>There is a movement of enemy reinforcements to the northern sea. Dispatch a medium size fleet, intercept the enemy reinforcements and destroy it!</value>
   </data>
   <data name="Map41" xml:space="preserve">
-    <value>ジャム島攻略作戦</value>
+    <value>Battle of Jam Island (4-1)</value>
   </data>
   <data name="Map41_OperationInfo" xml:space="preserve">
-    <value>西方作戦の第一段階として、ジャム島攻略作戦を展開せよ！(対潜警戒を厳とせよ)</value>
+    <value>As the first step of the Western strategy, carry out an operation to capture Jam Island! (Take Anti-Submarine Precautions)</value>
   </data>
   <data name="Map42" xml:space="preserve">
-    <value>カレー洋制圧戦</value>
+    <value>Curry Ocean Pacification (4-2)</value>
   </data>
   <data name="Map42_OperationInfo" xml:space="preserve">
-    <value>カレー洋の制圧作戦を行う。採掘地域を確保しつつ、カレー半島水域の敵艦隊を無力化せよ！</value>
+    <value>We are undertaking operations to control the Curry Ocean. Secure the mines and incapacitate the enemy fleet!</value>
   </data>
   <data name="Map43" xml:space="preserve">
-    <value>リランカ島空襲</value>
+    <value>Bombing of Ri Lanka (4-3)</value>
   </data>
   <data name="Map43_OperationInfo" xml:space="preserve">
-    <value>空母を伴った艦隊を編成し、リランカ島の敵母港に展開する敵艦隊を叩け！</value>
+    <value>Form an air fleet to destroy the enemy home port of Ri Lanka!</value>
   </data>
   <data name="Map44" xml:space="preserve">
-    <value>カスガダマ沖海戦</value>
+    <value>Battle of Casgadama (4-4)</value>
   </data>
   <data name="Map44_OperationInfo" xml:space="preserve">
-    <value>カレー洋西方の敵哨戒線を突破、カスガダマ島沖へ侵攻し、敵東方艦隊の中枢部隊を撃滅せよ！</value>
+    <value>Break through the enemy picket line in the Western Curry Ocean and destroy the core of the enemy fleet off the coast of Casgadama!</value>
   </data>
   <data name="Map45" xml:space="preserve">
-    <value>カレー洋リランカ島沖</value>
+    <value>Curry Ocean Ri-Lanka Island (4-5)</value>
   </data>
   <data name="Map45_OperationName" xml:space="preserve">
-    <value>深海東洋艦隊漸減作戦</value>
+    <value>Operation "Diminish the Oriental Abyssal Fleet"</value>
   </data>
   <data name="Map45_OperationInfo" xml:space="preserve">
-    <value>我が艦隊により大打撃を受けた
-敵東洋艦隊がリランカ島の港湾
-に再集結しつつある。遊撃部隊
-を編成し、敵増援を撃滅せよ！</value>
+    <value>The Oriental enemy forces have received a major blow by our fleet and are currently regathering at the Ri-Lanka Island harbour. Organise a military raid unit and destroy the enemy reinforcements!</value>
   </data>
   <data name="Map51" xml:space="preserve">
-    <value>南方海域前面</value>
+    <value>The Forefront of the Southern Sea (5-1)</value>
   </data>
   <data name="Map51_OperationName" xml:space="preserve">
-    <value>南方海域進出作戦</value>
+    <value>Southern Sea Advancement Tactics</value>
   </data>
   <data name="Map51_OperationInfo" xml:space="preserve">
-    <value>練度の高い水上打撃部隊を編成し、南方海域への進出を図れ！</value>
+    <value>Create a diverse surface fleet to expand into the southern sea area!</value>
   </data>
   <data name="Map52" xml:space="preserve">
-    <value>珊瑚諸島沖</value>
+    <value>The Coral Islands (5-2)</value>
   </data>
   <data name="Map52_OperationName" xml:space="preserve">
-    <value>珊瑚諸島沖海戦</value>
+    <value>Coral Islands Naval Battle</value>
   </data>
   <data name="Map52_OperationInfo" xml:space="preserve">
-    <value>MO作戦を実施する。空母機動部隊を展開し、南方海域に出没する敵機動部隊を叩け！</value>
+    <value>We are executing Operation MO. Form a carrier battle group and crush the enemy task force!</value>
   </data>
   <data name="Map53" xml:space="preserve">
-    <value>サブ島沖海域</value>
+    <value>Sav Island (5-3)</value>
   </data>
   <data name="Map53_OperationName" xml:space="preserve">
-    <value>第一次サーモン沖海戦</value>
+    <value>First Battle of the Solomon Sea</value>
   </data>
   <data name="Map53_OperationInfo" xml:space="preserve">
-    <value>敵泊地に対して水上打撃部隊による夜戦突撃を敢行し、艦隊後方の敵輸送艦を叩け！</value>
+    <value>Engage in a daring night raid against the enemy fleet. Your goal is to destroy the transport they are escorting!</value>
   </data>
   <data name="Map54" xml:space="preserve">
-    <value>サーモン海域</value>
+    <value>Salmon Sea Area (5-4)</value>
   </data>
   <data name="Map54_OperationName" xml:space="preserve">
-    <value>東京急行</value>
+    <value>Tokyo Express</value>
   </data>
   <data name="Map54_OperationInfo" xml:space="preserve">
-    <value>南方海域に有力な艦隊を投入し
-鼠輸送作戦を敢行、可能であれ
-ば同方面の敵艦隊も撃滅せよ！</value>
+    <value>Perform a vital "rat transport" operation. If possible, also destroy the enemy fleet in the area!</value>
   </data>
   <data name="Map55" xml:space="preserve">
-    <value>サーモン海域北方</value>
+    <value>Northern Salmon Sea Area (5-5)</value>
   </data>
   <data name="Map55_OperationName" xml:space="preserve">
-    <value>第二次サーモン海戦</value>
+    <value>Second Battle of the Solomon Sea</value>
   </data>
   <data name="Map55_OperationInfo" xml:space="preserve">
-    <value>南方海域に敵の有力な機動部隊
-の接近が確認された。空母機動
-部隊を以て、これを迎撃せよ！</value>
+    <value>The approach of a powerful enemy task force has been confirmed in southern waters. Form a carrier task force and intercept it!</value>
   </data>
   <data name="Map61" xml:space="preserve">
-    <value>中部海域哨戒線</value>
+    <value>Central Waters Patrol Line (6-1)</value>
   </data>
   <data name="Map61_OperationName" xml:space="preserve">
-    <value>潜水艦作戦</value>
+    <value>Submarine Operation</value>
   </data>
   <data name="Map61_OperationInfo" xml:space="preserve">
-    <value>有力な潜水艦隊を編成し、中部
-海域哨戒線に進出せよ。敵艦隊
-を発見、これを漸減撃滅せよ！</value>
+    <value>Organize a strong submarine fleet and advance a patrol line into the Middle Sea region. Locate enemy fleets and gradually destroy them!</value>
   </data>
   <data name="Map62" xml:space="preserve">
-    <value>MS諸島沖</value>
+    <value>MS Archipelago (6-2)</value>
   </data>
   <data name="Map62_OperationName" xml:space="preserve">
-    <value>MS諸島防衛戦</value>
+    <value>Defense of the MS Archipelago</value>
   </data>
   <data name="Map62_OperationInfo" xml:space="preserve">
-    <value>MS諸島沖前面に展開し、同諸島
-方面に接近しつつある敵攻略部
-隊を捕捉、全力で撃滅せよ！</value>
+    <value>Expand to the forward part of the MS Archipelago sea, seize the enemy fleet that is slowly advancing to capture the archipelago, and destroy them with all your might!</value>
   </data>
   <data name="Map63" xml:space="preserve">
-    <value>グアノ環礁沖海域</value>
+    <value>Guano Atoll Sea (6-3)</value>
   </data>
   <data name="Map63_OperationName" xml:space="preserve">
-    <value>K作戦</value>
+    <value>Operation K</value>
   </data>
   <data name="Map63_OperationInfo" xml:space="preserve">
-    <value>飛行艇または水上偵察機を装備
-した水上機母艦・軽巡・駆逐艦
-による艦隊を同方面へ進出、航
-空偵察「Ｋ作戦」を実施せよ！</value>
+    <value>Deploy a fleet consisting of seaplane tenders equipped with flying boats or recon planes, light cruisers and destroyers, and carry out the aerial scout mission "Operation K"!</value>
   </data>
   <data name="Map311" xml:space="preserve">
     <value>ショートランド沖</value>
@@ -475,24 +454,36 @@
 拡張作戦FS作戦を実施せよ！</value>
   </data>
   <data name="MapArea1" xml:space="preserve">
-    <value>鎮守府海域</value>
+    <value>Naval District Waters</value>
   </data>
   <data name="MapArea2" xml:space="preserve">
-    <value>南西諸島海域</value>
+    <value>Southwest Islands</value>
   </data>
   <data name="MapArea3" xml:space="preserve">
-    <value>北方海域</value>
+    <value>Northern Waters</value>
   </data>
   <data name="MapArea4" xml:space="preserve">
-    <value>西方海域</value>
+    <value>West Sea</value>
   </data>
   <data name="MapArea5" xml:space="preserve">
-    <value>南方海域</value>
+    <value>Southern Waters</value>
   </data>
   <data name="MapArea6" xml:space="preserve">
-    <value>中部海域</value>
+    <value>Central Waters</value>
   </data>
   <data name="MapArea31" xml:space="preserve">
     <value>反撃！第二次SN作戦</value>
+  </data>
+  <data name="Map41_OperationName" xml:space="preserve">
+    <value>Jam Island Capture Tactics</value>
+  </data>
+  <data name="Map42_OperationName" xml:space="preserve">
+    <value>Curry Ocean Takeover Battle</value>
+  </data>
+  <data name="Map43_OperationName" xml:space="preserve">
+    <value>Ri Lanka Air Raid</value>
+  </data>
+  <data name="Map44_OperationName" xml:space="preserve">
+    <value>Casgadama Island Naval Battle</value>
   </data>
 </root>
