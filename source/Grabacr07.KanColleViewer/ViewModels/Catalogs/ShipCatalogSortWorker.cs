@@ -28,7 +28,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
         public static readonly SortableColumn LuckColumn = new SortableColumn(() => Properties.Resources.ShipListHeader_Luck, x => x.Luck.Current, true);
         public static readonly SortableColumn HPColumn = new SortableColumn(() => Properties.Resources.ShipListHeader_HP, x => x.HP.Maximum, true);
         public static readonly SortableColumn ViewRangeColumn = new SortableColumn(() => Properties.Resources.ShipListHeader_LOS, x => x.ViewRange, true);
-        public static readonly SortableColumn NameColumn = new SortableColumn(() => Properties.Resources.ShipListHeader_ShipName, x => x.Info.SortId, x => x.Info.Name, KanColleWrapper.Translation.ShipTranslationHelper.UseShipNameForSorting);
+        public static readonly SortableColumn NameColumn = new SortableColumn(() => Properties.Resources.ShipListHeader_ShipName, x => x.Info.SortId, x => x.Info.Name, KanColleWrapper.Translation.TranslationHelper.UseShipNameForSorting);
 
         public static SortableColumn[] Columns { get; set; }
 

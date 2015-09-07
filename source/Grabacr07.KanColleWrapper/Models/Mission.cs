@@ -30,8 +30,8 @@ namespace Grabacr07.KanColleWrapper.Models
 
         private void UpdateTranslatedValues()
         {
-            this._title = Translation.MissionTranslationHelper.TranslateTitle(this.Id, this.RawData.api_name);
-            this._detail = Translation.MissionTranslationHelper.TranslateDetail(this.Id, this.RawData.api_details);
+            this._title = Translation.TranslationHelper.TranslateExpeditionTitle(this.Id, this.RawData.api_name);
+            this._detail = Translation.TranslationHelper.TranslateExpeditionDetail(this.Id, this.RawData.api_details);
 
             this.RaisePropertyChanged(nameof(this.Title));
             this.RaisePropertyChanged(nameof(this.Detail));

@@ -50,9 +50,9 @@ namespace Grabacr07.KanColleWrapper.Models
 
         private void UpdateTranslatedValues()
         {
-            this.Name = Translation.MapTranslationHelper.TranslateMapName(this.Id, this.RawData.api_name);
-            this.OperationName = Translation.MapTranslationHelper.TranslateMapOperationName(this.Id, this.RawData.api_opetext);
-            this.OperationSummary = Translation.MapTranslationHelper.TranslateMapOperationInfo(this.Id, this.RawData.api_infotext);
+            this.Name = Translation.TranslationHelper.TranslateMapName(this.Id, this.RawData.api_name);
+            this.OperationName = Translation.TranslationHelper.TranslateMapOperationName(this.Id, this.RawData.api_opetext);
+            this.OperationSummary = Translation.TranslationHelper.TranslateMapOperationInfo(this.Id, this.RawData.api_infotext);
 
             this.RaisePropertyChanged(nameof(this.Name));
             this.RaisePropertyChanged(nameof(this.OperationName));

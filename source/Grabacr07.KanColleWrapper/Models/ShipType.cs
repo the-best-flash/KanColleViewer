@@ -22,13 +22,13 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		public ShipType(kcsapi_mst_stype rawData) : base(rawData)
         {
-            this.Name = Translation.ShipTranslationHelper.TranslateShipTypeName(this.Id, this.RawData.api_name);
+            this.Name = Translation.TranslationHelper.TranslateShipTypeName(this.Id, this.RawData.api_name);
 
             this.CompositeDisposable.Add(new PropertyChangedEventListener(Globalization.ResourceService.Current)
             {
                 (sender, args) =>
                 {
-                    this.Name = Translation.ShipTranslationHelper.TranslateShipTypeName(this.Id, this.RawData.api_name);
+                    this.Name = Translation.TranslationHelper.TranslateShipTypeName(this.Id, this.RawData.api_name);
                     this.RaisePropertyChanged(nameof(this.Name));
                 }
             });

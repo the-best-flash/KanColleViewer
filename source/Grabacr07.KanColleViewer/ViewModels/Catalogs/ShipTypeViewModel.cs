@@ -45,7 +45,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 				if (this._DisplayName != value)
 				{
 					this._DisplayName = value;
-                    this._translatedName = KanColleWrapper.Translation.ShipTranslationHelper.TranslateShipTypeName(this._DisplayName);
+                    this._translatedName = KanColleWrapper.Translation.TranslationHelper.TranslateShipTypeName(this._DisplayName);
                     this.RaisePropertyChanged();
 				}
 			}
@@ -86,7 +86,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
             {
                 (sender, args) => 
                 {
-                    this._translatedName = KanColleWrapper.Translation.ShipTranslationHelper.TranslateShipTypeName(this._DisplayName);
+                    this._translatedName = KanColleWrapper.Translation.TranslationHelper.TranslateShipTypeName(this._DisplayName);
                     this.RaisePropertyChanged(nameof(this.DisplayName));
                 }
             });

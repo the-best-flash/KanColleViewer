@@ -63,6 +63,7 @@ namespace Grabacr07.KanColleWrapper.Globalization
             Translation.Equipment.Resources.Culture = this.Culture;
             Translation.Quests.Resources.Culture = this.Culture;
             Translation.Ships.Resources.Culture = this.Culture;
+            Translation.Maps.Resources.Culture = this.Culture;
 
             if (update)
             {

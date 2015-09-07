@@ -237,7 +237,6 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Translation\MapTranslationHelper.cs" />
     <Compile Include="Translation\TranslationHelper.cs" />
     <Compile Include="Translation\Equipment\Resources.Designer.cs">
       <DependentUpon>Resources.resx</DependentUpon>
@@ -249,20 +248,16 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Translation\ItemTranslationHelper.cs" />
-    <Compile Include="Translation\MissionTranslationHelper.cs" />
     <Compile Include="Translation\Quests\Resources.Designer.cs">
       <DependentUpon>Resources.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Translation\QuestTranslationHelper.cs" />
     <Compile Include="Translation\Ships\Resources.Designer.cs">
       <DependentUpon>Resources.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
-    <Compile Include="Translation\ShipTranslationHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

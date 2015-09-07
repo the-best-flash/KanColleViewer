@@ -110,13 +110,13 @@ namespace Grabacr07.KanColleWrapper.Models
 
 		internal ShipInfo(kcsapi_mst_ship rawData) : base(rawData)
         {
-            this.Name = Translation.ShipTranslationHelper.TranslateShipName(this.RawData.api_name);
+            this.Name = Translation.TranslationHelper.TranslateShipName(this.RawData.api_name);
 
             this.CompositeDisposable.Add(new PropertyChangedEventListener(Globalization.ResourceService.Current)
             {
                 (sender, args) => 
                 {
-                    this.Name = Translation.ShipTranslationHelper.TranslateShipName(this.RawData.api_name);
+                    this.Name = Translation.TranslationHelper.TranslateShipName(this.RawData.api_name);
                     this.RaisePropertyChanged(nameof(this.Name));
                     this.RaisePropertyChanged(nameof(this.ShipType));
                 }

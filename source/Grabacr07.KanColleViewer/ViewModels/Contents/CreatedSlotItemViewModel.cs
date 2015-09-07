@@ -44,7 +44,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 				if (this._Name != value)
 				{
 					this._Name = value;
-                    this._translatedName = ItemTranslationHelper.TranslateItemName(this._Name);
+                    this._translatedName = TranslationHelper.TranslateItemName(this._Name);
                     this.RaisePropertyChanged();
 				}
 			}
@@ -60,7 +60,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
             this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current)
             {
                 (sender, args) => {
-                    this._translatedName = ItemTranslationHelper.TranslateItemName(this._Name);
+                    this._translatedName = TranslationHelper.TranslateItemName(this._Name);
                     this.RaisePropertyChanged(nameof(this.Name));
                 }
             });

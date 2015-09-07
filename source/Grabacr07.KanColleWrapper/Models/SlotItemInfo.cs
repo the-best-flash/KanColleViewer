@@ -103,7 +103,7 @@ namespace Grabacr07.KanColleWrapper.Models
 
         private void UpdateTranslatedValues()
         {
-            this._name = Translation.ItemTranslationHelper.TranslateItemName(this.RawData.api_name);
+            this._name = Translation.TranslationHelper.TranslateItemName(this.RawData.api_name);
             this.RaisePropertyChanged(nameof(this.Name));
         }
 

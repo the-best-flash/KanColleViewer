@@ -101,7 +101,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 				if (this._Title != value)
 				{
 					this._Title = value;
-                    this._translatedTitle = QuestTranslationHelper.TranslateQuestTitle(this._Title);
+                    this._translatedTitle = TranslationHelper.TranslateQuestTitle(this._Title);
                     this.RaisePropertyChanged();
 				}
 			}
@@ -122,7 +122,7 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 				if (this._Detail != value)
 				{
 					this._Detail = value;
-                    this._translatedDetail = QuestTranslationHelper.TranslateQuestDetail(this._Title, this._Detail);
+                    this._translatedDetail = TranslationHelper.TranslateQuestDetail(this._Title, this._Detail);
                     this.RaisePropertyChanged();
 				}
 			}
@@ -182,8 +182,8 @@ namespace Grabacr07.KanColleViewer.ViewModels.Contents
 
         private void UpdateTranslatedValues()
         {
-            this._translatedTitle = QuestTranslationHelper.TranslateQuestTitle(this._Title);
-            this._translatedDetail = QuestTranslationHelper.TranslateQuestDetail(this._Title, this._Detail);
+            this._translatedTitle = TranslationHelper.TranslateQuestTitle(this._Title);
+            this._translatedDetail = TranslationHelper.TranslateQuestDetail(this._Title, this._Detail);
         }
 	}
 }
