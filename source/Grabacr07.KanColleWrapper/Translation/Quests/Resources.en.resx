@@ -1222,4 +1222,22 @@
   <data name="防空射撃演習を実施せよ_Detail" xml:space="preserve">
     <value>Complete Expedition 6 three times</value>
   </data>
+  <data name="空母機動部隊_北方海域に進出せよ" xml:space="preserve">
+    <value>"Carrier Task Force", advance to the Northern Sea!</value>
+  </data>
+  <data name="空母機動部隊_北方海域に進出せよ_Detail" xml:space="preserve">
+    <value>Sortie a fleet with an aircraft carrier (Taihou counts) as flagship to World 3-5 and obtain an S-Rank at the boss</value>
+  </data>
+  <data name="精鋭艦隊演習" xml:space="preserve">
+    <value>Elite Fleet Practice</value>
+  </data>
+  <data name="精鋭艦隊演習_Detail" xml:space="preserve">
+    <value>Get 7 victories in Exercises within the same day</value>
+  </data>
+  <data name="鎮守府正面の対潜哨戒を強化せよ" xml:space="preserve">
+    <value>Strengthen the Anti-Submarine Patrol in Front of the Naval Base!</value>
+  </data>
+  <data name="鎮守府正面の対潜哨戒を強化せよ_Detail" xml:space="preserve">
+    <value>Sortie to World 1-5 and obtain four A-Ranks (or better) at the boss.</value>
+  </data>
 </root>
