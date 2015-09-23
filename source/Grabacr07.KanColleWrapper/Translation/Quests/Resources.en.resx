@@ -1168,10 +1168,10 @@
   <data name="観艦式予行を実施せよ_Detail" xml:space="preserve">
     <value>Complete Expedition 7 twice</value>
   </data>
-  <data name="資源の再利用(その弐)" xml:space="preserve">
+  <data name="資源の再利用" xml:space="preserve">
     <value>Recycling Resources (Part II)</value>
   </data>
-  <data name="資源の再利用(その弐)_Detail" xml:space="preserve">
+  <data name="資源の再利用_Detail" xml:space="preserve">
     <value>Scrap equipment 24 times</value>
   </data>
   <data name="軍縮条約対応" xml:space="preserve">
