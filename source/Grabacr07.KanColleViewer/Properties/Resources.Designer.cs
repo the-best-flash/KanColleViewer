@@ -1510,6 +1510,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 全てのプロトコルでこのプロキシ サーバーを使用する.
+        /// </summary>
+        public static string Network_UseForAll {
+            get {
+                return ResourceManager.GetString("Network_UseForAll", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 二.
         /// </summary>
         public static string Ni {

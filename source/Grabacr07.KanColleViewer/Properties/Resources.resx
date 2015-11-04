@@ -1081,4 +1081,7 @@
   <data name="Success" xml:space="preserve">
     <value>成功</value>
   </data>
+  <data name="Network_UseForAll" xml:space="preserve">
+    <value>全てのプロトコルでこのプロキシ サーバーを使用する</value>
+  </data>
 </root>

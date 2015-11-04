@@ -1095,4 +1095,7 @@
   <data name="ZoomFactorSelector_Tooltip" xml:space="preserve">
     <value>Adjusts the zoom of the game screen</value>
   </data>
+  <data name="Network_UseForAll" xml:space="preserve">
+    <value>Use this proxy server for all protocols</value>
+  </data>
 </root>
