@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Counter", "Plugins\Counter\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterDataViewer", "Plugins\MasterDataViewer\MasterDataViewer.csproj", "{08226BB3-A7A0-49E3-84DE-ED5B7A7D293E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventMapHpViewer", "Plugins\MapHpViewer\EventMapHpViewer\EventMapHpViewer.csproj", "{912029C5-C147-459B-A735-3D559B2F193D}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanColleViewer.Controls", "Grabacr07.KanColleViewer.Controls\KanColleViewer.Controls.csproj", "{978239D0-3129-4C54-AAC6-493F0DE48BF5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanColleViewer.Composition", "Grabacr07.KanColleViewer.Composition\KanColleViewer.Composition.csproj", "{CC139E98-D847-41DA-B20F-8ACA4564F375}"
