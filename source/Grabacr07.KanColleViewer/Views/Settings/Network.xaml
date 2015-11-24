@@ -110,7 +110,7 @@
 				</metro:PromptTextBox>
 			</Grid>
 
-			<CheckBox Content="全てのプロトコルでこのプロキシ サーバーを使用する"
+            <CheckBox Content="{Binding Resources.Network_UseForAll, Source={x:Static models:ResourceService.Current}, Mode=OneWay}"
 					  Margin="57,3,3,3"
 					  IsChecked="{Binding IsUseHttpProxyForAllProtocols, Mode=TwoWay}"/>
 

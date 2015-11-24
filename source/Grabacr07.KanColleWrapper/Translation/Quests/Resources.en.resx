@@ -1282,4 +1282,52 @@
   <data name="第五航空戦隊_珊瑚諸島沖に出撃せよ_Detail" xml:space="preserve">
     <value>Sortie Shoukaku, Zuikaku, Oboro, Akigumo and up to 2 additional ships to World 5-2 and obtain an S-Rank at the boss</value>
   </data>
+  <data name="小沢艦隊_を編成せよ" xml:space="preserve">
+    <value>Organize Ozawa's Fleet</value>
+  </data>
+  <data name="小沢艦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Zuikaku Kai as flagship, Zuihou Kai, Chitose and Chiyoda (both as CVL), Ise Kai and Hyuuga Kai in your main fleet</value>
+  </data>
+  <data name="小沢艦隊_出撃せよ" xml:space="preserve">
+    <value>Sortie the Ozawa's fleet</value>
+  </data>
+  <data name="小沢艦隊_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Zuikaku Kai as flagship, Zuihou Kai, Chitose and Chiyoda (both as CVL), Ise Kai and Hyuuga Kai to World 2-4 and score an S-rank victory at the boss</value>
+  </data>
+  <data name="新航空戦隊を編成せよ" xml:space="preserve">
+    <value>Organize the New Carrier Division</value>
+  </data>
+  <data name="新航空戦隊を編成せよ_Detail" xml:space="preserve">
+    <value>Have Zuikaku Kai Ni, Shoukaku Kai Ni and two Destroyers in your fleet.</value>
+  </data>
+  <data name="第三航空戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 3rd Carrier Division</value>
+  </data>
+  <data name="第三航空戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Zuikaku Kai as flagship, Zuihou, Chitose and Chiyoda (both as CVL, not AV) in your main fleet</value>
+  </data>
+  <data name="第三航空戦隊_南西諸島防衛線に出撃" xml:space="preserve">
+    <value>3rd Carrier Division: defend the Nansei Islands</value>
+  </data>
+  <data name="第三航空戦隊_南西諸島防衛線に出撃_Detail" xml:space="preserve">
+    <value>Sortie Zuikaku Kai as flagship, Zuihou, Chitose and Chiyoda (both as CVL) (you can add 2 more ships) to World 1-4 and score an S-rank victory at the boss</value>
+  </data>
+  <data name="第四航空戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the 4th Carrier Division</value>
+  </data>
+  <data name="第四航空戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Ise Kai and Hyuuga Kai in your main fleet</value>
+  </data>
+  <data name="精鋭_艦戦_隊の新編成" xml:space="preserve">
+    <value>Organize the New Elite Fighter Force</value>
+  </data>
+  <data name="精鋭_艦戦_隊の新編成_Detail" xml:space="preserve">
+    <value>Have Skilled Crew in your item page and Equip a rank 7 Type 0 Fighter Model 21 on Houshou set as your Secretary Ship, then scrap 2 Type 0 Fighter Model 21 and a Type 96 Fighter. One Skilled Crew is consumed in the process.</value>
+  </data>
+  <data name="試製航空艤装の追加試作" xml:space="preserve">
+    <value>Addition to Prototype Aviation Equipment</value>
+  </data>
+  <data name="試製航空艤装の追加試作_Detail" xml:space="preserve">
+    <value>Scrap equipment 9 times</value>
+  </data>
 </root>
