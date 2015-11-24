@@ -1084,4 +1084,16 @@
   <data name="Network_UseForAll" xml:space="preserve">
     <value>全てのプロトコルでこのプロキシ サーバーを使用する</value>
   </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="RevertToDefault" xml:space="preserve">
+    <value>既定値に戻す</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>適用</value>
+  </data>
+  <data name="UserStyleSheet" xml:space="preserve">
+    <value>ユーザー スタイル シート</value>
+  </data>
 </root>

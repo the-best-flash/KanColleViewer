@@ -6,20 +6,55 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Media;
 using Codeplex.Data;
+using Livet;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleViewer.Models
 {
-	public class SallyArea
-	{
+	public class SallyArea : ViewModel
+    {
 		public int Area { get; private set; }
 
-		public string Name { get; private set; }
+        private string _name;
+		public string Name
+        {
+            get
+            {
+                string translatedName = Properties.Resources.ResourceManager.GetString(_name, Properties.Resources.Culture);
+
+                if(string.IsNullOrEmpty(translatedName))
+                {
+                    translatedName = _name;
+                }
+
+                return translatedName;
+            }
+
+            private set
+            {
+                _name = value;
+                this.RaisePropertyChanged();
+            }
+        }
+
+        public string NonTranslatedName
+        {
+            get { return _name; }
+        }
 
 		public Color Color { get; private set; } = Colors.Transparent;
 
-		private SallyArea() { }
+		private SallyArea()
+        {
+            this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) {
+                (sender, args) =>
+                {
+                this.RaisePropertyChanged(nameof(this.Name));
+                }
+            });
+        }
 
-		public static SallyArea Default { get; } = new SallyArea();
+    public static SallyArea Default { get; } = new SallyArea();
 
 		public static async Task<SallyArea[]> GetAsync()
 		{

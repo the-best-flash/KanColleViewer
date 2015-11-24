@@ -1098,4 +1098,25 @@
   <data name="Network_UseForAll" xml:space="preserve">
     <value>Use this proxy server for all protocols</value>
   </data>
+  <data name="輸送作戦" xml:space="preserve">
+    <value>E1-3+E5</value>
+  </data>
+  <data name="派遣作戦" xml:space="preserve">
+    <value>E4+E5</value>
+  </data>
+  <data name="出撃海域なし" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="RevertToDefault" xml:space="preserve">
+    <value>Revert To Default</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="UserStyleSheet" xml:space="preserve">
+    <value>User Style Sheet</value>
+  </data>
 </root>

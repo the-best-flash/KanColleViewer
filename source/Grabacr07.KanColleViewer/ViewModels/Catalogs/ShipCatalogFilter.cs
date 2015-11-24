@@ -6,6 +6,7 @@ using Grabacr07.KanColleViewer.Models;
 using Grabacr07.KanColleWrapper;
 using Grabacr07.KanColleWrapper.Models;
 using Livet;
+using Livet.EventListeners;
 
 namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 {
@@ -557,7 +558,18 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 
 			public string Name
 			{
-				get { return this._Name; }
+				get
+                {
+                    string translatedName = Properties.Resources.ResourceManager.GetString(this._Name, Properties.Resources.Culture);
+
+                    if (string.IsNullOrEmpty(translatedName))
+                    {
+                        translatedName = this._Name;
+                    }
+
+                    return translatedName;
+                }
+                
 				set
 				{
 					if (this._Name != value)
@@ -594,8 +606,15 @@ namespace Grabacr07.KanColleViewer.ViewModels.Catalogs
 			{
 				this.model = area ?? SallyArea.Default;
 				this.owner = owner;
-				this.Name = area?.Name ?? "出撃海域なし";
-			}
+				this.Name = area?.NonTranslatedName ?? "出撃海域なし";
+
+                this.CompositeDisposable.Add(new PropertyChangedEventListener(ResourceService.Current) {
+                    (sender, args) =>
+                    {
+                        this.RaisePropertyChanged(nameof(this.Name));
+                    }
+                });
+            }
 
 			public bool Predicate(Ship ship)
 			{

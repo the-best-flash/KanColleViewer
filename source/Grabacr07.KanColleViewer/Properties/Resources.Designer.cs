@@ -79,6 +79,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 適用.
+        /// </summary>
+        public static string Apply {
+            get {
+                return ResourceManager.GetString("Apply", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 弾着観測射撃.
         /// </summary>
         public static string Artillery_Spotting {
@@ -129,6 +138,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Browser_ZoomSubText {
             get {
                 return ResourceManager.GetString("Browser_ZoomSubText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to キャンセル.
+        /// </summary>
+        public static string Cancel {
+            get {
+                return ResourceManager.GetString("Cancel", resourceCulture);
             }
         }
         
@@ -1987,6 +2005,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 既定値に戻す.
+        /// </summary>
+        public static string RevertToDefault {
+            get {
+                return ResourceManager.GetString("RevertToDefault", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to 初動作戦.
         /// </summary>
         public static string SallyAreaTag_Area1 {
@@ -2914,6 +2941,15 @@ namespace Grabacr07.KanColleViewer.Properties {
         public static string Update_Display {
             get {
                 return ResourceManager.GetString("Update_Display", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ユーザー スタイル シート.
+        /// </summary>
+        public static string UserStyleSheet {
+            get {
+                return ResourceManager.GetString("UserStyleSheet", resourceCulture);
             }
         }
         
