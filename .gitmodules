@@ -4,6 +4,3 @@
 [submodule "source/MetroTrilithon"]
 	path = source/MetroTrilithon
 	url = https://github.com/Grabacr07/MetroTrilithon
-[submodule "source/Plugins/MapHpViewer"]
-	path = source/Plugins/MapHpViewer
-	url = https://github.com/the-best-flash/EventMapHpViewer.git
