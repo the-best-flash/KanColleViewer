@@ -869,4 +869,16 @@
   <data name="UseShipNameForSorting" xml:space="preserve">
     <value>true</value>
   </data>
+  <data name="Graf Zeppelin" xml:space="preserve">
+    <value>Graf Zeppelin</value>
+  </data>
+  <data name="嵐" xml:space="preserve">
+    <value>Arashi</value>
+  </data>
+  <data name="萩風" xml:space="preserve">
+    <value>Hagikaze</value>
+  </data>
+  <data name="鹿島" xml:space="preserve">
+    <value>Kashima</value>
+  </data>
 </root>
