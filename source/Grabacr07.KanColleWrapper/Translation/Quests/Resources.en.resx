@@ -1330,4 +1330,46 @@
   <data name="試製航空艤装の追加試作_Detail" xml:space="preserve">
     <value>Scrap equipment 9 times</value>
   </data>
+  <data name="試作艤装の準備" xml:space="preserve">
+    <value>Preparation of the Prototype Equipment</value>
+  </data>
+  <data name="試作艤装の準備_Detail" xml:space="preserve">
+    <value>Scrap equipment 7 times</value>
+  </data>
+  <data name="新編成航空戦隊_を編成せよ" xml:space="preserve">
+    <value>Organize the New Carrier Division</value>
+  </data>
+  <data name="新編成航空戦隊_を編成せよ_Detail" xml:space="preserve">
+    <value>Have 2 Aircraft Carrier / Light Aircraft Carrier, 2 Aviation Battleships or Aviation Cruisers and 2 Destroyers in your fleet</value>
+  </data>
+  <data name="新編成航空戦隊、北方へ進出せよ" xml:space="preserve">
+    <value>Sortie the New Carrier Division to the North</value>
+  </data>
+  <data name="新編成航空戦隊、北方へ進出せよ_Detail" xml:space="preserve">
+    <value>Sortie 2 Aircraft Carriers or Light Aircraft Carriers, 2 Aviation Battleships or Aviation Cruisers and 2 Destroyers to World 3-3 and score an S-rank victory at the boss</value>
+  </data>
+  <data name="礼号作戦_実施せよ" xml:space="preserve">
+    <value>Operation Rei-go</value>
+  </data>
+  <data name="礼号作戦_実施せよ_Detail" xml:space="preserve">
+    <value>Sortie Kasumi as flagship, Ashigara, Ooyodo, Asashimo, Kiyoshimo and up to one additional ship to World 2-5 and score an S-rank victory at the boss</value>
+  </data>
+  <data name="第十六戦隊(第二次)_を編成せよ" xml:space="preserve">
+    <value>Organize the 16th Squadron (Second Generation)</value>
+  </data>
+  <data name="第十六戦隊(第二次)_を編成せよ_Detail" xml:space="preserve">
+    <value>Have Natori as flagship, Isuzu and Kinu in your fleet</value>
+  </data>
+  <data name="第十六戦隊(第二次)_出撃せよ" xml:space="preserve">
+    <value>Sortie the 16th Squadron (Second Generation)</value>
+  </data>
+  <data name="第十六戦隊(第二次)_出撃せよ_Detail" xml:space="preserve">
+    <value>Sortie Natori as flagship, Isuzu, Kinu and up to 3 additional ships to World 2-3 and score an S-rank victory at the boss</value>
+  </data>
+  <data name="精強な_水上反撃部隊_を再編成せよ" xml:space="preserve">
+    <value>Strengthen the Surface Counterattack Fleet</value>
+  </data>
+  <data name="精強な_水上反撃部隊_を再編成せよ_Detail" xml:space="preserve">
+    <value>Have Kasumi as flagship, Ashigara, Ooyodo, Asashimo and Kiyoshimo in your fleet</value>
+  </data>
 </root>
